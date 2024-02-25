@@ -240,7 +240,7 @@ class product extends CI_Controller
             $data0['vat'] = $row['vat'];
             $data0['total'] = $row['total'];
             $data0['sale_id'] = $sale_id;
-            $data['sale_date'] = date('Y-m-d h:m:ss');
+            $data0['sale_date'] = date('Y-m-d H:i:s');
             $this->db->insert('tbl_sale_details', $data0);
 
             $av['qty'] = $this->M_product->get_qty1($row['product_id']) - $row['qty'];
@@ -252,8 +252,6 @@ class product extends CI_Controller
         $this->db->delete('tbl_cart');
         echo json_encode(array('success' => true, 'message' => 'Sale Finished successfully!!!'));
     }
-
-
 
     function refreshfinished()
     {
