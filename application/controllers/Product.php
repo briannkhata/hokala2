@@ -35,21 +35,39 @@ class product extends CI_Controller
         $product_info = $this->M_product->get_product_by_barcode($barcode);
         $vat = $this->db->get('tbl_settings')->row()->vat;
         if (!empty($product_info)) {
-            $qty = 1;
             $product = $product_info[0];
-            $totalRow = ((($vat / 100) * ($this->M_product->get_price($product['product_id']) * $qty))) + ($this->M_product->get_price($product['product_id']) * $qty);
-            $cart_data = array(
-                'product_id' => $product['product_id'],
-                'price' => $this->M_product->get_price($product['product_id']),
-                'qty' => $qty,
-                'vat' => (($vat / 100) * ($this->M_product->get_price($product['product_id']) * $qty)),
-                'total' => $totalRow,
-                'user_id' => $this->session->userdata('user_id')
-            );
-            $this->db->insert('tbl_cart', $cart_data);
+            $found = $this->M_product->get_prouct_in_cart($product['product_id']);
+            if ($found) {
+                $cart_id = $this->M_product->get_cart_id_by_product_id($product['product_id']);
+                $qty = $this->M_product->get_cart_qty($cart_id) + 1;
+                $price = $this->M_product->get_cart_price($cart_id);
+
+                $totalRow = ((($vat / 100) * ($price * $qty))) + ($price * $qty);
+                $cart_data = array(
+                    'qty' => $qty,
+                    'vat' => (($vat / 100) * ($price * $qty)),
+                    'total' => $totalRow,
+                    'user_id' => $this->session->userdata('user_id')
+                );
+                $this->db->where('cart_id', $cart_id);
+                $this->db->update('tbl_cart', $cart_data);
+
+            } else {
+                $qty = 1;
+                $totalRow = ((($vat / 100) * ($this->M_product->get_price($product['product_id']) * $qty))) + ($this->M_product->get_price($product['product_id']) * $qty);
+                $cart_data = array(
+                    'product_id' => $product['product_id'],
+                    'price' => $this->M_product->get_price($product['product_id']),
+                    'qty' => $qty,
+                    'vat' => (($vat / 100) * ($this->M_product->get_price($product['product_id']) * $qty)),
+                    'total' => $totalRow,
+                    'user_id' => $this->session->userdata('user_id')
+                );
+                $this->db->insert('tbl_cart', $cart_data);
+            }
             echo json_encode(array('success' => true));
         } else {
-            echo json_encode(array('success' => false, 'message' => 'Asset not found'));
+            echo json_encode(array('success' => false, 'message' => 'Product not found'));
         }
     }
 
@@ -180,6 +198,16 @@ class product extends CI_Controller
     function refresh_total_bill()
     {
         $this->load->view("product/_load_total_bill");
+    }
+
+    function refresh_sub_total_bill()
+    {
+        $this->load->view("product/_load_sub_total");
+    }
+
+    function refresh_total_vat()
+    {
+        $this->load->view("product/_load_total_vat");
     }
 
 

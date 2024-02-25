@@ -7,27 +7,25 @@
       <!--end breadcrumb-->
       <div class="row">
          <div class="col-8 col-xl-8">
-            <div class="card">
-               <div class="card-body p-4">
-                  <h5 class="mb-4">
-                     Search Below:
-                  </h5>
+            <div class="card-body p-4">
+               <h5 class="mb-4">
+                  Search Below:
+               </h5>
 
 
-                  <div class="col">
+               <div class="col">
 
 
-                     <div class="input-group" style="margin-top:%;">
-                        <input type="text" class="form-control" placeholder="Search with barcode..." id="barcode"
-                           name="barcode">
-                        <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
-                     </div>
+                  <div class="input-group" style="margin-top:%;">
+                     <input type="text" class="form-control" placeholder="Search with barcode..." id="barcode"
+                        name="barcode">
+                     <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
                   </div>
-                  <br>
-
-                  <div id="list"></div>
-
                </div>
+               <br>
+
+               <div id="list"></div>
+
             </div>
          </div>
 
@@ -35,10 +33,26 @@
             <div class="card">
                <div class="card-body p-4">
                   <h5 class="mb-4">
-                     <b>MK : <span id="totalBill"></span></b>
+                     <b>Sub       :  <span id="sub"></span></b>
+                     <hr>
+                     <b>Vat       :  <span id="vat"></span></b>
+                     <hr>
+                     <b>Total     :  <span id="totalBill"></span></b>
                   </h5>
                   <hr>
+                Tendered Amount : 
+                     <input type="text" name="tendered" id="tendered" class="form-control" style="padding:2%;">
+                     <br>
+                     <h5 class="mb-4">
+                     <b>Change : <span id="change"></span></b>
+                  </h5>
+                  
+                  <h5 class="mb-4">
+                  <button type="button" id="finish" class="form-control">
+                     FINISH SALE
+                  </button>
 
+                  </h5>
                </div>
             </div>
          </div>
@@ -51,7 +65,57 @@
 <script>
    $(document).ready(function () {
       load_cart();
-      total_bill();
+
+      $('.quantity').on('keydown', function (event) {
+         //if (event.keyCode === 13) {
+         var quantity = $(this).val();
+         console.log("Captured quantity:", quantity);
+         return false;
+         //  }
+      });
+
+
+
+
+
+
+      function updateCart(cart_id, qty) {
+         $.ajax({
+            type: 'POST',
+            url: '<?= base_url(); ?>Product/update_cart',
+            data: {
+               cart_id: cart_id,
+               qty: qty
+            },
+            success: function (response) {
+               console.log(response);
+            }
+         });
+      }
+
+      $('.quantity').on('change', function () {
+         var cart_id = $(this).prev().val();
+         var qty = $(this).val();
+         alert(qty);
+         if (qty.trim() !== '') {
+            updateCart(cart_id, qty);
+         } else {
+            console.log('Quantity is empty.');
+         }
+      });
+
+      $('.quantity').on('keydown', function (e) {
+         if (e.keyCode === 13) { // Check if Enter key is pressed
+            var cart_id = $(this).prev().val();
+            var qty = $(this).val();
+
+            if (qty.trim() !== '') {
+               updateCart(cart_id, qty);
+            } else {
+               console.log('Quantity is empty.');
+            }
+         }
+      });
    });
 
    $('#barcode').keypress(function (event) {
@@ -95,6 +159,25 @@
       }
    });
 
+   function finish() {
+      $.post('<?= base_url(); ?>Product/finish_sale', {
+         barcode: $('#barcode').val()
+      }, function (data) {
+         if (data.success) {
+            $('#barcode').val('');
+            load_cart();
+         } else {
+            alert(data.message);
+            $('#barcode').val('');
+         }
+      }, 'json')
+         .fail(function (jqXHR, textStatus, errorThrown) {
+            console.log('AJAX Error:', textStatus, errorThrown);
+            alert('An error occurred while processing your request.');
+            $('#barcode').val('');
+         });
+   }
+
    function search() {
       $.post('<?= base_url(); ?>Product/add_to_cart', {
          barcode: $('#barcode').val()
@@ -108,7 +191,7 @@
          }
       }, 'json')
          .fail(function (jqXHR, textStatus, errorThrown) {
-            console.error('AJAX Error:', textStatus, errorThrown);
+            console.log('AJAX Error:', textStatus, errorThrown);
             alert('An error occurred while processing your request.');
             $('#barcode').val('');
          });
@@ -154,6 +237,8 @@
       $.post('<?= base_url(); ?>Product/refreshCart', function (htmlData) {
          $("#list").html(htmlData);
          refresh_total_bill();
+         refresh_sub_total();
+         refresh_vat_total();
       }).fail(function (jqXHR, textStatus, errorThrown) {
          console.error('AJAX Error:', textStatus, errorThrown);
          // Handle error here if needed
@@ -169,53 +254,37 @@
       });
    }
 
-   function delete_cart(cart_id) {
-      $.post('<?= base_url(); ?>Product/delete_cart', { cart_id: cart_id }, function (htmlData) {
-         load_cart();
-         refresh_total_bill();
+   function refresh_sub_total() {
+      $.post('<?= base_url(); ?>Product/refresh_sub_total_bill', function (htmlData) {
+         $("#sub").html(htmlData);
       }).fail(function (jqXHR, textStatus, errorThrown) {
          console.error('AJAX Error:', textStatus, errorThrown);
          // Handle error here if needed
       });
    }
 
-function updateCart(cart_id, qty) {
-    $.ajax({
-        type: 'POST',
-        url: '<?= base_url(); ?>Product/update_cart',
-        data: {
-            cart_id: cart_id,
-            qty: qty
-        },
-        success: function (response) {
-            console.log(response);
-        }
-    });
-}
+   function refresh_vat_total() {
+      $.post('<?= base_url(); ?>Product/refresh_total_vat', function (htmlData) {
+         $("#vat").html(htmlData);
+      }).fail(function (jqXHR, textStatus, errorThrown) {
+         console.error('AJAX Error:', textStatus, errorThrown);
+         // Handle error here if needed
+      });
+   }
 
-$('.quantity').on('change', function () {
-    var cart_id = $(this).prev().val();
-    var qty = $(this).val();
+   function delete_cart(cart_id) {
+      $.post('<?= base_url(); ?>Product/delete_cart', { cart_id: cart_id }, function (htmlData) {
+         load_cart();
+         refresh_total_bill();
+         refresh_sub_total();
+         refresh_vat_total();
+      }).fail(function (jqXHR, textStatus, errorThrown) {
+         console.error('AJAX Error:', textStatus, errorThrown);
+         // Handle error here if needed
+      });
+   }
 
-    if (qty.trim() !== '') {
-        updateCart(cart_id, qty);
-    } else {
-        console.log('Quantity is empty.');
-    }
-});
 
-$('.quantity').on('keydown', function (e) {
-    if (e.keyCode === 13) { // Check if Enter key is pressed
-        var cart_id = $(this).prev().val();
-        var qty = $(this).val();
-
-        if (qty.trim() !== '') {
-            updateCart(cart_id, qty);
-        } else {
-            console.log('Quantity is empty.');
-        }
-    }
-});
 
 
 

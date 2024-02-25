@@ -29,12 +29,67 @@ class M_product extends CI_Model
         }
     }
 
+    function get_prouct_in_cart($product_id)
+    {
+        $this->db->select('*');
+        $this->db->where('product_id', $product_id);
+        $query = $this->db->get('tbl_cart')->result_array();
+        return $query;
+    }
+
+    function get_cart_id_by_product_id($product_id)
+    {
+        $this->db->select('cart_id');
+        $this->db->where('product_id', $product_id);
+        $query = $this->db->get('tbl_cart');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->cart_id;
+        } else {
+            return '';
+        }
+    }
+
+    function get_cart_qty($cart_id)
+    {
+        $this->db->select('qty');
+        $this->db->where('cart_id', $cart_id);
+        $query = $this->db->get('tbl_cart');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->qty;
+        } else {
+            return '';
+        }
+    }
+
+    function get_cart_price($cart_id)
+    {
+        $this->db->select('price');
+        $this->db->where('cart_id', $cart_id);
+        $query = $this->db->get('tbl_cart');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->price;
+        } else {
+            return '';
+        }
+    }
+
     function get_total_sum_cart()
     {
         $this->db->select_sum('total');
         $this->db->where('user_id', $this->session->userdata('user_id'));
         $result = $this->db->get('tbl_cart')->row();
         return $result->total ?? 0;
+    }
+
+    function get_total_vat_cart()
+    {
+        $this->db->select_sum('vat');
+        $this->db->where('user_id', $this->session->userdata('user_id'));
+        $result = $this->db->get('tbl_cart')->row();
+        return $result->vat ?? 0;
     }
 
 
