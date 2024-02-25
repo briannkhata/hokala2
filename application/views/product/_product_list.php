@@ -77,7 +77,7 @@
                                     <?= $row['reorder_level']; ?>
                                  </td>
                                  <td>
-                                    <?= $this->M_product->get_qty($row['product_id']) ?>
+                                    <?= $row['qty']; ?>
                                  </td>
                                  <td>
                                     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">

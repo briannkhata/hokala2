@@ -220,85 +220,39 @@ class product extends CI_Controller
     }
 
 
-    function finish()
+    function finish_sale()
     {
-        $products = $this->M_product->get_products_from_audited_transactions_temp();
-        if (empty($products)) {
-            echo json_encode(array('success' => false, 'message' => 'No products found for Audit.'));
-            return;
-        }
+        $products = $this->M_product->get_cart();
 
-        $centre_id = $this->input->post('centre_id');
-        $register = $this->M_product->get_products_by_centre_id($centre_id);
-        $data['user_id'] = $this->userdata('user_id');
-        $data['status'] = 'finished';
-        $data['finish_date'] = date('Y-m-d');
-        $this->db->insert('tbl_audit_transactions', $data);
-        $transaction_id = $this->db->insert_id();
+        $data['user_id'] = $this->session->userdata('user_id');
+        $data['sale_date'] = date('Y-m-d');
+        $data['vat'] = $this->M_product->get_total_vat_cart();
+        $data['total'] = $this->M_product->get_total_sum_cart();
+        $data['sub'] = $data['total'] - $data['vat'];
+        $data['tendered'] = $this->input->post('tendered');
+        $data['change'] = $data['tendered'] - $data['total'];
+        $this->db->insert('tbl_sales', $data);
+        $sale_id = $this->db->insert_id();
         foreach ($products as $row) {
             $data0['product_id'] = $row['product_id'];
-            $data0['transaction_id'] = $transaction_id;
-            $data0['date_posted'] = date('Y-m-d');
-            $this->db->insert('tbl_audited_products', $data0);
+            $data0['price'] = $row['price'];
+            $data0['qty'] = $row['qty'];
+            $data0['vat'] = $row['vat'];
+            $data0['total'] = $row['total'];
+            $data0['sale_id'] = $sale_id;
+            $this->db->insert('tbl_sale_details', $data0);
 
-            $av['audit_state'] = 'av';
+            $av['qty'] = $this->M_product->get_qty1($row['product_id']) - $row['qty'];
             $this->db->where('product_id', $row['product_id']);
-            $this->db->insert('tbl_products', $av);
-        }
-
-        $missingproducts = [];
-        foreach ($products as $product) {
-            if (!in_array($product['product_id'], array_column($register, 'product_id'))) {
-                $missingproducts[] = $product['product_id'];
-            }
-        }
-
-        $ms['audit_state'] = 'ms';
-        foreach ($missingproducts as $product_id) {
-            $this->db->where('product_id', $product_id);
-            $this->db->update('tbl_products', $ms);
+            $this->db->update('tbl_products', $av);
         }
 
         $this->db->where('user_id', $this->session->userdata('user_id'));
-        $this->delete('tbl_audited_products_temp');
-        echo json_encode(array('success' => true, 'message' => 'Audit Finished successfully!!!'));
+        $this->db->delete('tbl_cart');
+        echo json_encode(array('success' => true, 'message' => 'Sale Finished successfully!!!'));
     }
 
-    function search_product_and_add_to_cart2()
-    {
-        $centre_id = $this->input->post('centre_id');
-        $barcode = $this->input->post('barcode');
-        $result = $this->M_product->get_product_by_barcode_centre($barcode, $centre_id);
-        if ($result->num_rows() > 0) {
-            $row = $result->row();
-            $data = array(
-                'product_id' => $row->product_id,
-                'transaction_id' => $this->get_audit_trans_id(),
-                'date_posted' => date('Y-m-d')
-            );
-            $this->db->insert('tbl_audited_products', $data);
-        } else {
-            $this->session->set_flashdata('message', 'product already checked');
-        }
-        $this->session->set_flashdata('message', 'product added to cart');
 
-    }
-
-    function paused()
-    {
-        $data["page_title"] = "Paused Audits";
-        // $config = array();
-        //$config["base_url"] = base_url()."product/paused";
-        //$config["per_page"] = 10;
-        //$config["uri_segment"] = 3;
-        // $config['total_rows'] = count($this->M_product->get_paused_audited_products());
-        //$this->pagination->initialize($config);
-        //$page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
-        //$data['fetch_data'] = $this->M_product->get_paused_audited_products();
-        //$data['links'] = $this->pagination->create_links();
-        $data['menu_id'] = $this->M_role->get_menu_id_by_name('paused');
-        $this->load->view("product/_paused", $data);
-    }
 
     function refreshfinished()
     {

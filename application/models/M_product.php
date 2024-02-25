@@ -16,6 +16,19 @@ class M_product extends CI_Model
         return $query->result_array();
     }
 
+    function get_qty1($product_id)
+    {
+        $this->db->select('qty');
+        $this->db->where('product_id', $product_id);
+        $query = $this->db->get('tbl_products');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->qty;
+        } else {
+            return 0;
+        }
+    }
+
     function get_qty($product_id)
     {
         $this->db->select('qty');

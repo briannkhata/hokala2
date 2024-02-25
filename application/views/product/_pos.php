@@ -33,24 +33,26 @@
             <div class="card">
                <div class="card-body p-4">
                   <h5 class="mb-4">
-                     <b>Sub       :  <span id="sub"></span></b>
+                     <b>Sub : <span id="sub"></span></b>
                      <hr>
-                     <b>Vat       :  <span id="vat"></span></b>
+                     <b>Vat : <span id="vat"></span></b>
                      <hr>
-                     <b>Total     :  <span id="totalBill"></span></b>
+                     <b>Total : <span id="totalBill"></span></b>
                   </h5>
                   <hr>
-                Tendered Amount : 
-                     <input type="text" name="tendered" id="tendered" class="form-control" style="padding:2%;">
-                     <br>
-                     <h5 class="mb-4">
-                     <b>Change : <span id="change"></span></b>
-                  </h5>
-                  
+                  Tendered Amount :
+                  <input type="text" name="tendered" id="tendered" class="form-control" style="padding:2%;">
+                  <hr>
                   <h5 class="mb-4">
-                  <button type="button" id="finish" class="form-control">
-                     FINISH SALE
-                  </button>
+                    <center>
+                     <span id="change"></span>
+                    </center>
+                  </h5>
+
+                  <h5 class="mb-4">
+                     <button type="button" id="finish" class="form-control">
+                        FINISH SALE
+                     </button>
 
                   </h5>
                </div>
@@ -151,30 +153,51 @@
    });
 
    $('#finish').click(function (e) {
-      var confirmed = confirm("Are you sure you want to FINISH auditing?");
-      if (confirmed) {
+      finish();
+   });
+
+   $('#tendered').keypress(function (event) {
+      // Check if the pressed key is Enter (key code 13)
+      if (event.which === 13) {
+         event.preventDefault();
          finish();
-      } else {
-         e.preventDefault();
       }
    });
 
+   $('#tendered').on('keyup', function () {
+      var tenderedValue = parseFloat($(this).val());
+      var totalBillValue = $('#totalBill').text();
+
+      totalBillValue = parseFloat(totalBillValue);
+
+      if (!isNaN(tenderedValue) && !isNaN(totalBillValue)) {
+         var difference = tenderedValue - totalBillValue;
+         $('#change').text(difference.toFixed(2)); // Display the result in the span with id 'change'
+      }
+   });
+
+
    function finish() {
+      var tenderedAmount = $('#tendered').val();
+
+      if (!tenderedAmount || isNaN(parseFloat(tenderedAmount))) {
+         alert('Please enter a valid tendered amount.');
+         return;
+      }
       $.post('<?= base_url(); ?>Product/finish_sale', {
-         barcode: $('#barcode').val()
+         tendered: tenderedAmount
       }, function (data) {
          if (data.success) {
-            $('#barcode').val('');
             load_cart();
+            $('#barcode').val('');
          } else {
             alert(data.message);
-            $('#barcode').val('');
          }
       }, 'json')
          .fail(function (jqXHR, textStatus, errorThrown) {
             console.log('AJAX Error:', textStatus, errorThrown);
             alert('An error occurred while processing your request.');
-            $('#barcode').val('');
+            $('#tendered').val('');
          });
    }
 
@@ -239,6 +262,8 @@
          refresh_total_bill();
          refresh_sub_total();
          refresh_vat_total();
+         //$('#change').text('');
+         $('#tendered').val('');
       }).fail(function (jqXHR, textStatus, errorThrown) {
          console.error('AJAX Error:', textStatus, errorThrown);
          // Handle error here if needed
