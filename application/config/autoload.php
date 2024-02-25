@@ -134,13 +134,8 @@ $autoload['language'] = array();
 */
 $autoload['model'] = array(
     'M_user',
-    'M_donor',
     "M_product",
     "M_category",
     "M_supplier",
-    "M_role",
-    "M_department",
     "M_report",
-    "M_audit",
-    'M_period'
 );

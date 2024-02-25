@@ -1,12 +1,5 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
-//increase memory usage
-ini_set('max_execution_time', 0);
-ini_set('memory_limit', '2048M');
-
-//use PhpOffice\PhpSpreadsheet\Spreadsheet;
-//use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
-use PhpOffice\PhpSpreadsheet\IOFactory;
 
 class Report extends CI_Controller
 {
@@ -19,24 +12,19 @@ class Report extends CI_Controller
 		}
 	}
 
-	function asset()
+	function sales_report()
 	{
-		$data['page_title'] = "Asset Report";
-		$this->load->view('report/_asset', $data);
+		$data['page_title'] = "Sales Report";
+		$this->load->view('report/_sales_report', $data);
 	}
 
-	function asset_filter()
+	function filter_sales()
 	{
-		$missing = $this->input->post("missing");
-		$deleted = $this->input->post("deleted");
-		$new = $this->input->post("new");
-		$centre_id = $this->input->post("centre_id");
-		$category_id = $this->input->post("category_id");
-		$department_id = $this->input->post("department_id");
-		$donor_id = $this->input->post("donor_id");
-		$data['fetch_data'] = $this->M_report->get_assets($missing,$deleted,$new,$centre_id,$category_id,$department_id,$donor_id);
-		$data['page_title'] = "Asset Report";
-		$this->load->view('report/_refresh_assets', $data);
+		$start_date = $this->input->post("start_date");
+		$end_date = $this->input->post("end_date");
+		$data['fetch_data'] = $this->M_report->get_assets($start_date, $end_date);
+		$data['page_title'] = "Sales Report";
+		$this->load->view('report/_refresh_sales', $data);
 	}
 
 	function disposed()
@@ -51,7 +39,7 @@ class Report extends CI_Controller
 		$category_id = $this->input->post("category_id");
 		$department_id = $this->input->post("department_id");
 		$donor_id = $this->input->post("donor_id");
-		$data['fetch_data'] = $this->M_report->get_disposed_assets($centre_id,$category_id,$department_id,$donor_id);
+		$data['fetch_data'] = $this->M_report->get_disposed_assets($centre_id, $category_id, $department_id, $donor_id);
 		$data['page_title'] = "Disposed Assets Report";
 		$this->load->view('report/_refresh_disposed', $data);
 	}
@@ -68,7 +56,7 @@ class Report extends CI_Controller
 		$category_id = $this->input->post("category_id");
 		$department_id = $this->input->post("department_id");
 		$donor_id = $this->input->post("donor_id");
-		$data['fetch_data'] = $this->M_report->get_missing_assets($centre_id,$category_id,$department_id,$donor_id);
+		$data['fetch_data'] = $this->M_report->get_missing_assets($centre_id, $category_id, $department_id, $donor_id);
 		$data['page_title'] = "Missing Assets Report";
 		$this->load->view('report/_refresh_missing', $data);
 	}
