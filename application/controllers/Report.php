@@ -32,4 +32,28 @@ class Report extends CI_Controller
 		$this->load->view('report/_refresh_inventory_report', $data);
 	}
 
+	function expired()
+	{
+		$data['page_title'] = "Expired Products";
+		$this->load->view('report/_expired', $data);
+	}
+
+	function expiring()
+	{
+		$data['page_title'] = "Expiring Products";
+		$this->load->view('report/_expiring', $data);
+	}
+
+	function running_low()
+	{
+		$data['page_title'] = "Running Low Products";
+		$this->load->view('report/_running_low', $data);
+	}
+
+	function depleted()
+	{
+		$data['page_title'] = "Depleted Products";
+		$this->load->view('report/_depleted', $data);
+	}
+
 }

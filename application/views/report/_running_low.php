@@ -34,7 +34,7 @@
                </thead>
                <tbody>
                   <?php
-                  foreach ($this->M_product->get_products() as $row): ?>
+                  foreach ($this->M_product->get_products_running_low() as $row): ?>
                      <tr>
 
                         <td>

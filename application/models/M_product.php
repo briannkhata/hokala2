@@ -16,6 +16,61 @@ class M_product extends CI_Model
         return $query->result_array();
     }
 
+    function get_expiring_products()
+    {
+        $current_date = date('Y-m-d');
+        $expiry_date = date('Y-m-d', strtotime('+2 weeks'));
+        $this->db->where('deleted', 0);
+        $this->db->where('expiry_date >=', $current_date);
+        $this->db->where('expiry_date <=', $expiry_date);
+        $this->db->from('tbl_products');
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
+    function get_expired_products()
+    {
+        $yesterday_date = date('Y-m-d', strtotime('-1 day'));
+        $this->db->where('deleted', 0);
+        $this->db->where('expiry_date <=', $yesterday_date);
+        $this->db->from('tbl_products');
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
+    function get_new_products()
+    {
+        $current_date = date('Y-m-d');
+        $two_weeks_from_now_date = date('Y-m-d', strtotime('+2 weeks'));
+        $this->db->where('deleted', 0);
+        $this->db->where('date_added >=', $current_date);
+        $this->db->where('date_added <=', $two_weeks_from_now_date);
+        $this->db->from('tbl_products');
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
+    function get_products_running_low()
+    {
+        $this->db->where('deleted', 0);
+        $this->db->where('expiry_date >', date('Y-m-d'));
+        $this->db->where('qty < reorder_level');
+        $this->db->from('tbl_products');
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
+    function get_depleted_products()
+    {
+        $this->db->where('deleted', 0);
+        $this->db->where('expiry_date >', date('Y-m-d'));
+        $this->db->where('qty <= 0');
+        $this->db->from('tbl_products');
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
+
     function get_qty1($product_id)
     {
         $this->db->select('qty');
@@ -190,30 +245,6 @@ class M_product extends CI_Model
 
 
 
-    function get_new_products()
-    {
-        $this->db->where('deleted', 0);
-        $this->db->where('audit_state', 'av');
-        $this->db->where('dispose_state', 'no');
-        $this->db->where('YEAR(purchase_date)', date('Y'));
-        $this->db->from('tbl_products');
-        $this->db->order_by('product_id', 'DESC');
-        $this->db->group_by('barcode');
-        $query = $this->db->get();
-        return $query->result_array();
-    }
-
-    function get_expired_products()
-    {
-        $this->db->where('deleted', 0);
-        $this->db->where('audit_state', 'ms');
-        $this->db->where('dispose_state', 'no');
-        $this->db->from('tbl_products');
-        $this->db->order_by('product_id', 'DESC');
-        $this->db->group_by('barcode');
-        $query = $this->db->get();
-        return $query->result_array();
-    }
 
 
     function check_category_existance($cat_name)
@@ -222,7 +253,7 @@ class M_product extends CI_Model
         $query = $this->db->get('tbl_categories');
         return $query->num_rows();
     }
-   
+
 
     function get_pending_disposal()
     {
@@ -285,7 +316,7 @@ class M_product extends CI_Model
         }
     }
 
-  
+
     function get_product_by_id($product_id)
     {
         $this->db->where('product_id', $product_id);

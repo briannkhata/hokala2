@@ -14,11 +14,10 @@
                   </div>
                   <div class="d-flex align-items-center justify-content-between mt-3">
                      <div class="">
-                        <h4 class="mb-0 fw-bold"> 
-                           <?=count($this->M_product->get_all_products()); ?>
+                        <h4 class="mb-0 fw-bold">
+                           <?= count($this->M_product->get_all_products()); ?>
                         </h4>
-                        <div
-                           class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
+                        <div class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
                         </div>
                      </div>
                      <div id="chart1"></div>
@@ -34,9 +33,8 @@
                   </div>
                   <div class="d-flex align-items-center justify-content-between mt-3">
                      <div class="">
-                        <h4 class="mb-0 fw-bold"> <?php //count($this->M_product->get_missing_products()); ?></h4>
-                        <div
-                           class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
+                        <h4 class="mb-0 fw-bold"> <?= count($this->M_product->get_expiring_products()); ?></h4>
+                        <div class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
                         </div>
                      </div>
                      <div id="chart2"></div>
@@ -52,9 +50,8 @@
                   </div>
                   <div class="d-flex align-items-center justify-content-between mt-3">
                      <div class="">
-                        <h4 class="mb-0 fw-bold"><?php //=count($this->M_product->get_new_products()); ?></h4>
-                        <div
-                           class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
+                        <h4 class="mb-0 fw-bold"><?= count($this->M_product->get_new_products()); ?></h4>
+                        <div class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
                         </div>
                      </div>
                      <div id="chart3"></div>
@@ -71,10 +68,9 @@
                   <div class="d-flex align-items-center justify-content-between mt-3">
                      <div class="">
                         <h4 class="mb-0 fw-bold">
-                           <?php //=count($this->M_product->get_products_disposed());?>
+                           <?= count($this->M_product->get_expired_products()); ?>
                         </h4>
-                        <div
-                           class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
+                        <div class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
                         </div>
                      </div>
                      <div id="chart4"></div>
@@ -83,7 +79,47 @@
             </div>
          </div>
       </div>
-      <!--end row-->
+
+      <div class="col">
+         <div class="card border-danger border-bottom rounded-4">
+            <div class="card-body">
+               <div class="d-flex align-items-center justify-content-between">
+                  <p class="mb-0 fs-6">Products Running Low</p>
+               </div>
+               <div class="d-flex align-items-center justify-content-between mt-3">
+                  <div class="">
+                     <h4 class="mb-0 fw-bold">
+                        <?= count($this->M_product->get_products_running_low()); ?>
+                     </h4>
+                     <div class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
+                     </div>
+                  </div>
+                  <div id="chart4"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="card border-danger border-bottom rounded-4">
+         <div class="card-body">
+            <div class="d-flex align-items-center justify-content-between">
+               <p class="mb-0 fs-6">Depleted Products</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+               <div class="">
+                  <h4 class="mb-0 fw-bold">
+                     <?= count($this->M_product->get_depleted_products()); ?>
+                  </h4>
+                  <div class="d-flex align-items-center justify-content-start gap-1 text-success mt-3">
+                  </div>
+               </div>
+               <div id="chart4"></div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   <!--end row-->
 
    </div>
 </main>
