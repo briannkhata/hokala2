@@ -17,10 +17,19 @@
 
 
                   <div class="input-group" style="margin-top:%;">
-                     <input type="text" class="form-control" placeholder="Search with barcode..." id="barcode"
-                        name="barcode">
+                     <select class="form-control" name="barcode" id="barcode" required="" onchange="search()">
+                        <option selected="" disabled="">----</option>
+                        <?php foreach ($this->M_product->get_products() as $row) { ?>
+                           <option value="<?= $row['barcode']; ?>">
+                              <?= $row['barcode']; ?> |
+                              <?= $row['name']; ?>
+                           </option>
+                        <?php } ?>
+                     </select>
                      <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
+                     <button class="btn btn-outline-secondary" type="button" id="clearCart">Clear Cart</button>
                   </div>
+
                </div>
                <br>
 
@@ -44,9 +53,9 @@
                   <input type="text" name="tendered" id="tendered" class="form-control" style="padding:2%;">
                   <hr>
                   <h5 class="mb-4">
-                    <center>
-                     <span id="change"></span>
-                    </center>
+                     <center>
+                        <span id="change"></span>
+                     </center>
                   </h5>
 
                   <h5 class="mb-4">
@@ -143,8 +152,8 @@
    });
 
 
-   $('#cancel').click(function (e) {
-      var confirmed = confirm("Are you sure you want to CANCEL auditing?");
+   $('#clearCart').click(function (e) {
+      var confirmed = confirm("Are you sure you want to CLEAR CART?");
       if (confirmed) {
          cancel();
       } else {
@@ -232,7 +241,7 @@
    function cancel() {
       $('#loader').show();
       $('#overlay').show();
-      $.post('<?= base_url(); ?>Asset/cancel', {
+      $.post('<?= base_url(); ?>Product/cancel', {
       }, function (data) {
          if (data.success) {
             alert(data.message)

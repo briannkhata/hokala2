@@ -210,13 +210,11 @@ class product extends CI_Controller
         $this->load->view("product/_load_total_vat");
     }
 
-
-
     function cancel()
     {
         $this->db->where('user_id', $this->session->userdata('user_id'));
-        $this->delete('tbl_audited_products_temp');
-        echo json_encode(array('success' => true, 'message' => 'Audit Cancelled successfully!!!'));
+        $this->db->delete('tbl_cart');
+        echo json_encode(array('success' => true, 'message' => 'Cart cleared successfully!!!'));
     }
 
 
