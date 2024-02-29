@@ -23,12 +23,12 @@ class Report extends CI_Controller
 		$start_date = $this->input->post("start_date");
 		$end_date = $this->input->post("end_date");
 		$data['fetch_data'] = $this->M_report->get_sales_by_date($start_date, $end_date);
-		$data['page_title'] = "Sales Report | ". $start_date ." To ".$end_date;
+		$data['page_title'] = "Sales Report | ". date('d F Y',strtotime($start_date)) ." To ".date('d F Y',strtotime($end_date));
 		$this->load->view('report/_refresh_sales', $data);
 	}
 	function inventory_report()
 	{
-		$data['page_title'] = "Sales Report";
+		$data['page_title'] = "Inventory Report";
 		$this->load->view('report/_refresh_inventory_report', $data);
 	}
 
