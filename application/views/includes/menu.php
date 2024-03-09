@@ -13,13 +13,14 @@
     <div class="sidebar-nav" data-simplebar="true">
         <!--navigation-->
         <ul class="metismenu" id="sidenav">
-
             <?php
+            $role = $this->session->userdata('role');
+            $this->db->where("FIND_IN_SET('$role', role) >", 0);
             $this->db->order_by('order_by', 'asc');
             $parents = $this->db->group_by('parent_id')->get('tbl_menus')->result_array();
 
-            foreach ($parents as $pa) {
 
+            foreach ($parents as $pa) {
                 ?>
                 <li>
                     <a href="<?= !$pa['parent'] ? '#' : base_url() . '' . $pa['url']; ?>" <?= !$pa['parent'] ? 'class="has-arrow"' : ''; ?>>
@@ -32,13 +33,12 @@
                     </a>
 
                     <?php
+                    $this->db->where("FIND_IN_SET('$role', role) >", 0);
                     $this->db->order_by('sort_order', 'asc');
                     $children = $this->db->get_where('tbl_menus', array('parent_id' => $pa['parent_id'], 'parent' => 0))->result_array();
                     ?>
-
                     <ul>
                         <?php foreach ($children as $child) {
-
                             ?>
                             <li><a href="<?= base_url(); ?><?= $child['url']; ?>"><i
                                         class="material-icons-outlined">arrow_right</i>
@@ -49,7 +49,6 @@
                 </li>
             <?php } ?>
         </ul>
-
 
     </div>
 </aside>

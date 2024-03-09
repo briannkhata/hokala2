@@ -7,34 +7,31 @@
       <!--end breadcrumb-->
       <div class="row">
          <div class="col-8 col-xl-8">
-            <div class="card-body p-4">
-               <h5 class="mb-4">
-                  Search Below:
-               </h5>
+            <h5 class="mb-4">
+               Search Below:
+            </h5>
 
 
-               <div class="col">
-
-
-                  <div class="input-group" style="margin-top:%;">
-                     <select class="form-control" name="barcode" id="barcode" required="" onchange="search()">
-                        <option selected="" disabled="">----</option>
-                        <?php foreach ($this->M_product->get_products() as $row) { ?>
-                           <option value="<?= $row['barcode']; ?>">
-                              <?= $row['barcode']; ?> |
-                              <?= $row['name']; ?>
-                           </option>
-                        <?php } ?>
-                     </select>
-                     <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
-                     <button class="btn btn-outline-secondary" type="button" id="clearCart">Clear Cart</button>
-                  </div>
-
+            <div class="col">
+               <div class="input-group" style="margin-top:%;">
+                  <select class="form-control" name="barcode" id="barcode" required="" onchange="search()">
+                     <option selected="" disabled="">----</option>
+                     <?php foreach ($this->M_product->get_products_pos() as $row) { ?>
+                        <option value="<?= $row['barcode']; ?>">
+                           <?= $row['barcode']; ?> |
+                           <?= $row['name']; ?> |
+                           <?= $row['desc']; ?>
+                        </option>
+                     <?php } ?>
+                  </select>
+                  <button class="btn btn-outline-success" type="button" id="refreshSale">U | Refresh</button>
                </div>
-               <br>
 
-               <div id="list"></div>
+            </div>
 
+            <br>
+            <div id="list">
+               <?php $this->load->view('product/_load_cart'); ?>
             </div>
          </div>
 
@@ -60,8 +57,11 @@
 
                   <h5 class="mb-4">
                      <button type="button" id="finish" class="form-control">
-                        FINISH SALE
+                        P | FINISH SALE
                      </button>
+                     <br>
+                     <button class="form-control" type="button" id="clearCart"><b style="color:red;">REMOVE/CLEAR
+                           SALE</b></button>
 
                   </h5>
                </div>
@@ -74,60 +74,40 @@
 <!--end main wrapper-->
 <?php $this->load->view('includes/footer.php'); ?>
 <script>
-   $(document).ready(function () {
-      load_cart();
 
-      $('.quantity').on('keydown', function (event) {
-         //if (event.keyCode === 13) {
-         var quantity = $(this).val();
-         console.log("Captured quantity:", quantity);
-         return false;
-         //  }
-      });
-
-
-
-
-
-
-      function updateCart(cart_id, qty) {
-         $.ajax({
-            type: 'POST',
-            url: '<?= base_url(); ?>Product/update_cart',
-            data: {
-               cart_id: cart_id,
-               qty: qty
-            },
-            success: function (response) {
-               console.log(response);
-            }
-         });
+   $(document).keypress(function (event) {
+      var keycode = (event.keyCode ? event.keyCode : event.which);
+      if (keycode == '117') { // Check if the pressed key is "U" (keyCode 117)
+         $("#refreshSale").click(); // Trigger the click event of the "refreshSale" button
       }
 
-      $('.quantity').on('change', function () {
-         var cart_id = $(this).prev().val();
-         var qty = $(this).val();
-         alert(qty);
-         if (qty.trim() !== '') {
-            updateCart(cart_id, qty);
-         } else {
-            console.log('Quantity is empty.');
-         }
-      });
+      var keycode = (event.keyCode ? event.keyCode : event.which);
+      if (keycode == '112') { // Check if the pressed key is "P" (keyCode 112)
+         finish(); // Call the finish function
+      }
+   });
 
-      $('.quantity').on('keydown', function (e) {
-         if (e.keyCode === 13) { // Check if Enter key is pressed
-            var cart_id = $(this).prev().val();
-            var qty = $(this).val();
-
-            if (qty.trim() !== '') {
-               updateCart(cart_id, qty);
-            } else {
-               console.log('Quantity is empty.');
+   $("#refreshSale").on("click", function () {
+      $("table#cart tbody tr").each(function () {
+         var quantity = $(this).find(".quantity").val();
+         var cartId = $(this).find("input[name='cart_id[]']").val();
+         $.ajax({
+            url: "<?= base_url(); ?>Product/update_cart",
+            type: "POST",
+            data: { cart_id: cartId, qty: quantity },
+            dataType: 'json',
+            success: function (response) {
+               load_cart();
+               console.log(response);
+            },
+            error: function (xhr, status, error) {
+               console.error(xhr.responseText);
             }
-         }
+         });
       });
    });
+
+
 
    $('#barcode').keypress(function (event) {
       if (event.which === 13) {
@@ -141,15 +121,15 @@
    });
 
 
-   $('#search').click(function (e) {
-      var barcode = $('#barcode').val();
-      if (barcode.trim() === '') {
-         alert('Barcode is required!!!');
-         e.preventDefault();
-      } else {
-         search();
-      }
-   });
+   // $('#search').click(function (e) {
+   //    var barcode = $('#barcode').val();
+   //    if (barcode.trim() === '') {
+   //       alert('Barcode is required!!!');
+   //       e.preventDefault();
+   //    } else {
+   //       search();
+   //    }
+   // });
 
 
    $('#clearCart').click(function (e) {
@@ -317,8 +297,6 @@
          // Handle error here if needed
       });
    }
-
-
 
 
 

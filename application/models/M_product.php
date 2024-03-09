@@ -16,6 +16,17 @@ class M_product extends CI_Model
         return $query->result_array();
     }
 
+    function get_products_pos()
+    {
+        $current_date = date('Y-m-d');
+        $this->db->where('deleted', 0);
+        $this->db->where('qty > reorder_level');
+        $this->db->where('expiry_date >=', $current_date);
+        $this->db->from('tbl_products');
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
     function get_expiring_products()
     {
         $current_date = date('Y-m-d');
@@ -50,11 +61,84 @@ class M_product extends CI_Model
         return $query->result_array();
     }
 
+    function get_sales_by_sale_id($sale_id)
+    {
+        $this->db->where('sale_id', $sale_id);
+        $this->db->from('tbl_sale_details');
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
+    function get_total_by_sale_id($sale_id)
+    {
+        $this->db->select('total');
+        $this->db->where('sale_id', $sale_id);
+        $query = $this->db->get('tbl_sales');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->total;
+        } else {
+            return 0;
+        }
+    }
+
+    function get_vat_by_sale_id($sale_id)
+    {
+        $this->db->select('vat');
+        $this->db->where('sale_id', $sale_id);
+        $query = $this->db->get('tbl_sales');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->vat;
+        } else {
+            return 0;
+        }
+    }
+
+    function get_tendered_by_sale_id($sale_id)
+    {
+        $this->db->select('tendered');
+        $this->db->where('sale_id', $sale_id);
+        $query = $this->db->get('tbl_sales');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->tendered;
+        } else {
+            return 0;
+        }
+    }
+
+    function get_sub_by_sale_id($sale_id)
+    {
+        $this->db->select('sub');
+        $this->db->where('sale_id', $sale_id);
+        $query = $this->db->get('tbl_sales');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->sub;
+        } else {
+            return 0;
+        }
+    }
+
+    function get_change_by_sale_id($sale_id)
+    {
+        $this->db->select('change');
+        $this->db->where('sale_id', $sale_id);
+        $query = $this->db->get('tbl_sales');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->change;
+        } else {
+            return 0;
+        }
+    }
+
     function get_products_running_low()
     {
         $this->db->where('deleted', 0);
         $this->db->where('expiry_date >', date('Y-m-d'));
-        $this->db->where('qty < reorder_level');
+        $this->db->where('qty <= reorder_level');
         $this->db->from('tbl_products');
         $query = $this->db->get();
         return $query->result_array();

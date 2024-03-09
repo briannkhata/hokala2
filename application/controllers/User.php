@@ -27,7 +27,7 @@ class User extends CI_Controller
 		$data['name'] = $this->input->post('name');
 		$data['phone'] = $this->input->post('phone');
 		$data['username'] = $this->input->post('username');
-		$data['password'] = $this->input->post('password');
+		$data['password'] = md5($this->input->post('password'));
 		$data['role'] = $this->input->post('role');
 		$data['added_by'] = $this->session->userdata('user_id');
 		return $data;

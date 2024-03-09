@@ -76,7 +76,7 @@ class product extends CI_Controller
         $cart_id = trim($this->input->post('cart_id'));
         $qtyNew = trim($this->input->post('qty'));
 
-        if (empty($qty)) {
+        if (empty($qtyNew)) {
             echo json_encode(array('success' => false, 'message' => 'Barcode is required!!!'));
             return;
         }
@@ -100,7 +100,6 @@ class product extends CI_Controller
             echo json_encode(array('success' => false, 'message' => 'Product not found'));
         }
     }
-
     function get_form_data()
     {
         $data["name"] = $this->input->post("name");
@@ -111,6 +110,7 @@ class product extends CI_Controller
         $data["selling_price"] = $this->input->post("selling_price");
         $data["supplier_id"] = $this->input->post("supplier_id");
         $data["reorder_level"] = $this->input->post("reorder_level");
+        $data["expiry_date"] = $this->input->post("expiry_date");
         $data["qty"] = $this->input->post("qty");
         return $data;
     }
@@ -126,6 +126,7 @@ class product extends CI_Controller
             $data["cost_price"] = $row["cost_price"];
             $data["supplier_id"] = $row["supplier_id"];
             $data["reorder_level"] = $row["reorder_level"];
+            $data["expiry_date"] = $row["expiry_date"];
             $data["qty"] = $row["qty"];
         }
         return $data;
@@ -154,7 +155,7 @@ class product extends CI_Controller
         if (isset($update_id)) {
             $data["modified_by"] = $this->session->userdata("user_id");
             $data["modified_date"] = date("Y-m-d");
-            $this->db->where("id", $update_id);
+            $this->db->where("product_id", $update_id);
             $this->db->update("tbl_products", $data);
         } else {
             $this->db->insert("tbl_products", $data);
@@ -166,9 +167,6 @@ class product extends CI_Controller
         endif;
         $this->session->set_flashdata("message", "product saved successfully!");
     }
-
-
-
 
     function delete($id)
     {
@@ -188,7 +186,6 @@ class product extends CI_Controller
         $this->db->delete("tbl_cart");
         return;
     }
-
 
     function refreshCart()
     {
@@ -248,8 +245,17 @@ class product extends CI_Controller
 
         $this->db->where('user_id', $this->session->userdata('user_id'));
         $this->db->delete('tbl_cart');
-        echo json_encode(array('success' => true, 'message' => 'Sale Finished successfully!!!'));
+        redirect("Product/receipt/".$sale_id);
+        //echo json_encode(array('success' => true, 'message' => 'Sale Finished successfully!!!'));
     }
+
+    function receipt($param="")
+    {
+        $data['sale_id'] = $param;
+        $data["page_title"] = "Receipt";
+        $this->load->view('product/_receipt',$data);
+    }
+
 
 
 

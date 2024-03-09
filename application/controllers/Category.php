@@ -13,7 +13,6 @@ class Category extends CI_Controller {
 	function index(){
 		$data['fetch_data'] = $this->M_category->get_categories();
 		$data['page_title'] = "Categories";
-		$data['menu_id'] = $this->M_role->get_menu_id_by_name('category');
 		$this->load->view('category/_view',$data);
 	}
 

@@ -11,8 +11,10 @@ class M_report extends CI_Model
 
     function get_sales_by_date($start_date, $end_date)
     {
-        $start_date_formatted = date('Y-m-d', strtotime($start_date));
-        $end_date_formatted = date('Y-m-d', strtotime($end_date));
+
+        $start_date_formatted = date('Y-m-d 00:00:00', strtotime($start_date));
+        $end_date_formatted = date('Y-m-d 23:59:59', strtotime($end_date));
+
         $this->db->select('tbl_sale_details.*, tbl_products.barcode,tbl_products.name,tbl_products.desc,tbl_products.product_id');
         $this->db->from('tbl_sale_details');
         $this->db->join('tbl_products', 'tbl_sale_details.product_id = tbl_products.product_id', 'inner');

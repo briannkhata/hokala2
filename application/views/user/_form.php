@@ -47,10 +47,10 @@
                         <label class="control-label">Role</label>
                         <select id="gender" name="role" class="form-control">
                            <option selected disabled> Role</option>
-                           <option <?php if ($role == 'admin')
-                              echo 'selected'; ?> value="admin">Admin</option>
-                           <option <?php if ($role == 'cashier')
-                              echo 'selected'; ?> value="cashier">Cashier</option>
+                           <option <?php if ($role == '0')
+                              echo 'selected'; ?> value="0">Admin</option>
+                           <option <?php if ($role == '1')
+                              echo 'selected'; ?> value="1">Cashier</option>
                         </select>
                      </div>
 
