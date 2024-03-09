@@ -88,9 +88,9 @@
                   </h5>
                </a>
                <div class="dropdown-menu dropdown-user dropdown-menu-end shadow">
-                  <a class="dropdown-item d-flex align-items-center gap-2 py-2"
+                  <!-- <a class="dropdown-item d-flex align-items-center gap-2 py-2"
                      href="<?= base_url(); ?>User/view/<?= $this->session->userdata('user_id'); ?>"><i
-                        class=" material-icons-outlined">person_outline</i>Profile</a>
+                        class=" material-icons-outlined">person_outline</i>Profile</a> -->
                   <a class="dropdown-item d-flex align-items-center gap-2 py-2"
                      href="<?= base_url(); ?>User/change_password"><i
                         class="material-icons-outlined">local_bar</i>Change Password</a>

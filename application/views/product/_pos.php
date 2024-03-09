@@ -18,8 +18,9 @@
                      <option selected="" disabled="">----</option>
                      <?php foreach ($this->M_product->get_products_pos() as $row) { ?>
                         <option value="<?= $row['barcode']; ?>">
-                           <?= $row['barcode']; ?> |
                            <?= $row['name']; ?> |
+                           MK :
+                           <?= number_format($row['selling_price'], 2); ?> |
                            <?= $row['desc']; ?>
                         </option>
                      <?php } ?>
@@ -38,32 +39,34 @@
          <div class="col-4 col-xl-4">
             <div class="card">
                <div class="card-body p-4">
-                  <h5 class="mb-4">
-                     <b>Sub : <span id="sub"></span></b>
+                  <form action="<?= base_url(); ?>Product/finish_sale" method="post">
+                     <h5 class="mb-4">
+                        <b>Sub : <span id="sub"></span></b>
+                        <hr>
+                        <b>Vat : <span id="vat"></span></b>
+                        <hr>
+                        <b>Total : <span id="totalBill"></span></b>
+                     </h5>
                      <hr>
-                     <b>Vat : <span id="vat"></span></b>
+                     Tendered Amount :
+                     <input type="text" name="tendered" id="tendered" class="form-control" style="padding:2%;" required>
                      <hr>
-                     <b>Total : <span id="totalBill"></span></b>
-                  </h5>
-                  <hr>
-                  Tendered Amount :
-                  <input type="text" name="tendered" id="tendered" class="form-control" style="padding:2%;">
-                  <hr>
-                  <h5 class="mb-4">
-                     <center>
-                        <span id="change"></span>
-                     </center>
-                  </h5>
+                     <h5 class="mb-4">
+                        <center>
+                           <span id="change"></span>
+                        </center>
+                     </h5>
 
-                  <h5 class="mb-4">
-                     <button type="button" id="finish" class="form-control">
-                        P | FINISH SALE
-                     </button>
-                     <br>
-                     <button class="form-control" type="button" id="clearCart"><b style="color:red;">REMOVE/CLEAR
-                           SALE</b></button>
+                     <h5 class="mb-4">
+                        <button type="submit" id="finish" class="form-control">
+                           P | FINISH SALE
+                        </button>
+                        <br>
+                        <button class="form-control" type="button" id="clearCart"><b style="color:red;">REMOVE/CLEAR
+                              SALE</b></button>
 
-                  </h5>
+
+                  </form>
                </div>
             </div>
          </div>
@@ -74,6 +77,9 @@
 <!--end main wrapper-->
 <?php $this->load->view('includes/footer.php'); ?>
 <script>
+   $(document).ready(function () {
+      load_cart();
+   });
 
    $(document).keypress(function (event) {
       var keycode = (event.keyCode ? event.keyCode : event.which);
@@ -145,50 +151,34 @@
       finish();
    });
 
-   $('#tendered').keypress(function (event) {
-      // Check if the pressed key is Enter (key code 13)
-      if (event.which === 13) {
-         event.preventDefault();
-         finish();
-      }
+
+   $('#tendered').on('input', function () {
+      var tenderedAmount = parseFloat($(this).val().replace(/[^\d.]/g, '')); // Remove non-numeric characters
+      var totalBill = parseFloat($('#totalBill').text().replace(/[^\d.]/g, '')); // Remove non-numeric characters
+      var change = tenderedAmount - totalBill;
+      change = Math.round(change * 100) / 100; // Round to 2 decimal places
+      $('#change').text('Change: ' + change.toFixed(2));
    });
 
-   $('#tendered').on('keyup', function () {
-      var tenderedValue = parseFloat($(this).val());
-      var totalBillValue = $('#totalBill').text();
-
-      totalBillValue = parseFloat(totalBillValue);
-
-      if (!isNaN(tenderedValue) && !isNaN(totalBillValue)) {
-         var difference = tenderedValue - totalBillValue;
-         $('#change').text(difference.toFixed(2)); // Display the result in the span with id 'change'
-      }
-   });
 
 
    function finish() {
       var tenderedAmount = $('#tendered').val();
 
-      if (!tenderedAmount || isNaN(parseFloat(tenderedAmount))) {
+      if (!tenderedAmount || isNaN(tenderedAmount)) {
          alert('Please enter a valid tendered amount.');
          return;
       }
+
       $.post('<?= base_url(); ?>Product/finish_sale', {
          tendered: tenderedAmount
-      }, function (data) {
-         if (data.success) {
-            load_cart();
-            $('#barcode').val('');
-         } else {
-            alert(data.message);
-         }
-      }, 'json')
+      })
          .fail(function (jqXHR, textStatus, errorThrown) {
             console.log('AJAX Error:', textStatus, errorThrown);
             alert('An error occurred while processing your request.');
-            $('#tendered').val('');
          });
    }
+
 
    function search() {
       $.post('<?= base_url(); ?>Product/add_to_cart', {
