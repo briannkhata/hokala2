@@ -12,9 +12,11 @@ class M_product extends CI_Model
     {
         $this->db->where('deleted', 0);
         $this->db->from('tbl_products');
+        $this->db->order_by('product_id', 'desc');
         $query = $this->db->get();
         return $query->result_array();
     }
+    
 
     function get_products_pos()
     {
@@ -245,27 +247,9 @@ class M_product extends CI_Model
     }
 
 
-    function get_products_by_centre_id($centre_id)
-    {
-        $this->db->where('deleted', 0);
-        $this->db->where('dispose_state', 'no');
-        $this->db->where('audit_state', 'av');
-        $this->db->where('centre_id', $centre_id);
-        $this->db->from('tbl_products');
-        $query = $this->db->get();
-        return $query->result_array();
-    }
+    
 
-    function get_product_by_barcode_centre($barcode, $centre_id)
-    {
-        $this->db->where('deleted', 0);
-        $this->db->where('barcode', $barcode);
-        //$this->db->where('centre_id', $centre_id);
-        $this->db->where('dispose_state', 'no');
-        $this->db->from('tbl_products');
-        $query = $this->db->get();
-        return $query->result_array();
-    }
+   
 
     function get_product_by_cart_id($cart_id)
     {

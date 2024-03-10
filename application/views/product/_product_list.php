@@ -46,9 +46,8 @@
                               <th>Description</th>
                               <th>Category</th>
                               <th>Selling Price</th>
-                              <th>Cost Price</th>
-                              <th>Reorder Level</th>
                               <th>Expiry Date</th>
+                              <th>Reorder Level</th>
                               <th>Quantity</th>
                               <th></th>
                            </tr>
@@ -75,9 +74,7 @@
                                  <td>
                                     <?= number_format($row['selling_price'], 2) ?>
                                  </td>
-                                 <td>
-                                    <?= number_format($row['cost_price'], 2) ?>
-                                 </td>
+                                
                                  <td>
                                     <?= date('Y F d',strtotime($row['expiry_date'])); ?>
                                  </td>

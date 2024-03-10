@@ -42,7 +42,6 @@ class Category extends CI_Controller {
 			$data = $this->get_cat_form_data();
 		}
 		$data['page_title'] = "Create Category";
-		$data['menu_id'] = $this->M_role->get_menu_id_by_name('category');
 		$this->load->view('category/_form',$data);			
 	}
 

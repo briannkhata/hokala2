@@ -26,14 +26,14 @@
                   <hr>
                   <form action="<?= base_url(); ?>Product/save" class="row g-3" method="post">
 
-                     <div class="col-md-6">
+                     <div class="col-md-3">
                         <label class="control-label">Barcode</label>
                         <input type="text" name="barcode" class="form-control"
                            value="<?php if (!empty($barcode)) {
                               echo $barcode;
                            } ?>">
                      </div>
-                     <div class="col-md-6">
+                     <div class="col-md-9">
                         <label class="control-label">Product Name</label>
                         <input type="text" name="name" class="form-control"
                            value="<?php if (!empty($name)) {
@@ -47,21 +47,6 @@
                               echo $desc;
                            } ?>" required="">
                      </div>
-                     <div class="col-md-6">
-                        <label class="control-label">Selling Price</label>
-                        <input type="text" name="selling_price" class="form-control"
-                           value="<?php if (!empty($selling_price)) {
-                              echo $selling_price;
-                           } ?>">
-                     </div>
-                     <div class="col-md-6">
-                        <label class="control-label">Cost Price</label>
-                        <input type="text" name="cost_price" class="form-control"
-                           value="<?php if (!empty($cost_price)) {
-                              echo $cost_price;
-                           } ?>">
-                     </div>
-
 
                      <div class="col-md-4">
                         <label class="control-label">Category</label>
@@ -92,15 +77,8 @@
                      </div>
 
 
-                     <div class="col-md-4 ">
-                        <label class="control-label">Expiry Date</label>
-                        <input type="date" name="expiry_date" class="form-control"
-                           value="<?php if (!empty($expiry_date)) {
-                              echo $expiry_date;
-                           } ?>">
-                     </div>
-
-                     <div class="col-md-6">
+                     
+                     <div class="col-md-4">
                         <label class="control-label">Reorder Level In Days</label>
                         <input type="text" name="reorder_level" class="form-control"
                            value="<?php if (!empty($reorder_level)) {
@@ -108,13 +86,7 @@
                            } ?>">
                      </div>
 
-                     <div class="col-md-6">
-                        <label class="control-label">Qty</label>
-                        <input type="text" name="qty" class="form-control"
-                           value="<?php if (!empty($qty)) {
-                              echo $qty;
-                           } ?>">
-                     </div>
+                   
 
                      <div class="col-md-12">
                         <?php if (isset($update_id)) { ?>

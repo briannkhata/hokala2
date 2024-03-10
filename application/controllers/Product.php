@@ -17,6 +17,32 @@ class product extends CI_Controller
         $this->load->view("product/_product_list", $data);
     }
 
+    function receive_product()
+    {
+        $data["page_title"] = "Receive Product";
+        $this->load->view("product/_receive_product", $data);
+    }
+
+    function save_receiving()
+    {
+        $data["product_id"] = $this->input->post("product_id");
+        $data["qty"] = $this->input->post("qty");
+        $data["cost_price"] = $this->input->post("cost_price");
+        $data["selling_price"] = $this->input->post("selling_price");
+        $data["expiry_date"] = $this->input->post("expiry_date");
+        $data["receive_date"] = date("Y-m-d h:m:s:i");
+        $this->db->insert("tbl_receivings", $data);
+
+        $qty = $this->M_product->get_qty1($data["product_id"]);
+        $data0["selling_price"] = $data["selling_price"];
+        $data0["expiry_date"] = $data["expiry_date"];
+        $data0["qty"] = $qty + $data["qty"];
+        $this->db->where("product_id", $data["product_id"]);
+        $this->db->update("tbl_products", $data0);
+        redirect("Product/receive_product");
+        $this->session->set_flashdata("message", "Product Received successfully!");
+    }
+
     function pos()
     {
         $data["page_title"] = "Point of Sale";
@@ -226,34 +252,49 @@ class product extends CI_Controller
         $data['sub'] = $data['total'] - $data['vat'];
         $data['tendered'] = $this->input->post('tendered');
         $data['change'] = $data['tendered'] - $data['total'];
+
+        // Save sale data to tbl_sales
+        $this->db->trans_start(); // Start transaction
         $this->db->insert('tbl_sales', $data);
         $sale_id = $this->db->insert_id();
-        foreach ($products as $row) {
-            $data0['product_id'] = $row['product_id'];
-            $data0['price'] = $row['price'];
-            $data0['qty'] = $row['qty'];
-            $data0['vat'] = $row['vat'];
-            $data0['total'] = $row['total'];
-            $data0['sale_id'] = $sale_id;
-            $data0['sale_date'] = date('Y-m-d H:i:s');
-            $this->db->insert('tbl_sale_details', $data0);
 
-            $av['qty'] = $this->M_product->get_qty1($row['product_id']) - $row['qty'];
+        foreach ($products as $row) {
+            // Prepare data for tbl_sale_details
+            $sale_detail_data['product_id'] = $row['product_id'];
+            $sale_detail_data['price'] = $row['price'];
+            $sale_detail_data['qty'] = $row['qty'];
+            $sale_detail_data['vat'] = $row['vat'];
+            $sale_detail_data['total'] = $row['total'];
+            $sale_detail_data['sale_id'] = $sale_id;
+            $sale_detail_data['sale_date'] = date('Y-m-d H:i:s');
+
+            // Save sale details to tbl_sale_details
+            $this->db->insert('tbl_sale_details', $sale_detail_data);
+
+            // Update product quantity
+            $new_qty = $this->M_product->get_qty1($row['product_id']) - $row['qty'];
             $this->db->where('product_id', $row['product_id']);
-            $this->db->update('tbl_products', $av);
+            $this->db->update('tbl_products', array('qty' => $new_qty));
         }
 
-        $this->db->where('user_id', $this->session->userdata('user_id'));
-        $this->db->delete('tbl_cart');
-        redirect("Product/receipt/".$sale_id);
-        //echo json_encode(array('success' => true, 'message' => 'Sale Finished successfully!!!'));
+        $this->db->trans_complete(); // Complete transaction
+
+        if ($this->db->trans_status() === FALSE) {
+        } else {
+            // If transaction succeeds, delete cart and redirect to receipt
+            $this->db->where('user_id', $this->session->userdata('user_id'));
+            $this->db->delete('tbl_cart');
+            redirect("Product/receipt/" . $sale_id);
+            //echo json_encode(array('success' => true, 'message' => 'Sale Finished successfully!!!'));
+        }
     }
 
-    function receipt($param="")
+
+    function receipt($param = "")
     {
         $data['sale_id'] = $param;
         $data["page_title"] = "Receipt";
-        $this->load->view('product/_receipt',$data);
+        $this->load->view('product/_receipt', $data);
     }
 
 

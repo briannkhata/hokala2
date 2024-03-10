@@ -31,7 +31,13 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <?php
+
+                        <?php 
+
+
+// var_dump($this->M_product->get_sales_by_sale_id($sale_id));
+// return;
+                     
                             $totalSum = 0;
                             $total = $this->M_product->get_total_by_sale_id($sale_id);
                             $vat = $this->M_product->get_vat_by_sale_id($sale_id);

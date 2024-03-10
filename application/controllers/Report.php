@@ -12,6 +12,21 @@ class Report extends CI_Controller
 		}
 	}
 
+	function receivings_report()
+	{
+		$data['page_title'] = "Sales Report";
+		$this->load->view('report/_receiving_report', $data);
+	}
+
+	function filter_receivings()
+	{
+		$start_date = $this->input->post("start_date");
+		$end_date = $this->input->post("end_date");
+		$data['fetch_data'] = $this->M_report->get_receivings_by_date($start_date, $end_date);
+		$data['page_title'] = "Receivings Report | ". date('d F Y',strtotime($start_date)) ." To ".date('d F Y',strtotime($end_date));
+		$this->load->view('report/_refresh_receivings', $data);
+	}
+
 	function sales_report()
 	{
 		$data['page_title'] = "Sales Report";
