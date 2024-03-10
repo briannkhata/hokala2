@@ -42,7 +42,7 @@
                             $total = $this->M_product->get_total_by_sale_id($sale_id);
                             $vat = $this->M_product->get_vat_by_sale_id($sale_id);
                             $sub = $this->M_product->get_sub_by_sale_id($sale_id);
-                            $tendered = $this->M_product->get_total_by_sale_id($sale_id);
+                            $tendered = $this->M_product->get_tendered_by_sale_id($sale_id);
                             $change = $this->M_product->get_change_by_sale_id($sale_id);
                             foreach ($this->M_product->get_sales_by_sale_id($sale_id) as $row): ?>
                                 <tr>
