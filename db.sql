@@ -30,7 +30,7 @@ CREATE TABLE `tbl_cart` (
   `total` double DEFAULT NULL,
   PRIMARY KEY (`cart_id`),
   KEY `index_auditasset_ID` (`product_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=56 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 /*Data for the table `tbl_cart` */
 
@@ -43,20 +43,15 @@ CREATE TABLE `tbl_category` (
   `category` varchar(30) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `deleted` int(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`category_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 /*Data for the table `tbl_category` */
 
 insert  into `tbl_category`(`category_id`,`category`,`deleted`) values 
-(1,'OE',0),
-(2,'LB',0),
-(4,'MC',0),
-(5,'MV',0),
-(6,'FF',0),
-(9,'LN',0),
-(10,'',0),
-(11,'Category',0),
-(12,'COSMETICS',0);
+(12,'COSMETICS',0),
+(13,'Biscuits',0),
+(14,'soaps',0),
+(15,'Sweets',0);
 
 /*Table structure for table `tbl_menus` */
 
@@ -81,19 +76,21 @@ CREATE TABLE `tbl_menus` (
 /*Data for the table `tbl_menus` */
 
 insert  into `tbl_menus`(`menu_id`,`parent_id`,`sort_order`,`title`,`url`,`icon`,`parent`,`parent_title`,`parent_icon`,`order_by`,`role`) values 
-(7,2,1,'Sales Report','Report/sales_report','arrow_right',0,'Reports','receipt_long',5,'0'),
+(7,2,1,'Sales Report','Report/sales_report','arrow_right',0,'Reports','receipt_long',5,'0,1'),
 (11,2,2,'Inventoy Report','Report/inventory_report','arrow_right',0,'Reports','receipt_long',5,'0'),
 (12,3,2,'Product List','Product','arrow_right',0,'Product Management','web_asset',3,'0'),
 (13,0,2,'Point Of Sale','Product/pos','arrow_right',1,'Point Sale','web_asset',2,'0,1'),
-(16,3,1,'Categories','Category','arrow_right',0,'Product Management','settings',4,'0'),
+(16,3,1,'Categories','Category','arrow_right',0,'Product Management','web_asset',3,'0'),
 (18,5,1,'Suppliers','Supplier','group',0,'User Management','group',3,'0'),
 (19,5,2,'Users','User','group',0,'User Management','group',3,'0'),
-(20,6,0,'Dashboard','Dashboard','home',1,'Dashboard','home',1,'0'),
+(20,6,0,'Dashboard','Dashboard','home',1,'Dashboard','home',1,'0,1'),
 (21,2,3,'Expiring','Report/expiring','arrow_right',0,'Reports','receipt_long',5,'0'),
 (22,4,4,'Settings','User/config','arrow_right',1,'Settings','settings',4,'0'),
 (23,2,4,'Expired','Report/expired','arrow_right',0,'Reports','receipt_long',5,'0'),
 (24,2,5,'Depleted','Report/depleted','arrow_right',0,'Reports','receipt_long',5,'0'),
-(25,2,6,'Running Low','Report/running_low','arrow_right',0,'Reports','receipt_long',5,'0');
+(25,2,6,'Running Low','Report/running_low','arrow_right',0,'Reports','receipt_long',5,'0'),
+(26,3,3,'Receive Product','Product/receive_product','arrow_right',0,'Product Management','web_asset',3,'0'),
+(27,2,7,'Receivings/Orders','Report/receivings_report','arrow_right',0,'Reports','receipt_long',5,'0');
 
 /*Table structure for table `tbl_months` */
 
@@ -144,24 +141,14 @@ CREATE TABLE `tbl_products` (
   `modified_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`product_id`),
   KEY `index_assetID` (`product_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9532 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=9535 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 /*Data for the table `tbl_products` */
 
 insert  into `tbl_products`(`product_id`,`name`,`barcode`,`category_id`,`desc`,`date_added`,`added_by`,`deleted`,`expiry_date`,`selling_price`,`reorder_level`,`cost_price`,`supplier_id`,`qty`,`modified_date`,`modified_by`) values 
-(1,'Biscuits','11',1,'We have no hidden fees or registration fees','2021-10-28 15:25:18',0,0,'2024-03-31 00:00:00',300,5,50000,54,7,'2024-03-09 00:00:00',1),
-(2,'Brufen','22',1,'N/a','2021-10-28 15:25:18',0,0,'2024-03-31 00:00:00',350,3,NULL,NULL,26,NULL,NULL),
-(3,'Soap','33',1,'N/a','2021-10-28 15:25:18',0,0,'2024-03-31 00:00:00',500,3,NULL,NULL,100,NULL,NULL),
-(4,'Itel Phone','44',1,'N/a','2021-10-28 15:25:18',0,0,'2024-03-31 00:00:00',310,3,NULL,NULL,10,NULL,NULL),
-(5,'Saver Rack','55',1,'N/a','2021-10-28 15:25:18',0,0,'2024-03-31 00:00:00',55,3,NULL,NULL,19,NULL,NULL),
-(6,'Switch','66',1,'N/a','2021-10-28 15:25:18',0,0,'2024-03-31 00:00:00',600,3,NULL,NULL,42,NULL,NULL),
-(7,'Switch','77',1,'N/a','2021-10-28 15:25:18',0,0,'2024-03-31 00:00:00',600,3,NULL,NULL,6,NULL,NULL),
-(8,'Patch Panel','88',1,'N/a','2021-10-28 15:25:18',0,0,'2024-03-31 00:00:00',4400,3,NULL,NULL,67,NULL,NULL),
-(9,'Swictch Rack','99',1,'N/a','2021-10-28 15:25:18',0,0,'2024-03-31 00:00:00',4500,6,NULL,NULL,6,NULL,NULL),
-(10,'Switch','1010',1,'N/a','2021-10-28 15:25:19',0,0,'2024-03-31 00:00:00',6900,3,NULL,NULL,50,NULL,NULL),
-(9521,'Asprin','1111',4,'PANADO EXTRA','2024-02-25 10:26:34',0,0,'2024-03-31 00:00:00',8000,6,7900,54,11,NULL,NULL),
-(9522,'PANADO','1212',4,'We have no hidden fees or registration fees','2024-02-25 10:27:05',0,0,'2024-03-31 00:00:00',5000,5,7900,54,11,'2024-03-09 00:00:00',1),
-(9531,'PROTEX','20',12,'BLACK','2024-02-25 16:01:01',0,0,'2024-03-31 00:00:00',700,10,500,NULL,100,NULL,NULL);
+(9532,'GEISHA','1',14,'GEISHA WHITE','2024-03-10 18:49:11',0,0,'2024-03-10 00:00:00',6000,5,2500,57,47,NULL,NULL),
+(9533,'PROTEX','2',14,'PINK','2024-03-10 18:50:52',0,0,'2025-01-01 00:00:00',2000,5,1700,57,24,NULL,NULL),
+(9534,'POLISH','3',12,'BLACK','2024-03-10 20:31:42',0,0,'2024-03-31 00:00:00',3500,3,NULL,57,10,NULL,NULL);
 
 /*Table structure for table `tbl_quantities` */
 
@@ -170,10 +157,32 @@ DROP TABLE IF EXISTS `tbl_quantities`;
 CREATE TABLE `tbl_quantities` (
   `product_id` int(11) NOT NULL,
   `qty` int(11) NOT NULL,
+  `date_added` datetime DEFAULT NULL,
   PRIMARY KEY (`product_id`,`qty`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 /*Data for the table `tbl_quantities` */
+
+/*Table structure for table `tbl_receivings` */
+
+DROP TABLE IF EXISTS `tbl_receivings`;
+
+CREATE TABLE `tbl_receivings` (
+  `receiving_id` int(11) NOT NULL AUTO_INCREMENT,
+  `product_id` int(11) NOT NULL,
+  `selling_price` double DEFAULT NULL,
+  `cost_price` double DEFAULT NULL,
+  `qty` int(11) DEFAULT NULL,
+  `receive_date` datetime DEFAULT NULL,
+  `expiry_date` datetime DEFAULT NULL,
+  PRIMARY KEY (`receiving_id`),
+  KEY `index_auditasset_ID` (`product_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+/*Data for the table `tbl_receivings` */
+
+insert  into `tbl_receivings`(`receiving_id`,`product_id`,`selling_price`,`cost_price`,`qty`,`receive_date`,`expiry_date`) values 
+(1,9532,6000,5000,4,'2024-03-10 07:03:01','2024-03-10 00:00:00');
 
 /*Table structure for table `tbl_sale_details` */
 
@@ -190,39 +199,26 @@ CREATE TABLE `tbl_sale_details` (
   `sale_date` datetime DEFAULT NULL,
   PRIMARY KEY (`sale_detail_id`),
   KEY `index_auditasset_ID` (`product_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 /*Data for the table `tbl_sale_details` */
 
 insert  into `tbl_sale_details`(`sale_detail_id`,`product_id`,`price`,`qty`,`vat`,`total`,`sale_id`,`sale_date`) values 
-(1,3,500,2,165,1165,1,NULL),
-(2,1,300,4,198,1398,1,NULL),
-(3,3,500,2,165,1165,2,NULL),
-(4,1,300,4,198,1398,2,NULL),
-(5,3,500,2,165,1165,3,NULL),
-(6,1,300,4,198,1398,3,NULL),
-(7,3,500,2,165,1165,4,NULL),
-(8,1,300,4,198,1398,4,NULL),
-(9,10,6900,5,5692.5,40192.5,5,NULL),
-(10,2,350,1,57.75,407.75,6,NULL),
-(11,1,300,1,49.5,349.5,7,NULL),
-(12,9522,5000,2,1650,11650,8,NULL),
-(13,1,300,4,198,1398,9,NULL),
-(14,2,350,1,57.75,407.75,10,NULL),
-(15,1,300,2,99,699,10,NULL),
-(16,3,500,3,247.5,1747.5,11,NULL),
-(17,2,350,1,57.75,407.75,11,NULL),
-(18,1,300,3,148.5,1048.5,11,NULL),
-(19,1,300,5,247.5,1747.5,12,'0000-00-00 00:00:00'),
-(20,2,350,4,231,1631,12,'0000-00-00 00:00:00'),
-(21,1,300,1,49.5,349.5,13,'2024-02-25 17:44:38'),
-(22,2,350,2,115.5,815.5,13,'2024-02-25 17:44:38'),
-(23,6,600,2,198,1398,13,'2024-02-25 17:44:38'),
-(24,5,55,3,27.225,192.225,13,'2024-02-25 17:44:38'),
-(25,4,310,2,102.3,722.3,13,'2024-02-25 17:44:38'),
-(26,5,55,3,27.225,192.225,14,'2024-03-09 12:09:05'),
-(27,2,350,4,231,1631,14,'2024-03-09 12:09:05'),
-(28,1,300,3,148.5,1048.5,14,'2024-03-09 12:09:05');
+(61,9521,8000,1,1320,9320,34,'2024-03-10 16:59:57'),
+(62,6,600,20,1980,13980,34,'2024-03-10 16:59:57'),
+(63,9521,8000,1,1320,9320,35,'2024-03-10 16:59:57'),
+(64,6,600,20,1980,13980,35,'2024-03-10 16:59:57'),
+(65,9521,8000,1,1320,9320,36,'2024-03-10 17:00:52'),
+(66,10,6900,1,1138.5,8038.5,36,'2024-03-10 17:00:53'),
+(67,5,55,1,9.075,64.075,36,'2024-03-10 17:00:53'),
+(68,9521,8000,1,1320,9320,38,'2024-03-10 17:03:31'),
+(69,5,55,1,9.075,64.075,38,'2024-03-10 17:03:31'),
+(70,10,6900,1,1138.5,8038.5,40,'2024-03-10 17:04:37'),
+(71,2,350,3,173.25,1223.25,40,'2024-03-10 17:04:37'),
+(72,9532,3000,4,0,12000,41,'2024-03-10 17:56:45'),
+(73,9533,2000,5,0,10000,41,'2024-03-10 17:56:45'),
+(74,9533,2000,1,0,2000,42,'2024-03-10 19:53:19'),
+(75,9532,6000,3,0,18000,42,'2024-03-10 19:53:19');
 
 /*Table structure for table `tbl_sales` */
 
@@ -238,7 +234,7 @@ CREATE TABLE `tbl_sales` (
   `vat` double DEFAULT NULL,
   `total` double DEFAULT NULL,
   PRIMARY KEY (`sale_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 /*Data for the table `tbl_sales` */
 
@@ -256,7 +252,35 @@ insert  into `tbl_sales`(`sale_id`,`user_id`,`sale_date`,`sub`,`tendered`,`chang
 (11,1,'2024-02-25',2750,5,-3198.75,453.75,3203.75),
 (12,1,'2024-02-25',2900,5000,1621.5,478.5,3378.5),
 (13,1,'2024-02-25',2985,5000,1522.475,492.525,3477.525),
-(14,1,'2024-03-09',2465,3000,128.275,406.725,2871.725);
+(14,1,'2024-03-09',2465,3000,128.275,406.725,2871.725),
+(15,6,'2024-03-09',27075,32000,457.625,4467.375,31542.375),
+(16,6,'2024-03-09',0,32000,32000,0,0),
+(17,6,'2024-03-09',0,32000,32000,0,0),
+(18,1,'2024-03-09',1880,2500,309.8,310.2,2190.2),
+(19,1,'2024-03-09',800,1000,68,132,932),
+(20,1,'2024-03-09',2405,3000,198.175,396.825,2801.825),
+(21,1,'2024-03-09',1905,3000,780.675,314.325,2219.325),
+(22,1,'2024-03-09',1595,2000,141.825,263.175,1858.175),
+(23,1,'2024-03-09',1595,2000,141.825,263.175,1858.175),
+(24,1,'2024-03-09',3200,4000,272,528,3728),
+(25,1,'2024-03-09',0,4000,4000,0,0),
+(26,1,'2024-03-10',28000,40000,7380,4620,32620),
+(27,1,'2024-03-10',0,40000,40000,0,0),
+(28,1,'2024-03-10',1100,2000,718.5,181.5,1281.5),
+(29,1,'2024-03-10',0,2000,2000,0,0),
+(30,1,'2024-03-10',13700,20000,4039.5,2260.5,15960.5),
+(31,1,'2024-03-10',0,20000,20000,0,0),
+(32,1,'2024-03-10',11900,15000,1136.5,1963.5,13863.5),
+(33,1,'2024-03-10',11900,15000,1136.5,1963.5,13863.5),
+(34,1,'2024-03-10',20000,25000,1700,3300,23300),
+(35,1,'2024-03-10',20000,25000,1700,3300,23300),
+(36,1,'2024-03-10',14955,20000,2577.425,2467.575,17422.575),
+(37,1,'2024-03-10',0,20000,20000,0,0),
+(38,1,'2024-03-10',8055,10000,615.925,1329.075,9384.075),
+(39,1,'2024-03-10',0,10000,10000,0,0),
+(40,6,'2024-03-10',7950,10000,738.25,1311.75,9261.75),
+(41,1,'2024-03-10',22000,25000,3000,0,22000),
+(42,1,'2024-03-10',20000,22000,2000,0,20000);
 
 /*Table structure for table `tbl_settings` */
 
@@ -279,7 +303,7 @@ CREATE TABLE `tbl_settings` (
 /*Data for the table `tbl_settings` */
 
 insert  into `tbl_settings`(`id`,`address`,`phone`,`alt_phone`,`dep_type`,`logo`,`company`,`email`,`alt_email`,`expire_alert_days`,`vat`) values 
-(1,'Blantyre\r\nMalawi','0995548992','+260777315753',NULL,NULL,'Nanga Unozge','briannkhata@gmail.com','briannkhata@gmail.com',NULL,16.5);
+(1,'Blantyre\r\nMalawi','0995548992','+260777315753',NULL,NULL,'Nanga Unozge','briannkhata@gmail.com','briannkhata@gmail.com',NULL,0);
 
 /*Table structure for table `tbl_suppliers` */
 
@@ -292,67 +316,12 @@ CREATE TABLE `tbl_suppliers` (
   `phone` varchar(10) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `deleted` int(1) NOT NULL DEFAULT 0,
   PRIMARY KEY (`supplier_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=57 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=58 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 /*Data for the table `tbl_suppliers` */
 
 insert  into `tbl_suppliers`(`supplier_id`,`name`,`address`,`phone`,`deleted`) values 
-(1,'1','2024-01-30','finished',0),
-(2,'1','2024-01-30','finished',0),
-(3,'1','2024-01-30','finished',0),
-(4,'1','2024-01-30','finished',0),
-(5,'1','2024-01-30','finished',0),
-(6,'1','2024-01-30','finished',0),
-(7,'1','2024-01-30','finished',0),
-(8,'1','2024-01-30','finished',0),
-(9,'1','2024-01-30','finished',0),
-(10,'1','2024-01-30','finished',0),
-(11,'1','2024-01-30','finished',0),
-(12,'1','0000-00-00','paused',0),
-(13,'1','0000-00-00','paused',0),
-(14,'1','0000-00-00','paused',0),
-(15,'1','0000-00-00','paused',0),
-(16,'1','0000-00-00','paused',0),
-(17,'1','0000-00-00','paused',0),
-(18,'1','0000-00-00','paused',0),
-(19,'1','0000-00-00','paused',0),
-(20,'1','0000-00-00','paused',0),
-(21,'1','0000-00-00','paused',0),
-(22,'1','0000-00-00','pending',0),
-(23,'1','0000-00-00','pending',0),
-(24,'1','0000-00-00','',0),
-(25,'1','0000-00-00','',0),
-(26,'1','0000-00-00','',0),
-(27,'1','0000-00-00','',0),
-(28,'1','0000-00-00','',0),
-(29,'1','0000-00-00','',0),
-(30,'1','0000-00-00','',0),
-(31,'1','0000-00-00','',0),
-(32,'1','0000-00-00','',0),
-(33,'1','0000-00-00','',0),
-(34,'1','0000-00-00','',0),
-(35,'1','0000-00-00','',0),
-(36,'1','0000-00-00','',0),
-(37,'1','0000-00-00','',0),
-(38,'1','0000-00-00','',0),
-(39,'1','0000-00-00','',0),
-(40,'1','0000-00-00','',0),
-(41,'1','0000-00-00','',0),
-(42,'1','0000-00-00','',0),
-(43,'1','0000-00-00','',0),
-(44,'1','0000-00-00','',0),
-(45,'1','0000-00-00','',0),
-(46,'1','0000-00-00','',0),
-(47,'1','0000-00-00','',0),
-(48,'1','0000-00-00','',0),
-(49,'1','0000-00-00','',0),
-(50,'1','0000-00-00','',0),
-(51,'1','0000-00-00','',0),
-(52,'1','0000-00-00','',0),
-(53,'1','0000-00-00','',1),
-(54,'Toyota Malawi','UP NORTH','0888015904',0),
-(55,'Brian Nkhata','Blantyre','0888015904',0),
-(56,'Brian Nkhata','Blantyre','0888015904',0);
+(57,'Self','Self','Self',0);
 
 /*Table structure for table `tbl_users` */
 
@@ -368,13 +337,14 @@ CREATE TABLE `tbl_users` (
   `role` varchar(200) NOT NULL DEFAULT '1',
   `added_by` int(11) DEFAULT NULL,
   PRIMARY KEY (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 /*Data for the table `tbl_users` */
 
 insert  into `tbl_users`(`user_id`,`name`,`phone`,`username`,`password`,`deleted`,`role`,`added_by`) values 
 (1,'Admin','0','admin','21232f297a57a5a743894a0e4a801fc3',0,'0',1),
-(6,'Cashier','+265 888 015 904','cash','84c8137f06fd53b0636e0818f3954cdb',0,'1',1);
+(6,'Cashier','+265 888 015 904','cash','84c8137f06fd53b0636e0818f3954cdb',0,'1',1),
+(7,'YONA','088','yona','4f721f3163abd3d24e9bf0bbb6ba5ff3',0,'1',1);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

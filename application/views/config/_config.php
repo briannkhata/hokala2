@@ -26,7 +26,7 @@
                      </div>
                   <?php } ?>
                   <hr>
-                  <form action="<?= base_url(); ?>User/save_settings" id="form" class="row g-3" method="post"
+                  <form action="<?= base_url(); ?>Config/save" id="form" class="row g-3" method="post"
                      enctype='multipart/form-data'>
                      <?php foreach ($this->db->get('tbl_settings')->result_array() as $row) { ?>
                         <div class="col-md-12">
