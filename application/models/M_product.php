@@ -157,11 +157,12 @@ class M_product extends CI_Model
     }
 
 
-    function get_qty1($product_id)
+    function get_qty1($product_id,$shop_id)
     {
         $this->db->select('qty');
         $this->db->where('product_id', $product_id);
-        $query = $this->db->get('tbl_products');
+        $this->db->where('shop_id', $shop_id);
+        $query = $this->db->get('tbl_quantities');
         if ($query->num_rows() > 0) {
             $result = $query->row();
             return $result->qty;
@@ -187,7 +188,7 @@ class M_product extends CI_Model
     {
         $this->db->select('*');
         $this->db->where('product_id', $product_id);
-        $query = $this->db->get('tbl_cart')->result_array();
+        $query = $this->db->get('tbl_cart_sales')->result_array();
         return $query;
     }
 
@@ -195,7 +196,7 @@ class M_product extends CI_Model
     {
         $this->db->select('cart_id');
         $this->db->where('product_id', $product_id);
-        $query = $this->db->get('tbl_cart');
+        $query = $this->db->get('tbl_cart_sales');
         if ($query->num_rows() > 0) {
             $result = $query->row();
             return $result->cart_id;
@@ -208,7 +209,7 @@ class M_product extends CI_Model
     {
         $this->db->select('qty');
         $this->db->where('cart_id', $cart_id);
-        $query = $this->db->get('tbl_cart');
+        $query = $this->db->get('tbl_cart_sales');
         if ($query->num_rows() > 0) {
             $result = $query->row();
             return $result->qty;
@@ -221,7 +222,7 @@ class M_product extends CI_Model
     {
         $this->db->select('price');
         $this->db->where('cart_id', $cart_id);
-        $query = $this->db->get('tbl_cart');
+        $query = $this->db->get('tbl_cart_sales');
         if ($query->num_rows() > 0) {
             $result = $query->row();
             return $result->price;
@@ -234,15 +235,23 @@ class M_product extends CI_Model
     {
         $this->db->select_sum('total');
         $this->db->where('user_id', $this->session->userdata('user_id'));
-        $result = $this->db->get('tbl_cart')->row();
+        $result = $this->db->get('tbl_cart_sales')->row();
         return $result->total ?? 0;
+    }
+
+    function get_sub_total_sum_cart()
+    {
+        $this->db->select_sum('sub_total');
+        $this->db->where('user_id', $this->session->userdata('user_id'));
+        $result = $this->db->get('tbl_cart_sales')->row();
+        return $result->sub_total ?? 0;
     }
 
     function get_total_vat_cart()
     {
         $this->db->select_sum('vat');
         $this->db->where('user_id', $this->session->userdata('user_id'));
-        $result = $this->db->get('tbl_cart')->row();
+        $result = $this->db->get('tbl_cart_sales')->row();
         return $result->vat ?? 0;
     }
 
@@ -254,7 +263,7 @@ class M_product extends CI_Model
     function get_product_by_cart_id($cart_id)
     {
         $this->db->where('cart_id', $cart_id);
-        $this->db->from('tbl_cart');
+        $this->db->from('tbl_cart_sales');
         $query = $this->db->get();
         return $query->result_array();
     }
@@ -263,7 +272,7 @@ class M_product extends CI_Model
 
     function get_cart()
     {
-        return $this->db->select('*')->from('tbl_cart')->where('user_id', $this->session->userdata('user_id'))->order_by('cart_id', 'desc')->get()->result_array();
+        return $this->db->select('*')->from('tbl_cart_sales')->where('user_id', $this->session->userdata('user_id'))->order_by('cart_id', 'desc')->get()->result_array();
     }
 
 

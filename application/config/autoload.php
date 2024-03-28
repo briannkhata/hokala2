@@ -140,5 +140,6 @@ $autoload['model'] = array(
     "M_report",
     "M_shop",
     "M_shift",
-    "M_warehouse"
+    "M_warehouse",
+    "M_role"
 );

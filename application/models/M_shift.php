@@ -59,6 +59,19 @@ class M_shift extends CI_Model
             return $result->end_time;
         }
     }
+    function get_current_shift()
+    {
+        $current_time = date('Y-m-d H:i:s');
+        $this->db->select('shift_id');
+        $this->db->where('start_time >=', $current_time);
+        $this->db->where('end_time<=', $current_time);
+        $result = $this->db->get('tbl_shifts')->row();
+        if ($result == NULL) {
+            return "";
+        } else {
+            return $result->shift_id;
+        }
+    }
 
 
 

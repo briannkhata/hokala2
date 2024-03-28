@@ -59,15 +59,27 @@ class M_user extends CI_Model {
     }
 
 	
-    function get_name($User_id)
+    function get_name($user_id)
     {
         $this->db->select('*');
-        $this->db->where('user_id', $User_id);
+        $this->db->where('user_id', $user_id);
         $result = $this->db->get('tbl_users')->row();
         if ($result == NULL) {
             return "";
         } else {
             return $result->firstname .'  '.$result->surname;
+        }
+    }
+
+	function get_user_shop($user_id)
+    {
+        $this->db->select('*');
+        $this->db->where('user_id', $user_id);
+        $result = $this->db->get('tbl_users')->row();
+        if ($result == NULL) {
+            return "";
+        } else {
+            return $result->shop_id;
         }
     }
 

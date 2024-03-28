@@ -30,7 +30,7 @@ class Home extends CI_Controller
 				'user_id' => $row->user_id,
 				'email' => $row->username,
 				'role' => $row->role,
-				'name' => $row->name,
+				'shift_id' =>$this->M_shift->get_current_shift(),
 				'user_login'=>1
 			];
 			$this->session->set_userdata($data);

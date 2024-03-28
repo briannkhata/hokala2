@@ -1,3 +1,51 @@
+<style>
+    #cart {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    #cart th,
+    #cart td {
+        padding: 10px;
+        text-align: center;
+        vertical-align: middle;
+        border: 1px solid #ccc;
+    }
+
+    #cart th {
+        background-color: #f2f2f2;
+    }
+
+    #cart tbody tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+    #cart tbody tr:hover {
+        background-color: #e6f7ff;
+    }
+
+    .quantity {
+        width: 50px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .btn-delete {
+        color: white;
+        background-color: #dc3545;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .btn-delete:hover {
+        background-color: #c82333;
+    }
+</style>
+
+
+
 <table id="cart" class="table table-bordered">
     <thead>
         <tr>
@@ -5,8 +53,8 @@
             <th>Price</th>
             <th align="center">Qty</th>
             <th>VAT</th>
-            <th>Total</th>
-            <th></th>
+            <th>Sub Total</th>
+            <th colspan="2">Total</th>
         </tr>
     </thead>
     <tbody>
@@ -31,6 +79,9 @@
                 </td>
                 <td>
                     <?= number_format($row['vat'], 2); ?>
+                </td>
+                <td>
+                    <?= number_format($row['sub_total'], 2); ?>
                 </td>
                 <td>
                     <?= number_format($row['total'], 2); ?>
