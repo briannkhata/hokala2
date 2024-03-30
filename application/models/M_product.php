@@ -112,12 +112,12 @@ class M_product extends CI_Model
 
     function get_sub_by_sale_id($sale_id)
     {
-        $this->db->select('sub');
+        $this->db->select('sub_total');
         $this->db->where('sale_id', $sale_id);
         $query = $this->db->get('tbl_sales');
         if ($query->num_rows() > 0) {
             $result = $query->row();
-            return $result->sub;
+            return $result->sub_total;
         } else {
             return 0;
         }

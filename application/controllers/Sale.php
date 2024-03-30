@@ -14,6 +14,7 @@ class Sale extends CI_Controller
     function index()
     {
         $data["page_title"] = "Point of Sale";
+        $data['page_name'] = "pos";
         $this->load->view("sale/_pos", $data);
     }
 
@@ -186,20 +187,15 @@ class Sale extends CI_Controller
         } else {
             $this->db->where('user_id', $this->session->userdata('user_id'));
             $this->db->delete('tbl_cart_sales');
-            redirect("Product/receipt/" . $sale_id);
+            redirect("Sale/receipt/" . $sale_id);
         }
     }
-
 
     function receipt($param = "")
     {
         $data['sale_id'] = $param;
         $data["page_title"] = "Receipt";
-        $this->load->view('product/_receipt', $data);
+        $data['page_name'] = "pos";
+        $this->load->view('sale/_receipt', $data);
     }
-
-
-
-
-
 }

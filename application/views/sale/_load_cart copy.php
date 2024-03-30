@@ -42,36 +42,6 @@
     .btn-delete:hover {
         background-color: #c82333;
     }
-
-
-    .quantity-container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .quantity-container input[type="text"] {
-        width: 40px;
-        text-align: center;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        margin: 0 5px;
-        padding: 5px;
-        background-color: #f9f9f9;
-    }
-
-    .quantity-container button {
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        padding: 5px 10px;
-        cursor: pointer;
-    }
-
-    .quantity-container button:hover {
-        background-color: #0056b3;
-    }
 </style>
 
 
@@ -82,6 +52,8 @@
             <th>Product</th>
             <th>Price</th>
             <th align="center">Qty</th>
+            <!-- <th>VAT</th> -->
+            <th>Sub Total</th>
             <th>Total</th>
             <th>Remove</th>
         </tr>
@@ -102,20 +74,16 @@
                 <td>
                     <?= number_format($row['price'], 2); ?>
                 </td>
-                <!-- <td align="center">
+                <td align="center">
                     <input type="hidden" name="cart_id[]" value="<?= $row['cart_id']; ?>">
                     <input type="text" class="quantity" name="qty[]" value="<?= $row['qty']; ?>">
-                </td> -->
-
-                <td align="center">
-                    <div class="quantity-container">
-                        <input type="hidden" name="cart_id[]" value="<?= $row['cart_id']; ?>">
-                        <button type="button" class="minus-btn">-</button>
-                        <input type="text" class="quantity" name="qty[]" value="<?= $row['qty']; ?>" readonly>
-                        <button type="button" class="plus-btn">+</button>
-                    </div>
                 </td>
-
+                <!-- <td>
+                    <?php //number_format($row['vat'], 2);  ?>
+                </td> -->
+                <td>
+                    <?= number_format($row['sub_total'], 2); ?>
+                </td>
                 <td>
                     <?= number_format($row['total'], 2); ?>
                 </td>
@@ -129,7 +97,6 @@
         <?php endforeach; ?>
     </tbody>
 </table>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>
 
 <script>
@@ -158,21 +125,6 @@
                 }
             });
         }
-
-        $('.plus-btn').click(function () {
-            var inputField = $(this).siblings('.quantity');
-            var currentValue = parseInt(inputField.val());
-            inputField.val(currentValue + 1);
-        });
-
-        $('.minus-btn').click(function () {
-            var inputField = $(this).siblings('.quantity');
-            var currentValue = parseInt(inputField.val());
-            if (currentValue > 1) {
-                inputField.val(currentValue - 1);
-            }
-        });
-
 
     });
 </script>
