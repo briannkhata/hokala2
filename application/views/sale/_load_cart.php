@@ -94,9 +94,9 @@
 </style>
 
 <?php
-$client_id = $this->input->post('client_id');
 $user_id = $this->session->userdata('user_id');
 $shop_id = $this->M_user->get_user_shop($user_id);
+$client_id = $this->input->post('client_id');
 $cart = $this->M_product->get_cart($user_id, $client_id, $shop_id);
 if (count($cart) <= 0):
     ?>
@@ -159,17 +159,16 @@ if (count($cart) <= 0):
         $(this).val('');
     });
 
-    // var debounceTimer;
+    var debounceTimer;
 
-    // $('.quantity').on('keyup', function () {
-    //     clearTimeout(debounceTimer); // Clear the previous timer
-
-    //     debounceTimer = setTimeout(() => {
-    //         var cartId = $(this).closest('tr').find('input[name="cart_id[]"]').val();
-    //         var newQuantity = $(this).val();
-    //         updateCartQuantity(cartId, newQuantity);
-    //     }, 500);
-    // });
+    $('.quantity').on('keyup', function () {
+        clearTimeout(debounceTimer); 
+        debounceTimer = setTimeout(() => {
+            var cartId = $(this).closest('tr').find('input[name="cart_id[]"]').val();
+            var newQuantity = $(this).val();
+            updateCartQuantity(cartId, newQuantity);
+        }, 500);
+    });
 
 
 

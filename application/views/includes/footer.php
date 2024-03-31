@@ -1,6 +1,6 @@
 <div class="overlay btn-toggle"></div>
 <!--<footer class="page-footer">
-   <p class="mb-0">Copyright © <?php //echo date('Y');  ?> All right reserved.</p>
+   <p class="mb-0">Copyright © <?php //echo date('Y');   ?> All right reserved.</p>
    </footer>-->
 <script src="<?= base_url(); ?>assets/js/bootstrap.bundle.min.js"></script>
 <script src="<?= base_url(); ?>assets/js/jquery.min.js"></script>
@@ -18,21 +18,8 @@
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <script>
-   function previewImage(input) {
-      var file = input.files[0];
-
-      if (file) {
-         var reader = new FileReader();
-         reader.onload = function (e) {
-            $('#photoPreview').html('<img src="' + e.target.result + '" class="img-fluid" alt="Preview" style="width:150px; height:100px;">');
-         }
-         reader.readAsDataURL(file);
-      }
-   }
-   //$('#loader').show();
-   // $('#overlay').show();
    $(document).ready(function () {
-      //$('table#proSearch').DataTable();
+      $('table#proSearch').DataTable();
 
       $('#example').DataTable();
       setTimeout(function () {

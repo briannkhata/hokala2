@@ -48,5 +48,31 @@ class M_client extends CI_Model
         }
     }
 
+    function get_walk_in_client()
+    {
+        $this->db->select('client_id');
+        $this->db->where('client_id', 1);
+        $result = $this->db->get('tbl_clients')->row();
+        if ($result == NULL) {
+            return "";
+        } else {
+            return $result->client_id;
+        }
+    }
+
+    function get_recently_added_client()
+    {
+        $this->db->select('client_id');
+        $this->db->order_by('client_id', 'desc');
+        $this->db->limit(1);
+        $result = $this->db->get('tbl_clients')->row();
+        if ($result == NULL) {
+            return "";
+        } else {
+            return $result->client_id;
+        }
+    }
+
+
 
 }

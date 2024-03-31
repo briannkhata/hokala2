@@ -246,32 +246,44 @@ class M_product extends CI_Model
         }
     }
 
-    function get_total_sum_cart()
+    function get_total_sum_cart($user_id, $client_id, $shop_id)
     {
         $this->db->select_sum('total');
-        $this->db->where('user_id', $this->session->userdata('user_id'));
+        $this->db->where('user_id', $user_id);
+        $this->db->where('client_id', $client_id);
+        $this->db->where('shop_id', $shop_id);
         $result = $this->db->get('tbl_cart_sales')->row();
         return $result->total ?? 0;
     }
 
-    function get_sub_total_sum_cart()
+    function get_sub_total_sum_cart($user_id, $client_id, $shop_id)
     {
         $this->db->select_sum('sub_total');
-        $this->db->where('user_id', $this->session->userdata('user_id'));
+        $this->db->where('user_id', $user_id);
+        $this->db->where('client_id', $client_id);
+        $this->db->where('shop_id', $shop_id);
         $result = $this->db->get('tbl_cart_sales')->row();
         return $result->sub_total ?? 0;
     }
 
-    function get_total_vat_cart()
+    function get_total_vat_cart($user_id, $client_id, $shop_id)
     {
         $this->db->select_sum('vat');
-        $this->db->where('user_id', $this->session->userdata('user_id'));
+        $this->db->where('user_id', $user_id);
+        $this->db->where('client_id', $client_id);
+        $this->db->where('shop_id', $shop_id);
         $result = $this->db->get('tbl_cart_sales')->row();
         return $result->vat ?? 0;
     }
 
-
-
+    function searchProducts($barcode) {
+        $this->db->select('product_id, barcode, name, desc');
+        $this->db->from('tbl_products');
+        $this->db->like('barcode', $barcode);
+        $this->db->where('deleted',0);
+        $query = $this->db->get();
+        return $query->result_array();
+    }
 
 
 

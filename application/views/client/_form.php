@@ -24,7 +24,7 @@
                      </div>
                   <?php } ?>
                   <hr>
-                  <form class="row g-3" action="<?= base_url(); ?>Slient/save" method="POST">
+                  <form class="row g-3" action="<?= base_url(); ?>Client/save" method="POST">
                      <div class="col-md-12">
                         <label for="input1" class="form-label">Name</label>
                         <input type="text" name="name" class="form-control"

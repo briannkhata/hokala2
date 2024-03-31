@@ -87,8 +87,7 @@ function finish() {
 }
 
 function search() {
-  $.post(
-    "Sale/refresh_cart",
+  $.post("Sale/refresh_cart",
     {
       barcode: $("#barcode").val(),
       client_id: $("#client_id").val(),
@@ -104,10 +103,12 @@ function search() {
     },
     "json"
   ).fail(function (jqXHR, textStatus, errorThrown) {
-    console.log("AJAX Error:", textStatus, errorThrown);
+    //console.log("AJAX Error:", errorThrown);
     $("#barcode").val("");
   });
 }
+
+
 
 function total_bill() {
   var sum = 0;
@@ -119,8 +120,8 @@ function total_bill() {
 }
 
 function cancel() {
-  $("#loader").show();
-  $("#overlay").show();
+  //$("#loader").show();
+  //$("#overlay").show();
   $.post(
     "Sale/cancel",
     { client_id: $("#client_id").val() },
@@ -145,7 +146,6 @@ function cancel() {
 }
 
 function load_cart() {
-    
   $.post("Sale/refreshCart", { client_id: $("#client_id").val() }, function (htmlData) {
     $("#list").html(htmlData);
     refresh_total_bill();
@@ -159,7 +159,7 @@ function load_cart() {
 }
 
 function refresh_total_bill() {
-  $.post("Sale/refresh_total_bill", function (htmlData) {
+  $.post("Sale/refresh_total_bill",{ client_id: $("#client_id").val() }, function (htmlData) {
     $("#totalBill").html(htmlData);
   }).fail(function (jqXHR, textStatus, errorThrown) {
     console.error("AJAX Error:", textStatus, errorThrown);
@@ -167,7 +167,7 @@ function refresh_total_bill() {
 }
 
 function refresh_sub_total() {
-  $.post("Sale/refresh_sub_total_bill", function (htmlData) {
+  $.post("Sale/refresh_sub_total_bill", { client_id: $("#client_id").val() },function (htmlData) {
     $("#sub").html(htmlData);
   }).fail(function (jqXHR, textStatus, errorThrown) {
     console.error("AJAX Error:", textStatus, errorThrown);
@@ -175,7 +175,7 @@ function refresh_sub_total() {
 }
 
 function refresh_vat_total() {
-  $.post("Sale/refresh_total_vat", function (htmlData) {
+  $.post("Sale/refresh_total_vat", { client_id: $("#client_id").val() },function (htmlData) {
     $("#vat").html(htmlData);
   }).fail(function (jqXHR, textStatus, errorThrown) {
     console.error("AJAX Error:", textStatus, errorThrown);

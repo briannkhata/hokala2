@@ -166,72 +166,24 @@
       </div>
       <hr>
 
-      <style>
-         #barcode {
-            padding: 8px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            width: 100%;
-            box-sizing: border-box;
-            margin-bottom: 10px;
-            font-size: 20px;
-         }
-
-         #productList ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-         }
-
-         #productList li {
-            padding: 8px;
-            cursor: pointer;
-         }
-
-         #productList li:hover {
-            background-color: #f0f0f0;
-         }
-
-         #productList {
-            position: absolute;
-            z-index: 1000;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            max-height: auto;
-            overflow-y: auto;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-            width: 50%;
-            margin-top: -2px;
-         }
-
-         /* Style for the search results list */
-         #searchResults {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-         }
-
-         /* Style for each product item in the search results */
-         .product-item {
-            padding: 8px;
-            cursor: pointer;
-         }
-
-         .product-item:hover {
-            background-color: #f0f0f0;
-         }
-      </style>
-
       <div class="row">
          <div class="col-8 col-xl-8">
             <b><small>Search Product by Barcode, Name or Category</small></b>
 
-            <input id="barcode" name="barcode" type="search" placeholder="Search Product barcode">
-            <div id="productList">
-               <ul id="searchResults"></ul>
-            </div>
-          
+            <input id="search" name="search" type="search" placeholder="Search Product barcode">
+            <div id="productList"></div>
+            <br>
+
+            <select class="form-control" name="barcode" id="barcode" required="" onchange="search()">
+               <option selected="" disabled="">----</option>
+               <?php foreach ($this->M_product->get_products_pos() as $row) { ?>
+                  <option value="<?= $row['barcode']; ?>">
+                     <?= $row['name']; ?> | Price :
+                     <?= number_format($row['selling_price'], 2); ?> |
+                     <?= $row['desc']; ?>
+                  </option>
+               <?php } ?>
+            </select>
             <br>
             <div id="list">
                <?php $this->load->view('sale/_load_cart'); ?>
@@ -395,33 +347,39 @@
             dataType: 'json',
             success: function (response) {
                console.log(response);
+               //load_cart();
+               //var modal = document.getElementById('NewClient');
+               // modal.parentNode.removeChild(modal);
                location.reload();
+               //alert(response.client_id)
+               //$('#client_id').val(response.client_id);
             },
             error: function (xhr, status, error) {
                location.reload();
+               //alert('Error saving client. Please try again.');
             }
          });
       });
 
 
-      $('#barcode').on('input', function () {
-         var barcode = $(this).val();
-         if (barcode.length >= 3) {
+      $('#search').on('input', function () {
+         var search = $(this).val();
+         if (search.length >= 3) { 
             $.ajax({
                url: '<?= base_url('Product/search_product'); ?>',
                type: 'POST',
                dataType: 'json',
-               data: { barcode: barcode },
+               data: { search: search },
                success: function (response) {
-                  var searchResults = $('#searchResults');
-                  searchResults.empty();
+                  var productList = $('#productList');
+                  productList.empty(); 
                   if (response && response.length > 0) {
                      response.forEach(function (product) {
-                        searchResults.append('<li class="product-item">' + product.barcode +  ' - ' + product.name +  ' - ' + product.desc + '</li>');
+                        productList.append('<div class="product-item">' + product.product_id + ' - ' + product.name + '</div>');
                      });
-                     $('#productList').show();
+                     productList.show(); 
                   } else {
-                     $('#productList').hide();
+                     productList.hide();
                   }
                },
                error: function (xhr, status, error) {
@@ -430,19 +388,15 @@
                }
             });
          } else {
-            $('#productList').hide();
+            $('#productList').hide(); 
          }
       });
-
       $(document).on('click', '.product-item', function () {
-         var selectedText = $(this).text().trim();
-        // $('#search').val(selectedText);
-         var barcode = selectedText.split(' - ')[0];
-         $('#barcode').val(barcode);
-         search();
-         $('#barcode').val("");
-         $('#productList').hide();
-      });
+        var selectedText = $(this).text().trim();
+        $('#search').val(selectedText);
+        
+        $('#productList').hide();
+    });
 
 
 

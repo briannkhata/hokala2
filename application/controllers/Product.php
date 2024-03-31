@@ -154,6 +154,12 @@ class Product extends CI_Controller
         echo json_encode(array('success' => true, 'message' => 'Cart cleared successfully!!!'));
     }
 
+    function search_product() {
+        $barcode = $this->input->post('barcode');
+        $results = $this->M_product->searchProducts($barcode);
+        echo json_encode($results);
+    }
+
 
     function finish_sale()
     {

@@ -13,44 +13,48 @@ class Sale extends CI_Controller
 
     function index()
     {
-        $data["page_title"] = "Client";
-        $this->load->view("sale/_select_client", $data);
-    }
-
-    function save_client()
-    {
-        $client_id = $this->input->post('client_id');
-        $name = $this->input->post('name');
-        if (!empty($client_id) && empty($name)) {
-            redirect('Sale/pos/' . $client_id);
-        }
-
-        if ((!empty($client_id) || empty($client_id)) && !empty($name)) {
-            $data['name'] = $name;
-            $data['phone'] = $this->input->post('phone');
-            $this->db->insert('tbl_clients', $data);
-            $client_id = $this->db->insert_id();
-            redirect('Sale/pos/' . $client_id);
-        }
-
-        if (empty($client_id) && empty($name)) {
-            $this->session->set_flashdata('message', 'Please select Client to proceed!!!');
-            redirect('Sale');
-
-        }
-    }
-
-    function pos($param = '')
-    {
-        $client_id = $param;
-        $client = $this->M_client->get_name($client_id) . ' | ' . $this->M_client->get_phone($client_id);
-        $data["page_title"] = "POS WINDOW - " . $client;
-        $data['page_name'] = "pos";
+        $data["page_title"] = "POS WINDOW";
         $this->load->view("sale/_pos", $data);
     }
 
+    // function save_client()
+    // {
+    //     $client_id = $this->input->post('client_id');
+    //     $name = $this->input->post('name');
+    //     if (!empty($client_id) && empty($name)) {
+    //         $client = $this->M_client->get_name($client_id) . ' | ' . $this->M_client->get_phone($client_id);
+    //         $data["page_title"] = "POS WINDOW - " . $client;
+    //         $this->load->view("sale/_pos", $data);
+    //     }
+
+    //     if ((!empty($client_id) || empty($client_id)) && !empty($name)) {
+    //         $data['name'] = $name;
+    //         $data['phone'] = $this->input->post('phone');
+    //         $this->db->insert('tbl_clients', $data);
+    //         $data['client_id'] = $this->db->insert_id();
+    //         $client = $this->M_client->get_name($client_id) . ' | ' . $this->M_client->get_phone($client_id);
+    //         $data["page_title"] = "POS WINDOW - " . $client;
+    //         $this->load->view("sale/_pos", $data);
+
+    //     }
+
+    //     if (empty($client_id) && empty($name)) {
+    //         $this->session->set_flashdata('message', 'Please select Client to proceed!!!');
+    //         redirect('Sale');
+    //     }
+    // }
+
+    // function pos()
+    // {
+    //     //$client = $this->M_client->get_name($client_id) . ' | ' . $this->M_client->get_phone($client_id);
+    //     //$data["page_title"] = "POS WINDOW - " . $client;
+    //     $data['page_name'] = "pos";
+    //     $this->load->view("sale/_pos", $data);
+    // }
+
     function refresh_cart()
     {
+     
         $user_id = $this->session->userdata('user_id');
         $shop_id = $this->M_user->get_user_shop($user_id);
         $client_id = $this->input->post('client_id');
