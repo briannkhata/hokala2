@@ -32,7 +32,7 @@
    //$('#loader').show();
    // $('#overlay').show();
    $(document).ready(function () {
-      $('table#proSearch').DataTable();
+      //$('table#proSearch').DataTable();
 
       $('#example').DataTable();
       setTimeout(function () {

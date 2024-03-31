@@ -16,7 +16,7 @@ class M_product extends CI_Model
         $query = $this->db->get();
         return $query->result_array();
     }
-    
+
 
     function get_products_pos()
     {
@@ -172,7 +172,7 @@ class M_product extends CI_Model
     }
 
 
-    function get_qty1($product_id,$shop_id)
+    function get_qty1($product_id, $shop_id)
     {
         $this->db->select('qty');
         $this->db->where('product_id', $product_id);
@@ -271,9 +271,9 @@ class M_product extends CI_Model
     }
 
 
-    
 
-   
+
+
 
     function get_product_by_cart_id($cart_id)
     {
@@ -285,13 +285,18 @@ class M_product extends CI_Model
 
 
 
-    function get_cart()
+    function get_cart($user_id, $client_id, $shop_id)
     {
-        return $this->db->select('*')->from('tbl_cart_sales')->where('user_id', $this->session->userdata('user_id'))->order_by('cart_id', 'desc')->get()->result_array();
+        return $this->db
+            ->select('*')
+            ->from('tbl_cart_sales')
+            ->where('user_id', $user_id)
+            ->where('client_id', $client_id)
+            ->where('shop_id', $shop_id)
+            ->order_by('cart_id', 'desc')
+            ->get()
+            ->result_array();
     }
-
- 
-
 
     function get_product_by_barcode($barcode)
     {

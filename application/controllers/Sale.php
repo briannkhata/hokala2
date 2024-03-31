@@ -11,11 +11,40 @@ class Sale extends CI_Controller
         }
     }
 
-    function index($param="")
+    function index()
+    {
+        $data["page_title"] = "Client";
+        $this->load->view("sale/_select_client", $data);
+    }
+
+    function save_client()
+    {
+        $client_id = $this->input->post('client_id');
+        $name = $this->input->post('name');
+        if (!empty($client_id) && empty($name)) {
+            redirect('Sale/pos/' . $client_id);
+        }
+
+        if ((!empty($client_id) || empty($client_id)) && !empty($name)) {
+            $data['name'] = $name;
+            $data['phone'] = $this->input->post('phone');
+            $this->db->insert('tbl_clients', $data);
+            $client_id = $this->db->insert_id();
+            redirect('Sale/pos/' . $client_id);
+        }
+
+        if (empty($client_id) && empty($name)) {
+            $this->session->set_flashdata('message', 'Please select Client to proceed!!!');
+            redirect('Sale');
+
+        }
+    }
+
+    function pos($param = '')
     {
         $client_id = $param;
-        $client = $this->M_client->get_name($client_id).' | '. $this->M_client->get_phone($client_id);
-        $data["page_title"] = "POS WINDOW | ". $client;
+        $client = $this->M_client->get_name($client_id) . ' | ' . $this->M_client->get_phone($client_id);
+        $data["page_title"] = "POS WINDOW - " . $client;
         $data['page_name'] = "pos";
         $this->load->view("sale/_pos", $data);
     }
@@ -26,7 +55,7 @@ class Sale extends CI_Controller
         $shop_id = $this->M_user->get_user_shop($user_id);
         $client_id = $this->input->post('client_id');
         $product_id = trim($this->input->post('product_id'));
-      
+
         if (!empty($product_id) && isset($product_id)) {
             $barcode = $this->M_product->get_barcode($product_id);
             $product_info = $this->M_product->get_product_by_id($product_id);
@@ -132,7 +161,11 @@ class Sale extends CI_Controller
 
     function refreshCart()
     {
-        $this->load->view("sale/_load_cart");
+        $client_id = $this->input->post('client_id');
+        $user_id = $this->session->userdata('user_id');
+        $shop_id = $this->M_user->get_user_shop($user_id);
+        $data['cart'] = $this->M_product->get_cart($user_id, $client_id, $shop_id);
+        $this->load->view("sale/_load_cart", $data);
     }
 
     function refresh_total_bill()
@@ -209,7 +242,7 @@ class Sale extends CI_Controller
             $this->db->where('shop_id', $shop_id);
             $this->db->where('client_id', $client_id);
             $this->db->delete('tbl_cart_sales');
-            redirect("Sale/receipt/". $sale_id.'/'.$client_id);
+            redirect("Sale/receipt/" . $sale_id . '/' . $client_id);
         }
     }
 

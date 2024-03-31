@@ -1,155 +1,175 @@
 <?php $this->load->view('includes/header.php'); ?>
 <?php $this->load->view('includes/menu.php'); ?>
+<style>
+   .modal-header {
+      padding: 10px 20px;
+      background-color: #f5f5f5;
+      border-bottom: 1px solid #ddd;
+   }
+
+   .card-body {
+      font-family: 'Arial', sans-serif;
+      font-size: 16px;
+   }
+
+   .card-body h5 {
+      font-weight: bold;
+      color: #333;
+   }
+
+   .form-control {
+      font-size: 14px;
+   }
+
+   #finish,
+   #clearCart {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+   }
+
+   #finish:hover,
+   #clearCart:hover {
+      background-color: #0056b3;
+   }
+
+   .input-group {
+      width: 100%;
+   }
+
+   .input-group-text {
+      background-color: #fff;
+      border-color: #ced4da;
+      color: #495057;
+   }
+
+   .form-control {
+      border-color: #ced4da;
+   }
+
+   .btn-outline-success {
+      border-color: #28a745;
+      color: #28a745;
+   }
+
+   .input-group {
+      width: 100%;
+   }
+
+   .input-group-text {
+      background-color: #fff;
+      border-color: #ced4da;
+      color: #495057;
+   }
+
+   /* Style for the search icon specifically */
+   .input-group-text i {
+      color: #28a745;
+      /* Icon color */
+   }
+
+   /* Style for the select dropdown */
+   .form-control {
+      border-color: #ced4da;
+      /* Border color */
+   }
+
+   /* Style for the refresh button */
+   .btn-outline-success {
+      border-color: #28a745;
+      /* Border color */
+      color: #28a745;
+      /* Text color */
+   }
+
+   /* Custom styles for the input group */
+   .input-group {
+      width: 100%;
+   }
+
+   /* Style for the search icon */
+   .input-group-text {
+      background-color: #fff;
+      /* Background color of the input group */
+      border-color: #ced4da;
+      /* Border color */
+      color: #495057;
+      /* Text color */
+   }
+
+   /* Style for the search icon specifically */
+   .input-group-text i {
+      color: #28a745;
+      /* Icon color */
+      font-size: 1.2rem;
+      /* Adjust the icon size */
+   }
+
+   /* Style for the select dropdown */
+   .form-control {
+      border-color: #ced4da;
+      /* Border color */
+   }
+
+   /* Style for the refresh button */
+   .btn-outline-success {
+      border-color: #28a745;
+      /* Border color */
+      color: #28a745;
+      /* Text color */
+   }
+
+   small {
+      font-size: 12px;
+      color: #777;
+      margin-bottom: 5px;
+      display: block;
+   }
+
+   /* Style for the <select> element */
+   #barcode {
+      width: 100%;
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 14px;
+   }
+</style>
 <!--start main wrapper-->
 <main class="main-wrapper">
    <div class="main-content">
+
+      <?php
+      $url = $_SERVER['REQUEST_URI'];
+      $slash_pos = strrpos($url, '/');
+      $client_id = substr($url, $slash_pos + 1);
+      ?>
 
       <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
          <div class="col">
             <a href="" class="btn btn-outline-success" style="margin-right: 7px;" data-bs-toggle="modal"
                data-bs-target="#SearchProduct">Product <i class="fa fa-search"></i></a>
-            <a href="" class="btn btn-outline-primary" style="margin-right: 7px;" data-bs-toggle="modal"
-               data-bs-target="#NewClient">Client <i class="fa fa-plus-circle"></i></a>
-            <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear<i
-                  class="fa fa-trash"></i></a>
+            <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear
+               <i class="fa fa-trash"></i></a>
          </div>
-         <select class="form-control" name="client_id" id="client_id" required="">
+         <select class="form-control" name="client_id" id="client_id" readonly>
             <?php foreach ($this->M_client->get_clients() as $row) { ?>
-               <option value="<?= $row['client_id']; ?>">
+               <option <?= $client_id == $row['client_id'] ? "selected" : ""; ?> value="<?= $row['client_id']; ?>">
                   <?= $row['name']; ?> |
                   <?= $row['phone']; ?>
                </option>
             <?php } ?>
          </select>
       </div>
-      <?php
-      $cart = $this->M_product->get_cart();
-      ?>
       <hr>
-      <style>
-         .input-group {
-            width: 100%;
-         }
 
-         .input-group-text {
-            background-color: #fff;
-            /* Background color of the input group */
-            border-color: #ced4da;
-            /* Border color */
-            color: #495057;
-            /* Text color */
-         }
-
-         /* Style for the select dropdown */
-         .form-control {
-            border-color: #ced4da;
-            /* Border color */
-         }
-
-         /* Style for the refresh button */
-         .btn-outline-success {
-            border-color: #28a745;
-            /* Border color */
-            color: #28a745;
-            /* Text color */
-         }
-
-         /* Custom styles for the input group */
-         .input-group {
-            width: 100%;
-         }
-
-         /* Style for the search icon */
-         .input-group-text {
-            background-color: #fff;
-            /* Background color of the input group */
-            border-color: #ced4da;
-            /* Border color */
-            color: #495057;
-            /* Text color */
-         }
-
-         /* Style for the search icon specifically */
-         .input-group-text i {
-            color: #28a745;
-            /* Icon color */
-         }
-
-         /* Style for the select dropdown */
-         .form-control {
-            border-color: #ced4da;
-            /* Border color */
-         }
-
-         /* Style for the refresh button */
-         .btn-outline-success {
-            border-color: #28a745;
-            /* Border color */
-            color: #28a745;
-            /* Text color */
-         }
-
-         /* Custom styles for the input group */
-         .input-group {
-            width: 100%;
-         }
-
-         /* Style for the search icon */
-         .input-group-text {
-            background-color: #fff;
-            /* Background color of the input group */
-            border-color: #ced4da;
-            /* Border color */
-            color: #495057;
-            /* Text color */
-         }
-
-         /* Style for the search icon specifically */
-         .input-group-text i {
-            color: #28a745;
-            /* Icon color */
-            font-size: 1.2rem;
-            /* Adjust the icon size */
-         }
-
-         /* Style for the select dropdown */
-         .form-control {
-            border-color: #ced4da;
-            /* Border color */
-         }
-
-         /* Style for the refresh button */
-         .btn-outline-success {
-            border-color: #28a745;
-            /* Border color */
-            color: #28a745;
-            /* Text color */
-         }
-
-         small {
-            font-size: 12px;
-            color: #777;
-            margin-bottom: 5px;
-            display: block;
-         }
-
-         /* Style for the <select> element */
-         #barcode {
-            width: 100%;
-            padding: 8px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            font-size: 14px;
-         }
-      </style>
       <div class="row">
-         <?php //if (count($cart) <= 0) {      ?>
-         <!-- <div class="col-12 col-xl-12"> -->
-         <?php //} else {      ?>
          <div class="col-8 col-xl-8">
-            <?php //}      ?>
-
             <b><small>Search Product by Barcode, Name or Category</small></b>
 
             <form action="add-purchase.php" method="post">
@@ -161,58 +181,20 @@
                <option selected="" disabled="">----</option>
                <?php foreach ($this->M_product->get_products_pos() as $row) { ?>
                   <option value="<?= $row['barcode']; ?>">
-                     <?= $row['name']; ?> | MK:
+                     <?= $row['name']; ?> | Price :
                      <?= number_format($row['selling_price'], 2); ?> |
                      <?= $row['desc']; ?>
                   </option>
                <?php } ?>
             </select>
-
-
             <br>
-
-            <form action="<?= base_url(); ?>Sale/update_cart" method="post" id="update-cart">
-               <div id="list">
-                  <?php $this->load->view('sale/_load_cart'); ?>
-               </div>
-            </form>
+            <div id="list">
+               <?php //$this->load->view('sale/_load_cart');     ?>
+            </div>
          </div>
-         <style>
-            .card-body {
-               font-family: 'Arial', sans-serif;
-               font-size: 16px;
-            }
 
-            .card-body h5 {
-               font-weight: bold;
-               color: #333;
-            }
-
-            .form-control {
-               font-size: 14px;
-            }
-
-            #finish,
-            #clearCart {
-               background-color: #007bff;
-               color: #fff;
-               border: none;
-               padding: 10px 20px;
-               margin-top: 10px;
-               cursor: pointer;
-               border-radius: 5px;
-            }
-
-            #finish:hover,
-            #clearCart:hover {
-               background-color: #0056b3;
-            }
-         </style>
 
          <div class="col-4 col-xl-4">
-            <?php //if (count($cart) <= 0):
-            ?>
-            <?php //else:      ?>
             <div class="card">
                <div class="card-body p-4">
                   <form action="<?= base_url(); ?>Sale/finish_sale" method="post" id="finishSale">
@@ -241,21 +223,14 @@
                   </form>
                </div>
             </div>
-            <?php //endif;      ?>
+
          </div>
       </div>
       <!--end row-->
    </div>
 </main>
 
-<style>
-   /* Modal header */
-   .modal-header {
-      padding: 10px 20px;
-      background-color: #f5f5f5;
-      border-bottom: 1px solid #ddd;
-   }
-</style>
+
 
 <div class="modal fade" id="SearchProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
    style="width:100%">
@@ -266,7 +241,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
          </div>
          <div class="modal-body" style="">
-            <table id="proSearch" class="table table-striped table-bordered" style="width:100%">
+            <table id="proSearch" class="table table-striped" style="width:100%">
                <thead>
                   <tr>
                      <th>Barcode</th>
@@ -301,42 +276,6 @@
       </div>
    </div>
 </div>
-
-<div class="modal fade" id="NewClient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-   <div class="modal-dialog">
-      <div class="modal-content">
-         <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Add New Client</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-         </div>
-         <div class="modal-body">
-            <!-- Your form goes here -->
-            <form class="row g-3" id="NewClientForm">
-               <div class="col-md-12">
-                  <label for="input1" class="form-label">Name</label>
-                  <input type="text" name="name" class="form-control">
-               </div>
-               <!-- <div class="col-md-12">
-                  <label for="input1" class="form-label">Address</label>
-                  <input type="text" name="address" class="form-control">
-               </div> -->
-               <div class="col-md-12">
-                  <label for="input1" class="form-label">Phone</label>
-                  <input type="text" name="phone" class="form-control">
-               </div>
-               <div class="col-md-12">
-                  <div class="d-md-flex d-grid align-items-center gap-3">
-                     <button type="button" class="btn btn-primary px-4">Save</button>
-                  </div>
-               </div>
-            </form>
-            <!-- End of form -->
-         </div>
-
-      </div>
-   </div>
-</div>
-<!--end main wrapper-->
 
 <?php $this->load->view('includes/footer.php'); ?>
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>
@@ -404,7 +343,7 @@
             method: 'POST',
             data: { product_id: productId },
             success: function (response) {
-              load_cart();
+               load_cart();
             },
             error: function (xhr, status, error) {
                console.log(xhr.responseText);

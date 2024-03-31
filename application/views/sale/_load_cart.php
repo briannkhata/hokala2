@@ -72,21 +72,32 @@
     .quantity-container button:hover {
         background-color: #0056b3;
     }
-    .empty-cart-message {
-    font-size: 18px; /* Adjust font size as needed */
-    color: #333; /* Text color */
-    padding: 10px; /* Padding around the text */
-    margin: 10px 0; /* Margin to create space around the element */
-    background-color: #f5f5f5; /* Background color */
-    border: 1px solid #ccc; /* Border style */
-    border-radius: 5px; /* Border radius for rounded corners */
-    text-align: center; /* Center-align the text */
-}
 
+    .empty-cart-message {
+        font-size: 18px;
+        /* Adjust font size as needed */
+        color: #333;
+        /* Text color */
+        padding: 10px;
+        /* Padding around the text */
+        margin: 10px 0;
+        /* Margin to create space around the element */
+        background-color: #f5f5f5;
+        /* Background color */
+        border: 1px solid #ccc;
+        /* Border style */
+        border-radius: 5px;
+        /* Border radius for rounded corners */
+        text-align: center;
+        /* Center-align the text */
+    }
 </style>
 
 <?php
-$cart = $this->M_product->get_cart();
+$client_id = $this->input->post('client_id');
+$user_id = $this->session->userdata('user_id');
+$shop_id = $this->M_user->get_user_shop($user_id);
+$cart = $this->M_product->get_cart($user_id, $client_id, $shop_id);
 if (count($cart) <= 0):
     ?>
     <div class="empty-cart-message">NO ITEMS ON THE CART</div>
@@ -148,17 +159,17 @@ if (count($cart) <= 0):
         $(this).val('');
     });
 
-    var debounceTimer;
+    // var debounceTimer;
 
-    $('.quantity').on('keyup', function () {
-        clearTimeout(debounceTimer); // Clear the previous timer
+    // $('.quantity').on('keyup', function () {
+    //     clearTimeout(debounceTimer); // Clear the previous timer
 
-        debounceTimer = setTimeout(() => {
-            var cartId = $(this).closest('tr').find('input[name="cart_id[]"]').val();
-            var newQuantity = $(this).val();
-            updateCartQuantity(cartId, newQuantity);
-        }, 500);
-    });
+    //     debounceTimer = setTimeout(() => {
+    //         var cartId = $(this).closest('tr').find('input[name="cart_id[]"]').val();
+    //         var newQuantity = $(this).val();
+    //         updateCartQuantity(cartId, newQuantity);
+    //     }, 500);
+    // });
 
 
 

@@ -18,31 +18,6 @@ class Client extends CI_Controller
 		$this->load->view('client/_list', $data);
 	}
 
-	function get_client_form_data()
-	{
-		$data['name'] = $this->input->post('name');
-		$data['address'] = $this->input->post('address');
-		$data['phone'] = $this->input->post('phone');
-		return $data;
-	}
-
-	function save_client()
-	{
-		$data = $this->get_client_form_data();
-		$this->db->insert('tbl_clients', $data);
-		$client_id = $this->db->insert_id();
-		redirect('Sale/' . $client_id);
-		// $response = array(
-		//     'success' => true,
-		//     'message' => 'Client saved successfully.',
-		//     'name' => $data['name'],
-		//     'client_id' => $client_id
-		// );
-		// echo json_encode($response);
-
-
-	}
-
 	function get_client_db_data($update_id)
 	{
 		$query = $this->M_client->get_client_by_id($update_id);

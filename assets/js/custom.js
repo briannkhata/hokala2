@@ -95,7 +95,7 @@ function search() {
     },
     function (data) {
       if (data.success) {
-       $("#barcode").prop("selectedIndex", -1);
+        $("#barcode").prop("selectedIndex", -1);
         load_cart();
       } else {
         alert(data.message);
@@ -145,7 +145,8 @@ function cancel() {
 }
 
 function load_cart() {
-  $.post("Sale/refreshCart", function (htmlData) {
+    
+  $.post("Sale/refreshCart", { client_id: $("#client_id").val() }, function (htmlData) {
     $("#list").html(htmlData);
     refresh_total_bill();
     refresh_sub_total();
