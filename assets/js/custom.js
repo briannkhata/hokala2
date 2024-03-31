@@ -1,24 +1,22 @@
-
-
-$("#refreshSale").on("click", function () {
-  $("table#cart tbody tr").each(function () {
-    var quantity = $(this).find(".quantity").val();
-    var cartId = $(this).find("input[name='cart_id[]']").val();
-    $.ajax({
-      url: "Sale/update_cart",
-      type: "POST",
-      data: { cart_id: cartId, qty: quantity },
-      dataType: "json",
-      success: function (response) {
-        load_cart();
-        console.log(response);
-      },
-      error: function (xhr, status, error) {
-        console.error(xhr.responseText);
-      },
-    });
-  });
-});
+// $("#refreshSale").on("click", function () {
+//   $("table#cart tbody tr").each(function () {
+//     var quantity = $(this).find(".quantity").val();
+//     var cartId = $(this).find("input[name='cart_id[]']").val();
+//     $.ajax({
+//       url: "Sale/update_cart",
+//       type: "POST",
+//       data: { cart_id: cartId, qty: quantity },
+//       dataType: "json",
+//       success: function (response) {
+//         load_cart();
+//         console.log(response);
+//       },
+//       error: function (xhr, status, error) {
+//         console.error(xhr.responseText);
+//       },
+//     });
+//   });
+// });
 
 $("#barcode").keypress(function (event) {
   if (event.which === 13) {
@@ -31,15 +29,13 @@ $("#barcode").keypress(function (event) {
   }
 });
 
-
-
-$("#clearCart").click(function (e) {
-  var confirmed = confirm("Are you sure you want to CLEAR CART?");
-  if (confirmed) {
+$("#clear_cart").click(function (e) {
+  //var confirmed = confirm("Are you sure you want to CLEAR CART?");
+  //if (confirmed) {
     cancel();
-  } else {
-    e.preventDefault();
-  }
+ // } else {
+   // e.preventDefault();
+//  }
 });
 
 $("#finish").click(function (e) {
@@ -87,17 +83,16 @@ function finish() {
   });
 }
 
-
-
 function search() {
   $.post(
     "Sale/refresh_cart",
     {
       barcode: $("#barcode").val(),
+      client_id: $("#client_id").val(),
     },
     function (data) {
       if (data.success) {
-        $("#barcode").val("");
+        $('#barcode').prop('selectedIndex', -1);
         load_cart();
       } else {
         alert(data.message);
@@ -126,10 +121,10 @@ function cancel() {
   $("#overlay").show();
   $.post(
     "Sale/cancel",
-    {},
+    { client_id: $("#client_id").val() },
     function (data) {
       if (data.success) {
-        alert(data.message);
+        //alert(data.message);
         load_cart();
       } else {
         alert(data.message);

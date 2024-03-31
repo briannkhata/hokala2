@@ -92,8 +92,8 @@
         foreach ($this->M_product->get_cart() as $row):
             $vat = $this->db->get('tbl_settings')->row()->vat;
             $totalForRow = (($vat / 100) * ($row['price'] * $row['qty'])) + ($row['price'] * $row['qty']);
-            $totalSum += $totalForRow; // Accumulate total
-        
+            $totalSum += $totalForRow;
+
             ?>
             <tr>
                 <td>
@@ -102,16 +102,11 @@
                 <td>
                     <?= number_format($row['price'], 2); ?>
                 </td>
-                <!-- <td align="center">
-                    <input type="hidden" name="cart_id[]" value="<?= $row['cart_id']; ?>">
-                    <input type="text" class="quantity" name="qty[]" value="<?= $row['qty']; ?>">
-                </td> -->
-
                 <td align="center">
                     <div class="quantity-container">
                         <input type="hidden" name="cart_id[]" value="<?= $row['cart_id']; ?>">
                         <button type="button" class="minus-btn">-</button>
-                        <input type="text" class="quantity" name="qty[]" value="<?= $row['qty']; ?>" readonly>
+                        <input type="text" class="quantity" name="qty[]" value="<?= $row['qty']; ?>">
                         <button type="button" class="plus-btn">+</button>
                     </div>
                 </td>
@@ -133,46 +128,57 @@
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>
 
 <script>
-    $(document).ready(function () {
-        $('.quantity').on('click', function () {
-            $(this).val('');
-        });
+    $('.quantity').on('click', function () {
+        $(this).val('');
+    });
 
-        $('.quantity').on('keyup', function () {
+    var debounceTimer;
+
+    $('.quantity').on('keyup', function () {
+        clearTimeout(debounceTimer); // Clear the previous timer
+
+        debounceTimer = setTimeout(() => {
             var cartId = $(this).closest('tr').find('input[name="cart_id[]"]').val();
             var newQuantity = $(this).val();
             updateCartQuantity(cartId, newQuantity);
-        });
+        }, 500);
+    });
 
 
-        function updateCartQuantity(cartId, newQuantity) {
-            $.ajax({
-                url: '<?= base_url("Sale/update_cart"); ?>',
-                method: 'POST',
-                data: { cart_id: cartId, qty: newQuantity },
-                success: function (response) {
-                    load_cart();
-                },
-                error: function (xhr, status, error) {
-                    console.error('Error updating cart item quantity:', error);
-                }
-            });
-        }
 
-        $('.plus-btn').click(function () {
-            var inputField = $(this).siblings('.quantity');
-            var currentValue = parseInt(inputField.val());
-            inputField.val(currentValue + 1);
-        });
-
-        $('.minus-btn').click(function () {
-            var inputField = $(this).siblings('.quantity');
-            var currentValue = parseInt(inputField.val());
-            if (currentValue > 1) {
-                inputField.val(currentValue - 1);
+    function updateCartQuantity(cartId, newQuantity) {
+        $.ajax({
+            url: '<?= base_url("Sale/update_cart"); ?>',
+            method: 'POST',
+            data: { cart_id: cartId, qty: newQuantity },
+            success: function (response) {
+                load_cart();
+                console.log(response)
+            },
+            error: function (xhr, status, error) {
+                console.error('Error updating cart item quantity:', error);
             }
         });
+    }
 
 
+    $('.plus-btn').click(function () {
+        var inputField = $(this).siblings('.quantity');
+        var currentValue = parseInt(inputField.val());
+        var newQuantity = currentValue + 1;
+        var cartId = inputField.closest('tr').find('input[name="cart_id[]"]').val();
+        updateCartQuantity(cartId, newQuantity);
+        inputField.val(newQuantity);
     });
+
+
+    $('.minus-btn').click(function () {
+        var inputField = $(this).siblings('.quantity');
+        var currentValue = parseInt(inputField.val());
+        var newQuantity = currentValue - 1;
+        var cartId = inputField.closest('tr').find('input[name="cart_id[]"]').val();
+        updateCartQuantity(cartId, newQuantity);
+        inputField.val(newQuantity);
+    });
+
 </script>

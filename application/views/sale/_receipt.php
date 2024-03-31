@@ -26,17 +26,12 @@
                                 <th>Product</th>
                                 <th>Price</th>
                                 <th>Qty</th>
-                                <th>VAT</th>
                                 <th>Total</th>
                             </tr>
                         </thead>
                         <tbody>
 
                         <?php 
-
-
-// var_dump($this->M_product->get_sales_by_sale_id($sale_id));
-// return;
                      
                             $totalSum = 0;
                             $total = $this->M_product->get_total_by_sale_id($sale_id);
@@ -55,9 +50,7 @@
                                     <td>
                                         <?= $row['qty']; ?>
                                     </td>
-                                    <td>
-                                        <?= number_format($row['vat'], 2); ?>
-                                    </td>
+                                   
                                     <td>
                                         <?= number_format($row['total'], 2); ?>
                                     </td>
@@ -66,23 +59,23 @@
                         </tbody>
                         <tfoot>
                             <tr>
-                                <td colspan="4" align="right">Sub Total</td>
+                                <td colspan="3" align="right">Sub Total</td>
                                 <td><?= number_format($sub, 2); ?></td>
                             </tr>
                             <tr>
-                                <td colspan="4" align="right">VAT</td>
+                                <td colspan="3" align="right">VAT</td>
                                 <td><?= number_format($vat, 2); ?></td>
                             </tr>
                             <tr>
-                                <td colspan="4" align="right">Total</td>
+                                <td colspan="3" align="right">Total</td>
                                 <td><?= number_format($total, 2); ?></td>
                             </tr>
                             <tr>
-                                <td colspan="4" align="right">Tendered</td>
+                                <td colspan="3" align="right">Tendered</td>
                                 <td><?= number_format($tendered, 2); ?></td>
                             </tr>
                             <tr>
-                                <td colspan="4" align="right">Change</td>
+                                <td colspan="3" align="right">Change</td>
                                 <td><?= number_format($change, 2); ?></td>
                             </tr>
                         </tfoot>

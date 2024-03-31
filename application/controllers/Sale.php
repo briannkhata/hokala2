@@ -24,6 +24,7 @@ class Sale extends CI_Controller
         $shift_id = $this->session->userdata('shift_id');
         $shop_id = $this->M_user->get_user_shop($user_id);
         $barcode = trim($this->input->post('barcode'));
+        $client_id = trim($this->input->post('client_id'));
 
         if (empty($barcode)) {
             echo json_encode(array('success' => false, 'message' => 'Barcode is required!!!'));
@@ -48,6 +49,7 @@ class Sale extends CI_Controller
                     'vat' => $vat_amount,
                     'total' => $total,
                     'sub_total' => $sub_total
+                    //'client_id' => $client_id
                 );
                 $this->db->where('cart_id', $cart_id);
                 $this->db->update('tbl_cart_sales', $cart_data);
@@ -66,7 +68,8 @@ class Sale extends CI_Controller
                     'sub_total' => $sub_total,
                     'user_id' => $user_id,
                     'shift_id' => $shift_id,
-                    'shop_id' => $shop_id
+                    'shop_id' => $shop_id,
+                    'client_id' => $client_id
                 );
                 $this->db->insert('tbl_cart_sales', $cart_data);
             }
@@ -141,8 +144,10 @@ class Sale extends CI_Controller
     {
         $user_id = $this->session->userdata('user_id');
         $shop_id = $this->M_user->get_user_shop($user_id);
+        $client_id = $this->input->post('client_id');
         $this->db->where('user_id', $user_id);
         $this->db->where('shop_id', $shop_id);
+        $this->db->where('client_id', $client_id);
         $this->db->delete('tbl_cart_sales');
         echo json_encode(array('success' => true, 'message' => 'Cart cleared successfully!!!'));
     }

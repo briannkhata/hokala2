@@ -8,9 +8,12 @@
          <div class="col">
             <a href="" class="btn btn-outline-success" style="margin-right: 7px;">New Sale <i
                   class="fa fa-plus-circle"></i></a>
-            <a href="" class="btn btn-outline-primary" style="margin-right: 7px;">New Client <i
-                  class="fa fa-plus-circle"></i></a>
-            <a href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear Cart / Sale <i
+
+            <a href="" class="btn btn-outline-success" style="margin-right: 7px;" data-bs-toggle="modal"
+               data-bs-target="#SearchProduct">Search Product <i class="fa fa-search"></i></a>
+            <a href="" class="btn btn-outline-primary" style="margin-right: 7px;" data-bs-toggle="modal"
+               data-bs-target="#NewClient">New Client <i class="fa fa-plus-circle"></i></a>
+            <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear Cart / Sale <i
                   class="fa fa-trash"></i></a>
          </div>
          <select class="form-control" name="client_id" id="client_id" required="">
@@ -123,17 +126,29 @@
             color: #28a745;
             /* Text color */
          }
-      </style>
 
+   small {
+      font-size: 12px;
+      color: #777;
+      margin-bottom: 5px;
+      display: block;
+   }
+
+   /* Style for the <select> element */
+   #barcode {
+      width: 100%;
+      padding: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+      font-size: 14px;
+   }
+</style>
       <div class="row">
          <div class="col-8 col-xl-8">
-            <div class="input-group" style="margin-top: 10px;">
-               <div class="input-group-prepend">
-                  <span class="input-group-text">
-                     SEARCH
-                  </span>
-               </div>
-
+               
+              <b><small>Search Product by Barcode, Name or Category</small></b>
+               
                <select class="form-control" name="barcode" id="barcode" required="" onchange="search()">
                   <option selected="" disabled="">----</option>
                   <?php foreach ($this->M_product->get_products_pos() as $row) { ?>
@@ -144,8 +159,7 @@
                      </option>
                   <?php } ?>
                </select>
-               <button class="btn btn-outline-success" type="button" id="refreshSale">U | Refresh</button>
-            </div>
+        
 
             <br>
 
@@ -225,13 +239,102 @@
       <!--end row-->
    </div>
 </main>
+
+<div class="modal fade" id="SearchProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="width:100%">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Search Product</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body" style="">
+            <table id="example" class="table table-striped table-bordered" style="width:100%">
+               <thead>
+                  <tr>
+                     <th>#</th>
+                     <th>Product</th>
+                     <th>Description</th>
+                     <th>Price</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <?php
+                  foreach ($this->M_product->get_products() as $row): ?>
+                     <tr>
+                        <td>
+                           <input type="checkbox" value="<?=$row['product_id'];?>">
+                        </td>
+                       
+                        <td>
+                           <?= $row['name'] ?> <br> <?= $row['barcode'] ?>
+                        </td>
+                        <td>
+                           <?= $row['desc'] ?>
+                        </td>
+                        <td>
+                           <?= number_format($row['selling_price'], 2) ?>
+                        </td>
+                     </tr>
+                  <?php endforeach; ?>
+               </tbody>
+            </table>
+         </div>
+
+      </div>
+   </div>
+</div>
+
+
+<div class="modal fade" id="NewClient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Add New Client</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body">
+            <!-- Your form goes here -->
+            <form class="row g-3" action="<?= base_url(); ?>Slient/save" method="POST">
+               <div class="col-md-12">
+                  <label for="input1" class="form-label">Name</label>
+                  <input type="text" name="name" class="form-control" value="<?php if (!empty($name)) {
+                     echo $name;
+                  } ?>" required="">
+               </div>
+               <div class="col-md-12">
+                  <label for="input1" class="form-label">Address</label>
+                  <input type="text" name="address" class="form-control" value="<?php if (!empty($address)) {
+                     echo $address;
+                  } ?>" required="">
+               </div>
+               <div class="col-md-12">
+                  <label for="input1" class="form-label">Phone</label>
+                  <input type="text" name="phone" class="form-control" value="<?php if (!empty($phone)) {
+                     echo $phone;
+                  } ?>">
+               </div>
+               <div class="col-md-12">
+                  <?php if (isset($update_id)) { ?>
+                     <input type="hidden" name="update_id" id="update_id" value="<?= $update_id; ?>">
+                  <?php } ?>
+                  <div class="d-md-flex d-grid align-items-center gap-3">
+                     <button type="submit" class="btn btn-primary px-4">Save</button>
+                  </div>
+               </div>
+            </form>
+            <!-- End of form -->
+         </div>
+
+      </div>
+   </div>
+</div>
 <!--end main wrapper-->
 <?php $this->load->view('includes/footer.php'); ?>
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>
 <script>
    $(document).ready(function () {
       load_cart();
-      
+
       $('#tendered').on('input', function () {
          var input = $(this).val().replace(/[^\d.-]/g, '');
          var parts = input.split('.');
