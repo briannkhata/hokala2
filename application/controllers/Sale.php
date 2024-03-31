@@ -37,8 +37,10 @@ class Sale extends CI_Controller
             $product = $product_info[0];
             $found = $this->M_product->get_prouct_in_cart($product['product_id']);
             if ($found) {
+                $unit_id = $this->M_product->get_unit_id($product['product_id']);
+                $saleQTY = $this->M_unit->get_unit_qty($unit_id);
                 $cart_id = $this->M_product->get_cart_id_by_product_id($product['product_id']);
-                $qty = $this->M_product->get_cart_qty($cart_id) + 1;
+                $qty = $this->M_product->get_cart_qty($cart_id) + $saleQTY;
                 $price = $this->M_product->get_cart_price($cart_id);
 
                 $sub_total = $price * $qty;
@@ -55,7 +57,9 @@ class Sale extends CI_Controller
                 $this->db->update('tbl_cart_sales', $cart_data);
 
             } else {
-                $qty = 1;
+                $unit_id = $this->M_product->get_unit_id($product['product_id']);
+                $saleQTY = $this->M_unit->get_unit_qty($unit_id);
+                $qty = $saleQTY;
                 $sub_total = $this->M_product->get_price($product['product_id']) * $qty;
                 $vat_amount = (($vat / 100) * $sub_total);
                 $total = $vat_amount + $sub_total;
@@ -156,15 +160,15 @@ class Sale extends CI_Controller
     function finish_sale()
     {
         $products = $this->M_product->get_cart();
-
         $data['user_id'] = $this->session->userdata('user_id');
+        $data['shop_id']= $this->M_user->get_user_shop($data['user_id']);
         $data['sale_date'] = date('Y-m-d h:m:s');
         $data['vat'] = $this->M_product->get_total_vat_cart();
         $data['sub_total'] = $this->M_product->get_sub_total_sum_cart();
         $data['total'] = $this->M_product->get_total_sum_cart();
-        $data['tendered'] = $this->input->post('tendered');
+        $data['tendered'] = str_replace([',', ' '], '',$this->input->post('tendered'));
         $data['change'] = $data['tendered'] - $data['total'];
-
+        $data['client_id'] = $this->input->post('client_id');
         $this->db->trans_start();
         $this->db->insert('tbl_sales', $data);
         $sale_id = $this->db->insert_id();
@@ -177,8 +181,10 @@ class Sale extends CI_Controller
             $sale_detail_data['total'] = $row['total'];
             $sale_detail_data['sub_total'] = $row['sub_total'];
             $sale_detail_data['sale_id'] = $sale_id;
+            $sale_detail_data['client_id'] = $row['client_id'];
             $sale_detail_data['sale_date'] = date('Y-m-d H:i:s');
             $sale_detail_data['shop_id'] = $row['shop_id'];
+            $sale_detail_data['user_id'] = $row['user_id'];
             $this->db->insert('tbl_sale_details', $sale_detail_data);
             $old_qty = $this->M_product->get_qty1($row['product_id'],$row['shop_id']);
             $new_qty = $old_qty - $row['qty'];

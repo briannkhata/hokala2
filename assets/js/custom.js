@@ -32,10 +32,10 @@ $("#barcode").keypress(function (event) {
 $("#clear_cart").click(function (e) {
   //var confirmed = confirm("Are you sure you want to CLEAR CART?");
   //if (confirmed) {
-    cancel();
- // } else {
-   // e.preventDefault();
-//  }
+  cancel();
+  // } else {
+  // e.preventDefault();
+  //  }
 });
 
 $("#finish").click(function (e) {
@@ -68,15 +68,18 @@ $("#tendered").on("input", function () {
 
 function finish() {
   var tenderedAmount = $("#tendered").val();
-  tenderedAmount = parseFloat(tenderedAmount.replace(/[^\d.-]/g, ""));
+  var client_id = $("#client_id").val();
 
-  if (!tenderedAmount || isNaN(tenderedAmount)) {
+  tenderedAmount2 = parseFloat(tenderedAmount.replace(/,/g, ""));
+
+  if (!tenderedAmount2 || isNaN(tenderedAmount2)) {
     alert("Please enter a valid tendered amount.");
     return;
   }
 
   $.post("Sale/finish_sale", {
-    tendered: tenderedAmount,
+    tendered: tenderedAmount2,
+    client_id: client_id,
   }).fail(function (jqXHR, textStatus, errorThrown) {
     console.log("AJAX Error:", textStatus, errorThrown);
     alert("An error occurred while processing your request.");
@@ -92,7 +95,7 @@ function search() {
     },
     function (data) {
       if (data.success) {
-        $('#barcode').prop('selectedIndex', -1);
+        $("#barcode").prop("selectedIndex", -1);
         load_cart();
       } else {
         alert(data.message);

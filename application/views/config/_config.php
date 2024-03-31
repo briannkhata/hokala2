@@ -61,6 +61,16 @@
                         </div>
 
                         <div class="col-md-12">
+                           <label class="control-label">VAT Status</label>
+                           <select class="form-control" name="vat_status">
+                              <option selected disabled>option</option>
+                              <option <?php if($row['vat_status'] == "inclusive") echo 'selected';?> value="inclusive">Inclusive</option>
+                              <option <?php if($row['vat_status'] == "exclusive") echo 'selected';?> value="exclusive">Exclusive</option>
+                              <option <?php if($row['vat_status'] == "exclude") echo 'selected';?> value="exclude">Exclude</option>
+                           </select>
+                        </div>
+
+                        <div class="col-md-12">
                            <div class="d-md-flex d-grid align-items-center gap-3">
                               <button type="submit" class="btn btn-primary px-4">Save</button>
                            </div>

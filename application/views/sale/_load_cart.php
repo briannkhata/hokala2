@@ -169,6 +169,8 @@
         var cartId = inputField.closest('tr').find('input[name="cart_id[]"]').val();
         updateCartQuantity(cartId, newQuantity);
         inputField.val(newQuantity);
+        $('#change').text('');
+        $('#tendered').text('');
     });
 
 
@@ -179,6 +181,8 @@
         var cartId = inputField.closest('tr').find('input[name="cart_id[]"]').val();
         updateCartQuantity(cartId, newQuantity);
         inputField.val(newQuantity);
+        $('#change').text('');
+        $('#tendered').text('');
     });
 
 </script>

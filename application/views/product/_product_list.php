@@ -38,7 +38,7 @@
                <div class="card-body">
                   <div class="table-responsive">
 
-                  <table id="example" class="table table-striped table-bordered" style="width:100%">
+                     <table id="example" class="table table-striped table-bordered" style="width:100%">
                         <thead>
                            <tr>
                               <th>Barcode</th>
@@ -48,7 +48,7 @@
                               <th>Selling Price</th>
                               <th>Expiry Date</th>
                               <th>Reorder Level</th>
-                              <th>Quantity</th>
+                              <th>Unit</th>
                               <th></th>
                            </tr>
                         </thead>
@@ -57,7 +57,7 @@
                            $count = 1;
                            foreach ($this->M_product->get_products() as $row): ?>
                               <tr>
-                              
+
                                  <td>
                                     <?= $row['barcode'] ?>
                                  </td>
@@ -74,15 +74,15 @@
                                  <td>
                                     <?= number_format($row['selling_price'], 2) ?>
                                  </td>
-                                
+
                                  <td>
-                                    <?= date('Y F d',strtotime($row['expiry_date'])); ?>
+                                    <?= date('Y F d', strtotime($row['expiry_date'])); ?>
                                  </td>
                                  <td>
                                     <?= $row['reorder_level']; ?>
                                  </td>
                                  <td>
-                                    <?= $row['qty']; ?>
+                                 <?= $this->M_unit->get_unit_type($row['unit_id']) ?>
                                  </td>
                                  <td>
                                     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
@@ -118,7 +118,7 @@
                   </div>
                </div>
             </div>
-      
+
 </main>
 
 <?php $this->load->view('includes/footer.php'); ?>

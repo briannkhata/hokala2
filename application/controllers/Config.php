@@ -25,6 +25,7 @@ class Config extends CI_Controller
 		$data['phone'] = $this->input->post('phone');
 		$data['alt_phone'] = $this->input->post('alt_phone');
 		$data['address'] = $this->input->post('address');
+		$data['vat_status'] = $this->input->post('vat_status');
 		$this->db->where('id',$id);
 		$this->db->update('tbl_settings',$data);
     	$this->session->set_flashdata('message','Settings Successfully!');

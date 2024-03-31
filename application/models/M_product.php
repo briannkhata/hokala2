@@ -22,7 +22,7 @@ class M_product extends CI_Model
     {
         $current_date = date('Y-m-d');
         $this->db->where('deleted', 0);
-        $this->db->where('qty > reorder_level');
+        //$this->db->where('qty > reorder_level');
         $this->db->where('expiry_date >=', $current_date);
         $this->db->from('tbl_products');
         $query = $this->db->get();
@@ -40,6 +40,20 @@ class M_product extends CI_Model
         $query = $this->db->get();
         return $query->result_array();
     }
+
+    function get_unit_id($product_id)
+    {
+        $this->db->select('unit_id');
+        $this->db->where('product_id', $product_id);
+        $query = $this->db->get('tbl_products');
+        if ($query->num_rows() > 0) {
+            $result = $query->row();
+            return $result->unit_id;
+        } else {
+            return '';
+        }
+    }
+
 
     function get_expired_products()
     {

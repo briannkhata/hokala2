@@ -63,14 +63,14 @@
                      </div>
 
                      <div class="col-md-4">
-                        <label class="control-label">Supplier</label>
-                        <select class="form-control" name="supplier_id" required="">
+                        <label class="control-label">Unit Type</label>
+                        <select class="form-control" name="unit_id" required="">
                            <option selected="" disabled="">----</option>
-                           <?php foreach ($this->M_supplier->get_suppliers() as $row) { ?>
-                              <option <?php if ($supplier_id == $row['supplier_id'])
+                           <?php foreach ($this->M_unit->get_units() as $row) { ?>
+                              <option <?php if ($unit_id == $row['unit_id'])
                                  echo 'selected'; ?>
-                                 value="<?= $row['supplier_id']; ?>">
-                                 <?= $row['name']; ?>
+                                 value="<?= $row['unit_id']; ?>">
+                                 <?= $row['unit_type']; ?>
                               </option>
                            <?php } ?>
                         </select>

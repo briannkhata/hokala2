@@ -43,89 +43,6 @@ class Product extends CI_Controller
         $this->session->set_flashdata("message", "Product Received successfully!");
     }
 
-    function pos()
-    {
-        $data["page_title"] = "Point of Sale";
-        $this->load->view("product/_pos", $data);
-    }
-
-    function add_to_cart()
-    {
-        $barcode = trim($this->input->post('barcode'));
-
-        if (empty($barcode)) {
-            echo json_encode(array('success' => false, 'message' => 'Barcode is required!!!'));
-            return;
-        }
-
-        $product_info = $this->M_product->get_product_by_barcode($barcode);
-        $vat = $this->db->get('tbl_settings')->row()->vat;
-        if (!empty($product_info)) {
-            $product = $product_info[0];
-            $found = $this->M_product->get_prouct_in_cart($product['product_id']);
-            if ($found) {
-                $cart_id = $this->M_product->get_cart_id_by_product_id($product['product_id']);
-                $qty = $this->M_product->get_cart_qty($cart_id) + 1;
-                $price = $this->M_product->get_cart_price($cart_id);
-
-                $totalRow = ((($vat / 100) * ($price * $qty))) + ($price * $qty);
-                $cart_data = array(
-                    'qty' => $qty,
-                    'vat' => (($vat / 100) * ($price * $qty)),
-                    'total' => $totalRow,
-                    'user_id' => $this->session->userdata('user_id')
-                );
-                $this->db->where('cart_id', $cart_id);
-                $this->db->update('tbl_cart', $cart_data);
-
-            } else {
-                $qty = 1;
-                $totalRow = ((($vat / 100) * ($this->M_product->get_price($product['product_id']) * $qty))) + ($this->M_product->get_price($product['product_id']) * $qty);
-                $cart_data = array(
-                    'product_id' => $product['product_id'],
-                    'price' => $this->M_product->get_price($product['product_id']),
-                    'qty' => $qty,
-                    'vat' => (($vat / 100) * ($this->M_product->get_price($product['product_id']) * $qty)),
-                    'total' => $totalRow,
-                    'user_id' => $this->session->userdata('user_id')
-                );
-                $this->db->insert('tbl_cart', $cart_data);
-            }
-            echo json_encode(array('success' => true));
-        } else {
-            echo json_encode(array('success' => false, 'message' => 'Product not found'));
-        }
-    }
-
-    function update_cart()
-    {
-        $cart_id = trim($this->input->post('cart_id'));
-        $qtyNew = trim($this->input->post('qty'));
-
-        if (empty($qtyNew)) {
-            echo json_encode(array('success' => false, 'message' => 'Barcode is required!!!'));
-            return;
-        }
-
-        $product_info = $this->M_product->get_product_by_cart_id($cart_id);
-        $vat = $this->db->get('tbl_settings')->row()->vat;
-        if (!empty($product_info)) {
-            $qty = $qtyNew;
-            $product = $product_info[0];
-            $totalRow = ((($vat / 100) * ($product['price'] * $qty))) + ($product['price'] * $qty);
-            $cart_data = array(
-                'qty' => $qty,
-                'vat' => (($vat / 100) * ($product['price'] * $qty)),
-                'total' => $totalRow,
-                'user_id' => $this->session->userdata('user_id')
-            );
-            $this->db->where('cart_id', $cart_id);
-            $this->db->update('tbl_cart', $cart_data);
-            echo json_encode(array('success' => true));
-        } else {
-            echo json_encode(array('success' => false, 'message' => 'Product not found'));
-        }
-    }
     function get_form_data()
     {
         $data["name"] = $this->input->post("name");
@@ -134,10 +51,8 @@ class Product extends CI_Controller
         $data["desc"] = $this->input->post("desc");
         $data["cost_price"] = $this->input->post("cost_price");
         $data["selling_price"] = $this->input->post("selling_price");
-        $data["supplier_id"] = $this->input->post("supplier_id");
+        $data["unit_id"] = $this->input->post("unit_id");
         $data["reorder_level"] = $this->input->post("reorder_level");
-        $data["expiry_date"] = $this->input->post("expiry_date");
-        $data["qty"] = $this->input->post("qty");
         return $data;
     }
 
@@ -150,10 +65,9 @@ class Product extends CI_Controller
             $data["category_id"] = $row["category_id"];
             $data["selling_price"] = $row["selling_price"];
             $data["cost_price"] = $row["cost_price"];
-            $data["supplier_id"] = $row["supplier_id"];
+            $data["unit_id"] = $row["unit_id"];
             $data["reorder_level"] = $row["reorder_level"];
             $data["expiry_date"] = $row["expiry_date"];
-            $data["qty"] = $row["qty"];
         }
         return $data;
     }
