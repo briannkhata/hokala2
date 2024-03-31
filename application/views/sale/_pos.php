@@ -6,14 +6,11 @@
 
       <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
          <div class="col">
-            <a href="" class="btn btn-outline-success" style="margin-right: 7px;">New Sale <i
-                  class="fa fa-plus-circle"></i></a>
-
             <a href="" class="btn btn-outline-success" style="margin-right: 7px;" data-bs-toggle="modal"
-               data-bs-target="#SearchProduct">Search Product <i class="fa fa-search"></i></a>
+               data-bs-target="#SearchProduct">Product <i class="fa fa-search"></i></a>
             <a href="" class="btn btn-outline-primary" style="margin-right: 7px;" data-bs-toggle="modal"
-               data-bs-target="#NewClient">New Client <i class="fa fa-plus-circle"></i></a>
-            <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear Cart / Sale <i
+               data-bs-target="#NewClient">Client <i class="fa fa-plus-circle"></i></a>
+            <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear<i
                   class="fa fa-trash"></i></a>
          </div>
          <select class="form-control" name="client_id" id="client_id" required="">
@@ -25,7 +22,9 @@
             <?php } ?>
          </select>
       </div>
-
+      <?php
+      $cart = $this->M_product->get_cart();
+      ?>
       <hr>
       <style>
          .input-group {
@@ -127,39 +126,48 @@
             /* Text color */
          }
 
-   small {
-      font-size: 12px;
-      color: #777;
-      margin-bottom: 5px;
-      display: block;
-   }
+         small {
+            font-size: 12px;
+            color: #777;
+            margin-bottom: 5px;
+            display: block;
+         }
 
-   /* Style for the <select> element */
-   #barcode {
-      width: 100%;
-      padding: 8px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-      font-size: 14px;
-   }
-</style>
+         /* Style for the <select> element */
+         #barcode {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font-size: 14px;
+         }
+      </style>
       <div class="row">
+         <?php //if (count($cart) <= 0) {      ?>
+         <!-- <div class="col-12 col-xl-12"> -->
+         <?php //} else {      ?>
          <div class="col-8 col-xl-8">
-               
-              <b><small>Search Product by Barcode, Name or Category</small></b>
-               
-               <select class="form-control" name="barcode" id="barcode" required="" onchange="search()">
-                  <option selected="" disabled="">----</option>
-                  <?php foreach ($this->M_product->get_products_pos() as $row) { ?>
-                     <option value="<?= $row['barcode']; ?>">
-                        <?= $row['name']; ?> | MK:
-                        <?= number_format($row['selling_price'], 2); ?> |
-                        <?= $row['desc']; ?>
-                     </option>
-                  <?php } ?>
-               </select>
-        
+            <?php //}      ?>
+
+            <b><small>Search Product by Barcode, Name or Category</small></b>
+
+            <form action="add-purchase.php" method="post">
+               <input name="productId" onmouseover="this.focus();" type="text">
+            </form>
+            <br>
+
+            <select class="form-control" name="barcode" id="barcode" required="" onchange="search()">
+               <option selected="" disabled="">----</option>
+               <?php foreach ($this->M_product->get_products_pos() as $row) { ?>
+                  <option value="<?= $row['barcode']; ?>">
+                     <?= $row['name']; ?> | MK:
+                     <?= number_format($row['selling_price'], 2); ?> |
+                     <?= $row['desc']; ?>
+                  </option>
+               <?php } ?>
+            </select>
+
 
             <br>
 
@@ -169,8 +177,6 @@
                </div>
             </form>
          </div>
-
-
          <style>
             .card-body {
                font-family: 'Arial', sans-serif;
@@ -203,8 +209,10 @@
             }
          </style>
 
-
          <div class="col-4 col-xl-4">
+            <?php //if (count($cart) <= 0):
+            ?>
+            <?php //else:      ?>
             <div class="card">
                <div class="card-body p-4">
                   <form action="<?= base_url(); ?>Sale/finish_sale" method="post" id="finishSale">
@@ -233,14 +241,24 @@
                   </form>
                </div>
             </div>
+            <?php //endif;      ?>
          </div>
-
       </div>
       <!--end row-->
    </div>
 </main>
 
-<div class="modal fade" id="SearchProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="width:100%">
+<style>
+   /* Modal header */
+   .modal-header {
+      padding: 10px 20px;
+      background-color: #f5f5f5;
+      border-bottom: 1px solid #ddd;
+   }
+</style>
+
+<div class="modal fade" id="SearchProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+   style="width:100%">
    <div class="modal-dialog">
       <div class="modal-content">
          <div class="modal-header">
@@ -248,10 +266,10 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
          </div>
          <div class="modal-body" style="">
-            <table id="example" class="table table-striped table-bordered" style="width:100%">
+            <table id="proSearch" class="table table-striped table-bordered" style="width:100%">
                <thead>
                   <tr>
-                     <th>#</th>
+                     <th>Barcode</th>
                      <th>Product</th>
                      <th>Description</th>
                      <th>Price</th>
@@ -260,13 +278,13 @@
                <tbody>
                   <?php
                   foreach ($this->M_product->get_products() as $row): ?>
-                     <tr>
+
+                     <tr class="product-row" data-product-id="<?= $row['product_id']; ?>">
                         <td>
-                           <input type="checkbox" value="<?=$row['product_id'];?>">
+                           <?= $row['barcode'] ?>
                         </td>
-                       
                         <td>
-                           <?= $row['name'] ?> <br> <?= $row['barcode'] ?>
+                           <?= $row['name'] ?>
                         </td>
                         <td>
                            <?= $row['desc'] ?>
@@ -284,7 +302,6 @@
    </div>
 </div>
 
-
 <div class="modal fade" id="NewClient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
    <div class="modal-dialog">
       <div class="modal-content">
@@ -294,31 +311,22 @@
          </div>
          <div class="modal-body">
             <!-- Your form goes here -->
-            <form class="row g-3" action="<?= base_url(); ?>Slient/save" method="POST">
+            <form class="row g-3" id="NewClientForm">
                <div class="col-md-12">
                   <label for="input1" class="form-label">Name</label>
-                  <input type="text" name="name" class="form-control" value="<?php if (!empty($name)) {
-                     echo $name;
-                  } ?>" required="">
+                  <input type="text" name="name" class="form-control">
                </div>
-               <div class="col-md-12">
+               <!-- <div class="col-md-12">
                   <label for="input1" class="form-label">Address</label>
-                  <input type="text" name="address" class="form-control" value="<?php if (!empty($address)) {
-                     echo $address;
-                  } ?>" required="">
-               </div>
+                  <input type="text" name="address" class="form-control">
+               </div> -->
                <div class="col-md-12">
                   <label for="input1" class="form-label">Phone</label>
-                  <input type="text" name="phone" class="form-control" value="<?php if (!empty($phone)) {
-                     echo $phone;
-                  } ?>">
+                  <input type="text" name="phone" class="form-control">
                </div>
                <div class="col-md-12">
-                  <?php if (isset($update_id)) { ?>
-                     <input type="hidden" name="update_id" id="update_id" value="<?= $update_id; ?>">
-                  <?php } ?>
                   <div class="d-md-flex d-grid align-items-center gap-3">
-                     <button type="submit" class="btn btn-primary px-4">Save</button>
+                     <button type="button" class="btn btn-primary px-4">Save</button>
                   </div>
                </div>
             </form>
@@ -329,6 +337,7 @@
    </div>
 </div>
 <!--end main wrapper-->
+
 <?php $this->load->view('includes/footer.php'); ?>
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>
 <script>
@@ -347,16 +356,61 @@
       });
 
 
-      $(document).keypress(function (event) {
-         var keycode = event.keyCode ? event.keyCode : event.which;
-         if (keycode == "117") {
-            $("#refreshSale").click();
-         }
+      // $(document).keypress(function (event) {
+      //    var keycode = event.keyCode ? event.keyCode : event.which;
+      //    if (keycode == "117") {
+      //       $("#refreshSale").click();
+      //    }
 
-         var keycode = event.keyCode ? event.keyCode : event.which;
-         if (keycode == "112") {
-            finish();
-         }
+      //    var keycode = event.keyCode ? event.keyCode : event.which;
+      //    if (keycode == "112") {
+      //       finish();
+      //    }
+      // });
+
+
+
+      $('#NewClientForm').submit(function (e) {
+         e.preventDefault();
+         var formData = $(this).serialize();
+         $.ajax({
+            type: 'POST',
+            url: '<?= base_url(); ?>Client/save_client',
+            data: formData,
+            dataType: 'json',
+            success: function (response) {
+               //$('#NewClient').modal('hide');
+               // $('#client_id').empty();
+               if (response.success) {
+                  let client_id = response.client_id;
+                  $('#client_id').val(client_id);
+
+               } else {
+                  console.log(response.message);
+               }
+            },
+            error: function (xhr, status, error) {
+            }
+         });
+      });
+
+
+
+
+      $('.product-row').on('click', function () {
+         var productId = $(this).data('product-id');
+         $.ajax({
+            url: '<?= base_url(); ?>Sale/refresh_cart',
+            method: 'POST',
+            data: { product_id: productId },
+            success: function (response) {
+              load_cart();
+            },
+            error: function (xhr, status, error) {
+               console.log(xhr.responseText);
+               alert('Error adding product to cart. Please try again.');
+            }
+         });
       });
    });
 </script>

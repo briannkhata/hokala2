@@ -72,58 +72,74 @@
     .quantity-container button:hover {
         background-color: #0056b3;
     }
+    .empty-cart-message {
+    font-size: 18px; /* Adjust font size as needed */
+    color: #333; /* Text color */
+    padding: 10px; /* Padding around the text */
+    margin: 10px 0; /* Margin to create space around the element */
+    background-color: #f5f5f5; /* Background color */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 5px; /* Border radius for rounded corners */
+    text-align: center; /* Center-align the text */
+}
+
 </style>
 
-
-
-<table id="cart" class="table table-bordered">
-    <thead>
-        <tr>
-            <th>Product</th>
-            <th>Price</th>
-            <th align="center">Qty</th>
-            <th>Total</th>
-            <th>Remove</th>
-        </tr>
-    </thead>
-    <tbody>
-        <?php
-        $totalSum = 0;
-        foreach ($this->M_product->get_cart() as $row):
-            $vat = $this->db->get('tbl_settings')->row()->vat;
-            $totalForRow = (($vat / 100) * ($row['price'] * $row['qty'])) + ($row['price'] * $row['qty']);
-            $totalSum += $totalForRow;
-
-            ?>
+<?php
+$cart = $this->M_product->get_cart();
+if (count($cart) <= 0):
+    ?>
+    <div class="empty-cart-message">NO ITEMS ON THE CART</div>
+<?php else: ?>
+    <table id="cart" class="table table-bordered">
+        <thead>
             <tr>
-                <td>
-                    <?= $this->M_product->get_name($row['product_id']); ?>
-                </td>
-                <td>
-                    <?= number_format($row['price'], 2); ?>
-                </td>
-                <td align="center">
-                    <div class="quantity-container">
-                        <input type="hidden" name="cart_id[]" value="<?= $row['cart_id']; ?>">
-                        <button type="button" class="minus-btn">-</button>
-                        <input type="text" class="quantity" name="qty[]" value="<?= $row['qty']; ?>">
-                        <button type="button" class="plus-btn">+</button>
-                    </div>
-                </td>
-
-                <td>
-                    <?= number_format($row['total'], 2); ?>
-                </td>
-                <td align="center">
-                    <a href="#" onclick="delete_cart(<?= $row['cart_id']; ?>)" class="btn btn-sm btn-danger">
-                        <i class="fas fa-times-circle"></i>
-                    </a>
-                </td>
-
+                <th>Product</th>
+                <th>Price</th>
+                <th align="center">Qty</th>
+                <th>Total</th>
+                <th>Remove</th>
             </tr>
-        <?php endforeach; ?>
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            <?php
+            $totalSum = 0;
+            foreach ($cart as $row):
+                $vat = $this->db->get('tbl_settings')->row()->vat;
+                $totalForRow = (($vat / 100) * ($row['price'] * $row['qty'])) + ($row['price'] * $row['qty']);
+                $totalSum += $totalForRow;
+
+                ?>
+                <tr>
+                    <td>
+                        <?= $this->M_product->get_name($row['product_id']); ?>
+                    </td>
+                    <td>
+                        <?= number_format($row['price'], 2); ?>
+                    </td>
+                    <td align="center">
+                        <div class="quantity-container">
+                            <input type="hidden" name="cart_id[]" value="<?= $row['cart_id']; ?>">
+                            <button type="button" class="minus-btn">-</button>
+                            <input type="text" class="quantity" name="qty[]" value="<?= $row['qty']; ?>">
+                            <button type="button" class="plus-btn">+</button>
+                        </div>
+                    </td>
+
+                    <td>
+                        <?= number_format($row['total'], 2); ?>
+                    </td>
+                    <td align="center">
+                        <a href="#" onclick="delete_cart(<?= $row['cart_id']; ?>)" class="btn btn-sm btn-danger">
+                            <i class="fas fa-times-circle"></i>
+                        </a>
+                    </td>
+
+                </tr>
+            <?php endforeach; ?>
+        </tbody>
+    </table>
+<?php endif; ?>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>
 

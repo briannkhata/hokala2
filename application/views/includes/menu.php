@@ -19,10 +19,10 @@
             $this->db->order_by('order_by', 'asc');
             $parents = $this->db->group_by('parent_id')->get('tbl_menus')->result_array();
 
-
             foreach ($parents as $pa) {
                 ?>
                 <li>
+                    
                     <a href="<?= !$pa['parent'] ? '#' : base_url() . '' . $pa['url']; ?>" <?= !$pa['parent'] ? 'class="has-arrow"' : ''; ?>>
                         <div class="parent-icon"><i class="material-icons-outlined">
                                 <?= $pa['parent_icon']; ?>

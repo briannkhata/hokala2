@@ -55,6 +55,7 @@ class M_product extends CI_Model
     }
 
 
+
     function get_expired_products()
     {
         $yesterday_date = date('Y-m-d', strtotime('-1 day'));
@@ -154,7 +155,7 @@ class M_product extends CI_Model
     {
         $this->db->where('deleted', 0);
         $this->db->where('expiry_date >', date('Y-m-d'));
-        $this->db->where('qty <= reorder_level');
+        //$this->db->where('qty <= reorder_level');
         $this->db->from('tbl_products');
         $query = $this->db->get();
         return $query->result_array();
@@ -164,7 +165,7 @@ class M_product extends CI_Model
     {
         $this->db->where('deleted', 0);
         $this->db->where('expiry_date >', date('Y-m-d'));
-        $this->db->where('qty <= 0');
+        //$this->db->where('qty <= 0');
         $this->db->from('tbl_products');
         $query = $this->db->get();
         return $query->result_array();
@@ -228,7 +229,7 @@ class M_product extends CI_Model
             $result = $query->row();
             return $result->qty;
         } else {
-            return '';
+            return 0;
         }
     }
 
@@ -289,7 +290,7 @@ class M_product extends CI_Model
         return $this->db->select('*')->from('tbl_cart_sales')->where('user_id', $this->session->userdata('user_id'))->order_by('cart_id', 'desc')->get()->result_array();
     }
 
-
+ 
 
 
     function get_product_by_barcode($barcode)

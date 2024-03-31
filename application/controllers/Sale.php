@@ -11,9 +11,11 @@ class Sale extends CI_Controller
         }
     }
 
-    function index()
+    function index($param="")
     {
-        $data["page_title"] = "Point of Sale";
+        $client_id = $param;
+        $client = $this->M_client->get_name($client_id).' | '. $this->M_client->get_phone($client_id);
+        $data["page_title"] = "POS WINDOW | ". $client;
         $data['page_name'] = "pos";
         $this->load->view("sale/_pos", $data);
     }
@@ -21,17 +23,23 @@ class Sale extends CI_Controller
     function refresh_cart()
     {
         $user_id = $this->session->userdata('user_id');
-        $shift_id = $this->session->userdata('shift_id');
         $shop_id = $this->M_user->get_user_shop($user_id);
-        $barcode = trim($this->input->post('barcode'));
-        $client_id = trim($this->input->post('client_id'));
+        $client_id = $this->input->post('client_id');
+        $product_id = trim($this->input->post('product_id'));
+      
+        if (!empty($product_id) && isset($product_id)) {
+            $barcode = $this->M_product->get_barcode($product_id);
+            $product_info = $this->M_product->get_product_by_id($product_id);
+        } else {
+            $barcode = trim($this->input->post('barcode'));
+            $product_info = $this->M_product->get_product_by_barcode($barcode);
+        }
 
-        if (empty($barcode)) {
+        if (!isset($barcode)) {
             echo json_encode(array('success' => false, 'message' => 'Barcode is required!!!'));
             return;
         }
 
-        $product_info = $this->M_product->get_product_by_barcode($barcode);
         $vat = $this->db->get('tbl_settings')->row()->vat;
         if (!empty($product_info)) {
             $product = $product_info[0];
@@ -51,7 +59,6 @@ class Sale extends CI_Controller
                     'vat' => $vat_amount,
                     'total' => $total,
                     'sub_total' => $sub_total
-                    //'client_id' => $client_id
                 );
                 $this->db->where('cart_id', $cart_id);
                 $this->db->update('tbl_cart_sales', $cart_data);
@@ -71,7 +78,6 @@ class Sale extends CI_Controller
                     'total' => $total,
                     'sub_total' => $sub_total,
                     'user_id' => $user_id,
-                    'shift_id' => $shift_id,
                     'shop_id' => $shop_id,
                     'client_id' => $client_id
                 );
@@ -160,15 +166,18 @@ class Sale extends CI_Controller
     function finish_sale()
     {
         $products = $this->M_product->get_cart();
-        $data['user_id'] = $this->session->userdata('user_id');
-        $data['shop_id']= $this->M_user->get_user_shop($data['user_id']);
+        $user_id = $this->session->userdata('user_id');
+        $shop_id = $this->M_user->get_user_shop($user_id);
+        $client_id = $this->input->post('client_id');
+        $data['user_id'] = $user_id;
+        $data['shop_id'] = $this->M_user->get_user_shop($user_id);
         $data['sale_date'] = date('Y-m-d h:m:s');
         $data['vat'] = $this->M_product->get_total_vat_cart();
         $data['sub_total'] = $this->M_product->get_sub_total_sum_cart();
         $data['total'] = $this->M_product->get_total_sum_cart();
-        $data['tendered'] = str_replace([',', ' '], '',$this->input->post('tendered'));
+        $data['tendered'] = str_replace([',', ' '], '', $this->input->post('tendered'));
         $data['change'] = $data['tendered'] - $data['total'];
-        $data['client_id'] = $this->input->post('client_id');
+        $data['client_id'] = $client_id;
         $this->db->trans_start();
         $this->db->insert('tbl_sales', $data);
         $sale_id = $this->db->insert_id();
@@ -186,7 +195,7 @@ class Sale extends CI_Controller
             $sale_detail_data['shop_id'] = $row['shop_id'];
             $sale_detail_data['user_id'] = $row['user_id'];
             $this->db->insert('tbl_sale_details', $sale_detail_data);
-            $old_qty = $this->M_product->get_qty1($row['product_id'],$row['shop_id']);
+            $old_qty = $this->M_product->get_qty1($row['product_id'], $row['shop_id']);
             $new_qty = $old_qty - $row['qty'];
             $this->db->where('product_id', $row['product_id']);
             $this->db->where('shop_id', $row['shop_id']);
@@ -196,9 +205,11 @@ class Sale extends CI_Controller
         $this->db->trans_complete();
         if ($this->db->trans_status() === FALSE) {
         } else {
-            $this->db->where('user_id', $this->session->userdata('user_id'));
+            $this->db->where('user_id', $user_id);
+            $this->db->where('shop_id', $shop_id);
+            $this->db->where('client_id', $client_id);
             $this->db->delete('tbl_cart_sales');
-            redirect("Sale/receipt/" . $sale_id);
+            redirect("Sale/receipt/". $sale_id.'/'.$client_id);
         }
     }
 

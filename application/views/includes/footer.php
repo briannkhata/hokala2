@@ -32,6 +32,8 @@
    //$('#loader').show();
    // $('#overlay').show();
    $(document).ready(function () {
+      $('table#proSearch').DataTable();
+
       $('#example').DataTable();
       setTimeout(function () {
          if (document.querySelector('.alert')) {

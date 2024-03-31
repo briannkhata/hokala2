@@ -24,7 +24,7 @@ class M_client extends CI_Model
         return $query->result_array();
     }
 
-    function get_client($client_id)
+    function get_name($client_id)
     {
         $this->db->select('name');
         $this->db->where('client_id', $client_id);

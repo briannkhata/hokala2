@@ -9,8 +9,8 @@
       <hr>
       <div class="col">
          <div class="btn-group">
-            <a href="<?= base_url(); ?>Client/read" class="btn btn-secondary">
-               Add New
+            <a href="#" class="btn btn-secondary">
+               Print
             </a>
          </div>
       </div>
@@ -68,7 +68,7 @@
                                     <li>
                                        <a href="<?= base_url(); ?>Client/view/<?= $row['client_id']; ?>"
                                           class="dropdown-item">
-                                          View | Bills
+                                          View
                                        </a>
                                     </li>
                                     <li>

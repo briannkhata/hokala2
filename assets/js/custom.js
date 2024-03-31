@@ -95,7 +95,7 @@ function search() {
     },
     function (data) {
       if (data.success) {
-        $("#barcode").prop("selectedIndex", -1);
+       $("#barcode").prop("selectedIndex", -1);
         load_cart();
       } else {
         alert(data.message);
@@ -105,7 +105,6 @@ function search() {
     "json"
   ).fail(function (jqXHR, textStatus, errorThrown) {
     console.log("AJAX Error:", textStatus, errorThrown);
-    alert("An error occurred while processing your request.");
     $("#barcode").val("");
   });
 }
