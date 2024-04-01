@@ -76,11 +76,11 @@ class Sale extends CI_Controller
         $vat = $this->db->get('tbl_settings')->row()->vat;
         if (!empty($product_info)) {
             $product = $product_info[0];
-            $found = $this->M_product->get_prouct_in_cart($product['product_id']);
+            $found = $this->M_product->get_product_in_cart($product['product_id'],$user_id,$client_id,$shop_id);
             if ($found) {
                 $unit_id = $this->M_product->get_unit_id($product['product_id']);
                 $saleQTY = $this->M_unit->get_unit_qty($unit_id);
-                $cart_id = $this->M_product->get_cart_id_by_product_id($product['product_id']);
+                $cart_id = $this->M_product->get_cart_id_by_product_id($product['product_id'],$user_id,$client_id,$shop_id);
                 $qty = $this->M_product->get_cart_qty($cart_id) + $saleQTY;
                 $price = $this->M_product->get_cart_price($cart_id);
 
@@ -205,6 +205,8 @@ class Sale extends CI_Controller
         $user_id = $this->session->userdata('user_id');
         $shop_id = $this->M_user->get_user_shop($user_id);
         $client_id = $this->input->post('client_id');
+        $payment_type_id = $this->input->post('payment_type_id');
+        $details = $this->input->post('details');
         $products = $this->M_product->get_cart($user_id, $client_id, $shop_id);
         $data['user_id'] = $user_id;
         $data['shop_id'] = $this->M_user->get_user_shop($user_id);
@@ -215,10 +217,18 @@ class Sale extends CI_Controller
         $data['tendered'] = str_replace([',', ' '], '', $this->input->post('tendered'));
         $data['change'] = $data['tendered'] - $data['total'];
         $data['client_id'] = $client_id;
+        $data['payment_type_id'] = $payment_type_id;
+        $data['details'] = $details;
+        //$data['balance'] = max(0, $data['total'] - $data['tendered']);   
+        $data['balance'] = $data['total'] - $data['tendered'];   
+        // Start transaction
         $this->db->trans_start();
+    
         $this->db->insert('tbl_sales', $data);
         $sale_id = $this->db->insert_id();
+    
 
+    
         foreach ($products as $row) {
             $sale_detail_data['product_id'] = $row['product_id'];
             $sale_detail_data['price'] = $row['price'];
@@ -239,9 +249,23 @@ class Sale extends CI_Controller
             $this->db->update('tbl_quantities', array('qty' => $new_qty));
         }
 
+        $datap['sale_id'] = $sale_id;
+        $datap['user_id'] = $user_id;
+        $datap['shop_id'] = $this->M_user->get_user_shop($user_id);
+        $datap['client_id'] = $client_id;
+        $datap['payment_date'] = date('Y-m-d h:m:s');
+        $datap['total_bill'] = $this->M_product->get_total_sum_cart($user_id, $client_id, $shop_id);
+        $datap['payment_amount'] = str_replace([',', ' '], '', $this->input->post('tendered'));
+        $datap['payment_type_id'] = $payment_type_id;
+        $this->db->insert('tbl_payments', $datap);
+    
+        // Complete transaction
         $this->db->trans_complete();
+    
         if ($this->db->trans_status() === FALSE) {
+            $this->db->trans_rollback();
         } else {
+            $this->db->trans_commit();
             $this->db->where('user_id', $user_id);
             $this->db->where('shop_id', $shop_id);
             $this->db->where('client_id', $client_id);
@@ -249,6 +273,7 @@ class Sale extends CI_Controller
             redirect("Sale/receipt/" . $sale_id . '/' . $client_id);
         }
     }
+    
 
     function receipt($param = "")
     {

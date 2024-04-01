@@ -9,7 +9,7 @@
       <hr>
       <div class="col">
          <div class="btn-group">
-            <a href="<?= base_url(); ?>Unit/read" class="btn btn-secondary">
+            <a href="<?= base_url(); ?>Payment_type/read" class="btn btn-secondary">
                Add New
             </a>
          </div>
@@ -34,23 +34,19 @@
                <table id="example" class="table table-striped table-bordered" style="width:100%">
                   <thead>
                      <tr id="filters">
-                        <th>Unit Type</th>
-                        <th>Qty</th>
-                        <th>Description</th>
+                        <th>Payment Type</th>
+                        <th>Details</th>
                         <th></th>
                      </tr>
                   </thead>
                   <tbody>
-                     <?php foreach ($this->M_unit->get_units() as $row) { ?>
+                     <?php foreach ($this->M_payment_type->get_payment_types() as $row) { ?>
                         <tr>
                            <td>
-                              <?= $row['unit_type']; ?>
+                              <?= $row['payment_type']; ?>
                            </td>
                            <td>
-                              <?= $row['qty']; ?>
-                           </td>
-                           <td>
-                              <?= $row['desc']; ?>
+                              <?= $row['details']; ?>
                            </td>
                            <td>
                               <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
@@ -59,19 +55,13 @@
                                        data-bs-toggle="dropdown" aria-expanded="false">Action</button>
                                     <ul class="dropdown-menu">
                                     <li>
-                                          <a href="<?= base_url(); ?>Unit/read/<?= $row['unit_id']; ?>"
+                                          <a href="<?= base_url(); ?>Payment_type/read/<?= $row['payment_type_id']; ?>"
                                              class="dropdown-item">
                                              Edit
                                           </a>
                                        </li>
                                        <li>
-                                          <a href="<?= base_url(); ?>Unit/view/<?= $row['unit_id']; ?>"
-                                             class="dropdown-item">
-                                             View Products
-                                          </a>
-                                       </li>
-                                       <li>
-                                          <a href="<?= base_url(); ?>Unit/delete/<?= $row['unit_id']; ?>"
+                                          <a href="<?= base_url(); ?>Payment_type/delete/<?= $row['payment_type_id']; ?>"
                                              class="dropdown-item">
                                              Delete
                                           </a>

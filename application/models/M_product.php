@@ -199,18 +199,24 @@ class M_product extends CI_Model
         }
     }
 
-    function get_prouct_in_cart($product_id)
+    function get_product_in_cart($product_id,$user_id,$client_id,$shop_id)
     {
         $this->db->select('*');
         $this->db->where('product_id', $product_id);
+        $this->db->where('user_id', $user_id);
+        $this->db->where('client_id', $client_id);
+        $this->db->where('shop_id', $shop_id);
         $query = $this->db->get('tbl_cart_sales')->result_array();
         return $query;
     }
 
-    function get_cart_id_by_product_id($product_id)
+    function get_cart_id_by_product_id($product_id,$user_id,$client_id,$shop_id)
     {
         $this->db->select('cart_id');
         $this->db->where('product_id', $product_id);
+        $this->db->where('user_id', $user_id);
+        $this->db->where('client_id', $client_id);
+        $this->db->where('shop_id', $shop_id);
         $query = $this->db->get('tbl_cart_sales');
         if ($query->num_rows() > 0) {
             $result = $query->row();

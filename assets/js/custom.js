@@ -69,17 +69,19 @@ $("#tendered").on("input", function () {
 function finish() {
   var tenderedAmount = $("#tendered").val();
   var client_id = $("#client_id").val();
-
+  var payment_type_id = $("#payment_type_id").val();
+  var details = $("#details").val();
   tenderedAmount2 = parseFloat(tenderedAmount.replace(/,/g, ""));
 
   if (!tenderedAmount2 || isNaN(tenderedAmount2)) {
     alert("Please enter a valid tendered amount.");
     return;
   }
-
   $.post("Sale/finish_sale", {
     tendered: tenderedAmount2,
     client_id: client_id,
+    payment_type_id: payment_type_id,
+    details: details,
   }).fail(function (jqXHR, textStatus, errorThrown) {
     console.log("AJAX Error:", textStatus, errorThrown);
     alert("An error occurred while processing your request.");
@@ -87,16 +89,18 @@ function finish() {
 }
 
 function search() {
-  $.post("Sale/refresh_cart",
+  $.post(
+    "Sale/refresh_cart",
     {
       barcode: $("#barcode").val(),
       client_id: $("#client_id").val(),
     },
     function (data) {
       if (data.success) {
-        $("#barcode").prop("selectedIndex", -1);
+        console.log(data.message);
         load_cart();
       } else {
+        console.log(data.message);
         alert(data.message);
         $("#barcode").val("");
       }
@@ -108,8 +112,6 @@ function search() {
   });
 }
 
-
-
 function total_bill() {
   var sum = 0;
   $("#cart tbody tr").each(function () {
@@ -120,14 +122,11 @@ function total_bill() {
 }
 
 function cancel() {
-  //$("#loader").show();
-  //$("#overlay").show();
   $.post(
     "Sale/cancel",
     { client_id: $("#client_id").val() },
     function (data) {
       if (data.success) {
-        //alert(data.message);
         load_cart();
       } else {
         alert(data.message);
@@ -146,38 +145,54 @@ function cancel() {
 }
 
 function load_cart() {
-  $.post("Sale/refreshCart", { client_id: $("#client_id").val() }, function (htmlData) {
-    $("#list").html(htmlData);
-    refresh_total_bill();
-    refresh_sub_total();
-    refresh_vat_total();
-    //$('#change').text('');
-    $("#tendered").val("");
-  }).fail(function (jqXHR, textStatus, errorThrown) {
+  $.post(
+    "Sale/refreshCart",
+    { client_id: $("#client_id").val() },
+    function (htmlData) {
+      $("#list").html(htmlData);
+      refresh_total_bill();
+      refresh_sub_total();
+      refresh_vat_total();
+      //$('#change').text('');
+      $("#tendered").val("");
+    }
+  ).fail(function (jqXHR, textStatus, errorThrown) {
     console.error("AJAX Error:", textStatus, errorThrown);
   });
 }
 
 function refresh_total_bill() {
-  $.post("Sale/refresh_total_bill",{ client_id: $("#client_id").val() }, function (htmlData) {
-    $("#totalBill").html(htmlData);
-  }).fail(function (jqXHR, textStatus, errorThrown) {
+  $.post(
+    "Sale/refresh_total_bill",
+    { client_id: $("#client_id").val() },
+    function (htmlData) {
+      $("#totalBill").html(htmlData);
+    }
+  ).fail(function (jqXHR, textStatus, errorThrown) {
     console.error("AJAX Error:", textStatus, errorThrown);
   });
 }
 
 function refresh_sub_total() {
-  $.post("Sale/refresh_sub_total_bill", { client_id: $("#client_id").val() },function (htmlData) {
-    $("#sub").html(htmlData);
-  }).fail(function (jqXHR, textStatus, errorThrown) {
+  $.post(
+    "Sale/refresh_sub_total_bill",
+    { client_id: $("#client_id").val() },
+    function (htmlData) {
+      $("#sub").html(htmlData);
+    }
+  ).fail(function (jqXHR, textStatus, errorThrown) {
     console.error("AJAX Error:", textStatus, errorThrown);
   });
 }
 
 function refresh_vat_total() {
-  $.post("Sale/refresh_total_vat", { client_id: $("#client_id").val() },function (htmlData) {
-    $("#vat").html(htmlData);
-  }).fail(function (jqXHR, textStatus, errorThrown) {
+  $.post(
+    "Sale/refresh_total_vat",
+    { client_id: $("#client_id").val() },
+    function (htmlData) {
+      $("#vat").html(htmlData);
+    }
+  ).fail(function (jqXHR, textStatus, errorThrown) {
     console.error("AJAX Error:", textStatus, errorThrown);
   });
 }

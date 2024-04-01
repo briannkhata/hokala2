@@ -143,5 +143,6 @@ $autoload['model'] = array(
     "M_warehouse",
     "M_role",
     "M_client",
-    "M_unit"
+    "M_unit",
+    "M_payment_type"
 );

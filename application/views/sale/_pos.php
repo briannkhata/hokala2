@@ -231,7 +231,7 @@
             <div id="productList">
                <ul id="searchResults"></ul>
             </div>
-          
+
             <br>
             <div id="list">
                <?php $this->load->view('sale/_load_cart'); ?>
@@ -242,30 +242,46 @@
          <div class="col-4 col-xl-4">
             <div class="card">
                <div class="card-body p-4">
-                  <form action="<?= base_url(); ?>Sale/finish_sale" method="post" id="finishSale">
-                     <h5 class="mb-4">
-                        <b>SUB : <span id="sub"></span></b>
-                        <hr>
-                        <b>VAT : <span id="vat"></span></b>
-                        <hr>
-                        <b>TOTAL : <span id="totalBill"></span></b>
-                     </h5>
+                  <!-- <form action="<?= base_url(); ?>Sale/finish_sale" method="post" id="finishSale"> -->
+                  <h5 class="mb-4">
+                     <b>SUB : <span id="sub"></span></b>
                      <hr>
+                     <b>VAT : <span id="vat"></span></b>
+                     <hr>
+                     <b>TOTAL : <span id="totalBill"></span></b>
+                  </h5>
+                  <hr>
+                  <select class="form-control" name="payment_type_id" id="payment_type_id">
+                     <?php foreach ($this->M_payment_type->get_payment_types() as $row) { ?>
+                        <option value="<?= $row['payment_type_id']; ?>">
+                           <?= $row['payment_type']; ?>
+                        </option>
+                     <?php } ?>
+                  </select>
 
-                     <div class="input-group mb-3">
-                        <input type="text" name="tendered" id="tendered" class="form-control"
-                           style="padding:2%; font-size:30px; text-align: center; font-weight:bold;" required>
+                  <div id="detailsInputField">
+                     <br>
+                     <input type="text" name="details" id="details" class="form-control" placeholder="Payment Details">
+                     <br>
+                  </div>
+                  <br>
+                  <div class="input-group mb-3">
+                    
+                     <input type="text" name="tendered" id="tendered" class="form-control"
+                        style="padding:2%; font-size:30px; text-align: center; font-weight:bold;" required>
+                  </div>
 
-                     </div>
+                  <h5 class="mb-4">
+                     <span id="change"></span>
+                  </h5>
+                  <h5 class="mb-4">
+                     <span id="balance"></span>
+                  </h5>
 
-                     <h5 class="mb-4">
-                        <span id="change"></span>
-                     </h5>
-
-                     <button type="submit" id="finish" class="btn btn-success" style="width:100%;">
-                        FINISH SALE
-                     </button>
-                  </form>
+                  <button type="submit" id="finish" class="btn btn-success" style="width:100%;">
+                     FINISH SALE
+                  </button>
+                  <!-- </form> -->
                </div>
             </div>
 
@@ -358,6 +374,17 @@
 <script>
    $(document).ready(function () {
       load_cart();
+      $('#detailsInputField').hide();
+
+      $('#payment_type_id').change(function () {
+         var selectedText = $(this).find('option:selected').text();
+         if (selectedText === 'CASH') {
+            $('#detailsInputField').hide();
+         } else {
+            $('#detailsInputField').show();
+         }
+      });
+
       $('#tendered').on('input', function () {
          var input = $(this).val().replace(/[^\d.-]/g, '');
          var parts = input.split('.');
@@ -417,7 +444,7 @@
                   searchResults.empty();
                   if (response && response.length > 0) {
                      response.forEach(function (product) {
-                        searchResults.append('<li class="product-item">' + product.barcode +  ' - ' + product.name +  ' - ' + product.desc + '</li>');
+                        searchResults.append('<li class="product-item">' + product.barcode + ' - ' + product.name + ' - ' + product.desc + '</li>');
                      });
                      $('#productList').show();
                   } else {

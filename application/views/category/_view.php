@@ -59,6 +59,12 @@
                                           </a>
                                        </li>
                                        <li>
+                                          <a href="<?= base_url(); ?>Category/view/<?= $row['category_id']; ?>"
+                                             class="dropdown-item">
+                                             View Products
+                                          </a>
+                                       </li>
+                                       <li>
                                           <a href="<?= base_url(); ?>Category/delete/<?= $row['category_id']; ?>"
                                              class="dropdown-item">
                                              Delete
