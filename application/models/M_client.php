@@ -17,6 +17,14 @@ class M_client extends CI_Model
         return $query->result_array();
     }
 
+    function get_clients_pos()
+    {
+        $this->db->where('deleted', 0);
+        $this->db->order_by('client_id', 'ASC');
+        $query = $this->db->get('tbl_clients');
+        return $query->result_array();
+    }
+
     function get_client_by_id($client_id)
     {
         $this->db->where('client_id', $client_id);

@@ -54,7 +54,7 @@ class Sale extends CI_Controller
 
     function refresh_cart()
     {
-     
+
         $user_id = $this->session->userdata('user_id');
         $shop_id = $this->M_user->get_user_shop($user_id);
         $client_id = $this->input->post('client_id');
@@ -202,16 +202,16 @@ class Sale extends CI_Controller
 
     function finish_sale()
     {
-        $products = $this->M_product->get_cart();
         $user_id = $this->session->userdata('user_id');
         $shop_id = $this->M_user->get_user_shop($user_id);
         $client_id = $this->input->post('client_id');
+        $products = $this->M_product->get_cart($user_id, $client_id, $shop_id);
         $data['user_id'] = $user_id;
         $data['shop_id'] = $this->M_user->get_user_shop($user_id);
         $data['sale_date'] = date('Y-m-d h:m:s');
-        $data['vat'] = $this->M_product->get_total_vat_cart();
-        $data['sub_total'] = $this->M_product->get_sub_total_sum_cart();
-        $data['total'] = $this->M_product->get_total_sum_cart();
+        $data['vat'] = $this->M_product->get_total_vat_cart($user_id, $client_id, $shop_id);
+        $data['sub_total'] = $this->M_product->get_sub_total_sum_cart($user_id, $client_id, $shop_id);
+        $data['total'] = $this->M_product->get_total_sum_cart($user_id, $client_id, $shop_id);
         $data['tendered'] = str_replace([',', ' '], '', $this->input->post('tendered'));
         $data['change'] = $data['tendered'] - $data['total'];
         $data['client_id'] = $client_id;

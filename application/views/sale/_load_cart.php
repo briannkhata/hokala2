@@ -114,16 +114,12 @@ if (count($cart) <= 0):
         </thead>
         <tbody>
             <?php
-            $totalSum = 0;
             foreach ($cart as $row):
-                $vat = $this->db->get('tbl_settings')->row()->vat;
-                $totalForRow = (($vat / 100) * ($row['price'] * $row['qty'])) + ($row['price'] * $row['qty']);
-                $totalSum += $totalForRow;
-
                 ?>
                 <tr>
                     <td>
-                        <?= $this->M_product->get_name($row['product_id']); ?>
+                        <?= $this->M_product->get_name($row['product_id']); ?><br>
+                        <small><b><?= $this->M_product->get_barcode($row['product_id']); ?></b></small>
                     </td>
                     <td>
                         <?= number_format($row['price'], 2); ?>

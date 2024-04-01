@@ -144,7 +144,7 @@
 <main class="main-wrapper">
    <div class="main-content">
       <?php
-      $client_id = $this->M_client->get_walk_in_client();
+      //$client_id = $this->M_client->get_walk_in_client();
       ?>
       <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
          <div class="col">
@@ -156,8 +156,8 @@
                <i class="fa fa-trash"></i></a>
          </div>
          <select class="form-control" name="client_id" id="client_id" onchange="load_cart()">
-            <?php foreach ($this->M_client->get_clients() as $row) { ?>
-               <option <?= $client_id == $row['client_id'] ? "selected" : ""; ?> value="<?= $row['client_id']; ?>">
+            <?php foreach ($this->M_client->get_clients_pos() as $row) { ?>
+               <option value="<?= $row['client_id']; ?>">
                   <?= $row['name']; ?> |
                   <?= $row['phone']; ?>
                </option>
@@ -436,11 +436,10 @@
 
       $(document).on('click', '.product-item', function () {
          var selectedText = $(this).text().trim();
-        // $('#search').val(selectedText);
          var barcode = selectedText.split(' - ')[0];
          $('#barcode').val(barcode);
          search();
-         $('#barcode').val("");
+         $('#barcode').val("").focus();
          $('#productList').hide();
       });
 
