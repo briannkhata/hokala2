@@ -17,7 +17,6 @@ class Client extends CI_Controller
 		$data['page_title'] = "Clients";
 		$this->load->view('client/_list', $data);
 	}
-
 	function get_client_form_data()
 	{
 		$data['name'] = $this->input->post('name');

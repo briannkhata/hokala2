@@ -242,7 +242,6 @@
          <div class="col-4 col-xl-4">
             <div class="card">
                <div class="card-body p-4">
-                  <!-- <form action="<?= base_url(); ?>Sale/finish_sale" method="post" id="finishSale"> -->
                   <h5 class="mb-4">
                      <b>SUB : <span id="sub"></span></b>
                      <hr>
@@ -281,7 +280,6 @@
                   <button type="submit" id="finish" class="btn btn-success" style="width:100%;">
                      FINISH SALE
                   </button>
-                  <!-- </form> -->
                </div>
             </div>
 

@@ -282,14 +282,32 @@ class M_product extends CI_Model
         return $result->vat ?? 0;
     }
 
+    function get_sales_details($user_id, $client_id, $shop_id,$sale_id)
+    {
+        $this->db->select_sum('vat');
+        $this->db->where('user_id', $user_id);
+        $this->db->where('client_id', $client_id);
+        $this->db->where('shop_id', $shop_id);
+        $this->db->where('sale_id', $sale_id);
+        $result = $this->db->get('tbl_sale_details')->result_array();
+        return $result;
+    }
+
     function searchProducts($barcode) {
-        $this->db->select('product_id, barcode, name, desc');
+        $this->db->select('product_id, barcode, name, `desc`');
         $this->db->from('tbl_products');
         $this->db->like('barcode', $barcode);
-        $this->db->where('deleted',0);
+        $this->db->where('deleted', 0);
         $query = $this->db->get();
-        return $query->result_array();
+        $results = $query->result_array();
+        if (empty($results)) {
+            $allProductsQuery = $this->db->get('tbl_products');
+            return $allProductsQuery->result_array();
+        }
+        
+        return $results;
     }
+    
 
 
 

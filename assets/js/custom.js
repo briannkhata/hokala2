@@ -66,6 +66,28 @@ $("#tendered").on("input", function () {
   }
 });
 
+// function finish() {
+//   var tenderedAmount = $("#tendered").val();
+//   var client_id = $("#client_id").val();
+//   var payment_type_id = $("#payment_type_id").val();
+//   var details = $("#details").val();
+//   tenderedAmount2 = parseFloat(tenderedAmount.replace(/,/g, ""));
+
+//   if (!tenderedAmount2 || isNaN(tenderedAmount2)) {
+//     alert("Please enter a valid tendered amount.");
+//     return;
+//   }
+//   $.post("Sale/finish_sale", {
+//     tendered: tenderedAmount2,
+//     client_id: client_id,
+//     payment_type_id: payment_type_id,
+//     details: details,
+//   }).fail(function (jqXHR, textStatus, errorThrown) {
+//     console.log("AJAX Error:", textStatus, errorThrown);
+//     alert("An error occurred while processing your request.");
+//   });
+// }
+
 function finish() {
   var tenderedAmount = $("#tendered").val();
   var client_id = $("#client_id").val();
@@ -82,10 +104,18 @@ function finish() {
     client_id: client_id,
     payment_type_id: payment_type_id,
     details: details,
-  }).fail(function (jqXHR, textStatus, errorThrown) {
-    console.log("AJAX Error:", textStatus, errorThrown);
-    alert("An error occurred while processing your request.");
-  });
+  })
+    .done(function (data) {
+      $("#receipt-container").html(data);
+      //window.print();
+      console.log(data)
+      load_cart();
+    })
+    .fail(function (jqXHR, textStatus, errorThrown) {
+      // This function will run if there is an error with the AJAX request
+      console.log("AJAX Error:", textStatus, errorThrown);
+      alert("An error occurred while processing your request.");
+    });
 }
 
 function search() {
