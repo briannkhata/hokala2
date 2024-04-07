@@ -1,7 +1,7 @@
 <?php
 defined("BASEPATH") or exit("No direct script access allowed");
 
-class product extends CI_Controller
+class Move extends CI_Controller
 {
     function __construct()
     {
@@ -13,19 +13,19 @@ class product extends CI_Controller
 
     function index()
     {
-        $data["page_title"] = "Product List";
-        $this->load->view("product/_product_list", $data);
+        $data["page_title"] = "Product To Move";
+        $this->load->view("move/_pos", $data);
     }
 
-    function receive_product()
+    function receive_move()
     {
-        $data["page_title"] = "Receive Product";
-        $this->load->view("product/_receive_product", $data);
+        $data["page_title"] = "Receive move";
+        $this->load->view("move/_receive_move", $data);
     }
 
     function save_receiving()
     {
-        $data["product_id"] = $this->input->post("product_id");
+        $data["move_id"] = $this->input->post("move_id");
         $data["qty"] = $this->input->post("qty");
         $data["cost_price"] = $this->input->post("cost_price");
         $data["selling_price"] = $this->input->post("selling_price");
@@ -33,20 +33,20 @@ class product extends CI_Controller
         $data["receive_date"] = date("Y-m-d h:m:s:i");
         $this->db->insert("tbl_receivings", $data);
 
-        $qty = $this->M_product->get_qty1($data["product_id"]);
+        $qty = $this->M_move->get_qty1($data["move_id"]);
         $data0["selling_price"] = $data["selling_price"];
         $data0["expiry_date"] = $data["expiry_date"];
         $data0["qty"] = $qty + $data["qty"];
-        $this->db->where("product_id", $data["product_id"]);
-        $this->db->update("tbl_products", $data0);
-        redirect("Product/receive_product");
-        $this->session->set_flashdata("message", "Product Received successfully!");
+        $this->db->where("move_id", $data["move_id"]);
+        $this->db->update("tbl_moves", $data0);
+        redirect("move/receive_move");
+        $this->session->set_flashdata("message", "move Received successfully!");
     }
 
     function pos()
     {
         $data["page_title"] = "Point of Sale";
-        $this->load->view("product/_pos", $data);
+        $this->load->view("move/_pos", $data);
     }
 
     function add_to_cart()
@@ -58,15 +58,15 @@ class product extends CI_Controller
             return;
         }
 
-        $product_info = $this->M_product->get_product_by_barcode($barcode);
+        $move_info = $this->M_move->get_move_by_barcode($barcode);
         $vat = $this->db->get('tbl_settings')->row()->vat;
-        if (!empty($product_info)) {
-            $product = $product_info[0];
-            $found = $this->M_product->get_prouct_in_cart($product['product_id']);
+        if (!empty($move_info)) {
+            $move = $move_info[0];
+            $found = $this->M_move->get_prouct_in_cart($move['move_id']);
             if ($found) {
-                $cart_id = $this->M_product->get_cart_id_by_product_id($product['product_id']);
-                $qty = $this->M_product->get_cart_qty($cart_id) + 1;
-                $price = $this->M_product->get_cart_price($cart_id);
+                $cart_id = $this->M_move->get_cart_id_by_move_id($move['move_id']);
+                $qty = $this->M_move->get_cart_qty($cart_id) + 1;
+                $price = $this->M_move->get_cart_price($cart_id);
 
                 $totalRow = ((($vat / 100) * ($price * $qty))) + ($price * $qty);
                 $cart_data = array(
@@ -80,12 +80,12 @@ class product extends CI_Controller
 
             } else {
                 $qty = 1;
-                $totalRow = ((($vat / 100) * ($this->M_product->get_price($product['product_id']) * $qty))) + ($this->M_product->get_price($product['product_id']) * $qty);
+                $totalRow = ((($vat / 100) * ($this->M_move->get_price($move['move_id']) * $qty))) + ($this->M_move->get_price($move['move_id']) * $qty);
                 $cart_data = array(
-                    'product_id' => $product['product_id'],
-                    'price' => $this->M_product->get_price($product['product_id']),
+                    'move_id' => $move['move_id'],
+                    'price' => $this->M_move->get_price($move['move_id']),
                     'qty' => $qty,
-                    'vat' => (($vat / 100) * ($this->M_product->get_price($product['product_id']) * $qty)),
+                    'vat' => (($vat / 100) * ($this->M_move->get_price($move['move_id']) * $qty)),
                     'total' => $totalRow,
                     'user_id' => $this->session->userdata('user_id')
                 );
@@ -93,7 +93,7 @@ class product extends CI_Controller
             }
             echo json_encode(array('success' => true));
         } else {
-            echo json_encode(array('success' => false, 'message' => 'Product not found'));
+            echo json_encode(array('success' => false, 'message' => 'move not found'));
         }
     }
 
@@ -107,15 +107,15 @@ class product extends CI_Controller
             return;
         }
 
-        $product_info = $this->M_product->get_product_by_cart_id($cart_id);
+        $move_info = $this->M_move->get_move_by_cart_id($cart_id);
         $vat = $this->db->get('tbl_settings')->row()->vat;
-        if (!empty($product_info)) {
+        if (!empty($move_info)) {
             $qty = $qtyNew;
-            $product = $product_info[0];
-            $totalRow = ((($vat / 100) * ($product['price'] * $qty))) + ($product['price'] * $qty);
+            $move = $move_info[0];
+            $totalRow = ((($vat / 100) * ($move['price'] * $qty))) + ($move['price'] * $qty);
             $cart_data = array(
                 'qty' => $qty,
-                'vat' => (($vat / 100) * ($product['price'] * $qty)),
+                'vat' => (($vat / 100) * ($move['price'] * $qty)),
                 'total' => $totalRow,
                 'user_id' => $this->session->userdata('user_id')
             );
@@ -123,7 +123,7 @@ class product extends CI_Controller
             $this->db->update('tbl_cart', $cart_data);
             echo json_encode(array('success' => true));
         } else {
-            echo json_encode(array('success' => false, 'message' => 'Product not found'));
+            echo json_encode(array('success' => false, 'message' => 'move not found'));
         }
     }
     function get_form_data()
@@ -143,7 +143,7 @@ class product extends CI_Controller
 
     function get_db_data($update_id)
     {
-        $query = $this->M_product->get_product_by_id($update_id);
+        $query = $this->M_move->get_move_by_id($update_id);
         foreach ($query as $row) {
             $data["name"] = $row["name"];
             $data["barcode"] = $row["barcode"];
@@ -170,8 +170,8 @@ class product extends CI_Controller
         } else {
             $data = $this->get_form_data();
         }
-        $data["page_title"] = "Create product";
-        $this->load->view("product/_add_product", $data);
+        $data["page_title"] = "Create move";
+        $this->load->view("move/_add_move", $data);
     }
 
     function save()
@@ -181,17 +181,17 @@ class product extends CI_Controller
         if (isset($update_id)) {
             $data["modified_by"] = $this->session->userdata("user_id");
             $data["modified_date"] = date("Y-m-d");
-            $this->db->where("product_id", $update_id);
-            $this->db->update("tbl_products", $data);
+            $this->db->where("move_id", $update_id);
+            $this->db->update("tbl_moves", $data);
         } else {
-            $this->db->insert("tbl_products", $data);
+            $this->db->insert("tbl_moves", $data);
         }
         if ($update_id != ""):
-            redirect("Product");
+            redirect("move");
         else:
-            redirect("Product/read");
+            redirect("move/read");
         endif;
-        $this->session->set_flashdata("message", "product saved successfully!");
+        $this->session->set_flashdata("message", "move saved successfully!");
     }
 
     function delete($id)
@@ -199,10 +199,10 @@ class product extends CI_Controller
         $data["deleted"] = 1;
         $data["deleted_by"] = $this->session->userdata("user_id");
         $data["date_deleted"] = date("Y-m-d");
-        $this->db->where("product_id", $id);
-        $this->db->update("tbl_products", $data);
-        $this->session->set_flashdata("message", "product Removed!");
-        redirect("Product");
+        $this->db->where("move_id", $id);
+        $this->db->update("tbl_moves", $data);
+        $this->session->set_flashdata("message", "move Removed!");
+        redirect("move");
     }
 
     function delete_cart()
@@ -215,22 +215,22 @@ class product extends CI_Controller
 
     function refreshCart()
     {
-        $this->load->view("product/_load_cart");
+        $this->load->view("move/_load_cart");
     }
 
     function refresh_total_bill()
     {
-        $this->load->view("product/_load_total_bill");
+        $this->load->view("move/_load_total_bill");
     }
 
     function refresh_sub_total_bill()
     {
-        $this->load->view("product/_load_sub_total");
+        $this->load->view("move/_load_sub_total");
     }
 
     function refresh_total_vat()
     {
-        $this->load->view("product/_load_total_vat");
+        $this->load->view("move/_load_total_vat");
     }
 
     function cancel()
@@ -243,12 +243,12 @@ class product extends CI_Controller
 
     function finish_sale()
     {
-        $products = $this->M_product->get_cart();
+        $moves = $this->M_move->get_cart();
 
         $data['user_id'] = $this->session->userdata('user_id');
         $data['sale_date'] = date('Y-m-d');
-        $data['vat'] = $this->M_product->get_total_vat_cart();
-        $data['total'] = $this->M_product->get_total_sum_cart();
+        $data['vat'] = $this->M_move->get_total_vat_cart();
+        $data['total'] = $this->M_move->get_total_sum_cart();
         $data['sub'] = $data['total'] - $data['vat'];
         $data['tendered'] = $this->input->post('tendered');
         $data['change'] = $data['tendered'] - $data['total'];
@@ -258,9 +258,9 @@ class product extends CI_Controller
         $this->db->insert('tbl_sales', $data);
         $sale_id = $this->db->insert_id();
 
-        foreach ($products as $row) {
+        foreach ($moves as $row) {
             // Prepare data for tbl_sale_details
-            $sale_detail_data['product_id'] = $row['product_id'];
+            $sale_detail_data['move_id'] = $row['move_id'];
             $sale_detail_data['price'] = $row['price'];
             $sale_detail_data['qty'] = $row['qty'];
             $sale_detail_data['vat'] = $row['vat'];
@@ -271,10 +271,10 @@ class product extends CI_Controller
             // Save sale details to tbl_sale_details
             $this->db->insert('tbl_sale_details', $sale_detail_data);
 
-            // Update product quantity
-            $new_qty = $this->M_product->get_qty1($row['product_id']) - $row['qty'];
-            $this->db->where('product_id', $row['product_id']);
-            $this->db->update('tbl_products', array('qty' => $new_qty));
+            // Update move quantity
+            $new_qty = $this->M_move->get_qty1($row['move_id']) - $row['qty'];
+            $this->db->where('move_id', $row['move_id']);
+            $this->db->update('tbl_moves', array('qty' => $new_qty));
         }
 
         $this->db->trans_complete(); // Complete transaction
@@ -284,7 +284,7 @@ class product extends CI_Controller
             // If transaction succeeds, delete cart and redirect to receipt
             $this->db->where('user_id', $this->session->userdata('user_id'));
             $this->db->delete('tbl_cart');
-            redirect("Product/receipt/" . $sale_id);
+            redirect("move/receipt/" . $sale_id);
             //echo json_encode(array('success' => true, 'message' => 'Sale Finished successfully!!!'));
         }
     }
@@ -294,7 +294,7 @@ class product extends CI_Controller
     {
         $data['sale_id'] = $param;
         $data["page_title"] = "Receipt";
-        $this->load->view('product/_receipt', $data);
+        $this->load->view('move/_receipt', $data);
     }
 
 

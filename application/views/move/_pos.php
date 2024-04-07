@@ -143,27 +143,38 @@
 <!--start main wrapper-->
 <main class="main-wrapper">
    <div class="main-content">
-      <?php
-      //$client_id = $this->M_client->get_walk_in_client();
-      ?>
+ 
       <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
          <div class="col">
-            <a href="" class="btn btn-outline-success" style="margin-right: 7px;" data-bs-toggle="modal"
-               data-bs-target="#NewClient">Client <i class="fa fa-plus-circle"></i></a>
-            <a href="" class="btn btn-outline-success" style="margin-right: 7px;" data-bs-toggle="modal"
-               data-bs-target="#SearchProduct">Lookup <i class="fa fa-search"></i></a>
-            <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear
-               <i class="fa fa-trash"></i></a>
-         </div>
-         <select class="form-control" name="client_id" id="client_id" onchange="load_cart()">
-            <?php foreach ($this->M_client->get_clients_pos() as $row) { ?>
-               <option value="<?= $row['client_id']; ?>">
+           
+
+         <select class="form-control" name="from_shop" id="from_shop" style="margin-right: 7px;">
+            <?php foreach ($this->M_shop->get_shops() as $row) { ?>
+               <option value="<?= $row['shop_id']; ?>">
+                  <?= $row['name']; ?> 
+               </option>
+            <?php } ?>
+         </select>
+
+         <select class="form-control" name="to_shop" id="to_shop" style="margin-right: 7px;">
+            <?php foreach ($this->M_shop->get_shops() as $row) { ?>
+               <option value="<?= $row['shop_id']; ?>">
+                  <?= $row['name']; ?> 
+               </option>
+            <?php } ?>
+         </select>
+
+         <select class="form-control" name="user_id" id="user_id">
+            <?php foreach ($this->M_user->get_users() as $row) { ?>
+               <option value="<?= $row['user_id']; ?>">
                   <?= $row['name']; ?> |
                   <?= $row['phone']; ?>
                </option>
             <?php } ?>
          </select>
+            </div>
       </div>
+      
       <hr>
 
       <style>
@@ -224,7 +235,7 @@
       </style>
 
       <div class="row">
-         <div class="col-8 col-xl-8">
+         <div class="col-12 col-xl-12">
             <b><small>Search Product by Barcode, Name or Category</small></b>
 
             <input id="barcode" name="barcode" type="search" placeholder="Search Product barcode">
@@ -238,134 +249,12 @@
             </div>
          </div>
 
-
-         <div class="col-4 col-xl-4">
-            <div class="card">
-               <div class="card-body p-4">
-                  <h5 class="mb-4">
-                     <b>SUB : <span id="sub"></span></b>
-                     <hr>
-                     <b>VAT : <span id="vat"></span></b>
-                     <hr>
-                     <b>TOTAL : <span id="totalBill"></span></b>
-                  </h5>
-                  <hr>
-                  <select class="form-control" name="payment_type_id" id="payment_type_id">
-                     <?php foreach ($this->M_payment_type->get_payment_types() as $row) { ?>
-                        <option value="<?= $row['payment_type_id']; ?>">
-                           <?= $row['payment_type']; ?>
-                        </option>
-                     <?php } ?>
-                  </select>
-
-                  <div id="detailsInputField">
-                     <br>
-                     <input type="text" name="details" id="details" class="form-control" placeholder="Payment Details">
-                     <br>
-                  </div>
-                  <br>
-                  <div class="input-group mb-3">
-                    
-                     <input type="text" name="tendered" id="tendered" class="form-control"
-                        style="padding:2%; font-size:30px; text-align: center; font-weight:bold;" required>
-                  </div>
-
-                  <h5 class="mb-4">
-                     <span id="change"></span>
-                  </h5>
-                  <h5 class="mb-4">
-                     <span id="balance"></span>
-                  </h5>
-
-                  <button type="submit" id="finish" class="btn btn-success" style="width:100%;">
-                     FINISH SALE
-                  </button>
-               </div>
-            </div>
-
-         </div>
       </div>
       <!--end row-->
    </div>
 </main>
 
 
-
-<div class="modal fade" id="SearchProduct" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-   style="width:100%">
-   <div class="modal-dialog">
-      <div class="modal-content">
-         <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Search Product</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-         </div>
-         <div class="modal-body" style="">
-            <table id="proSearch" class="table table-striped" style="width:100%">
-               <thead>
-                  <tr>
-                     <th>Barcode</th>
-                     <th>Product</th>
-                     <th>Description</th>
-                     <th>Price</th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <?php
-                  foreach ($this->M_product->get_products() as $row): ?>
-
-                     <tr class="product-row" data-product-id="<?= $row['product_id']; ?>">
-                        <td>
-                           <?= $row['barcode'] ?>
-                        </td>
-                        <td>
-                           <?= $row['name'] ?>
-                        </td>
-                        <td>
-                           <?= $row['desc'] ?>
-                        </td>
-                        <td>
-                           <?= number_format($row['selling_price'], 2) ?>
-                        </td>
-                     </tr>
-                  <?php endforeach; ?>
-               </tbody>
-            </table>
-         </div>
-
-      </div>
-   </div>
-</div>
-<div class="modal fade" id="NewClient" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
-   style="width:100%">
-   <div class="modal-dialog">
-      <div class="modal-content">
-         <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Add New Client</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-         </div>
-         <div class="modal-body" style="">
-            <form class="row g-3" id="NewClientForm">
-               <div class="col-md-12">
-                  <label for="input1" class="form-label">Name</label>
-                  <input type="text" name="name" class="form-control" required="">
-               </div>
-
-               <div class="col-md-12">
-                  <label for="input1" class="form-label">Phone</label>
-                  <input type="text" name="phone" class="form-control">
-               </div>
-               <div class="col-md-12">
-
-                  <div class="d-md-flex d-grid align-items-center gap-3">
-                     <button type="button" id="saveBtn" class="btn btn-primary px-4">Save</button>
-                  </div>
-               </div>
-            </form>
-         </div>
-
-      </div>
-   </div>
-</div>
 
 <?php $this->load->view('includes/footer.php'); ?>
 <script src="<?= base_url(); ?>assets/js/custom.js"></script>
