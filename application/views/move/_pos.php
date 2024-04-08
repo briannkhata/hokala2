@@ -1,184 +1,223 @@
 <?php $this->load->view('includes/header.php'); ?>
 <?php $this->load->view('includes/menu.php'); ?>
 <style>
-   .modal-header {
-      padding: 10px 20px;
-      background-color: #f5f5f5;
-      border-bottom: 1px solid #ddd;
-   }
+.card-body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
 
-   .card-body {
-      font-family: 'Arial', sans-serif;
-      font-size: 16px;
-   }
+.card-body h5 {
+    font-weight: bold;
+    color: #333;
+}
 
-   .card-body h5 {
-      font-weight: bold;
-      color: #333;
-   }
+.form-control {
+    font-size: 14px;
+}
 
-   .form-control {
-      font-size: 14px;
-   }
+#finish,
+#clearCart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
-   #finish,
-   #clearCart {
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      margin-top: 10px;
-      cursor: pointer;
-      border-radius: 5px;
-   }
+#finish:hover,
+#clearCart:hover {
+    background-color: #0056b3;
+}
 
-   #finish:hover,
-   #clearCart:hover {
-      background-color: #0056b3;
-   }
+.input-group {
+    width: 100%;
+}
 
-   .input-group {
-      width: 100%;
-   }
+.input-group-text {
+    background-color: #fff;
+    border-color: #ced4da;
+    color: #495057;
+}
 
-   .input-group-text {
-      background-color: #fff;
-      border-color: #ced4da;
-      color: #495057;
-   }
+.form-control {
+    border-color: #ced4da;
+}
 
-   .form-control {
-      border-color: #ced4da;
-   }
+.btn-outline-success {
+    border-color: #28a745;
+    color: #28a745;
+}
 
-   .btn-outline-success {
-      border-color: #28a745;
-      color: #28a745;
-   }
+.input-group {
+    width: 100%;
+}
 
-   .input-group {
-      width: 100%;
-   }
+.input-group-text {
+    background-color: #fff;
+    border-color: #ced4da;
+    color: #495057;
+}
 
-   .input-group-text {
-      background-color: #fff;
-      border-color: #ced4da;
-      color: #495057;
-   }
+/* Style for the search icon specifically */
+.input-group-text i {
+    color: #28a745;
+    /* Icon color */
+}
 
-   /* Style for the search icon specifically */
-   .input-group-text i {
-      color: #28a745;
-      /* Icon color */
-   }
+/* Style for the select dropdown */
+.form-control {
+    border-color: #ced4da;
+    /* Border color */
+}
 
-   /* Style for the select dropdown */
-   .form-control {
-      border-color: #ced4da;
-      /* Border color */
-   }
+/* Style for the refresh button */
+.btn-outline-success {
+    border-color: #28a745;
+    /* Border color */
+    color: #28a745;
+    /* Text color */
+}
 
-   /* Style for the refresh button */
-   .btn-outline-success {
-      border-color: #28a745;
-      /* Border color */
-      color: #28a745;
-      /* Text color */
-   }
+/* Custom styles for the input group */
+.input-group {
+    width: 100%;
+}
 
-   /* Custom styles for the input group */
-   .input-group {
-      width: 100%;
-   }
+/* Style for the search icon */
+.input-group-text {
+    background-color: #fff;
+    /* Background color of the input group */
+    border-color: #ced4da;
+    /* Border color */
+    color: #495057;
+    /* Text color */
+}
 
-   /* Style for the search icon */
-   .input-group-text {
-      background-color: #fff;
-      /* Background color of the input group */
-      border-color: #ced4da;
-      /* Border color */
-      color: #495057;
-      /* Text color */
-   }
+/* Style for the search icon specifically */
+.input-group-text i {
+    color: #28a745;
+    /* Icon color */
+    font-size: 1.2rem;
+    /* Adjust the icon size */
+}
 
-   /* Style for the search icon specifically */
-   .input-group-text i {
-      color: #28a745;
-      /* Icon color */
-      font-size: 1.2rem;
-      /* Adjust the icon size */
-   }
+/* Style for the select dropdown */
+.form-control {
+    border-color: #ced4da;
+    /* Border color */
+}
 
-   /* Style for the select dropdown */
-   .form-control {
-      border-color: #ced4da;
-      /* Border color */
-   }
+/* Style for the refresh button */
+.btn-outline-success {
+    border-color: #28a745;
+    /* Border color */
+    color: #28a745;
+    /* Text color */
+}
 
-   /* Style for the refresh button */
-   .btn-outline-success {
-      border-color: #28a745;
-      /* Border color */
-      color: #28a745;
-      /* Text color */
-   }
+small {
+    font-size: 12px;
+    color: #777;
+    margin-bottom: 5px;
+    display: block;
+}
 
-   small {
-      font-size: 12px;
-      color: #777;
-      margin-bottom: 5px;
-      display: block;
-   }
-
-   /* Style for the <select> element */
-   #barcode {
-      width: 100%;
-      padding: 8px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-      font-size: 14px;
-   }
+/* Style for the <select> element */
+#barcode {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
 </style>
 <!--start main wrapper-->
 <main class="main-wrapper">
-   <div class="main-content">
- 
-      <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
-         <div class="col">
-           
+    <div class="main-content">
 
-         <select class="form-control" name="from_shop" id="from_shop" style="margin-right: 7px;">
-            <?php foreach ($this->M_shop->get_shops() as $row) { ?>
-               <option value="<?= $row['shop_id']; ?>">
-                  <?= $row['name']; ?> 
-               </option>
-            <?php } ?>
-         </select>
 
-         <select class="form-control" name="to_shop" id="to_shop" style="margin-right: 7px;">
-            <?php foreach ($this->M_shop->get_shops() as $row) { ?>
-               <option value="<?= $row['shop_id']; ?>">
-                  <?= $row['name']; ?> 
-               </option>
-            <?php } ?>
-         </select>
+        <div class="row">
+            <div class="col-md-12" style="display: flex; flex-direction: column; align-items: center;">
+                <div class="col" style="display: flex; flex-wrap: wrap; margin-bottom: 10px;">
+                    <label style="margin-right: 20px;"><input type="radio" name="move_to" value="1"> Shop To
+                        Shop</label>
+                    <label style="margin-right: 20px;"><input type="radio" name="move_to" value="2"> Shop To
+                        Warehouse</label>
+                    <label style="margin-right: 20px;"><input type="radio" name="move_to" value="3">
+                        Warehouse To Warehouse</label>
+                    <label><input type="radio" name="move_to" value="4"> Warehouse To Shop</label>
 
-         <select class="form-control" name="user_id" id="user_id">
-            <?php foreach ($this->M_user->get_users() as $row) { ?>
-               <option value="<?= $row['user_id']; ?>">
-                  <?= $row['name']; ?> |
-                  <?= $row['phone']; ?>
-               </option>
-            <?php } ?>
-         </select>
+                </div>
+                <div class="col" style="display: flex; flex-wrap: wrap; margin-bottom: 10px;">
+
+                    <select class="form-control" name="from_shop" id="from_shop" style="margin-right: 20px;">
+                        <option selected disabled>move from shop</option>
+                        <?php foreach ($this->M_shop->get_shops() as $row) { ?>
+                        <option value="<?= $row['shop_id']; ?>">
+                            <?= $row['name']; ?>
+                        </option>
+                        <?php } ?>
+                    </select>
+                    &nbsp &nbsp
+                    <select class="form-control" name="to_shop" id="to_shop" style="margin-right: 20px;">
+                        <option selected disabled>move to shop</option>
+                        <?php foreach ($this->M_shop->get_shops() as $row) { ?>
+                        <option value="<?= $row['shop_id']; ?>">
+                            <?= $row['name']; ?>
+                        </option>
+                        <?php } ?>
+                    </select>
+                    &nbsp &nbsp
+                    <select class="form-control" name="from_wh" id="from_wh" style="margin-right: 20px;">
+                        <option selected disabled>move from warehouse</option>
+                        <?php foreach ($this->M_warehouse->get_warehouses() as $row) { ?>
+                        <option value="<?= $row['warehouse_id']; ?>">
+                            <?= $row['name']; ?>
+                        </option>
+                        <?php } ?>
+                    </select>
+                    &nbsp &nbsp
+                    <select class="form-control" name="to_wh" id="to_wh" style="margin-right: 20px;">
+                        <option selected disabled>move to warehouse</option>
+                        <?php foreach ($this->M_warehouse->get_warehouses() as $row) { ?>
+                        <option value="<?= $row['warehouse_id']; ?>">
+                            <?= $row['name']; ?>
+                        </option>
+                        <?php } ?>
+                    </select>
+                </div>
+                <div class="col" style="display: flex; flex-wrap: wrap; margin-bottom: 10px;">
+                    <select class="form-control" name="user_id" id="user_id">
+                        <option selected disabled>Receiver</option>
+                        <?php foreach ($this->M_user->get_users() as $row) { ?>
+                        <option value="<?= $row['user_id']; ?>">
+                            <?= $row['name']; ?> |
+                            <?= $row['phone']; ?>
+                        </option>
+                        <?php } ?>
+                    </select>
+                </div>
+
+                <div class="col" style="display: flex; flex-wrap: wrap; margin-bottom: 10px;">
+                    <textarea class="form-control" name="description" id="description"
+                        placeholder="description"></textarea>
+                </div>
+                <div class="col" style="display: flex; flex-wrap: wrap; margin-bottom: 10px;">
+                    <button class="btn btn-danger" id="clear_cart">Clear Cart</button>
+                    &nbsp &nbsp&nbsp &nbsp
+                    <button class="btn btn-primary" id="finish_move">Finish Moving the Products</button>
+
+                </div>
             </div>
-      </div>
-      
-      <hr>
 
-      <style>
-         #barcode {
+        </div>
+        <hr>
+
+        <style>
+        #barcode {
             padding: 8px;
             border-radius: 5px;
             border: 1px solid #ccc;
@@ -186,24 +225,24 @@
             box-sizing: border-box;
             margin-bottom: 10px;
             font-size: 20px;
-         }
+        }
 
-         #productList ul {
+        #productList ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
-         }
+        }
 
-         #productList li {
+        #productList li {
             padding: 8px;
             cursor: pointer;
-         }
+        }
 
-         #productList li:hover {
+        #productList li:hover {
             background-color: #f0f0f0;
-         }
+        }
 
-         #productList {
+        #productList {
             position: absolute;
             z-index: 1000;
             background-color: #fff;
@@ -214,162 +253,96 @@
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
             width: 50%;
             margin-top: -2px;
-         }
+        }
 
-         /* Style for the search results list */
-         #searchResults {
+        /* Style for the search results list */
+        #searchResults {
             list-style-type: none;
             padding: 0;
             margin: 0;
-         }
+        }
 
-         /* Style for each product item in the search results */
-         .product-item {
+        /* Style for each product item in the search results */
+        .product-item {
             padding: 8px;
             cursor: pointer;
-         }
+        }
 
-         .product-item:hover {
+        .product-item:hover {
             background-color: #f0f0f0;
-         }
-      </style>
+        }
+        </style>
 
-      <div class="row">
-         <div class="col-12 col-xl-12">
-            <b><small>Search Product by Barcode, Name or Category</small></b>
+        <div class="row">
+            <div class="col-12 col-xl-12">
+                <b><small>Search Product by Barcode, Name or Category</small></b>
 
-            <input id="barcode" name="barcode" type="search" placeholder="Search Product barcode">
-            <div id="productList">
-               <ul id="searchResults"></ul>
+                <input id="barcode" name="barcode" type="search" placeholder="Search Product barcode">
+                <div id="productList">
+                    <ul id="searchResults"></ul>
+                </div>
+
+                <br>
+                <div id="list">
+                    <?php $this->load->view('move/_load_cart'); ?>
+                </div>
             </div>
 
-            <br>
-            <div id="list">
-               <?php $this->load->view('sale/_load_cart'); ?>
-            </div>
-         </div>
-
-      </div>
-      <!--end row-->
-   </div>
+        </div>
+        <!--end row-->
+    </div>
 </main>
 
 
 
 <?php $this->load->view('includes/footer.php'); ?>
-<script src="<?= base_url(); ?>assets/js/custom.js"></script>
+<script src="<?= base_url(); ?>assets/js/customMove.js"></script>
 <script>
-   $(document).ready(function () {
-      load_cart();
-      $('#detailsInputField').hide();
+$(document).ready(function() {
+    //load_cart();
 
-      $('#payment_type_id').change(function () {
-         var selectedText = $(this).find('option:selected').text();
-         if (selectedText === 'CASH') {
-            $('#detailsInputField').hide();
-         } else {
-            $('#detailsInputField').show();
-         }
-      });
-
-      $('#tendered').on('input', function () {
-         var input = $(this).val().replace(/[^\d.-]/g, '');
-         var parts = input.split('.');
-         parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-         if (parts[1]) {
-            parts[1] = parts[1].substring(0, 2);
-         }
-         var formatted = parts.join('.');
-         $(this).val(formatted);
-      });
-
-      $('.product-row').on('click', function () {
-         var productId = $(this).data('product-id');
-         $.ajax({
-            url: '<?= base_url(); ?>Sale/refresh_cart',
-            method: 'POST',
-            data: { product_id: productId },
-            success: function (response) {
-               load_cart();
-            },
-            error: function (xhr, status, error) {
-               console.log(xhr.responseText);
-               alert('Error adding product to cart. Please try again.');
-            }
-         });
-      });
-
-
-      $('#saveBtn').click(function () {
-         var formData = $('#NewClientForm').serialize();
-         $.ajax({
-            url: '<?= base_url('Client/save_client'); ?>',
-            type: 'POST',
-            data: formData,
-            dataType: 'json',
-            success: function (response) {
-               console.log(response);
-               location.reload();
-            },
-            error: function (xhr, status, error) {
-               location.reload();
-            }
-         });
-      });
-
-
-      $('#barcode').on('input', function () {
-         var barcode = $(this).val();
-         if (barcode.length >= 3) {
+    $('#barcode').on('input', function() {
+        var barcode = $(this).val();
+        if (barcode.length >= 3) {
             $.ajax({
-               url: '<?= base_url('Product/search_product'); ?>',
-               type: 'POST',
-               dataType: 'json',
-               data: { barcode: barcode },
-               success: function (response) {
-                  var searchResults = $('#searchResults');
-                  searchResults.empty();
-                  if (response && response.length > 0) {
-                     response.forEach(function (product) {
-                        searchResults.append('<li class="product-item">' + product.barcode + ' - ' + product.name + ' - ' + product.desc + '</li>');
-                     });
-                     $('#productList').show();
-                  } else {
-                     $('#productList').hide();
-                  }
-               },
-               error: function (xhr, status, error) {
-                  console.error(xhr.responseText);
-                  alert('Error searching products. Please try again.');
-               }
+                url: '<?= base_url('Move/search_product'); ?>',
+                type: 'POST',
+                dataType: 'json',
+                data: {
+                    barcode: barcode
+                },
+                success: function(response) {
+                    var searchResults = $('#searchResults');
+                    searchResults.empty();
+                    if (response && response.length > 0) {
+                        response.forEach(function(product) {
+                            searchResults.append('<li class="product-item">' +
+                                product.barcode + ' - ' + product.name + ' - ' +
+                                product.desc + '</li>');
+                        });
+                        $('#productList').show();
+                    } else {
+                        $('#productList').hide();
+                    }
+                },
+                error: function(xhr, status, error) {
+                    console.error(xhr.responseText);
+                    alert('Error searching products. Please try again.');
+                }
             });
-         } else {
+        } else {
             $('#productList').hide();
-         }
-      });
+        }
+    });
 
-      $(document).on('click', '.product-item', function () {
-         var selectedText = $(this).text().trim();
-         var barcode = selectedText.split(' - ')[0];
-         $('#barcode').val(barcode);
-         search();
-         $('#barcode').val("").focus();
-         $('#productList').hide();
-      });
+    $(document).on('click', '.product-item', function() {
+        var selectedText = $(this).text().trim();
+        var barcode = selectedText.split(' - ')[0];
+        $('#barcode').val(barcode);
+        search();
+        $('#barcode').val("").focus();
+        $('#productList').hide();
+    });
 
-
-
-
-
-
-
-
-
-
-
-
-   });
-
-
-
+});
 </script>
