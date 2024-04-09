@@ -148,7 +148,7 @@ small {
                         Warehouse</label>
                     <label style="margin-right: 20px;"><input type="radio" name="move_to" value="3">
                         Warehouse To Warehouse</label>
-                    <label><input type="radio" name="move_to" value="4"> Warehouse To Shop</label>
+                    <label><input type="radio" name="move_to" value="4" true> Warehouse To Shop</label>
 
                 </div>
                 <div class="col" style="display: flex; flex-wrap: wrap; margin-bottom: 10px;">
@@ -190,7 +190,7 @@ small {
                     </select>
                 </div>
                 <div class="col" style="display: flex; flex-wrap: wrap; margin-bottom: 10px;">
-                    <select class="form-control" name="user_id" id="user_id">
+                    <select class="form-control" name="receiver" id="receiver">
                         <option selected disabled>Receiver</option>
                         <?php foreach ($this->M_user->get_users() as $row) { ?>
                         <option value="<?= $row['user_id']; ?>">

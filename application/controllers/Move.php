@@ -109,50 +109,82 @@ class Move extends CI_Controller
 
     function finish_sale()
     {
-        $moves = $this->M_move->get_cart();
+        $move_cart = $this->M_move->get_cart($this->session->userdata('user_id'));
+        $move_to = $this->input->post("move_to");
+        $from_shop = $this->input->post("from_shop");
+        $to_shop = $this->input->post("to_shop");
+        $from_wh = $this->input->post("from_wh");
+        $to_wh = $this->input->post("to_wh");
+        $receiver = $this->input->post("receiver");
+        $description = $this->input->post("description");
 
-        $data['user_id'] = $this->session->userdata('user_id');
-        $data['sale_date'] = date('Y-m-d');
-        $data['vat'] = $this->M_move->get_total_vat_cart();
-        $data['total'] = $this->M_move->get_total_sum_cart();
-        $data['sub'] = $data['total'] - $data['vat'];
-        $data['tendered'] = $this->input->post('tendered');
-        $data['change'] = $data['tendered'] - $data['total'];
+        if($move_to == 1){// shop to shop
+            
+        }
 
-        // Save sale data to tbl_sales
-        $this->db->trans_start(); // Start transaction
-        $this->db->insert('tbl_sales', $data);
-        $sale_id = $this->db->insert_id();
+        if($move_to == 2){//shop to warehouse
+            
+        }
 
-        foreach ($moves as $row) {
-            // Prepare data for tbl_sale_details
-            $sale_detail_data['move_id'] = $row['move_id'];
-            $sale_detail_data['price'] = $row['price'];
-            $sale_detail_data['qty'] = $row['qty'];
-            $sale_detail_data['vat'] = $row['vat'];
-            $sale_detail_data['total'] = $row['total'];
-            $sale_detail_data['sale_id'] = $sale_id;
-            $sale_detail_data['sale_date'] = date('Y-m-d H:i:s');
+        if($move_to == 3){ //warehouse to warehouse
+            
+        }
 
-            // Save sale details to tbl_sale_details
-            $this->db->insert('tbl_sale_details', $sale_detail_data);
+        if($move_to == 4){//warehouse to shop
+            
+        }
+
+       if(count($move_cart) >0){
+
+        foreach ($move_cart as $row) {
+            $ata['user_id'] = $row['user_id'];
+            $data['product_id'] = $row['product_id'];
+            $data['qty'] = $row['qty'];
+            $data['from_shop'] = $row['from_shop'];
+            $data['to_shop'] = $row['to_shop'];
+            $data['receiver'] = $row['receiver'];
+            $data['from_wh'] = $row['from_wh'];
+            $data['to_wh'] = $row['to_wh'];
+            $data['description'] = $row['description'];
+            $data['date_moved'] = date('Y-m-d H:i:s');
+
+            $old_from_shop_qty = $this->M_move->get_shop_qty($row['product_id'],$from_shop);
+            $old_to_shop_qty = $this->M_move->get_shop_qty($row['product_id'],$to_shop);
+            $old_from_wh_qty = $this->M_move->get_warehouse_qty($row['product_id'],$from_wh);
+            $old_to_wh_qty = $this->M_move->get_qty1($row['product_id'],$to_wh);
+
+            $new_from_shop_qty = $new_from_shop_qty - $row['qty'] ;
+            $new_to_shop_qty = $new_to_shop_qty + $row['qty']; 
+            $new_from_wh_qty = $new_from_wh_qty - $row['qty'];
+            $new_to_wh_qty = $new_to_wh_qty + $row['qty']; 
+
+            $this->db->insert('tbl_stock_movements', $data);
 
             // Update move quantity
-            $new_qty = $this->M_move->get_qty1($row['move_id']) - $row['qty'];
-            $this->db->where('move_id', $row['move_id']);
-            $this->db->update('tbl_moves', array('qty' => $new_qty));
+            $this->db->where('product_id', $row['product_id']);
+            $this->db->where('shop_id', $from_shop);
+            $this->db->update('tbl_quantities', array('qty' => $new_from_shop_qty));
+
+            $this->db->where('product_id', $row['product_id']);
+            $this->db->where('shop_id', $to_shop);
+            $this->db->update('tbl_quantities', array('qty' => $new_to_shop_qty));
+
+            $this->db->where('product_id', $row['product_id']);
+            $this->db->where('warehouse_id', $from_wh);
+            $this->db->update('tbl_quantities', array('wqty'=>$new_from_wh_qty));
+
+            $this->db->where('product_id', $row['product_id']);
+            $this->db->where('warehouse_id', $to_wh);
+            $this->db->update('tbl_quantities', array('wqty'=>$new_to_wh_qty));
         }
-
-        $this->db->trans_complete(); // Complete transaction
-
-        if ($this->db->trans_status() === FALSE) {
-        } else {
-            // If transaction succeeds, delete cart and redirect to receipt
             $this->db->where('user_id', $this->session->userdata('user_id'));
-            $this->db->delete('tbl_cart');
-            redirect("move/receipt/" . $sale_id);
-            //echo json_encode(array('success' => true, 'message' => 'Sale Finished successfully!!!'));
-        }
+            $this->db->delete('tbl_move_cart');
+            echo json_encode(array('success' => true, 'message' => 'Products moved successfully!!!'));
+    }else{
+        echo json_encode(array('success' => true, 'message' => 'No data Found'));
+
+    }
+        
     }
 
 }

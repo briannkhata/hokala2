@@ -10,38 +10,47 @@ $("#barcode").keypress(function (event) {
 });
 
 $("#clear_cart").click(function (e) {
-  cancel();
+  e.preventDefault();
+  if (confirm("Are you sure you want to clear the cart?")) {
+    cancel();
+  } else {
+    console.log("Clear cart canceled.");
+  }
 });
 
-// $("#finish").click(function (e) {
-//   finish();
-// });
+$("#finish_move").click(function (e) {
+  finish_moving();
+});
 
 function finish_moving() {
-  var tenderedAmount = $("#move_to").val();
-  var client_id = $("#client_id").val();
-  var payment_type_id = $("#payment_type_id").val();
-  var details = $("#details").val();
-  tenderedAmount2 = parseFloat(tenderedAmount.replace(/,/g, ""));
+  var move_to = $("#move_to").val();
+  var receiver = $("#receiver").val();
 
-  if (!tenderedAmount2 || isNaN(tenderedAmount2)) {
-    alert("Please enter a valid tendered amount.");
-    return;
-  }
-  $.post("Sale/finish_sale", {
-    tendered: tenderedAmount2,
-    client_id: client_id,
-    payment_type_id: payment_type_id,
-    details: details,
+  $("#loader").show();
+  $("#overlay").show();
+
+  var from_shop = $("#from_shop").val();
+  var to_shop = $("#to_shop").val();
+  var from_wh = $("#from_wh").val();
+  var to_wh = $("#to_wh").val();
+  var description = $("#description").val();
+
+  $.post("Move/finish_moving", {
+    move_to: move_to,
+    from_shop: from_shop,
+    to_shop: to_shop,
+    from_wh: from_wh,
+    to_wh: to_wh,
+    receiver: receiver,
+    description: description,
   })
     .done(function (data) {
-      $("#receipt-container").html(data);
-      //window.print();
-      console.log(data)
+      alert("Moving the stock done successfully");
       load_cart();
+      $("#loader").hide();
+      $("#overlay").hide();
     })
     .fail(function (jqXHR, textStatus, errorThrown) {
-      // This function will run if there is an error with the AJAX request
       console.log("AJAX Error:", textStatus, errorThrown);
       alert("An error occurred while processing your request.");
     });
