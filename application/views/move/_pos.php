@@ -138,6 +138,7 @@ small {
 <main class="main-wrapper">
     <div class="main-content">
 
+    <form action="<?=base_url();?>Move/finish_moving" method="post">
 
         <div class="row">
             <div class="col-md-12" style="display: flex; flex-direction: column; align-items: center;">
@@ -208,12 +209,13 @@ small {
                 <div class="col" style="display: flex; flex-wrap: wrap; margin-bottom: 10px;">
                     <button class="btn btn-danger" id="clear_cart">Clear Cart</button>
                     &nbsp &nbsp&nbsp &nbsp
-                    <button class="btn btn-primary" id="finish_move">Finish Moving the Products</button>
+                    <button type="submit" class="btn btn-primary" id="finish_moveee">Finish Moving the Products</button>
 
                 </div>
             </div>
 
         </div>
+    </form>
         <hr>
 
         <style>

@@ -35,15 +35,23 @@
                   <thead>
                      <tr id="filters">
                         <th>Name</th>
+                        <th>UN Code</th>
+                        <th>Desc</th>
                         <th>Products</th>
                         <th></th>
                      </tr>
                   </thead>
                   <tbody>
-                     <?php foreach ($fetch_data as $row) { ?>
+                     <?php foreach ($this->M_category->get_categories() as $row) { ?>
                         <tr>
                            <td>
                               <?= $row['category']; ?>
+                           </td>
+                           <td>
+                              <?= $row['un_code']; ?>
+                           </td>
+                           <td>
+                              <?= $row['desc']; ?>
                            </td>
                            <td><?= count($this->M_product->get_products_by_category($row['category_id'])); ?></td>
                            <td>
@@ -52,7 +60,7 @@
                                     <button type="button" class="btn btn-secondary dropdown-toggle"
                                        data-bs-toggle="dropdown" aria-expanded="false">Action</button>
                                     <ul class="dropdown-menu">
-                                    <li>
+                                       <li>
                                           <a href="<?= base_url(); ?>Category/read/<?= $row['category_id']; ?>"
                                              class="dropdown-item">
                                              Edit

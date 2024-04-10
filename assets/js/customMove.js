@@ -43,6 +43,7 @@ function finish_moving() {
     to_wh: to_wh,
     receiver: receiver,
     description: description,
+    receiver: receiver
   })
     .done(function (data) {
       alert("Moving the stock done successfully");
@@ -52,7 +53,7 @@ function finish_moving() {
     })
     .fail(function (jqXHR, textStatus, errorThrown) {
       console.log("AJAX Error:", textStatus, errorThrown);
-      alert("An error occurred while processing your request.");
+      alert("An error occurred while processing your request." + errorThrown);
     });
 }
 

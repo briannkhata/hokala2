@@ -7,17 +7,18 @@ class Config extends CI_Controller
 	{
 		parent::__construct();
 		if ($this->session->userdata("user_login") != 1) {
-            redirect(base_url(), "refresh");
-        }
+			redirect(base_url(), "refresh");
+		}
 	}
-  
+
 	function index()
 	{
 		$data['page_title'] = "Settings";
 		$this->load->view('config/_config', $data);
 	}
 
-	function save(){
+	function save()
+	{
 		$id = $this->input->post('id');
 		$data['company'] = $this->input->post('company');
 		$data['email'] = $this->input->post('email');
@@ -26,10 +27,11 @@ class Config extends CI_Controller
 		$data['alt_phone'] = $this->input->post('alt_phone');
 		$data['address'] = $this->input->post('address');
 		$data['vat_status'] = $this->input->post('vat_status');
-		$this->db->where('id',$id);
-		$this->db->update('tbl_settings',$data);
-    	$this->session->set_flashdata('message','Settings Successfully!');
+		$data['vat'] = $this->input->post('vat');
+		$this->db->where('id', $id);
+		$this->db->update('tbl_settings', $data);
+		$this->session->set_flashdata('message', 'Settings Successfully!');
 		redirect('Config');
-    }
+	}
 
 }

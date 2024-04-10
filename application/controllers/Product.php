@@ -97,128 +97,66 @@ class Product extends CI_Controller
             $data["modified_date"] = date("Y-m-d");
             $this->db->where("product_id", $update_id);
             $this->db->update("tbl_products", $data);
+
+            $this->sync_quantities_by_shop($update_id);
         } else {
             $this->db->insert("tbl_products", $data);
+            $product_id = $this->db->insert_id();
+            $this->sync_quantities_by_shop($product_id);
         }
+        
         if ($update_id != ""):
             redirect("Product");
         else:
             redirect("Product/read");
         endif;
-        $this->session->set_flashdata("message", "product saved successfully!");
+        $this->session->set_flashdata("message", "Product saved successfully!");
     }
 
-    function delete($id)
+    function delete($param = "")
     {
         $data["deleted"] = 1;
         $data["deleted_by"] = $this->session->userdata("user_id");
         $data["date_deleted"] = date("Y-m-d");
-        $this->db->where("product_id", $id);
+        $this->db->where("product_id", $param);
         $this->db->update("tbl_products", $data);
-        $this->session->set_flashdata("message", "product Removed!");
+        $this->session->set_flashdata("message", "Product Removed!");
         redirect("Product");
     }
 
-    function delete_cart()
+    function sync_quantities_by_shop($product_id)
     {
-        $cart_id = $this->input->post('cart_id');
-        $this->db->where("cart_id", $cart_id);
-        $this->db->delete("tbl_cart");
-        return;
-    }
+        $shops = $this->M_shop->get_shops();
+        foreach ($shops as $shop) {
+            $qty_exists = $this->M_move->get_shop_quantities($product_id, $shop['shop_id']);
+            if (!$qty_exists) {
+                $data = array(
+                    "product_id" => $product_id,
+                    "shop_id" => $shop['shop_id'],
+                    "qty" => 0
+                );
+                $this->db->insert("tbl_quantities", $data);
+            }
+        }
 
-    function refreshCart()
+        $whs = $this->M_warehouse->get_warehouses();
+        foreach ($whs as $wh) {
+            $qty_exists = $this->M_move->get_warehouse_quantities($product_id, $wh['warehouse_id']);
+            if (!$qty_exists) {
+                $data = array(
+                    "product_id" => $product_id,
+                    "warehouse_id" => $wh['warehouse_id'],
+                    "qty" => 0
+                );
+                $this->db->insert("tbl_wh_quantities", $data);
+            }
+        }
+    }
+    function search_product()
     {
-        $this->load->view("product/_load_cart");
-    }
-
-    function refresh_total_bill()
-    {
-        $this->load->view("product/_load_total_bill");
-    }
-
-    function refresh_sub_total_bill()
-    {
-        $this->load->view("product/_load_sub_total");
-    }
-
-    function refresh_total_vat()
-    {
-        $this->load->view("product/_load_total_vat");
-    }
-
-    function cancel()
-    {
-        $this->db->where('user_id', $this->session->userdata('user_id'));
-        $this->db->delete('tbl_cart');
-        echo json_encode(array('success' => true, 'message' => 'Cart cleared successfully!!!'));
-    }
-
-    function search_product() {
         $barcode = $this->input->post('barcode');
         $results = $this->M_product->searchProducts($barcode);
         echo json_encode($results);
     }
-
-
-    function finish_sale()
-    {
-        $products = $this->M_product->get_cart();
-
-        $data['user_id'] = $this->session->userdata('user_id');
-        $data['sale_date'] = date('Y-m-d');
-        $data['vat'] = $this->M_product->get_total_vat_cart();
-        $data['total'] = $this->M_product->get_total_sum_cart();
-        $data['sub'] = $data['total'] - $data['vat'];
-        $data['tendered'] = $this->input->post('tendered');
-        $data['change'] = $data['tendered'] - $data['total'];
-
-        // Save sale data to tbl_sales
-        $this->db->trans_start(); // Start transaction
-        $this->db->insert('tbl_sales', $data);
-        $sale_id = $this->db->insert_id();
-
-        foreach ($products as $row) {
-            // Prepare data for tbl_sale_details
-            $sale_detail_data['product_id'] = $row['product_id'];
-            $sale_detail_data['price'] = $row['price'];
-            $sale_detail_data['qty'] = $row['qty'];
-            $sale_detail_data['vat'] = $row['vat'];
-            $sale_detail_data['total'] = $row['total'];
-            $sale_detail_data['sale_id'] = $sale_id;
-            $sale_detail_data['sale_date'] = date('Y-m-d H:i:s');
-
-            // Save sale details to tbl_sale_details
-            $this->db->insert('tbl_sale_details', $sale_detail_data);
-
-            // Update product quantity
-            $new_qty = $this->M_product->get_qty1($row['product_id']) - $row['qty'];
-            $this->db->where('product_id', $row['product_id']);
-            $this->db->update('tbl_products', array('qty' => $new_qty));
-        }
-
-        $this->db->trans_complete(); // Complete transaction
-
-        if ($this->db->trans_status() === FALSE) {
-        } else {
-            // If transaction succeeds, delete cart and redirect to receipt
-            $this->db->where('user_id', $this->session->userdata('user_id'));
-            $this->db->delete('tbl_cart');
-            redirect("Product/receipt/" . $sale_id);
-            //echo json_encode(array('success' => true, 'message' => 'Sale Finished successfully!!!'));
-        }
-    }
-
-
-    function receipt($param = "")
-    {
-        $data['sale_id'] = $param;
-        $data["page_title"] = "Receipt";
-        $this->load->view('product/_receipt', $data);
-    }
-
-
-
-
 
 }

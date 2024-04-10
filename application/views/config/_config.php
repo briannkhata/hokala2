@@ -29,6 +29,12 @@
                   <form action="<?= base_url(); ?>Config/save" id="form" class="row g-3" method="post"
                      enctype='multipart/form-data'>
                      <?php foreach ($this->db->get('tbl_settings')->result_array() as $row) { ?>
+
+                        <div class="col-md-12">
+                           <label class="control-label">Logo</label>
+                           <input type="file" name="logo" class="form-control">
+                        </div>
+
                         <div class="col-md-12">
                            <label class="control-label">Shop</label>
                            <input type="hidden" name="id" class="form-control" value="<?= $row['id']; ?>">
@@ -58,6 +64,11 @@
                         <div class="col-md-12">
                            <label class="control-label">Address</label>
                            <textarea name="address" class="form-control"><?= $row['address']; ?></textarea>
+                        </div>
+
+                        <div class="col-md-12">
+                           <label class="control-label">VAT</label>
+                           <input type="text" name="vat" class="form-control" value="<?= $row['vat']; ?>">
                         </div>
 
                         <div class="col-md-12">

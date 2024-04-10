@@ -27,11 +27,23 @@
                   <form action="<?= base_url(); ?>Category/save" id="form" class="row g-3" method="post">
                      <div class="col-md-6">
                         <label class="control-label">Category</label>
-                        <input type="text" name="category" class="form-control"
-                           value="<?php if (!empty($category)) {
-                              echo $category;
-                           } ?>" required="">
+                        <input type="text" name="category" class="form-control" value="<?php if (!empty($category)) {
+                           echo $category;
+                        } ?>" required="">
                      </div>
+                     <div class="col-md-6">
+                        <label class="control-label">UN Code</label>
+                        <input type="text" name="un_code" class="form-control" value="<?php if (!empty($un_code)) {
+                           echo $un_code;
+                        } ?>">
+                     </div>
+                     <div class="col-md-12">
+                        <label class="control-label">Description</label>
+                        <input type="text" name="desc" class="form-control" value="<?php if (!empty($desc)) {
+                           echo $desc;
+                        } ?>">
+                     </div>
+
 
                      <div class="col-md-12">
                         <?php if (isset($update_id)) { ?>

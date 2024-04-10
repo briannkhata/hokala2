@@ -59,6 +59,11 @@ class Warehouse extends CI_Controller
             $this->db->update("tbl_warehouses", $data);
         } else {
             $this->db->insert("tbl_warehouses", $data);
+            $warehouse_id = $this->db->insert_id();
+            
+            $data0['warehouse_id'] = $warehouse_id;
+            $data0['qty'] = 0;
+            $this->db->insert("tbl_wh_quantities", $data0);
         }
         if ($update_id != ""):
             redirect("Warehouse");
