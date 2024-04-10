@@ -6,10 +6,45 @@ class Move extends CI_Controller
     function __construct()
     {
         parent::__construct();
-        if ($this->session->userdata("user_login") != 1) {
-            redirect(base_url(), "refresh");
+        // if ($this->session->userdata("user_login") != 1) {
+        //     redirect(base_url(), "refresh");
+        // }
+    }
+
+    function api_test()
+    {
+        // API endpoint URL
+        $api_url = 'https://catfact.ninja/fact';
+        $this->curl->create($api_url);
+        $this->curl->option('buffersize', 10);
+
+        //  To support Different Browsers
+        $this->curl->option('useragent', 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.2.8) Gecko/20100722 Firefox/3.6.8 (.NET CLR 3.5.30729)');
+        $this->curl->option('returntransfer', 1);
+        $this->curl->option('followlocation', 1);
+        $this->curl->option('HEADER', true);
+        $this->curl->option(CURLOPT_RETURNTRANSFER, true);
+        $this->curl->option(CURLOPT_HTTPGET, true);
+        // $this->curl->http_header('Authorization: Bearer YOUR_ACCESS_TOKEN');
+        $this->curl->http_header('Content-Type: application/json');
+
+        // Execute the cURL request
+        $this->curl->option('connecttimeout', 600);
+        $response = $this->curl->execute();
+
+        // Process API response
+        if ($this->curl->error) {
+            //$error_message = 
+            json_decode($this->curl->error_message);
+            // Handle error
+        } else {
+            //$api_data = 
+            json_decode($response, true);
+            // Process API data
         }
     }
+
+
 
     function index()
     {
@@ -192,6 +227,42 @@ class Move extends CI_Controller
                 $new_from_wh_qty = $old_from_wh_qty - $qty;
                 $new_to_wh_qty = $old_to_wh_qty + $qty;
 
+                // Update move quantity
+                // if ($move_to == 1) {// shop to shop
+                //     $data_from_shop = ['qty' => $new_from_shop_qty];
+                //     $data_to_shop = ['qty' => $new_to_shop_qty];
+
+                //     $where_from_shop = ['product_id' => $product_id, 'shop_id' => $from_shop];
+                //     $where_to_shop = ['product_id' => $product_id, 'shop_id' => $to_shop];
+
+                //     $this->db->update('tbl_quantities', $data_from_shop, $where_from_shop);
+                //     $this->db->update('tbl_quantities', $data_to_shop, $where_to_shop);
+                //     $data['from_shop'] = $from_shop;
+                //     $data['to_shop'] = $to_shop;
+                // }
+
+                // if ($move_to == 2) {//shop to warehouse
+                //     $this->db->where(['product_id' => $product_id, 'shop_id' => $from_shop])->update('tbl_quantities', ['qty' => $new_from_shop_qty]);
+                //     $this->db->where(['product_id' => $product_id, 'warehouse_id' => $to_wh])->update('tbl_wh_quantities', ['qty' => $new_to_wh_qty]);
+                //     $data['from_shop'] = $from_shop;
+                //     $data['to_wh'] = $to_wh;
+                // }
+
+                // if ($move_to == 3) { //warehouse to warehouse
+                //     $this->db->where(['product_id' => $product_id, 'warehouse_id' => $from_wh])->update('tbl_wh_quantities', ['qty' => $new_from_wh_qty]);
+                //     $this->db->where(['product_id' => $product_id, 'warehouse_id' => $to_wh])->update('tbl_wh_quantities', ['qty' => $new_to_wh_qty]);
+                //     $data['from_wh'] = $from_wh;
+                //     $data['to_wh'] = $to_wh;
+                // }
+
+                // if ($move_to == 4) { //warehouse to shop
+                //     $this->db->where(['product_id' => $product_id, 'warehouse_id' => $from_wh])->update('tbl_wh_quantities', ['qty' => $new_from_wh_qty]);
+                //     $this->db->where(['product_id' => $product_id, 'shop_id' => $to_shop])->update('tbl_quantities', ['qty' => $new_to_shop_qty]);
+                //     $data['from_wh'] = $from_wh;
+                //     $data['to_shop'] = $to_shop;
+                // }
+
+
                 switch ($move_to) {
                     case 1: // Shop to Shop
                         $data_from_shop = ['qty' => $new_from_shop_qty];
@@ -227,6 +298,7 @@ class Move extends CI_Controller
                         $data['to_shop'] = $to_shop;
                         break;
                 }
+
                 $this->db->insert('tbl_stock_movements', $data);
             }
             $this->db->where('user_id', $this->session->userdata('user_id'));

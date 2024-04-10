@@ -5870,3 +5870,10969 @@ INFO - 2024-04-10 19:53:33 --> File loaded: C:\xampp\htdocs\hokala\application\v
 INFO - 2024-04-10 19:53:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\move/_pos.php
 INFO - 2024-04-10 19:53:33 --> Final output sent to browser
 DEBUG - 2024-04-10 19:53:33 --> Total execution time: 0.5529
+INFO - 2024-04-10 19:59:53 --> Config Class Initialized
+INFO - 2024-04-10 19:59:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 19:59:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 19:59:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 19:59:53 --> URI Class Initialized
+INFO - 2024-04-10 19:59:53 --> Router Class Initialized
+INFO - 2024-04-10 19:59:53 --> Output Class Initialized
+INFO - 2024-04-10 19:59:53 --> Security Class Initialized
+DEBUG - 2024-04-10 19:59:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 19:59:53 --> Input Class Initialized
+INFO - 2024-04-10 19:59:53 --> Language Class Initialized
+ERROR - 2024-04-10 19:59:53 --> 404 Page Not Found: Receive/index
+INFO - 2024-04-10 20:02:52 --> Config Class Initialized
+INFO - 2024-04-10 20:02:52 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:02:52 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:02:52 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:02:52 --> URI Class Initialized
+INFO - 2024-04-10 20:02:52 --> Router Class Initialized
+INFO - 2024-04-10 20:02:52 --> Output Class Initialized
+INFO - 2024-04-10 20:02:52 --> Security Class Initialized
+DEBUG - 2024-04-10 20:02:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:02:52 --> Input Class Initialized
+INFO - 2024-04-10 20:02:52 --> Language Class Initialized
+INFO - 2024-04-10 20:02:52 --> Loader Class Initialized
+INFO - 2024-04-10 20:02:52 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:02:52 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:02:52 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:02:52 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:02:52 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:02:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:02:52 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:02:52 --> Email Class Initialized
+INFO - 2024-04-10 20:02:52 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:02:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:02:52 --> Pagination Class Initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_user" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_product" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_category" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_report" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_role" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_client" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:02:52 --> Model "M_move" initialized
+INFO - 2024-04-10 20:02:52 --> Controller Class Initialized
+INFO - 2024-04-10 20:02:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:02:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:02:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:02:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:02:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_pos.php
+INFO - 2024-04-10 20:02:52 --> Final output sent to browser
+DEBUG - 2024-04-10 20:02:52 --> Total execution time: 0.4876
+INFO - 2024-04-10 20:02:53 --> Config Class Initialized
+INFO - 2024-04-10 20:02:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:02:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:02:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:02:53 --> URI Class Initialized
+INFO - 2024-04-10 20:02:53 --> Router Class Initialized
+INFO - 2024-04-10 20:02:53 --> Output Class Initialized
+INFO - 2024-04-10 20:02:53 --> Security Class Initialized
+DEBUG - 2024-04-10 20:02:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:02:53 --> Input Class Initialized
+INFO - 2024-04-10 20:02:53 --> Language Class Initialized
+INFO - 2024-04-10 20:02:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:02:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:02:53 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:02:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:02:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:02:53 --> Email Class Initialized
+INFO - 2024-04-10 20:02:53 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:02:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:02:53 --> Pagination Class Initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_user" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_product" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_category" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_report" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_role" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_client" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:02:53 --> Model "M_move" initialized
+INFO - 2024-04-10 20:02:53 --> Controller Class Initialized
+INFO - 2024-04-10 20:02:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:02:53 --> Final output sent to browser
+DEBUG - 2024-04-10 20:02:53 --> Total execution time: 0.4518
+INFO - 2024-04-10 20:02:53 --> Config Class Initialized
+INFO - 2024-04-10 20:02:53 --> Config Class Initialized
+INFO - 2024-04-10 20:02:53 --> Config Class Initialized
+INFO - 2024-04-10 20:02:53 --> Hooks Class Initialized
+INFO - 2024-04-10 20:02:53 --> Hooks Class Initialized
+INFO - 2024-04-10 20:02:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:02:53 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:02:53 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:02:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:02:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:02:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:02:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:02:53 --> URI Class Initialized
+INFO - 2024-04-10 20:02:53 --> URI Class Initialized
+INFO - 2024-04-10 20:02:53 --> Router Class Initialized
+INFO - 2024-04-10 20:02:53 --> Router Class Initialized
+INFO - 2024-04-10 20:02:53 --> URI Class Initialized
+INFO - 2024-04-10 20:02:53 --> Output Class Initialized
+INFO - 2024-04-10 20:02:53 --> Output Class Initialized
+INFO - 2024-04-10 20:02:53 --> Security Class Initialized
+INFO - 2024-04-10 20:02:53 --> Security Class Initialized
+INFO - 2024-04-10 20:02:53 --> Router Class Initialized
+DEBUG - 2024-04-10 20:02:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:02:53 --> Output Class Initialized
+DEBUG - 2024-04-10 20:02:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:02:53 --> Input Class Initialized
+INFO - 2024-04-10 20:02:53 --> Input Class Initialized
+INFO - 2024-04-10 20:02:53 --> Security Class Initialized
+INFO - 2024-04-10 20:02:53 --> Language Class Initialized
+INFO - 2024-04-10 20:02:53 --> Language Class Initialized
+DEBUG - 2024-04-10 20:02:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:02:53 --> Input Class Initialized
+INFO - 2024-04-10 20:02:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:02:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:02:53 --> Language Class Initialized
+INFO - 2024-04-10 20:02:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:02:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:02:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:02:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:02:53 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:02:53 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:02:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:02:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:02:54 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:02:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:02:54 --> Email Class Initialized
+DEBUG - 2024-04-10 20:02:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:02:54 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:02:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:02:54 --> Pagination Class Initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_user" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_product" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_category" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_report" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_role" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_client" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_move" initialized
+INFO - 2024-04-10 20:02:54 --> Controller Class Initialized
+INFO - 2024-04-10 20:02:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_total_vat.php
+INFO - 2024-04-10 20:02:54 --> Final output sent to browser
+DEBUG - 2024-04-10 20:02:54 --> Total execution time: 0.4700
+INFO - 2024-04-10 20:02:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:02:54 --> Email Class Initialized
+INFO - 2024-04-10 20:02:54 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:02:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:02:54 --> Pagination Class Initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_user" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_product" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_category" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_report" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_role" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_client" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_move" initialized
+INFO - 2024-04-10 20:02:54 --> Controller Class Initialized
+INFO - 2024-04-10 20:02:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_total_bill.php
+INFO - 2024-04-10 20:02:54 --> Final output sent to browser
+DEBUG - 2024-04-10 20:02:54 --> Total execution time: 0.6906
+INFO - 2024-04-10 20:02:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:02:54 --> Email Class Initialized
+INFO - 2024-04-10 20:02:54 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:02:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:02:54 --> Pagination Class Initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_user" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_product" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_category" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_report" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_role" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_client" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:02:54 --> Model "M_move" initialized
+INFO - 2024-04-10 20:02:54 --> Controller Class Initialized
+INFO - 2024-04-10 20:02:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_sub_total.php
+INFO - 2024-04-10 20:02:54 --> Final output sent to browser
+DEBUG - 2024-04-10 20:02:54 --> Total execution time: 0.8786
+INFO - 2024-04-10 20:15:51 --> Config Class Initialized
+INFO - 2024-04-10 20:15:51 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:15:51 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:15:51 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:15:51 --> URI Class Initialized
+INFO - 2024-04-10 20:15:51 --> Router Class Initialized
+INFO - 2024-04-10 20:15:51 --> Output Class Initialized
+INFO - 2024-04-10 20:15:51 --> Security Class Initialized
+DEBUG - 2024-04-10 20:15:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:15:51 --> Input Class Initialized
+INFO - 2024-04-10 20:15:51 --> Language Class Initialized
+INFO - 2024-04-10 20:15:51 --> Loader Class Initialized
+INFO - 2024-04-10 20:15:51 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:15:51 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:15:51 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:15:51 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:15:51 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:15:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:15:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:15:51 --> Email Class Initialized
+INFO - 2024-04-10 20:15:52 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:15:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:15:52 --> Pagination Class Initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_user" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_product" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_category" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_report" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_role" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_client" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:15:52 --> Model "M_move" initialized
+INFO - 2024-04-10 20:15:52 --> Controller Class Initialized
+INFO - 2024-04-10 20:15:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:15:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:15:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:15:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:15:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:15:52 --> Final output sent to browser
+DEBUG - 2024-04-10 20:15:52 --> Total execution time: 0.4668
+INFO - 2024-04-10 20:15:52 --> Config Class Initialized
+INFO - 2024-04-10 20:15:52 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:15:52 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:15:52 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:15:52 --> URI Class Initialized
+INFO - 2024-04-10 20:15:52 --> Router Class Initialized
+INFO - 2024-04-10 20:15:53 --> Output Class Initialized
+INFO - 2024-04-10 20:15:53 --> Security Class Initialized
+DEBUG - 2024-04-10 20:15:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:15:53 --> Input Class Initialized
+INFO - 2024-04-10 20:15:53 --> Language Class Initialized
+INFO - 2024-04-10 20:15:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:15:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:15:53 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:15:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:15:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:15:53 --> Email Class Initialized
+INFO - 2024-04-10 20:15:53 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:15:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:15:53 --> Pagination Class Initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_user" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_product" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_category" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_report" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_role" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_client" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_move" initialized
+INFO - 2024-04-10 20:15:53 --> Controller Class Initialized
+INFO - 2024-04-10 20:15:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:15:53 --> Final output sent to browser
+DEBUG - 2024-04-10 20:15:53 --> Total execution time: 0.4925
+INFO - 2024-04-10 20:15:53 --> Config Class Initialized
+INFO - 2024-04-10 20:15:53 --> Config Class Initialized
+INFO - 2024-04-10 20:15:53 --> Config Class Initialized
+INFO - 2024-04-10 20:15:53 --> Hooks Class Initialized
+INFO - 2024-04-10 20:15:53 --> Hooks Class Initialized
+INFO - 2024-04-10 20:15:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:15:53 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:15:53 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:15:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:15:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:15:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:15:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:15:53 --> URI Class Initialized
+INFO - 2024-04-10 20:15:53 --> URI Class Initialized
+INFO - 2024-04-10 20:15:53 --> URI Class Initialized
+INFO - 2024-04-10 20:15:53 --> Router Class Initialized
+INFO - 2024-04-10 20:15:53 --> Router Class Initialized
+INFO - 2024-04-10 20:15:53 --> Router Class Initialized
+INFO - 2024-04-10 20:15:53 --> Output Class Initialized
+INFO - 2024-04-10 20:15:53 --> Output Class Initialized
+INFO - 2024-04-10 20:15:53 --> Output Class Initialized
+INFO - 2024-04-10 20:15:53 --> Security Class Initialized
+INFO - 2024-04-10 20:15:53 --> Security Class Initialized
+INFO - 2024-04-10 20:15:53 --> Security Class Initialized
+DEBUG - 2024-04-10 20:15:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:15:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:15:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:15:53 --> Input Class Initialized
+INFO - 2024-04-10 20:15:53 --> Input Class Initialized
+INFO - 2024-04-10 20:15:53 --> Input Class Initialized
+INFO - 2024-04-10 20:15:53 --> Language Class Initialized
+INFO - 2024-04-10 20:15:53 --> Language Class Initialized
+INFO - 2024-04-10 20:15:53 --> Language Class Initialized
+INFO - 2024-04-10 20:15:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:15:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:15:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:15:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:15:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:15:53 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:15:53 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:15:53 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:15:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:15:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:15:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:15:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:15:53 --> Email Class Initialized
+INFO - 2024-04-10 20:15:53 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:15:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:15:53 --> Pagination Class Initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_user" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_product" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_category" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_report" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_role" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_client" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:15:53 --> Model "M_move" initialized
+INFO - 2024-04-10 20:15:53 --> Controller Class Initialized
+INFO - 2024-04-10 20:15:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_total_vat.php
+INFO - 2024-04-10 20:15:54 --> Final output sent to browser
+DEBUG - 2024-04-10 20:15:54 --> Total execution time: 0.5053
+INFO - 2024-04-10 20:15:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:15:54 --> Email Class Initialized
+INFO - 2024-04-10 20:15:54 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:15:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:15:54 --> Pagination Class Initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_user" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_product" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_category" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_report" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_role" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_client" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_move" initialized
+INFO - 2024-04-10 20:15:54 --> Controller Class Initialized
+INFO - 2024-04-10 20:15:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_total_bill.php
+INFO - 2024-04-10 20:15:54 --> Final output sent to browser
+DEBUG - 2024-04-10 20:15:54 --> Total execution time: 0.7539
+INFO - 2024-04-10 20:15:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:15:54 --> Email Class Initialized
+INFO - 2024-04-10 20:15:54 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:15:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:15:54 --> Pagination Class Initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_user" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_product" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_category" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_report" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_role" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_client" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:15:54 --> Model "M_move" initialized
+INFO - 2024-04-10 20:15:54 --> Controller Class Initialized
+INFO - 2024-04-10 20:15:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_sub_total.php
+INFO - 2024-04-10 20:15:54 --> Final output sent to browser
+DEBUG - 2024-04-10 20:15:54 --> Total execution time: 0.9904
+INFO - 2024-04-10 20:18:53 --> Config Class Initialized
+INFO - 2024-04-10 20:18:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:18:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:18:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:18:53 --> URI Class Initialized
+INFO - 2024-04-10 20:18:53 --> Router Class Initialized
+INFO - 2024-04-10 20:18:53 --> Output Class Initialized
+INFO - 2024-04-10 20:18:53 --> Security Class Initialized
+DEBUG - 2024-04-10 20:18:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:18:53 --> Input Class Initialized
+INFO - 2024-04-10 20:18:53 --> Language Class Initialized
+INFO - 2024-04-10 20:18:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:18:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:18:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:18:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:18:54 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:18:54 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:18:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:18:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:18:54 --> Email Class Initialized
+INFO - 2024-04-10 20:18:54 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:18:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:18:54 --> Pagination Class Initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_user" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_product" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_category" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_report" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_role" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_client" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_move" initialized
+INFO - 2024-04-10 20:18:54 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:18:54 --> Controller Class Initialized
+INFO - 2024-04-10 20:18:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:18:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:18:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:18:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:18:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:18:54 --> Final output sent to browser
+DEBUG - 2024-04-10 20:18:54 --> Total execution time: 0.4731
+INFO - 2024-04-10 20:18:55 --> Config Class Initialized
+INFO - 2024-04-10 20:18:55 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:18:55 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:18:55 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:18:55 --> URI Class Initialized
+INFO - 2024-04-10 20:18:55 --> Router Class Initialized
+INFO - 2024-04-10 20:18:55 --> Output Class Initialized
+INFO - 2024-04-10 20:18:55 --> Security Class Initialized
+DEBUG - 2024-04-10 20:18:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:18:55 --> Input Class Initialized
+INFO - 2024-04-10 20:18:55 --> Language Class Initialized
+INFO - 2024-04-10 20:18:55 --> Loader Class Initialized
+INFO - 2024-04-10 20:18:55 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:18:55 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:18:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:18:55 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:18:55 --> Email Class Initialized
+INFO - 2024-04-10 20:18:55 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:18:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:18:55 --> Pagination Class Initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_user" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_product" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_category" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_report" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_role" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_client" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_move" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:18:55 --> Controller Class Initialized
+INFO - 2024-04-10 20:18:55 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:18:55 --> Final output sent to browser
+DEBUG - 2024-04-10 20:18:55 --> Total execution time: 0.4076
+INFO - 2024-04-10 20:18:55 --> Config Class Initialized
+INFO - 2024-04-10 20:18:55 --> Config Class Initialized
+INFO - 2024-04-10 20:18:55 --> Hooks Class Initialized
+INFO - 2024-04-10 20:18:55 --> Hooks Class Initialized
+INFO - 2024-04-10 20:18:55 --> Config Class Initialized
+INFO - 2024-04-10 20:18:55 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:18:55 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:18:55 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:18:55 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:18:55 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:18:55 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:18:55 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:18:55 --> URI Class Initialized
+INFO - 2024-04-10 20:18:55 --> URI Class Initialized
+INFO - 2024-04-10 20:18:55 --> URI Class Initialized
+INFO - 2024-04-10 20:18:55 --> Router Class Initialized
+INFO - 2024-04-10 20:18:55 --> Router Class Initialized
+INFO - 2024-04-10 20:18:55 --> Output Class Initialized
+INFO - 2024-04-10 20:18:55 --> Output Class Initialized
+INFO - 2024-04-10 20:18:55 --> Router Class Initialized
+INFO - 2024-04-10 20:18:55 --> Security Class Initialized
+INFO - 2024-04-10 20:18:55 --> Security Class Initialized
+INFO - 2024-04-10 20:18:55 --> Output Class Initialized
+DEBUG - 2024-04-10 20:18:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:18:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:18:55 --> Security Class Initialized
+INFO - 2024-04-10 20:18:55 --> Input Class Initialized
+INFO - 2024-04-10 20:18:55 --> Input Class Initialized
+DEBUG - 2024-04-10 20:18:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:18:55 --> Input Class Initialized
+INFO - 2024-04-10 20:18:55 --> Language Class Initialized
+INFO - 2024-04-10 20:18:55 --> Language Class Initialized
+INFO - 2024-04-10 20:18:55 --> Language Class Initialized
+INFO - 2024-04-10 20:18:55 --> Loader Class Initialized
+INFO - 2024-04-10 20:18:55 --> Loader Class Initialized
+INFO - 2024-04-10 20:18:55 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:18:55 --> Loader Class Initialized
+INFO - 2024-04-10 20:18:55 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:18:55 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:18:55 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:18:55 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:18:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:18:55 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:18:55 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:18:55 --> Email Class Initialized
+DEBUG - 2024-04-10 20:18:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:18:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:18:55 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:18:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:18:55 --> Pagination Class Initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_user" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_product" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_category" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_report" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_role" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_client" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_move" initialized
+INFO - 2024-04-10 20:18:55 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:18:55 --> Controller Class Initialized
+INFO - 2024-04-10 20:18:55 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_total_vat.php
+INFO - 2024-04-10 20:18:56 --> Final output sent to browser
+DEBUG - 2024-04-10 20:18:56 --> Total execution time: 0.3869
+INFO - 2024-04-10 20:18:56 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:18:56 --> Email Class Initialized
+INFO - 2024-04-10 20:18:56 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:18:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:18:56 --> Pagination Class Initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_user" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_product" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_category" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_report" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_role" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_client" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_move" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:18:56 --> Controller Class Initialized
+INFO - 2024-04-10 20:18:56 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_sub_total.php
+INFO - 2024-04-10 20:18:56 --> Final output sent to browser
+DEBUG - 2024-04-10 20:18:56 --> Total execution time: 0.5718
+INFO - 2024-04-10 20:18:56 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:18:56 --> Email Class Initialized
+INFO - 2024-04-10 20:18:56 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:18:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:18:56 --> Pagination Class Initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_user" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_product" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_category" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_report" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_role" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_client" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_move" initialized
+INFO - 2024-04-10 20:18:56 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:18:56 --> Controller Class Initialized
+INFO - 2024-04-10 20:18:56 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_total_bill.php
+INFO - 2024-04-10 20:18:56 --> Final output sent to browser
+DEBUG - 2024-04-10 20:18:56 --> Total execution time: 0.7903
+INFO - 2024-04-10 20:19:44 --> Config Class Initialized
+INFO - 2024-04-10 20:19:44 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:19:44 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:19:44 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:19:44 --> URI Class Initialized
+INFO - 2024-04-10 20:19:44 --> Router Class Initialized
+INFO - 2024-04-10 20:19:44 --> Output Class Initialized
+INFO - 2024-04-10 20:19:44 --> Security Class Initialized
+DEBUG - 2024-04-10 20:19:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:19:44 --> Input Class Initialized
+INFO - 2024-04-10 20:19:44 --> Language Class Initialized
+INFO - 2024-04-10 20:19:44 --> Loader Class Initialized
+INFO - 2024-04-10 20:19:44 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:19:44 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:19:44 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:19:44 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:19:44 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:19:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:19:44 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:19:44 --> Email Class Initialized
+INFO - 2024-04-10 20:19:44 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:19:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:19:44 --> Pagination Class Initialized
+INFO - 2024-04-10 20:19:44 --> Model "M_user" initialized
+INFO - 2024-04-10 20:19:44 --> Model "M_product" initialized
+INFO - 2024-04-10 20:19:44 --> Model "M_category" initialized
+INFO - 2024-04-10 20:19:44 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:19:44 --> Model "M_report" initialized
+INFO - 2024-04-10 20:19:45 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:19:45 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:19:45 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:19:45 --> Model "M_role" initialized
+INFO - 2024-04-10 20:19:45 --> Model "M_client" initialized
+INFO - 2024-04-10 20:19:45 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:19:45 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:19:45 --> Model "M_move" initialized
+INFO - 2024-04-10 20:19:45 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:19:45 --> Controller Class Initialized
+INFO - 2024-04-10 20:19:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:19:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:19:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:19:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:19:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:19:45 --> Final output sent to browser
+DEBUG - 2024-04-10 20:19:45 --> Total execution time: 0.5452
+INFO - 2024-04-10 20:19:45 --> Config Class Initialized
+INFO - 2024-04-10 20:19:45 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:19:45 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:19:45 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:19:45 --> URI Class Initialized
+INFO - 2024-04-10 20:19:45 --> Router Class Initialized
+INFO - 2024-04-10 20:19:45 --> Output Class Initialized
+INFO - 2024-04-10 20:19:45 --> Security Class Initialized
+DEBUG - 2024-04-10 20:19:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:19:45 --> Input Class Initialized
+INFO - 2024-04-10 20:19:45 --> Language Class Initialized
+INFO - 2024-04-10 20:19:45 --> Loader Class Initialized
+INFO - 2024-04-10 20:19:45 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:19:45 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:19:45 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:19:45 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:19:45 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:19:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:19:45 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:19:45 --> Email Class Initialized
+INFO - 2024-04-10 20:19:46 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:19:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:19:46 --> Pagination Class Initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_user" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_product" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_category" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_report" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_role" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_client" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_move" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:19:46 --> Controller Class Initialized
+ERROR - 2024-04-10 20:19:46 --> Severity: Warning --> Undefined array key "cost_price" C:\xampp\htdocs\hokala\application\views\receive\_load_cart.php 130
+ERROR - 2024-04-10 20:19:46 --> Severity: Warning --> Undefined array key "cost_price" C:\xampp\htdocs\hokala\application\views\receive\_load_cart.php 132
+INFO - 2024-04-10 20:19:46 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:19:46 --> Final output sent to browser
+DEBUG - 2024-04-10 20:19:46 --> Total execution time: 0.5218
+INFO - 2024-04-10 20:19:46 --> Config Class Initialized
+INFO - 2024-04-10 20:19:46 --> Config Class Initialized
+INFO - 2024-04-10 20:19:46 --> Hooks Class Initialized
+INFO - 2024-04-10 20:19:46 --> Hooks Class Initialized
+INFO - 2024-04-10 20:19:46 --> Config Class Initialized
+DEBUG - 2024-04-10 20:19:46 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:19:46 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:19:46 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:19:46 --> Hooks Class Initialized
+INFO - 2024-04-10 20:19:46 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:19:46 --> URI Class Initialized
+INFO - 2024-04-10 20:19:46 --> URI Class Initialized
+DEBUG - 2024-04-10 20:19:46 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:19:46 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:19:46 --> Router Class Initialized
+INFO - 2024-04-10 20:19:46 --> Router Class Initialized
+INFO - 2024-04-10 20:19:46 --> URI Class Initialized
+INFO - 2024-04-10 20:19:46 --> Output Class Initialized
+INFO - 2024-04-10 20:19:46 --> Output Class Initialized
+INFO - 2024-04-10 20:19:46 --> Security Class Initialized
+INFO - 2024-04-10 20:19:46 --> Security Class Initialized
+INFO - 2024-04-10 20:19:46 --> Router Class Initialized
+DEBUG - 2024-04-10 20:19:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:19:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:19:46 --> Output Class Initialized
+INFO - 2024-04-10 20:19:46 --> Input Class Initialized
+INFO - 2024-04-10 20:19:46 --> Input Class Initialized
+INFO - 2024-04-10 20:19:46 --> Security Class Initialized
+INFO - 2024-04-10 20:19:46 --> Language Class Initialized
+INFO - 2024-04-10 20:19:46 --> Language Class Initialized
+DEBUG - 2024-04-10 20:19:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:19:46 --> Input Class Initialized
+INFO - 2024-04-10 20:19:46 --> Loader Class Initialized
+INFO - 2024-04-10 20:19:46 --> Loader Class Initialized
+INFO - 2024-04-10 20:19:46 --> Language Class Initialized
+INFO - 2024-04-10 20:19:46 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:19:46 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:19:46 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:19:46 --> Loader Class Initialized
+INFO - 2024-04-10 20:19:46 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:19:46 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:19:46 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:19:46 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:19:46 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:19:46 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:19:46 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:19:46 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:19:46 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:19:46 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:19:46 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:19:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:19:46 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:19:46 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:19:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:19:46 --> Email Class Initialized
+DEBUG - 2024-04-10 20:19:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:19:46 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:19:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:19:46 --> Pagination Class Initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_user" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_product" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_category" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_report" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_role" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_client" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_move" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:19:46 --> Controller Class Initialized
+INFO - 2024-04-10 20:19:46 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:19:46 --> Final output sent to browser
+DEBUG - 2024-04-10 20:19:46 --> Total execution time: 0.4052
+INFO - 2024-04-10 20:19:46 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:19:46 --> Email Class Initialized
+INFO - 2024-04-10 20:19:46 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:19:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:19:46 --> Pagination Class Initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_user" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_product" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_category" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:19:46 --> Model "M_report" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_role" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_client" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_move" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:19:47 --> Controller Class Initialized
+INFO - 2024-04-10 20:19:47 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:19:47 --> Final output sent to browser
+DEBUG - 2024-04-10 20:19:47 --> Total execution time: 0.6399
+INFO - 2024-04-10 20:19:47 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:19:47 --> Email Class Initialized
+INFO - 2024-04-10 20:19:47 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:19:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:19:47 --> Pagination Class Initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_user" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_product" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_category" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_report" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_role" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_client" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_move" initialized
+INFO - 2024-04-10 20:19:47 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:19:47 --> Controller Class Initialized
+INFO - 2024-04-10 20:19:47 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:19:47 --> Final output sent to browser
+DEBUG - 2024-04-10 20:19:47 --> Total execution time: 0.8037
+INFO - 2024-04-10 20:20:52 --> Config Class Initialized
+INFO - 2024-04-10 20:20:52 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:20:52 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:20:52 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:20:52 --> URI Class Initialized
+INFO - 2024-04-10 20:20:52 --> Router Class Initialized
+INFO - 2024-04-10 20:20:52 --> Output Class Initialized
+INFO - 2024-04-10 20:20:52 --> Security Class Initialized
+DEBUG - 2024-04-10 20:20:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:20:52 --> Input Class Initialized
+INFO - 2024-04-10 20:20:52 --> Language Class Initialized
+INFO - 2024-04-10 20:20:52 --> Loader Class Initialized
+INFO - 2024-04-10 20:20:52 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:20:52 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:20:52 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:20:52 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:20:52 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:20:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:20:52 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:20:52 --> Email Class Initialized
+INFO - 2024-04-10 20:20:52 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:20:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:20:52 --> Pagination Class Initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_user" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_product" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_category" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_report" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_role" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_client" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_move" initialized
+INFO - 2024-04-10 20:20:52 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:20:52 --> Controller Class Initialized
+INFO - 2024-04-10 20:20:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:20:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:20:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:20:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:20:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:20:52 --> Final output sent to browser
+DEBUG - 2024-04-10 20:20:52 --> Total execution time: 0.5079
+INFO - 2024-04-10 20:20:53 --> Config Class Initialized
+INFO - 2024-04-10 20:20:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:20:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:20:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:20:53 --> URI Class Initialized
+INFO - 2024-04-10 20:20:53 --> Router Class Initialized
+INFO - 2024-04-10 20:20:53 --> Output Class Initialized
+INFO - 2024-04-10 20:20:53 --> Security Class Initialized
+DEBUG - 2024-04-10 20:20:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:20:53 --> Input Class Initialized
+INFO - 2024-04-10 20:20:53 --> Language Class Initialized
+INFO - 2024-04-10 20:20:53 --> Loader Class Initialized
+INFO - 2024-04-10 20:20:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:20:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:20:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:20:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:20:53 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:20:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:20:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:20:53 --> Email Class Initialized
+INFO - 2024-04-10 20:20:53 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:20:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:20:53 --> Pagination Class Initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_user" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_product" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_category" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_report" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_role" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_client" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_move" initialized
+INFO - 2024-04-10 20:20:53 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:20:53 --> Controller Class Initialized
+ERROR - 2024-04-10 20:20:53 --> Query error: Table 'hokala.tbl_cart_receive' doesn't exist - Invalid query: SELECT *
+FROM `tbl_cart_receive`
+WHERE `user_id` = '1'
+ORDER BY `cart_id`
+INFO - 2024-04-10 20:20:53 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 20:21:57 --> Config Class Initialized
+INFO - 2024-04-10 20:21:57 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:21:57 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:21:57 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:21:57 --> URI Class Initialized
+INFO - 2024-04-10 20:21:57 --> Router Class Initialized
+INFO - 2024-04-10 20:21:57 --> Output Class Initialized
+INFO - 2024-04-10 20:21:57 --> Security Class Initialized
+DEBUG - 2024-04-10 20:21:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:21:57 --> Input Class Initialized
+INFO - 2024-04-10 20:21:57 --> Language Class Initialized
+INFO - 2024-04-10 20:21:57 --> Loader Class Initialized
+INFO - 2024-04-10 20:21:57 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:21:57 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:21:57 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:21:57 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:21:57 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:21:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:21:57 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:21:57 --> Email Class Initialized
+INFO - 2024-04-10 20:21:57 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:21:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:21:57 --> Pagination Class Initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_user" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_product" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_category" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_report" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_role" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_client" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_move" initialized
+INFO - 2024-04-10 20:21:57 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:21:57 --> Controller Class Initialized
+INFO - 2024-04-10 20:21:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:21:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:21:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:21:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:21:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:21:57 --> Final output sent to browser
+DEBUG - 2024-04-10 20:21:57 --> Total execution time: 0.4552
+INFO - 2024-04-10 20:21:58 --> Config Class Initialized
+INFO - 2024-04-10 20:21:58 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:21:58 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:21:58 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:21:58 --> URI Class Initialized
+INFO - 2024-04-10 20:21:58 --> Router Class Initialized
+INFO - 2024-04-10 20:21:58 --> Output Class Initialized
+INFO - 2024-04-10 20:21:58 --> Security Class Initialized
+DEBUG - 2024-04-10 20:21:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:21:58 --> Input Class Initialized
+INFO - 2024-04-10 20:21:58 --> Language Class Initialized
+INFO - 2024-04-10 20:21:58 --> Loader Class Initialized
+INFO - 2024-04-10 20:21:58 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:21:58 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:21:58 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:21:58 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:21:58 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:21:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:21:58 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:21:58 --> Email Class Initialized
+INFO - 2024-04-10 20:21:58 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:21:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:21:58 --> Pagination Class Initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_user" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_product" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_category" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_report" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_role" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_client" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_move" initialized
+INFO - 2024-04-10 20:21:58 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:21:58 --> Controller Class Initialized
+ERROR - 2024-04-10 20:21:58 --> Query error: Table 'hokala.tbl_cart_receive' doesn't exist - Invalid query: SELECT *
+FROM `tbl_cart_receive`
+WHERE `user_id` = '1'
+ORDER BY `cart_id`
+INFO - 2024-04-10 20:21:58 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 20:22:01 --> Config Class Initialized
+INFO - 2024-04-10 20:22:01 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:22:01 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:22:01 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:22:01 --> URI Class Initialized
+INFO - 2024-04-10 20:22:01 --> Router Class Initialized
+INFO - 2024-04-10 20:22:01 --> Output Class Initialized
+INFO - 2024-04-10 20:22:01 --> Security Class Initialized
+DEBUG - 2024-04-10 20:22:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:22:01 --> Input Class Initialized
+INFO - 2024-04-10 20:22:01 --> Language Class Initialized
+INFO - 2024-04-10 20:22:01 --> Loader Class Initialized
+INFO - 2024-04-10 20:22:01 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:22:01 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:22:01 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:22:01 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:22:01 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:22:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:22:01 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:22:01 --> Email Class Initialized
+INFO - 2024-04-10 20:22:01 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:22:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:22:01 --> Pagination Class Initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_user" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_product" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_category" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_report" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_role" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_client" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_move" initialized
+INFO - 2024-04-10 20:22:01 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:22:01 --> Controller Class Initialized
+INFO - 2024-04-10 20:22:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:22:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:22:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:22:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:22:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:22:01 --> Final output sent to browser
+DEBUG - 2024-04-10 20:22:01 --> Total execution time: 0.4320
+INFO - 2024-04-10 20:22:02 --> Config Class Initialized
+INFO - 2024-04-10 20:22:02 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:22:02 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:22:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:22:02 --> URI Class Initialized
+INFO - 2024-04-10 20:22:02 --> Router Class Initialized
+INFO - 2024-04-10 20:22:02 --> Output Class Initialized
+INFO - 2024-04-10 20:22:02 --> Security Class Initialized
+DEBUG - 2024-04-10 20:22:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:22:02 --> Input Class Initialized
+INFO - 2024-04-10 20:22:02 --> Language Class Initialized
+INFO - 2024-04-10 20:22:02 --> Loader Class Initialized
+INFO - 2024-04-10 20:22:02 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:22:02 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:22:02 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:22:02 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:22:02 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:22:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:22:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:22:02 --> Email Class Initialized
+INFO - 2024-04-10 20:22:02 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:22:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:22:02 --> Pagination Class Initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_user" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_product" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_category" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_report" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_role" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_client" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_move" initialized
+INFO - 2024-04-10 20:22:02 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:22:02 --> Controller Class Initialized
+ERROR - 2024-04-10 20:22:02 --> Query error: Table 'hokala.tbl_cart_receive' doesn't exist - Invalid query: SELECT *
+FROM `tbl_cart_receive`
+WHERE `user_id` = '1'
+ORDER BY `cart_id`
+INFO - 2024-04-10 20:22:02 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 20:23:37 --> Config Class Initialized
+INFO - 2024-04-10 20:23:37 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:23:37 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:23:37 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:23:37 --> URI Class Initialized
+INFO - 2024-04-10 20:23:37 --> Router Class Initialized
+INFO - 2024-04-10 20:23:38 --> Output Class Initialized
+INFO - 2024-04-10 20:23:38 --> Security Class Initialized
+DEBUG - 2024-04-10 20:23:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:23:38 --> Input Class Initialized
+INFO - 2024-04-10 20:23:38 --> Language Class Initialized
+INFO - 2024-04-10 20:23:38 --> Loader Class Initialized
+INFO - 2024-04-10 20:23:38 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:23:38 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:23:38 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:23:38 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:23:38 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:23:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:23:38 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:23:38 --> Email Class Initialized
+INFO - 2024-04-10 20:23:38 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:23:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:23:38 --> Pagination Class Initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_user" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_product" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_category" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_report" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_role" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_client" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_move" initialized
+INFO - 2024-04-10 20:23:38 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:23:38 --> Controller Class Initialized
+INFO - 2024-04-10 20:23:38 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:23:38 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:23:38 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:23:38 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:23:38 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:23:38 --> Final output sent to browser
+DEBUG - 2024-04-10 20:23:38 --> Total execution time: 0.4078
+INFO - 2024-04-10 20:23:38 --> Config Class Initialized
+INFO - 2024-04-10 20:23:38 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:23:38 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:23:38 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:23:38 --> URI Class Initialized
+INFO - 2024-04-10 20:23:38 --> Router Class Initialized
+INFO - 2024-04-10 20:23:38 --> Output Class Initialized
+INFO - 2024-04-10 20:23:38 --> Security Class Initialized
+DEBUG - 2024-04-10 20:23:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:23:38 --> Input Class Initialized
+INFO - 2024-04-10 20:23:38 --> Language Class Initialized
+INFO - 2024-04-10 20:23:38 --> Loader Class Initialized
+INFO - 2024-04-10 20:23:38 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:23:39 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:23:39 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:23:39 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:23:39 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:23:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:23:39 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:23:39 --> Email Class Initialized
+INFO - 2024-04-10 20:23:39 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:23:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:23:39 --> Pagination Class Initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_user" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_product" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_category" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_report" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_role" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_client" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_move" initialized
+INFO - 2024-04-10 20:23:39 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:23:39 --> Controller Class Initialized
+ERROR - 2024-04-10 20:23:39 --> Query error: Table 'hokala.tbl_cart_receive' doesn't exist - Invalid query: SELECT *
+FROM `tbl_cart_receive`
+WHERE `user_id` = '1'
+ORDER BY `cart_id`
+INFO - 2024-04-10 20:23:39 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 20:23:40 --> Config Class Initialized
+INFO - 2024-04-10 20:23:40 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:23:40 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:23:40 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:23:40 --> URI Class Initialized
+INFO - 2024-04-10 20:23:40 --> Router Class Initialized
+INFO - 2024-04-10 20:23:40 --> Output Class Initialized
+INFO - 2024-04-10 20:23:40 --> Security Class Initialized
+DEBUG - 2024-04-10 20:23:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:23:40 --> Input Class Initialized
+INFO - 2024-04-10 20:23:40 --> Language Class Initialized
+INFO - 2024-04-10 20:23:40 --> Loader Class Initialized
+INFO - 2024-04-10 20:23:40 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:23:40 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:23:40 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:23:40 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:23:40 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:23:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:23:40 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:23:40 --> Email Class Initialized
+INFO - 2024-04-10 20:23:40 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:23:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:23:40 --> Pagination Class Initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_user" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_product" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_category" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_report" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_role" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_client" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_move" initialized
+INFO - 2024-04-10 20:23:40 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:23:40 --> Controller Class Initialized
+INFO - 2024-04-10 20:23:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:23:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:23:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:23:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:23:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:23:40 --> Final output sent to browser
+DEBUG - 2024-04-10 20:23:40 --> Total execution time: 0.4395
+INFO - 2024-04-10 20:23:41 --> Config Class Initialized
+INFO - 2024-04-10 20:23:41 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:23:41 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:23:41 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:23:41 --> URI Class Initialized
+INFO - 2024-04-10 20:23:41 --> Router Class Initialized
+INFO - 2024-04-10 20:23:41 --> Output Class Initialized
+INFO - 2024-04-10 20:23:41 --> Security Class Initialized
+DEBUG - 2024-04-10 20:23:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:23:41 --> Input Class Initialized
+INFO - 2024-04-10 20:23:41 --> Language Class Initialized
+INFO - 2024-04-10 20:23:41 --> Loader Class Initialized
+INFO - 2024-04-10 20:23:41 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:23:41 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:23:41 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:23:41 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:23:41 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:23:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:23:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:23:41 --> Email Class Initialized
+INFO - 2024-04-10 20:23:41 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:23:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:23:41 --> Pagination Class Initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_user" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_product" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_category" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_report" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_role" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_client" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_move" initialized
+INFO - 2024-04-10 20:23:41 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:23:41 --> Controller Class Initialized
+ERROR - 2024-04-10 20:23:41 --> Query error: Table 'hokala.tbl_cart_receive' doesn't exist - Invalid query: SELECT *
+FROM `tbl_cart_receive`
+WHERE `user_id` = '1'
+ORDER BY `cart_id`
+INFO - 2024-04-10 20:23:41 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 20:25:17 --> Config Class Initialized
+INFO - 2024-04-10 20:25:17 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:25:17 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:25:17 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:25:17 --> URI Class Initialized
+INFO - 2024-04-10 20:25:17 --> Router Class Initialized
+INFO - 2024-04-10 20:25:17 --> Output Class Initialized
+INFO - 2024-04-10 20:25:17 --> Security Class Initialized
+DEBUG - 2024-04-10 20:25:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:25:17 --> Input Class Initialized
+INFO - 2024-04-10 20:25:17 --> Language Class Initialized
+INFO - 2024-04-10 20:25:17 --> Loader Class Initialized
+INFO - 2024-04-10 20:25:17 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:25:17 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:25:17 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:25:17 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:25:17 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:25:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:25:17 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:25:17 --> Email Class Initialized
+INFO - 2024-04-10 20:25:17 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:25:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:25:18 --> Pagination Class Initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_user" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_product" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_category" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_report" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_role" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_client" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_move" initialized
+INFO - 2024-04-10 20:25:18 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:25:18 --> Controller Class Initialized
+INFO - 2024-04-10 20:25:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:25:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:25:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:25:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:25:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:25:18 --> Final output sent to browser
+DEBUG - 2024-04-10 20:25:18 --> Total execution time: 0.4228
+INFO - 2024-04-10 20:25:18 --> Config Class Initialized
+INFO - 2024-04-10 20:25:18 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:25:18 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:25:18 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:25:18 --> URI Class Initialized
+INFO - 2024-04-10 20:25:18 --> Router Class Initialized
+INFO - 2024-04-10 20:25:18 --> Output Class Initialized
+INFO - 2024-04-10 20:25:18 --> Security Class Initialized
+DEBUG - 2024-04-10 20:25:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:25:18 --> Input Class Initialized
+INFO - 2024-04-10 20:25:18 --> Language Class Initialized
+INFO - 2024-04-10 20:25:18 --> Loader Class Initialized
+INFO - 2024-04-10 20:25:18 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:25:18 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:25:18 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:25:18 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:25:18 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:25:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:25:18 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:25:18 --> Email Class Initialized
+INFO - 2024-04-10 20:25:18 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:25:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:25:19 --> Pagination Class Initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_user" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_product" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_category" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_report" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_role" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_client" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_move" initialized
+INFO - 2024-04-10 20:25:19 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:25:19 --> Controller Class Initialized
+ERROR - 2024-04-10 20:25:19 --> Query error: Table 'hokala.tbl_cart_receive' doesn't exist - Invalid query: SELECT *
+FROM `tbl_cart_receive`
+WHERE `user_id` = '1'
+ORDER BY `cart_id`
+INFO - 2024-04-10 20:25:19 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 20:25:23 --> Config Class Initialized
+INFO - 2024-04-10 20:25:23 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:25:23 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:25:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:25:23 --> URI Class Initialized
+INFO - 2024-04-10 20:25:23 --> Router Class Initialized
+INFO - 2024-04-10 20:25:23 --> Output Class Initialized
+INFO - 2024-04-10 20:25:23 --> Security Class Initialized
+DEBUG - 2024-04-10 20:25:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:25:23 --> Input Class Initialized
+INFO - 2024-04-10 20:25:23 --> Language Class Initialized
+INFO - 2024-04-10 20:25:23 --> Loader Class Initialized
+INFO - 2024-04-10 20:25:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:25:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:25:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:25:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:25:23 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:25:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:25:23 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:25:23 --> Email Class Initialized
+INFO - 2024-04-10 20:25:23 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:25:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:25:23 --> Pagination Class Initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_user" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_product" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_category" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_report" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_role" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_client" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_move" initialized
+INFO - 2024-04-10 20:25:23 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:25:23 --> Controller Class Initialized
+INFO - 2024-04-10 20:25:23 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:25:23 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:25:23 --> File loaded: C:\xampp\htdocs\hokala\application\views\sale/_load_cart.php
+INFO - 2024-04-10 20:25:23 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:25:23 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:25:23 --> Final output sent to browser
+DEBUG - 2024-04-10 20:25:23 --> Total execution time: 0.4005
+INFO - 2024-04-10 20:25:23 --> Config Class Initialized
+INFO - 2024-04-10 20:25:23 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:25:23 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:25:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:25:23 --> URI Class Initialized
+INFO - 2024-04-10 20:25:23 --> Router Class Initialized
+INFO - 2024-04-10 20:25:23 --> Output Class Initialized
+INFO - 2024-04-10 20:25:23 --> Security Class Initialized
+DEBUG - 2024-04-10 20:25:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:25:24 --> Input Class Initialized
+INFO - 2024-04-10 20:25:24 --> Language Class Initialized
+INFO - 2024-04-10 20:25:24 --> Loader Class Initialized
+INFO - 2024-04-10 20:25:24 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:25:24 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:25:24 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:25:24 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:25:24 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:25:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:25:24 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:25:24 --> Email Class Initialized
+INFO - 2024-04-10 20:25:24 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:25:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:25:24 --> Pagination Class Initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_user" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_product" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_category" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_report" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_role" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_client" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_move" initialized
+INFO - 2024-04-10 20:25:24 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:25:24 --> Controller Class Initialized
+ERROR - 2024-04-10 20:25:24 --> Query error: Table 'hokala.tbl_cart_receive' doesn't exist - Invalid query: SELECT *
+FROM `tbl_cart_receive`
+WHERE `user_id` = '1'
+ORDER BY `cart_id`
+INFO - 2024-04-10 20:25:24 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 20:26:49 --> Config Class Initialized
+INFO - 2024-04-10 20:26:49 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:26:49 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:26:49 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:26:49 --> URI Class Initialized
+INFO - 2024-04-10 20:26:49 --> Router Class Initialized
+INFO - 2024-04-10 20:26:49 --> Output Class Initialized
+INFO - 2024-04-10 20:26:49 --> Security Class Initialized
+DEBUG - 2024-04-10 20:26:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:26:49 --> Input Class Initialized
+INFO - 2024-04-10 20:26:49 --> Language Class Initialized
+INFO - 2024-04-10 20:26:49 --> Loader Class Initialized
+INFO - 2024-04-10 20:26:49 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:26:49 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:26:49 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:26:49 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:26:49 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:26:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:26:49 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:26:49 --> Email Class Initialized
+INFO - 2024-04-10 20:26:50 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:26:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:26:50 --> Pagination Class Initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_user" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_product" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_category" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_report" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_role" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_client" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_move" initialized
+INFO - 2024-04-10 20:26:50 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:26:50 --> Controller Class Initialized
+INFO - 2024-04-10 20:26:50 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:26:50 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:26:50 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:26:50 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:26:50 --> Final output sent to browser
+DEBUG - 2024-04-10 20:26:50 --> Total execution time: 0.4071
+INFO - 2024-04-10 20:26:50 --> Config Class Initialized
+INFO - 2024-04-10 20:26:50 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:26:50 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:26:50 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:26:50 --> URI Class Initialized
+INFO - 2024-04-10 20:26:50 --> Router Class Initialized
+INFO - 2024-04-10 20:26:50 --> Output Class Initialized
+INFO - 2024-04-10 20:26:50 --> Security Class Initialized
+DEBUG - 2024-04-10 20:26:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:26:50 --> Input Class Initialized
+INFO - 2024-04-10 20:26:50 --> Language Class Initialized
+INFO - 2024-04-10 20:26:50 --> Loader Class Initialized
+INFO - 2024-04-10 20:26:50 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:26:50 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:26:50 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:26:50 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:26:50 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:26:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:26:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:26:51 --> Email Class Initialized
+INFO - 2024-04-10 20:26:51 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:26:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:26:51 --> Pagination Class Initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_user" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_product" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_category" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_report" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_role" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_client" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_move" initialized
+INFO - 2024-04-10 20:26:51 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:26:51 --> Controller Class Initialized
+ERROR - 2024-04-10 20:26:51 --> Query error: Table 'hokala.tbl_cart_receive' doesn't exist - Invalid query: SELECT *
+FROM `tbl_cart_receive`
+WHERE `user_id` = '1'
+ORDER BY `cart_id`
+INFO - 2024-04-10 20:26:51 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 20:27:08 --> Config Class Initialized
+INFO - 2024-04-10 20:27:08 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:27:08 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:27:08 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:27:08 --> URI Class Initialized
+INFO - 2024-04-10 20:27:08 --> Router Class Initialized
+INFO - 2024-04-10 20:27:08 --> Output Class Initialized
+INFO - 2024-04-10 20:27:08 --> Security Class Initialized
+DEBUG - 2024-04-10 20:27:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:27:08 --> Input Class Initialized
+INFO - 2024-04-10 20:27:08 --> Language Class Initialized
+INFO - 2024-04-10 20:27:08 --> Loader Class Initialized
+INFO - 2024-04-10 20:27:08 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:27:08 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:27:08 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:27:08 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:27:08 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:27:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:27:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:27:08 --> Email Class Initialized
+INFO - 2024-04-10 20:27:08 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:27:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:27:08 --> Pagination Class Initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_user" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_product" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_category" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_report" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_role" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_client" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_move" initialized
+INFO - 2024-04-10 20:27:08 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:27:08 --> Controller Class Initialized
+INFO - 2024-04-10 20:27:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:27:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+ERROR - 2024-04-10 20:27:08 --> Query error: Table 'hokala.tbl_cart_receive' doesn't exist - Invalid query: SELECT *
+FROM `tbl_cart_receive`
+WHERE `user_id` = '1'
+ORDER BY `cart_id`
+INFO - 2024-04-10 20:27:08 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 20:27:32 --> Config Class Initialized
+INFO - 2024-04-10 20:27:32 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:27:32 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:27:32 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:27:32 --> URI Class Initialized
+INFO - 2024-04-10 20:27:32 --> Router Class Initialized
+INFO - 2024-04-10 20:27:32 --> Output Class Initialized
+INFO - 2024-04-10 20:27:32 --> Security Class Initialized
+DEBUG - 2024-04-10 20:27:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:27:32 --> Input Class Initialized
+INFO - 2024-04-10 20:27:32 --> Language Class Initialized
+INFO - 2024-04-10 20:27:32 --> Loader Class Initialized
+INFO - 2024-04-10 20:27:32 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:27:32 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:27:32 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:27:32 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:27:32 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:27:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:27:32 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:27:32 --> Email Class Initialized
+INFO - 2024-04-10 20:27:32 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:27:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:27:33 --> Pagination Class Initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_user" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_product" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_category" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_report" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_role" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_client" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_move" initialized
+INFO - 2024-04-10 20:27:33 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:27:33 --> Controller Class Initialized
+INFO - 2024-04-10 20:27:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:27:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+ERROR - 2024-04-10 20:27:33 --> Severity: Warning --> Undefined array key "total" C:\xampp\htdocs\hokala\application\views\receive\_load_cart.php 140
+INFO - 2024-04-10 20:27:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:27:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:27:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:27:33 --> Final output sent to browser
+DEBUG - 2024-04-10 20:27:33 --> Total execution time: 0.4618
+INFO - 2024-04-10 20:27:33 --> Config Class Initialized
+INFO - 2024-04-10 20:27:33 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:27:33 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:27:33 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:27:33 --> URI Class Initialized
+INFO - 2024-04-10 20:27:33 --> Router Class Initialized
+INFO - 2024-04-10 20:27:33 --> Output Class Initialized
+INFO - 2024-04-10 20:27:33 --> Security Class Initialized
+DEBUG - 2024-04-10 20:27:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:27:33 --> Input Class Initialized
+INFO - 2024-04-10 20:27:33 --> Language Class Initialized
+INFO - 2024-04-10 20:27:33 --> Loader Class Initialized
+INFO - 2024-04-10 20:27:33 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:27:33 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:27:33 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:27:33 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:27:34 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:27:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:27:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:27:34 --> Email Class Initialized
+INFO - 2024-04-10 20:27:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:27:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:27:34 --> Pagination Class Initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_user" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_product" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_category" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_report" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_role" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_client" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_move" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:27:34 --> Controller Class Initialized
+ERROR - 2024-04-10 20:27:34 --> Severity: Warning --> Undefined array key "total" C:\xampp\htdocs\hokala\application\views\receive\_load_cart.php 140
+INFO - 2024-04-10 20:27:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:27:34 --> Final output sent to browser
+DEBUG - 2024-04-10 20:27:34 --> Total execution time: 0.4279
+INFO - 2024-04-10 20:27:34 --> Config Class Initialized
+INFO - 2024-04-10 20:27:34 --> Config Class Initialized
+INFO - 2024-04-10 20:27:34 --> Hooks Class Initialized
+INFO - 2024-04-10 20:27:34 --> Hooks Class Initialized
+INFO - 2024-04-10 20:27:34 --> Config Class Initialized
+INFO - 2024-04-10 20:27:34 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:27:34 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:27:34 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:27:34 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:27:34 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:27:34 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:27:34 --> URI Class Initialized
+INFO - 2024-04-10 20:27:34 --> URI Class Initialized
+INFO - 2024-04-10 20:27:34 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:27:34 --> Router Class Initialized
+INFO - 2024-04-10 20:27:34 --> Router Class Initialized
+INFO - 2024-04-10 20:27:34 --> URI Class Initialized
+INFO - 2024-04-10 20:27:34 --> Output Class Initialized
+INFO - 2024-04-10 20:27:34 --> Security Class Initialized
+INFO - 2024-04-10 20:27:34 --> Output Class Initialized
+INFO - 2024-04-10 20:27:34 --> Router Class Initialized
+INFO - 2024-04-10 20:27:34 --> Security Class Initialized
+DEBUG - 2024-04-10 20:27:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:27:34 --> Output Class Initialized
+INFO - 2024-04-10 20:27:34 --> Input Class Initialized
+DEBUG - 2024-04-10 20:27:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:27:34 --> Security Class Initialized
+INFO - 2024-04-10 20:27:34 --> Input Class Initialized
+INFO - 2024-04-10 20:27:34 --> Language Class Initialized
+DEBUG - 2024-04-10 20:27:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:27:34 --> Input Class Initialized
+INFO - 2024-04-10 20:27:34 --> Language Class Initialized
+INFO - 2024-04-10 20:27:34 --> Loader Class Initialized
+INFO - 2024-04-10 20:27:34 --> Language Class Initialized
+INFO - 2024-04-10 20:27:34 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:27:34 --> Loader Class Initialized
+INFO - 2024-04-10 20:27:34 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:27:34 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:27:34 --> Loader Class Initialized
+INFO - 2024-04-10 20:27:34 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:27:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:27:34 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:27:34 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:27:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:27:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:27:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:27:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:27:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:27:34 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:27:34 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:27:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:27:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:27:34 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:27:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:27:34 --> Email Class Initialized
+DEBUG - 2024-04-10 20:27:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:27:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:27:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:27:34 --> Pagination Class Initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_user" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_product" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_category" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_report" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_role" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_client" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_move" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:27:34 --> Controller Class Initialized
+INFO - 2024-04-10 20:27:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:27:34 --> Final output sent to browser
+DEBUG - 2024-04-10 20:27:34 --> Total execution time: 0.4272
+INFO - 2024-04-10 20:27:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:27:34 --> Email Class Initialized
+INFO - 2024-04-10 20:27:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:27:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:27:34 --> Pagination Class Initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_user" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_product" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_category" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:27:34 --> Model "M_report" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_role" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_client" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_move" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:27:35 --> Controller Class Initialized
+INFO - 2024-04-10 20:27:35 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:27:35 --> Final output sent to browser
+DEBUG - 2024-04-10 20:27:35 --> Total execution time: 0.6767
+INFO - 2024-04-10 20:27:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:27:35 --> Email Class Initialized
+INFO - 2024-04-10 20:27:35 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:27:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:27:35 --> Pagination Class Initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_user" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_product" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_category" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_report" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_role" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_client" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_move" initialized
+INFO - 2024-04-10 20:27:35 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:27:35 --> Controller Class Initialized
+INFO - 2024-04-10 20:27:35 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:27:35 --> Final output sent to browser
+DEBUG - 2024-04-10 20:27:35 --> Total execution time: 0.8797
+INFO - 2024-04-10 20:28:08 --> Config Class Initialized
+INFO - 2024-04-10 20:28:08 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:28:08 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:28:08 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:28:08 --> URI Class Initialized
+INFO - 2024-04-10 20:28:08 --> Router Class Initialized
+INFO - 2024-04-10 20:28:08 --> Output Class Initialized
+INFO - 2024-04-10 20:28:08 --> Security Class Initialized
+DEBUG - 2024-04-10 20:28:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:28:08 --> Input Class Initialized
+INFO - 2024-04-10 20:28:08 --> Language Class Initialized
+INFO - 2024-04-10 20:28:08 --> Loader Class Initialized
+INFO - 2024-04-10 20:28:08 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:28:08 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:28:08 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:28:08 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:28:08 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:28:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:28:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:28:08 --> Email Class Initialized
+INFO - 2024-04-10 20:28:08 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:28:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:28:08 --> Pagination Class Initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_user" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_product" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_category" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_report" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_role" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_client" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_move" initialized
+INFO - 2024-04-10 20:28:08 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:28:08 --> Controller Class Initialized
+INFO - 2024-04-10 20:28:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:28:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:28:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:28:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:28:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:28:08 --> Final output sent to browser
+DEBUG - 2024-04-10 20:28:08 --> Total execution time: 0.4375
+INFO - 2024-04-10 20:28:09 --> Config Class Initialized
+INFO - 2024-04-10 20:28:09 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:28:09 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:28:09 --> URI Class Initialized
+INFO - 2024-04-10 20:28:09 --> Router Class Initialized
+INFO - 2024-04-10 20:28:09 --> Output Class Initialized
+INFO - 2024-04-10 20:28:09 --> Security Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:28:09 --> Input Class Initialized
+INFO - 2024-04-10 20:28:09 --> Language Class Initialized
+INFO - 2024-04-10 20:28:09 --> Loader Class Initialized
+INFO - 2024-04-10 20:28:09 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:28:09 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:28:09 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:28:09 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:28:09 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:28:09 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:28:09 --> Email Class Initialized
+INFO - 2024-04-10 20:28:09 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:28:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:28:09 --> Pagination Class Initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_user" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_product" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_category" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_report" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_role" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_client" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_move" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:28:09 --> Controller Class Initialized
+INFO - 2024-04-10 20:28:09 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:28:09 --> Final output sent to browser
+DEBUG - 2024-04-10 20:28:09 --> Total execution time: 0.4676
+INFO - 2024-04-10 20:28:09 --> Config Class Initialized
+INFO - 2024-04-10 20:28:09 --> Config Class Initialized
+INFO - 2024-04-10 20:28:09 --> Hooks Class Initialized
+INFO - 2024-04-10 20:28:09 --> Config Class Initialized
+INFO - 2024-04-10 20:28:09 --> Hooks Class Initialized
+INFO - 2024-04-10 20:28:09 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:28:09 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:28:09 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:28:09 --> URI Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:28:09 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:28:09 --> URI Class Initialized
+INFO - 2024-04-10 20:28:09 --> Router Class Initialized
+INFO - 2024-04-10 20:28:09 --> Router Class Initialized
+INFO - 2024-04-10 20:28:09 --> URI Class Initialized
+INFO - 2024-04-10 20:28:09 --> Output Class Initialized
+INFO - 2024-04-10 20:28:09 --> Security Class Initialized
+INFO - 2024-04-10 20:28:09 --> Output Class Initialized
+INFO - 2024-04-10 20:28:09 --> Router Class Initialized
+INFO - 2024-04-10 20:28:09 --> Security Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:28:09 --> Input Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:28:09 --> Output Class Initialized
+INFO - 2024-04-10 20:28:09 --> Input Class Initialized
+INFO - 2024-04-10 20:28:09 --> Language Class Initialized
+INFO - 2024-04-10 20:28:09 --> Security Class Initialized
+INFO - 2024-04-10 20:28:09 --> Language Class Initialized
+INFO - 2024-04-10 20:28:09 --> Loader Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:28:09 --> Input Class Initialized
+INFO - 2024-04-10 20:28:09 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:28:09 --> Loader Class Initialized
+INFO - 2024-04-10 20:28:09 --> Language Class Initialized
+INFO - 2024-04-10 20:28:09 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:28:09 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:28:09 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:28:09 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:28:09 --> Loader Class Initialized
+INFO - 2024-04-10 20:28:09 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:28:09 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:28:09 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:28:09 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:28:09 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:28:09 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:28:09 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:28:09 --> Helper loaded: html_helper
+DEBUG - 2024-04-10 20:28:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:28:09 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:28:09 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:28:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:28:09 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:28:09 --> Email Class Initialized
+INFO - 2024-04-10 20:28:09 --> Form Validation Class Initialized
+DEBUG - 2024-04-10 20:28:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:28:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:28:09 --> Pagination Class Initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_user" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_product" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_category" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_report" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_role" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_client" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_move" initialized
+INFO - 2024-04-10 20:28:09 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:28:09 --> Controller Class Initialized
+INFO - 2024-04-10 20:28:09 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:28:09 --> Final output sent to browser
+DEBUG - 2024-04-10 20:28:09 --> Total execution time: 0.3333
+INFO - 2024-04-10 20:28:10 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:28:10 --> Email Class Initialized
+INFO - 2024-04-10 20:28:10 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:28:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:28:10 --> Pagination Class Initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_user" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_product" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_category" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_report" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_role" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_client" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_move" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:28:10 --> Controller Class Initialized
+INFO - 2024-04-10 20:28:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:28:10 --> Final output sent to browser
+DEBUG - 2024-04-10 20:28:10 --> Total execution time: 0.5155
+INFO - 2024-04-10 20:28:10 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:28:10 --> Email Class Initialized
+INFO - 2024-04-10 20:28:10 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:28:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:28:10 --> Pagination Class Initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_user" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_product" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_category" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_report" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_role" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_client" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_move" initialized
+INFO - 2024-04-10 20:28:10 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:28:10 --> Controller Class Initialized
+INFO - 2024-04-10 20:28:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:28:10 --> Final output sent to browser
+DEBUG - 2024-04-10 20:28:10 --> Total execution time: 0.7159
+INFO - 2024-04-10 20:36:14 --> Config Class Initialized
+INFO - 2024-04-10 20:36:14 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:36:14 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:36:14 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:36:14 --> URI Class Initialized
+INFO - 2024-04-10 20:36:14 --> Router Class Initialized
+INFO - 2024-04-10 20:36:14 --> Output Class Initialized
+INFO - 2024-04-10 20:36:14 --> Security Class Initialized
+DEBUG - 2024-04-10 20:36:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:36:14 --> Input Class Initialized
+INFO - 2024-04-10 20:36:14 --> Language Class Initialized
+INFO - 2024-04-10 20:36:14 --> Loader Class Initialized
+INFO - 2024-04-10 20:36:14 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:36:14 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:36:14 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:36:14 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:36:14 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:36:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:36:14 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:36:15 --> Email Class Initialized
+INFO - 2024-04-10 20:36:15 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:36:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:36:15 --> Pagination Class Initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_user" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_product" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_category" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_report" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_role" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_client" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_move" initialized
+INFO - 2024-04-10 20:36:15 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:36:15 --> Controller Class Initialized
+INFO - 2024-04-10 20:36:15 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:36:15 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:36:15 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:36:15 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:36:15 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:36:15 --> Final output sent to browser
+DEBUG - 2024-04-10 20:36:15 --> Total execution time: 0.6071
+INFO - 2024-04-10 20:36:15 --> Config Class Initialized
+INFO - 2024-04-10 20:36:16 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:36:16 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:36:16 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:36:16 --> URI Class Initialized
+INFO - 2024-04-10 20:36:16 --> Router Class Initialized
+INFO - 2024-04-10 20:36:16 --> Output Class Initialized
+INFO - 2024-04-10 20:36:16 --> Security Class Initialized
+DEBUG - 2024-04-10 20:36:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:36:16 --> Input Class Initialized
+INFO - 2024-04-10 20:36:16 --> Language Class Initialized
+INFO - 2024-04-10 20:36:16 --> Loader Class Initialized
+INFO - 2024-04-10 20:36:16 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:36:16 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:36:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:36:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:36:16 --> Email Class Initialized
+INFO - 2024-04-10 20:36:16 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:36:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:36:16 --> Pagination Class Initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_user" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_product" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_category" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_report" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_role" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_client" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_move" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:36:16 --> Controller Class Initialized
+INFO - 2024-04-10 20:36:16 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:36:16 --> Final output sent to browser
+DEBUG - 2024-04-10 20:36:16 --> Total execution time: 0.4642
+INFO - 2024-04-10 20:36:16 --> Config Class Initialized
+INFO - 2024-04-10 20:36:16 --> Config Class Initialized
+INFO - 2024-04-10 20:36:16 --> Hooks Class Initialized
+INFO - 2024-04-10 20:36:16 --> Hooks Class Initialized
+INFO - 2024-04-10 20:36:16 --> Config Class Initialized
+INFO - 2024-04-10 20:36:16 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:36:16 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:36:16 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:36:16 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:36:16 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:36:16 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:36:16 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:36:16 --> URI Class Initialized
+INFO - 2024-04-10 20:36:16 --> URI Class Initialized
+INFO - 2024-04-10 20:36:16 --> URI Class Initialized
+INFO - 2024-04-10 20:36:16 --> Router Class Initialized
+INFO - 2024-04-10 20:36:16 --> Router Class Initialized
+INFO - 2024-04-10 20:36:16 --> Output Class Initialized
+INFO - 2024-04-10 20:36:16 --> Router Class Initialized
+INFO - 2024-04-10 20:36:16 --> Output Class Initialized
+INFO - 2024-04-10 20:36:16 --> Security Class Initialized
+INFO - 2024-04-10 20:36:16 --> Security Class Initialized
+INFO - 2024-04-10 20:36:16 --> Output Class Initialized
+INFO - 2024-04-10 20:36:16 --> Security Class Initialized
+DEBUG - 2024-04-10 20:36:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:36:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:36:16 --> Input Class Initialized
+INFO - 2024-04-10 20:36:16 --> Input Class Initialized
+DEBUG - 2024-04-10 20:36:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:36:16 --> Input Class Initialized
+INFO - 2024-04-10 20:36:16 --> Language Class Initialized
+INFO - 2024-04-10 20:36:16 --> Language Class Initialized
+INFO - 2024-04-10 20:36:16 --> Language Class Initialized
+INFO - 2024-04-10 20:36:16 --> Loader Class Initialized
+INFO - 2024-04-10 20:36:16 --> Loader Class Initialized
+INFO - 2024-04-10 20:36:16 --> Loader Class Initialized
+INFO - 2024-04-10 20:36:16 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:36:16 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:36:16 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:36:16 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:36:16 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:36:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:36:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:36:16 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:36:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:36:16 --> Email Class Initialized
+INFO - 2024-04-10 20:36:16 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:36:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:36:16 --> Pagination Class Initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_user" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_product" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_category" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_report" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_role" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_client" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_move" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:36:16 --> Controller Class Initialized
+INFO - 2024-04-10 20:36:16 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:36:16 --> Final output sent to browser
+DEBUG - 2024-04-10 20:36:16 --> Total execution time: 0.3825
+INFO - 2024-04-10 20:36:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:36:16 --> Email Class Initialized
+INFO - 2024-04-10 20:36:16 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:36:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:36:16 --> Pagination Class Initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_user" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_product" initialized
+INFO - 2024-04-10 20:36:16 --> Model "M_category" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_report" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_role" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_client" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_move" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:36:17 --> Controller Class Initialized
+INFO - 2024-04-10 20:36:17 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:36:17 --> Final output sent to browser
+DEBUG - 2024-04-10 20:36:17 --> Total execution time: 0.5736
+INFO - 2024-04-10 20:36:17 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:36:17 --> Email Class Initialized
+INFO - 2024-04-10 20:36:17 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:36:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:36:17 --> Pagination Class Initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_user" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_product" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_category" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_report" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_role" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_client" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_move" initialized
+INFO - 2024-04-10 20:36:17 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:36:17 --> Controller Class Initialized
+INFO - 2024-04-10 20:36:17 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:36:17 --> Final output sent to browser
+DEBUG - 2024-04-10 20:36:17 --> Total execution time: 0.7851
+INFO - 2024-04-10 20:37:12 --> Config Class Initialized
+INFO - 2024-04-10 20:37:12 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:37:12 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:37:12 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:37:12 --> URI Class Initialized
+INFO - 2024-04-10 20:37:12 --> Router Class Initialized
+INFO - 2024-04-10 20:37:12 --> Output Class Initialized
+INFO - 2024-04-10 20:37:12 --> Security Class Initialized
+DEBUG - 2024-04-10 20:37:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:37:12 --> Input Class Initialized
+INFO - 2024-04-10 20:37:12 --> Language Class Initialized
+INFO - 2024-04-10 20:37:12 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:12 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:12 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:12 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:12 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:12 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:37:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:37:12 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:37:12 --> Email Class Initialized
+INFO - 2024-04-10 20:37:12 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:12 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:12 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:12 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:12 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:12 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:12 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:12 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:12 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:12 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:13 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:13 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:13 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:13 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:13 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:13 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:13 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:13 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:37:13 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:37:13 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:37:13 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:37:13 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:37:13 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:13 --> Total execution time: 0.4498
+INFO - 2024-04-10 20:37:13 --> Config Class Initialized
+INFO - 2024-04-10 20:37:13 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:37:13 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:37:13 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:37:13 --> URI Class Initialized
+INFO - 2024-04-10 20:37:13 --> Router Class Initialized
+INFO - 2024-04-10 20:37:13 --> Output Class Initialized
+INFO - 2024-04-10 20:37:13 --> Security Class Initialized
+DEBUG - 2024-04-10 20:37:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:37:13 --> Input Class Initialized
+INFO - 2024-04-10 20:37:13 --> Language Class Initialized
+INFO - 2024-04-10 20:37:13 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:13 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:13 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:13 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:13 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:13 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:37:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:37:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:37:13 --> Email Class Initialized
+INFO - 2024-04-10 20:37:13 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:13 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:13 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:14 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:14 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:37:14 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:14 --> Total execution time: 0.4685
+INFO - 2024-04-10 20:37:14 --> Config Class Initialized
+INFO - 2024-04-10 20:37:14 --> Hooks Class Initialized
+INFO - 2024-04-10 20:37:14 --> Config Class Initialized
+INFO - 2024-04-10 20:37:14 --> Hooks Class Initialized
+INFO - 2024-04-10 20:37:14 --> Config Class Initialized
+DEBUG - 2024-04-10 20:37:14 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:37:14 --> Hooks Class Initialized
+INFO - 2024-04-10 20:37:14 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:37:14 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:37:14 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:37:14 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:37:14 --> URI Class Initialized
+INFO - 2024-04-10 20:37:14 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:37:14 --> URI Class Initialized
+INFO - 2024-04-10 20:37:14 --> Router Class Initialized
+INFO - 2024-04-10 20:37:14 --> URI Class Initialized
+INFO - 2024-04-10 20:37:14 --> Router Class Initialized
+INFO - 2024-04-10 20:37:14 --> Output Class Initialized
+INFO - 2024-04-10 20:37:14 --> Security Class Initialized
+INFO - 2024-04-10 20:37:14 --> Output Class Initialized
+INFO - 2024-04-10 20:37:14 --> Router Class Initialized
+DEBUG - 2024-04-10 20:37:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:37:14 --> Security Class Initialized
+INFO - 2024-04-10 20:37:14 --> Output Class Initialized
+INFO - 2024-04-10 20:37:14 --> Input Class Initialized
+INFO - 2024-04-10 20:37:14 --> Security Class Initialized
+DEBUG - 2024-04-10 20:37:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:37:14 --> Input Class Initialized
+DEBUG - 2024-04-10 20:37:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:37:14 --> Language Class Initialized
+INFO - 2024-04-10 20:37:14 --> Input Class Initialized
+INFO - 2024-04-10 20:37:14 --> Language Class Initialized
+INFO - 2024-04-10 20:37:14 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:14 --> Language Class Initialized
+INFO - 2024-04-10 20:37:14 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:14 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:14 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:14 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:14 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:14 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:37:14 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:37:14 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:37:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:37:14 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:37:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:37:14 --> Email Class Initialized
+DEBUG - 2024-04-10 20:37:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:37:14 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:14 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:14 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:14 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:37:14 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:14 --> Total execution time: 0.3490
+INFO - 2024-04-10 20:37:14 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:37:14 --> Email Class Initialized
+INFO - 2024-04-10 20:37:14 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:14 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:14 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:14 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:37:14 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:14 --> Total execution time: 0.5505
+INFO - 2024-04-10 20:37:14 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:37:14 --> Email Class Initialized
+INFO - 2024-04-10 20:37:14 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:14 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:14 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:15 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:15 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:15 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:15 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:15 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:15 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:15 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:15 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:15 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:15 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:15 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:37:15 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:15 --> Total execution time: 0.7624
+INFO - 2024-04-10 20:37:56 --> Config Class Initialized
+INFO - 2024-04-10 20:37:56 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:37:56 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:37:56 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:37:56 --> URI Class Initialized
+INFO - 2024-04-10 20:37:56 --> Router Class Initialized
+INFO - 2024-04-10 20:37:56 --> Output Class Initialized
+INFO - 2024-04-10 20:37:56 --> Security Class Initialized
+DEBUG - 2024-04-10 20:37:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:37:56 --> Input Class Initialized
+INFO - 2024-04-10 20:37:56 --> Language Class Initialized
+INFO - 2024-04-10 20:37:56 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:56 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:56 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:56 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:56 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:56 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:37:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:37:56 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:37:56 --> Email Class Initialized
+INFO - 2024-04-10 20:37:56 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:56 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:56 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:56 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:56 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:56 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:56 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:57 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:57 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:57 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:57 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:57 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:57 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:57 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:57 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:57 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:57 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:37:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:37:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:37:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:37:57 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:37:57 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:57 --> Total execution time: 0.4621
+INFO - 2024-04-10 20:37:57 --> Config Class Initialized
+INFO - 2024-04-10 20:37:57 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:37:57 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:37:57 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:37:57 --> URI Class Initialized
+INFO - 2024-04-10 20:37:57 --> Router Class Initialized
+INFO - 2024-04-10 20:37:57 --> Output Class Initialized
+INFO - 2024-04-10 20:37:57 --> Security Class Initialized
+DEBUG - 2024-04-10 20:37:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:37:57 --> Input Class Initialized
+INFO - 2024-04-10 20:37:57 --> Language Class Initialized
+INFO - 2024-04-10 20:37:57 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:57 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:57 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:57 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:57 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:57 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:37:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:37:57 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:37:57 --> Email Class Initialized
+INFO - 2024-04-10 20:37:57 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:58 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:58 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:58 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:37:58 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:58 --> Total execution time: 0.4602
+INFO - 2024-04-10 20:37:58 --> Config Class Initialized
+INFO - 2024-04-10 20:37:58 --> Config Class Initialized
+INFO - 2024-04-10 20:37:58 --> Config Class Initialized
+INFO - 2024-04-10 20:37:58 --> Hooks Class Initialized
+INFO - 2024-04-10 20:37:58 --> Hooks Class Initialized
+INFO - 2024-04-10 20:37:58 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:37:58 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:37:58 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:37:58 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:37:58 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:37:58 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:37:58 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:37:58 --> URI Class Initialized
+INFO - 2024-04-10 20:37:58 --> URI Class Initialized
+INFO - 2024-04-10 20:37:58 --> URI Class Initialized
+INFO - 2024-04-10 20:37:58 --> Router Class Initialized
+INFO - 2024-04-10 20:37:58 --> Router Class Initialized
+INFO - 2024-04-10 20:37:58 --> Router Class Initialized
+INFO - 2024-04-10 20:37:58 --> Output Class Initialized
+INFO - 2024-04-10 20:37:58 --> Output Class Initialized
+INFO - 2024-04-10 20:37:58 --> Output Class Initialized
+INFO - 2024-04-10 20:37:58 --> Security Class Initialized
+INFO - 2024-04-10 20:37:58 --> Security Class Initialized
+INFO - 2024-04-10 20:37:58 --> Security Class Initialized
+DEBUG - 2024-04-10 20:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:37:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:37:58 --> Input Class Initialized
+INFO - 2024-04-10 20:37:58 --> Input Class Initialized
+INFO - 2024-04-10 20:37:58 --> Input Class Initialized
+INFO - 2024-04-10 20:37:58 --> Language Class Initialized
+INFO - 2024-04-10 20:37:58 --> Language Class Initialized
+INFO - 2024-04-10 20:37:58 --> Language Class Initialized
+INFO - 2024-04-10 20:37:58 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:58 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:58 --> Loader Class Initialized
+INFO - 2024-04-10 20:37:58 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:58 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:37:58 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:37:58 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:37:58 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:37:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:37:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:37:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:37:58 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:37:58 --> Email Class Initialized
+INFO - 2024-04-10 20:37:58 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:58 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:58 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:58 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:37:58 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:58 --> Total execution time: 0.3793
+INFO - 2024-04-10 20:37:58 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:37:58 --> Email Class Initialized
+INFO - 2024-04-10 20:37:58 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:58 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:58 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:59 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:59 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:37:59 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:59 --> Total execution time: 0.6712
+INFO - 2024-04-10 20:37:59 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:37:59 --> Email Class Initialized
+INFO - 2024-04-10 20:37:59 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:37:59 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:37:59 --> Pagination Class Initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_user" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_product" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_category" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_report" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_role" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_client" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_move" initialized
+INFO - 2024-04-10 20:37:59 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:37:59 --> Controller Class Initialized
+INFO - 2024-04-10 20:37:59 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:37:59 --> Final output sent to browser
+DEBUG - 2024-04-10 20:37:59 --> Total execution time: 0.8621
+INFO - 2024-04-10 20:38:33 --> Config Class Initialized
+INFO - 2024-04-10 20:38:33 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:38:33 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:38:33 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:38:33 --> URI Class Initialized
+INFO - 2024-04-10 20:38:33 --> Router Class Initialized
+INFO - 2024-04-10 20:38:34 --> Output Class Initialized
+INFO - 2024-04-10 20:38:34 --> Security Class Initialized
+DEBUG - 2024-04-10 20:38:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:38:34 --> Input Class Initialized
+INFO - 2024-04-10 20:38:34 --> Language Class Initialized
+INFO - 2024-04-10 20:38:34 --> Loader Class Initialized
+INFO - 2024-04-10 20:38:34 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:38:34 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:38:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:38:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:38:34 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:38:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:38:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:38:34 --> Email Class Initialized
+INFO - 2024-04-10 20:38:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:38:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:38:34 --> Pagination Class Initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_user" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_product" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_category" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_report" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_role" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_client" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_move" initialized
+INFO - 2024-04-10 20:38:34 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:38:34 --> Controller Class Initialized
+INFO - 2024-04-10 20:38:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:38:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:38:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:38:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:38:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:38:34 --> Final output sent to browser
+DEBUG - 2024-04-10 20:38:34 --> Total execution time: 0.4000
+INFO - 2024-04-10 20:38:34 --> Config Class Initialized
+INFO - 2024-04-10 20:38:34 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:38:34 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:38:34 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:38:34 --> URI Class Initialized
+INFO - 2024-04-10 20:38:34 --> Router Class Initialized
+INFO - 2024-04-10 20:38:34 --> Output Class Initialized
+INFO - 2024-04-10 20:38:34 --> Security Class Initialized
+DEBUG - 2024-04-10 20:38:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:38:34 --> Input Class Initialized
+INFO - 2024-04-10 20:38:35 --> Language Class Initialized
+INFO - 2024-04-10 20:38:35 --> Loader Class Initialized
+INFO - 2024-04-10 20:38:35 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:38:35 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:38:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:38:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:38:35 --> Email Class Initialized
+INFO - 2024-04-10 20:38:35 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:38:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:38:35 --> Pagination Class Initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_user" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_product" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_category" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_report" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_role" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_client" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_move" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:38:35 --> Controller Class Initialized
+INFO - 2024-04-10 20:38:35 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:38:35 --> Final output sent to browser
+DEBUG - 2024-04-10 20:38:35 --> Total execution time: 0.4403
+INFO - 2024-04-10 20:38:35 --> Config Class Initialized
+INFO - 2024-04-10 20:38:35 --> Config Class Initialized
+INFO - 2024-04-10 20:38:35 --> Config Class Initialized
+INFO - 2024-04-10 20:38:35 --> Hooks Class Initialized
+INFO - 2024-04-10 20:38:35 --> Hooks Class Initialized
+INFO - 2024-04-10 20:38:35 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:38:35 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:38:35 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:38:35 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:38:35 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:38:35 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:38:35 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:38:35 --> URI Class Initialized
+INFO - 2024-04-10 20:38:35 --> URI Class Initialized
+INFO - 2024-04-10 20:38:35 --> URI Class Initialized
+INFO - 2024-04-10 20:38:35 --> Router Class Initialized
+INFO - 2024-04-10 20:38:35 --> Router Class Initialized
+INFO - 2024-04-10 20:38:35 --> Router Class Initialized
+INFO - 2024-04-10 20:38:35 --> Output Class Initialized
+INFO - 2024-04-10 20:38:35 --> Output Class Initialized
+INFO - 2024-04-10 20:38:35 --> Output Class Initialized
+INFO - 2024-04-10 20:38:35 --> Security Class Initialized
+INFO - 2024-04-10 20:38:35 --> Security Class Initialized
+INFO - 2024-04-10 20:38:35 --> Security Class Initialized
+DEBUG - 2024-04-10 20:38:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:38:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:38:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:38:35 --> Input Class Initialized
+INFO - 2024-04-10 20:38:35 --> Input Class Initialized
+INFO - 2024-04-10 20:38:35 --> Input Class Initialized
+INFO - 2024-04-10 20:38:35 --> Language Class Initialized
+INFO - 2024-04-10 20:38:35 --> Language Class Initialized
+INFO - 2024-04-10 20:38:35 --> Language Class Initialized
+INFO - 2024-04-10 20:38:35 --> Loader Class Initialized
+INFO - 2024-04-10 20:38:35 --> Loader Class Initialized
+INFO - 2024-04-10 20:38:35 --> Loader Class Initialized
+INFO - 2024-04-10 20:38:35 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:38:35 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:38:35 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:38:35 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:38:35 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:38:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:38:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:38:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:38:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:38:35 --> Email Class Initialized
+INFO - 2024-04-10 20:38:35 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:38:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:38:35 --> Pagination Class Initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_user" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_product" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_category" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_report" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_role" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_client" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_move" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:38:35 --> Controller Class Initialized
+INFO - 2024-04-10 20:38:35 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:38:35 --> Final output sent to browser
+DEBUG - 2024-04-10 20:38:35 --> Total execution time: 0.3750
+INFO - 2024-04-10 20:38:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:38:35 --> Email Class Initialized
+INFO - 2024-04-10 20:38:35 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:38:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:38:35 --> Pagination Class Initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_user" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_product" initialized
+INFO - 2024-04-10 20:38:35 --> Model "M_category" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_report" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_role" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_client" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_move" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:38:36 --> Controller Class Initialized
+INFO - 2024-04-10 20:38:36 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:38:36 --> Final output sent to browser
+DEBUG - 2024-04-10 20:38:36 --> Total execution time: 0.5661
+INFO - 2024-04-10 20:38:36 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:38:36 --> Email Class Initialized
+INFO - 2024-04-10 20:38:36 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:38:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:38:36 --> Pagination Class Initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_user" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_product" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_category" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_report" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_role" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_client" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_move" initialized
+INFO - 2024-04-10 20:38:36 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:38:36 --> Controller Class Initialized
+INFO - 2024-04-10 20:38:36 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:38:36 --> Final output sent to browser
+DEBUG - 2024-04-10 20:38:36 --> Total execution time: 0.7794
+INFO - 2024-04-10 20:40:23 --> Config Class Initialized
+INFO - 2024-04-10 20:40:23 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:40:23 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:40:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:40:23 --> URI Class Initialized
+INFO - 2024-04-10 20:40:23 --> Router Class Initialized
+INFO - 2024-04-10 20:40:23 --> Output Class Initialized
+INFO - 2024-04-10 20:40:23 --> Security Class Initialized
+DEBUG - 2024-04-10 20:40:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:40:23 --> Input Class Initialized
+INFO - 2024-04-10 20:40:23 --> Language Class Initialized
+INFO - 2024-04-10 20:40:23 --> Loader Class Initialized
+INFO - 2024-04-10 20:40:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:40:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:40:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:40:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:40:23 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:40:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:40:23 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:40:23 --> Email Class Initialized
+INFO - 2024-04-10 20:40:23 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:40:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:40:23 --> Pagination Class Initialized
+INFO - 2024-04-10 20:40:23 --> Model "M_user" initialized
+INFO - 2024-04-10 20:40:23 --> Model "M_product" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_category" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_report" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_role" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_client" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_move" initialized
+INFO - 2024-04-10 20:40:24 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:40:24 --> Controller Class Initialized
+INFO - 2024-04-10 20:40:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:40:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:40:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:40:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:40:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:40:24 --> Final output sent to browser
+DEBUG - 2024-04-10 20:40:24 --> Total execution time: 0.4427
+INFO - 2024-04-10 20:40:24 --> Config Class Initialized
+INFO - 2024-04-10 20:40:24 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:40:24 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:40:24 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:40:24 --> URI Class Initialized
+INFO - 2024-04-10 20:40:24 --> Router Class Initialized
+INFO - 2024-04-10 20:40:24 --> Output Class Initialized
+INFO - 2024-04-10 20:40:24 --> Security Class Initialized
+DEBUG - 2024-04-10 20:40:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:40:24 --> Input Class Initialized
+INFO - 2024-04-10 20:40:24 --> Language Class Initialized
+INFO - 2024-04-10 20:40:24 --> Loader Class Initialized
+INFO - 2024-04-10 20:40:24 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:40:24 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:40:24 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:40:24 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:40:24 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:40:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:40:24 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:40:25 --> Email Class Initialized
+INFO - 2024-04-10 20:40:25 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:40:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:40:25 --> Pagination Class Initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_user" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_product" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_category" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_report" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_role" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_client" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_move" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:40:25 --> Controller Class Initialized
+INFO - 2024-04-10 20:40:25 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:40:25 --> Final output sent to browser
+DEBUG - 2024-04-10 20:40:25 --> Total execution time: 0.4735
+INFO - 2024-04-10 20:40:25 --> Config Class Initialized
+INFO - 2024-04-10 20:40:25 --> Config Class Initialized
+INFO - 2024-04-10 20:40:25 --> Hooks Class Initialized
+INFO - 2024-04-10 20:40:25 --> Hooks Class Initialized
+INFO - 2024-04-10 20:40:25 --> Config Class Initialized
+INFO - 2024-04-10 20:40:25 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:40:25 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:40:25 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:40:25 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:40:25 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:40:25 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:40:25 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:40:25 --> URI Class Initialized
+INFO - 2024-04-10 20:40:25 --> URI Class Initialized
+INFO - 2024-04-10 20:40:25 --> URI Class Initialized
+INFO - 2024-04-10 20:40:25 --> Router Class Initialized
+INFO - 2024-04-10 20:40:25 --> Router Class Initialized
+INFO - 2024-04-10 20:40:25 --> Router Class Initialized
+INFO - 2024-04-10 20:40:25 --> Output Class Initialized
+INFO - 2024-04-10 20:40:25 --> Output Class Initialized
+INFO - 2024-04-10 20:40:25 --> Security Class Initialized
+INFO - 2024-04-10 20:40:25 --> Security Class Initialized
+INFO - 2024-04-10 20:40:25 --> Output Class Initialized
+DEBUG - 2024-04-10 20:40:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:40:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:40:25 --> Security Class Initialized
+INFO - 2024-04-10 20:40:25 --> Input Class Initialized
+INFO - 2024-04-10 20:40:25 --> Input Class Initialized
+DEBUG - 2024-04-10 20:40:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:40:25 --> Input Class Initialized
+INFO - 2024-04-10 20:40:25 --> Language Class Initialized
+INFO - 2024-04-10 20:40:25 --> Language Class Initialized
+INFO - 2024-04-10 20:40:25 --> Language Class Initialized
+INFO - 2024-04-10 20:40:25 --> Loader Class Initialized
+INFO - 2024-04-10 20:40:25 --> Loader Class Initialized
+INFO - 2024-04-10 20:40:25 --> Loader Class Initialized
+INFO - 2024-04-10 20:40:25 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:40:25 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:40:25 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:40:25 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:40:25 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:40:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:40:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:40:25 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:40:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:40:25 --> Email Class Initialized
+INFO - 2024-04-10 20:40:25 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:40:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:40:25 --> Pagination Class Initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_user" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_product" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_category" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_report" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_role" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_client" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_move" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:40:25 --> Controller Class Initialized
+INFO - 2024-04-10 20:40:25 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:40:25 --> Final output sent to browser
+DEBUG - 2024-04-10 20:40:25 --> Total execution time: 0.3861
+INFO - 2024-04-10 20:40:25 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:40:25 --> Email Class Initialized
+INFO - 2024-04-10 20:40:25 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:40:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:40:25 --> Pagination Class Initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_user" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_product" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_category" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:40:25 --> Model "M_report" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_role" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_client" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_move" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:40:26 --> Controller Class Initialized
+INFO - 2024-04-10 20:40:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:40:26 --> Final output sent to browser
+DEBUG - 2024-04-10 20:40:26 --> Total execution time: 0.6060
+INFO - 2024-04-10 20:40:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:40:26 --> Email Class Initialized
+INFO - 2024-04-10 20:40:26 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:40:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:40:26 --> Pagination Class Initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_user" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_product" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_category" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_report" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_role" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_client" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_move" initialized
+INFO - 2024-04-10 20:40:26 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:40:26 --> Controller Class Initialized
+INFO - 2024-04-10 20:40:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:40:26 --> Final output sent to browser
+DEBUG - 2024-04-10 20:40:26 --> Total execution time: 0.8268
+INFO - 2024-04-10 20:41:19 --> Config Class Initialized
+INFO - 2024-04-10 20:41:19 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:41:19 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:41:19 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:41:19 --> URI Class Initialized
+INFO - 2024-04-10 20:41:19 --> Router Class Initialized
+INFO - 2024-04-10 20:41:19 --> Output Class Initialized
+INFO - 2024-04-10 20:41:19 --> Security Class Initialized
+DEBUG - 2024-04-10 20:41:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:41:19 --> Input Class Initialized
+INFO - 2024-04-10 20:41:19 --> Language Class Initialized
+INFO - 2024-04-10 20:41:19 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:19 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:19 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:19 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:19 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:19 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:41:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:41:20 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:41:20 --> Email Class Initialized
+INFO - 2024-04-10 20:41:20 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:20 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:20 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:20 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:41:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:41:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:41:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:41:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:41:20 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:20 --> Total execution time: 0.3657
+INFO - 2024-04-10 20:41:20 --> Config Class Initialized
+INFO - 2024-04-10 20:41:20 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:41:20 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:41:20 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:41:20 --> URI Class Initialized
+INFO - 2024-04-10 20:41:20 --> Router Class Initialized
+INFO - 2024-04-10 20:41:20 --> Output Class Initialized
+INFO - 2024-04-10 20:41:20 --> Security Class Initialized
+DEBUG - 2024-04-10 20:41:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:41:20 --> Input Class Initialized
+INFO - 2024-04-10 20:41:20 --> Language Class Initialized
+INFO - 2024-04-10 20:41:20 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:20 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:21 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:41:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:41:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:41:21 --> Email Class Initialized
+INFO - 2024-04-10 20:41:21 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:21 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:21 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:21 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:41:21 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:21 --> Total execution time: 0.4578
+INFO - 2024-04-10 20:41:21 --> Config Class Initialized
+INFO - 2024-04-10 20:41:21 --> Config Class Initialized
+INFO - 2024-04-10 20:41:21 --> Config Class Initialized
+INFO - 2024-04-10 20:41:21 --> Hooks Class Initialized
+INFO - 2024-04-10 20:41:21 --> Hooks Class Initialized
+INFO - 2024-04-10 20:41:21 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:41:21 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:41:21 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:41:21 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:41:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:41:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:41:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:41:21 --> URI Class Initialized
+INFO - 2024-04-10 20:41:21 --> URI Class Initialized
+INFO - 2024-04-10 20:41:21 --> URI Class Initialized
+INFO - 2024-04-10 20:41:21 --> Router Class Initialized
+INFO - 2024-04-10 20:41:21 --> Router Class Initialized
+INFO - 2024-04-10 20:41:21 --> Router Class Initialized
+INFO - 2024-04-10 20:41:21 --> Output Class Initialized
+INFO - 2024-04-10 20:41:21 --> Output Class Initialized
+INFO - 2024-04-10 20:41:21 --> Output Class Initialized
+INFO - 2024-04-10 20:41:21 --> Security Class Initialized
+INFO - 2024-04-10 20:41:21 --> Security Class Initialized
+INFO - 2024-04-10 20:41:21 --> Security Class Initialized
+DEBUG - 2024-04-10 20:41:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:41:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:41:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:41:21 --> Input Class Initialized
+INFO - 2024-04-10 20:41:21 --> Input Class Initialized
+INFO - 2024-04-10 20:41:21 --> Input Class Initialized
+INFO - 2024-04-10 20:41:21 --> Language Class Initialized
+INFO - 2024-04-10 20:41:21 --> Language Class Initialized
+INFO - 2024-04-10 20:41:21 --> Language Class Initialized
+INFO - 2024-04-10 20:41:21 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:21 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:21 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:21 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:21 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:21 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:41:21 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:41:21 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:41:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:41:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:41:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:41:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:41:21 --> Email Class Initialized
+INFO - 2024-04-10 20:41:21 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:21 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:21 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:21 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:41:21 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:21 --> Total execution time: 0.3799
+INFO - 2024-04-10 20:41:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:41:21 --> Email Class Initialized
+INFO - 2024-04-10 20:41:21 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:21 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:21 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:22 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:41:22 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:22 --> Total execution time: 0.5835
+INFO - 2024-04-10 20:41:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:41:22 --> Email Class Initialized
+INFO - 2024-04-10 20:41:22 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:22 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:22 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:22 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:41:22 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:22 --> Total execution time: 0.8035
+INFO - 2024-04-10 20:41:40 --> Config Class Initialized
+INFO - 2024-04-10 20:41:40 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:41:40 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:41:40 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:41:40 --> URI Class Initialized
+INFO - 2024-04-10 20:41:40 --> Router Class Initialized
+INFO - 2024-04-10 20:41:40 --> Output Class Initialized
+INFO - 2024-04-10 20:41:40 --> Security Class Initialized
+DEBUG - 2024-04-10 20:41:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:41:40 --> Input Class Initialized
+INFO - 2024-04-10 20:41:40 --> Language Class Initialized
+INFO - 2024-04-10 20:41:40 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:40 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:40 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:40 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:40 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:40 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:41:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:41:40 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:41:40 --> Email Class Initialized
+INFO - 2024-04-10 20:41:40 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:40 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:40 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:40 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:41:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:41:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:41:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:41:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:41:40 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:40 --> Total execution time: 0.4468
+INFO - 2024-04-10 20:41:41 --> Config Class Initialized
+INFO - 2024-04-10 20:41:41 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:41:41 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:41:41 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:41:41 --> URI Class Initialized
+INFO - 2024-04-10 20:41:41 --> Router Class Initialized
+INFO - 2024-04-10 20:41:41 --> Output Class Initialized
+INFO - 2024-04-10 20:41:41 --> Security Class Initialized
+DEBUG - 2024-04-10 20:41:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:41:41 --> Input Class Initialized
+INFO - 2024-04-10 20:41:41 --> Language Class Initialized
+INFO - 2024-04-10 20:41:41 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:41 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:41 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:41 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:41 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:41 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:41:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:41:41 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:41:41 --> Email Class Initialized
+INFO - 2024-04-10 20:41:41 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:41 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:41 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:41 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:41 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:41 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:41:41 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:41 --> Total execution time: 0.4402
+INFO - 2024-04-10 20:41:42 --> Config Class Initialized
+INFO - 2024-04-10 20:41:42 --> Config Class Initialized
+INFO - 2024-04-10 20:41:42 --> Hooks Class Initialized
+INFO - 2024-04-10 20:41:42 --> Hooks Class Initialized
+INFO - 2024-04-10 20:41:42 --> Config Class Initialized
+INFO - 2024-04-10 20:41:42 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:41:42 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:41:42 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:41:42 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:41:42 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:41:42 --> URI Class Initialized
+DEBUG - 2024-04-10 20:41:42 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:41:42 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:41:42 --> Router Class Initialized
+INFO - 2024-04-10 20:41:42 --> URI Class Initialized
+INFO - 2024-04-10 20:41:42 --> URI Class Initialized
+INFO - 2024-04-10 20:41:42 --> Output Class Initialized
+INFO - 2024-04-10 20:41:42 --> Router Class Initialized
+INFO - 2024-04-10 20:41:42 --> Security Class Initialized
+INFO - 2024-04-10 20:41:42 --> Output Class Initialized
+INFO - 2024-04-10 20:41:42 --> Router Class Initialized
+INFO - 2024-04-10 20:41:42 --> Security Class Initialized
+DEBUG - 2024-04-10 20:41:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:41:42 --> Output Class Initialized
+INFO - 2024-04-10 20:41:42 --> Input Class Initialized
+DEBUG - 2024-04-10 20:41:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:41:42 --> Security Class Initialized
+INFO - 2024-04-10 20:41:42 --> Input Class Initialized
+INFO - 2024-04-10 20:41:42 --> Language Class Initialized
+DEBUG - 2024-04-10 20:41:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:41:42 --> Input Class Initialized
+INFO - 2024-04-10 20:41:42 --> Language Class Initialized
+INFO - 2024-04-10 20:41:42 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:42 --> Language Class Initialized
+INFO - 2024-04-10 20:41:42 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:42 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:42 --> Loader Class Initialized
+INFO - 2024-04-10 20:41:42 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:42 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:41:42 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:41:42 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:41:42 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:41:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:41:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:41:42 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:41:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:41:42 --> Email Class Initialized
+INFO - 2024-04-10 20:41:42 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:42 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:42 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:42 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:41:42 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:42 --> Total execution time: 0.3376
+INFO - 2024-04-10 20:41:42 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:41:42 --> Email Class Initialized
+INFO - 2024-04-10 20:41:42 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:42 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:42 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:42 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:41:42 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:42 --> Total execution time: 0.5192
+INFO - 2024-04-10 20:41:42 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:41:42 --> Email Class Initialized
+INFO - 2024-04-10 20:41:42 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:41:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:41:42 --> Pagination Class Initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_user" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_product" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_category" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_report" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_role" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_client" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_move" initialized
+INFO - 2024-04-10 20:41:42 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:41:42 --> Controller Class Initialized
+INFO - 2024-04-10 20:41:42 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:41:42 --> Final output sent to browser
+DEBUG - 2024-04-10 20:41:42 --> Total execution time: 0.7119
+INFO - 2024-04-10 20:42:00 --> Config Class Initialized
+INFO - 2024-04-10 20:42:00 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:42:00 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:42:00 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:42:00 --> URI Class Initialized
+INFO - 2024-04-10 20:42:00 --> Router Class Initialized
+INFO - 2024-04-10 20:42:00 --> Output Class Initialized
+INFO - 2024-04-10 20:42:00 --> Security Class Initialized
+DEBUG - 2024-04-10 20:42:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:42:00 --> Input Class Initialized
+INFO - 2024-04-10 20:42:00 --> Language Class Initialized
+INFO - 2024-04-10 20:42:00 --> Loader Class Initialized
+INFO - 2024-04-10 20:42:00 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:42:00 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:42:00 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:42:00 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:42:00 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:42:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:42:00 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:42:00 --> Email Class Initialized
+INFO - 2024-04-10 20:42:00 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:42:00 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:42:00 --> Pagination Class Initialized
+INFO - 2024-04-10 20:42:00 --> Model "M_user" initialized
+INFO - 2024-04-10 20:42:00 --> Model "M_product" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_category" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_report" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_role" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_client" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_move" initialized
+INFO - 2024-04-10 20:42:01 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:42:01 --> Controller Class Initialized
+INFO - 2024-04-10 20:42:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:42:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:42:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:42:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:42:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:42:01 --> Final output sent to browser
+DEBUG - 2024-04-10 20:42:01 --> Total execution time: 0.4407
+INFO - 2024-04-10 20:42:01 --> Config Class Initialized
+INFO - 2024-04-10 20:42:01 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:42:01 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:42:01 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:42:01 --> URI Class Initialized
+INFO - 2024-04-10 20:42:01 --> Router Class Initialized
+INFO - 2024-04-10 20:42:01 --> Output Class Initialized
+INFO - 2024-04-10 20:42:01 --> Security Class Initialized
+DEBUG - 2024-04-10 20:42:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:42:01 --> Input Class Initialized
+INFO - 2024-04-10 20:42:01 --> Language Class Initialized
+INFO - 2024-04-10 20:42:01 --> Loader Class Initialized
+INFO - 2024-04-10 20:42:01 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:42:01 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:42:01 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:42:01 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:42:01 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:42:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:42:01 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:42:01 --> Email Class Initialized
+INFO - 2024-04-10 20:42:01 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:42:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:42:02 --> Pagination Class Initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_user" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_product" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_category" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_report" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_role" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_client" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_move" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:42:02 --> Controller Class Initialized
+INFO - 2024-04-10 20:42:02 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:42:02 --> Final output sent to browser
+DEBUG - 2024-04-10 20:42:02 --> Total execution time: 0.4875
+INFO - 2024-04-10 20:42:02 --> Config Class Initialized
+INFO - 2024-04-10 20:42:02 --> Config Class Initialized
+INFO - 2024-04-10 20:42:02 --> Hooks Class Initialized
+INFO - 2024-04-10 20:42:02 --> Hooks Class Initialized
+INFO - 2024-04-10 20:42:02 --> Config Class Initialized
+INFO - 2024-04-10 20:42:02 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:42:02 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:42:02 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:42:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:42:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:42:02 --> URI Class Initialized
+INFO - 2024-04-10 20:42:02 --> URI Class Initialized
+DEBUG - 2024-04-10 20:42:02 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:42:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:42:02 --> Router Class Initialized
+INFO - 2024-04-10 20:42:02 --> Router Class Initialized
+INFO - 2024-04-10 20:42:02 --> Output Class Initialized
+INFO - 2024-04-10 20:42:02 --> Output Class Initialized
+INFO - 2024-04-10 20:42:02 --> URI Class Initialized
+INFO - 2024-04-10 20:42:02 --> Security Class Initialized
+INFO - 2024-04-10 20:42:02 --> Security Class Initialized
+INFO - 2024-04-10 20:42:02 --> Router Class Initialized
+DEBUG - 2024-04-10 20:42:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:42:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:42:02 --> Output Class Initialized
+INFO - 2024-04-10 20:42:02 --> Input Class Initialized
+INFO - 2024-04-10 20:42:02 --> Input Class Initialized
+INFO - 2024-04-10 20:42:02 --> Security Class Initialized
+INFO - 2024-04-10 20:42:02 --> Language Class Initialized
+INFO - 2024-04-10 20:42:02 --> Language Class Initialized
+DEBUG - 2024-04-10 20:42:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:42:02 --> Input Class Initialized
+INFO - 2024-04-10 20:42:02 --> Loader Class Initialized
+INFO - 2024-04-10 20:42:02 --> Loader Class Initialized
+INFO - 2024-04-10 20:42:02 --> Language Class Initialized
+INFO - 2024-04-10 20:42:02 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:42:02 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:42:02 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:42:02 --> Loader Class Initialized
+INFO - 2024-04-10 20:42:02 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:42:02 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:42:02 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:42:02 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:42:02 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:42:02 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:42:02 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:42:02 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:42:02 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:42:02 --> Helper loaded: form_helper
+DEBUG - 2024-04-10 20:42:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:42:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:42:02 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:42:02 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:42:02 --> Email Class Initialized
+DEBUG - 2024-04-10 20:42:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:42:02 --> Form Validation Class Initialized
+DEBUG - 2024-04-10 20:42:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:42:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:42:02 --> Pagination Class Initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_user" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_product" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_category" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_report" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_role" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_client" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_move" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:42:02 --> Controller Class Initialized
+INFO - 2024-04-10 20:42:02 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:42:02 --> Final output sent to browser
+DEBUG - 2024-04-10 20:42:02 --> Total execution time: 0.3367
+INFO - 2024-04-10 20:42:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:42:02 --> Email Class Initialized
+INFO - 2024-04-10 20:42:02 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:42:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:42:02 --> Pagination Class Initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_user" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_product" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_category" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_report" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_role" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_client" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_move" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:42:02 --> Controller Class Initialized
+INFO - 2024-04-10 20:42:02 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:42:02 --> Final output sent to browser
+DEBUG - 2024-04-10 20:42:02 --> Total execution time: 0.5366
+INFO - 2024-04-10 20:42:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:42:02 --> Email Class Initialized
+INFO - 2024-04-10 20:42:02 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:42:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:42:02 --> Pagination Class Initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_user" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_product" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_category" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_report" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_role" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_client" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_move" initialized
+INFO - 2024-04-10 20:42:02 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:42:02 --> Controller Class Initialized
+INFO - 2024-04-10 20:42:02 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:42:02 --> Final output sent to browser
+DEBUG - 2024-04-10 20:42:02 --> Total execution time: 0.7203
+INFO - 2024-04-10 20:43:45 --> Config Class Initialized
+INFO - 2024-04-10 20:43:45 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:43:45 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:43:45 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:43:45 --> URI Class Initialized
+INFO - 2024-04-10 20:43:45 --> Router Class Initialized
+INFO - 2024-04-10 20:43:45 --> Output Class Initialized
+INFO - 2024-04-10 20:43:45 --> Security Class Initialized
+DEBUG - 2024-04-10 20:43:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:43:45 --> Input Class Initialized
+INFO - 2024-04-10 20:43:45 --> Language Class Initialized
+INFO - 2024-04-10 20:43:45 --> Loader Class Initialized
+INFO - 2024-04-10 20:43:45 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:43:45 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:43:45 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:43:45 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:43:45 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:43:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:43:45 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:43:45 --> Email Class Initialized
+INFO - 2024-04-10 20:43:45 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:43:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:43:45 --> Pagination Class Initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_user" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_product" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_category" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_report" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_role" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_client" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_move" initialized
+INFO - 2024-04-10 20:43:45 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:43:45 --> Controller Class Initialized
+INFO - 2024-04-10 20:43:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:43:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:43:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:43:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:43:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:43:45 --> Final output sent to browser
+DEBUG - 2024-04-10 20:43:45 --> Total execution time: 0.4537
+INFO - 2024-04-10 20:43:46 --> Config Class Initialized
+INFO - 2024-04-10 20:43:46 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:43:46 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:43:46 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:43:46 --> URI Class Initialized
+INFO - 2024-04-10 20:43:46 --> Router Class Initialized
+INFO - 2024-04-10 20:43:46 --> Output Class Initialized
+INFO - 2024-04-10 20:43:46 --> Security Class Initialized
+DEBUG - 2024-04-10 20:43:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:43:46 --> Input Class Initialized
+INFO - 2024-04-10 20:43:46 --> Language Class Initialized
+INFO - 2024-04-10 20:43:46 --> Loader Class Initialized
+INFO - 2024-04-10 20:43:46 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:43:46 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:43:46 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:43:46 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:43:46 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:43:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:43:46 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:43:46 --> Email Class Initialized
+INFO - 2024-04-10 20:43:46 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:43:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:43:46 --> Pagination Class Initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_user" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_product" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_category" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_report" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_role" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_client" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_move" initialized
+INFO - 2024-04-10 20:43:46 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:43:46 --> Controller Class Initialized
+INFO - 2024-04-10 20:43:46 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:43:46 --> Final output sent to browser
+DEBUG - 2024-04-10 20:43:46 --> Total execution time: 0.5239
+INFO - 2024-04-10 20:43:46 --> Config Class Initialized
+INFO - 2024-04-10 20:43:46 --> Hooks Class Initialized
+INFO - 2024-04-10 20:43:46 --> Config Class Initialized
+INFO - 2024-04-10 20:43:46 --> Hooks Class Initialized
+INFO - 2024-04-10 20:43:46 --> Config Class Initialized
+INFO - 2024-04-10 20:43:47 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:43:47 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:43:47 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:43:47 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:43:47 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:43:47 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:43:47 --> URI Class Initialized
+INFO - 2024-04-10 20:43:47 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:43:47 --> URI Class Initialized
+INFO - 2024-04-10 20:43:47 --> Router Class Initialized
+INFO - 2024-04-10 20:43:47 --> URI Class Initialized
+INFO - 2024-04-10 20:43:47 --> Output Class Initialized
+INFO - 2024-04-10 20:43:47 --> Router Class Initialized
+INFO - 2024-04-10 20:43:47 --> Router Class Initialized
+INFO - 2024-04-10 20:43:47 --> Security Class Initialized
+INFO - 2024-04-10 20:43:47 --> Output Class Initialized
+INFO - 2024-04-10 20:43:47 --> Security Class Initialized
+DEBUG - 2024-04-10 20:43:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:43:47 --> Output Class Initialized
+INFO - 2024-04-10 20:43:47 --> Input Class Initialized
+DEBUG - 2024-04-10 20:43:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:43:47 --> Security Class Initialized
+INFO - 2024-04-10 20:43:47 --> Input Class Initialized
+INFO - 2024-04-10 20:43:47 --> Language Class Initialized
+DEBUG - 2024-04-10 20:43:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:43:47 --> Input Class Initialized
+INFO - 2024-04-10 20:43:47 --> Language Class Initialized
+INFO - 2024-04-10 20:43:47 --> Loader Class Initialized
+INFO - 2024-04-10 20:43:47 --> Language Class Initialized
+INFO - 2024-04-10 20:43:47 --> Loader Class Initialized
+INFO - 2024-04-10 20:43:47 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:43:47 --> Loader Class Initialized
+INFO - 2024-04-10 20:43:47 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:43:47 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:43:47 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:43:47 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:43:47 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:43:47 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:43:47 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:43:47 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:43:47 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:43:47 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:43:47 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:43:47 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:43:47 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:43:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:43:47 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:43:47 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:43:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:43:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:43:47 --> Email Class Initialized
+INFO - 2024-04-10 20:43:47 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:43:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:43:47 --> Pagination Class Initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_user" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_product" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_category" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_report" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_role" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_client" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_move" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:43:47 --> Controller Class Initialized
+INFO - 2024-04-10 20:43:47 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:43:47 --> Final output sent to browser
+DEBUG - 2024-04-10 20:43:47 --> Total execution time: 0.3889
+INFO - 2024-04-10 20:43:47 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:43:47 --> Email Class Initialized
+INFO - 2024-04-10 20:43:47 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:43:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:43:47 --> Pagination Class Initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_user" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_product" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_category" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_report" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_role" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_client" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_move" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:43:47 --> Controller Class Initialized
+INFO - 2024-04-10 20:43:47 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:43:47 --> Final output sent to browser
+DEBUG - 2024-04-10 20:43:47 --> Total execution time: 0.5756
+INFO - 2024-04-10 20:43:47 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:43:47 --> Email Class Initialized
+INFO - 2024-04-10 20:43:47 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:43:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:43:47 --> Pagination Class Initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_user" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_product" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_category" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_report" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_role" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_client" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_move" initialized
+INFO - 2024-04-10 20:43:47 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:43:47 --> Controller Class Initialized
+INFO - 2024-04-10 20:43:47 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:43:47 --> Final output sent to browser
+DEBUG - 2024-04-10 20:43:47 --> Total execution time: 0.7608
+INFO - 2024-04-10 20:45:20 --> Config Class Initialized
+INFO - 2024-04-10 20:45:20 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:45:20 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:45:20 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:45:20 --> URI Class Initialized
+INFO - 2024-04-10 20:45:20 --> Router Class Initialized
+INFO - 2024-04-10 20:45:20 --> Output Class Initialized
+INFO - 2024-04-10 20:45:20 --> Security Class Initialized
+DEBUG - 2024-04-10 20:45:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:45:20 --> Input Class Initialized
+INFO - 2024-04-10 20:45:20 --> Language Class Initialized
+INFO - 2024-04-10 20:45:20 --> Loader Class Initialized
+INFO - 2024-04-10 20:45:20 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:45:20 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:45:20 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:45:20 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:45:20 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:45:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:45:20 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:45:20 --> Email Class Initialized
+INFO - 2024-04-10 20:45:20 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:45:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:45:20 --> Pagination Class Initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_user" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_product" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_category" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_report" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_role" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_client" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_move" initialized
+INFO - 2024-04-10 20:45:20 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:45:20 --> Controller Class Initialized
+INFO - 2024-04-10 20:45:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:45:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:45:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:45:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:45:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:45:20 --> Final output sent to browser
+DEBUG - 2024-04-10 20:45:20 --> Total execution time: 0.4318
+INFO - 2024-04-10 20:45:21 --> Config Class Initialized
+INFO - 2024-04-10 20:45:21 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:45:21 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:45:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:45:21 --> URI Class Initialized
+INFO - 2024-04-10 20:45:21 --> Router Class Initialized
+INFO - 2024-04-10 20:45:21 --> Output Class Initialized
+INFO - 2024-04-10 20:45:21 --> Security Class Initialized
+DEBUG - 2024-04-10 20:45:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:45:21 --> Input Class Initialized
+INFO - 2024-04-10 20:45:21 --> Language Class Initialized
+INFO - 2024-04-10 20:45:21 --> Loader Class Initialized
+INFO - 2024-04-10 20:45:21 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:45:21 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:45:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:45:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:45:21 --> Email Class Initialized
+INFO - 2024-04-10 20:45:21 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:45:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:45:21 --> Pagination Class Initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_user" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_product" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_category" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_report" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_role" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_client" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_move" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:45:21 --> Controller Class Initialized
+INFO - 2024-04-10 20:45:21 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:45:21 --> Final output sent to browser
+DEBUG - 2024-04-10 20:45:21 --> Total execution time: 0.4668
+INFO - 2024-04-10 20:45:21 --> Config Class Initialized
+INFO - 2024-04-10 20:45:21 --> Config Class Initialized
+INFO - 2024-04-10 20:45:21 --> Hooks Class Initialized
+INFO - 2024-04-10 20:45:21 --> Hooks Class Initialized
+INFO - 2024-04-10 20:45:21 --> Config Class Initialized
+INFO - 2024-04-10 20:45:21 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:45:21 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:45:21 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:45:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:45:21 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:45:21 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:45:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:45:21 --> URI Class Initialized
+INFO - 2024-04-10 20:45:21 --> URI Class Initialized
+INFO - 2024-04-10 20:45:21 --> URI Class Initialized
+INFO - 2024-04-10 20:45:21 --> Router Class Initialized
+INFO - 2024-04-10 20:45:21 --> Router Class Initialized
+INFO - 2024-04-10 20:45:21 --> Router Class Initialized
+INFO - 2024-04-10 20:45:21 --> Output Class Initialized
+INFO - 2024-04-10 20:45:21 --> Output Class Initialized
+INFO - 2024-04-10 20:45:21 --> Security Class Initialized
+INFO - 2024-04-10 20:45:21 --> Security Class Initialized
+INFO - 2024-04-10 20:45:21 --> Output Class Initialized
+DEBUG - 2024-04-10 20:45:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:45:21 --> Security Class Initialized
+DEBUG - 2024-04-10 20:45:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:45:21 --> Input Class Initialized
+INFO - 2024-04-10 20:45:21 --> Input Class Initialized
+DEBUG - 2024-04-10 20:45:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:45:21 --> Input Class Initialized
+INFO - 2024-04-10 20:45:21 --> Language Class Initialized
+INFO - 2024-04-10 20:45:21 --> Language Class Initialized
+INFO - 2024-04-10 20:45:21 --> Language Class Initialized
+INFO - 2024-04-10 20:45:21 --> Loader Class Initialized
+INFO - 2024-04-10 20:45:21 --> Loader Class Initialized
+INFO - 2024-04-10 20:45:21 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:45:21 --> Loader Class Initialized
+INFO - 2024-04-10 20:45:21 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:45:21 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:45:21 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:45:21 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:45:21 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:45:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:45:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:45:21 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:45:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:45:21 --> Email Class Initialized
+INFO - 2024-04-10 20:45:21 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:45:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:45:21 --> Pagination Class Initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_user" initialized
+INFO - 2024-04-10 20:45:21 --> Model "M_product" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_category" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_report" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_role" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_client" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_move" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:45:22 --> Controller Class Initialized
+INFO - 2024-04-10 20:45:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:45:22 --> Final output sent to browser
+DEBUG - 2024-04-10 20:45:22 --> Total execution time: 0.3635
+INFO - 2024-04-10 20:45:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:45:22 --> Email Class Initialized
+INFO - 2024-04-10 20:45:22 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:45:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:45:22 --> Pagination Class Initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_user" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_product" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_category" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_report" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_role" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_client" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_move" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:45:22 --> Controller Class Initialized
+INFO - 2024-04-10 20:45:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:45:22 --> Final output sent to browser
+DEBUG - 2024-04-10 20:45:22 --> Total execution time: 0.5994
+INFO - 2024-04-10 20:45:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:45:22 --> Email Class Initialized
+INFO - 2024-04-10 20:45:22 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:45:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:45:22 --> Pagination Class Initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_user" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_product" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_category" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_report" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_role" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_client" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_move" initialized
+INFO - 2024-04-10 20:45:22 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:45:22 --> Controller Class Initialized
+INFO - 2024-04-10 20:45:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:45:22 --> Final output sent to browser
+DEBUG - 2024-04-10 20:45:22 --> Total execution time: 0.8100
+INFO - 2024-04-10 20:46:46 --> Config Class Initialized
+INFO - 2024-04-10 20:46:46 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:46:46 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:46:46 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:46:46 --> URI Class Initialized
+INFO - 2024-04-10 20:46:46 --> Router Class Initialized
+INFO - 2024-04-10 20:46:46 --> Output Class Initialized
+INFO - 2024-04-10 20:46:46 --> Security Class Initialized
+DEBUG - 2024-04-10 20:46:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:46:46 --> Input Class Initialized
+INFO - 2024-04-10 20:46:46 --> Language Class Initialized
+INFO - 2024-04-10 20:46:46 --> Loader Class Initialized
+INFO - 2024-04-10 20:46:46 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:46:46 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:46:46 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:46:46 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:46:46 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:46:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:46:46 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:46:46 --> Email Class Initialized
+INFO - 2024-04-10 20:46:46 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:46:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:46:46 --> Pagination Class Initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_user" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_product" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_category" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_report" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_role" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_client" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_move" initialized
+INFO - 2024-04-10 20:46:46 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:46:46 --> Controller Class Initialized
+INFO - 2024-04-10 20:46:46 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:46:46 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:46:46 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:46:46 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:46:46 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:46:46 --> Final output sent to browser
+DEBUG - 2024-04-10 20:46:46 --> Total execution time: 0.4190
+INFO - 2024-04-10 20:46:47 --> Config Class Initialized
+INFO - 2024-04-10 20:46:47 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:46:47 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:46:47 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:46:47 --> URI Class Initialized
+INFO - 2024-04-10 20:46:47 --> Router Class Initialized
+INFO - 2024-04-10 20:46:47 --> Output Class Initialized
+INFO - 2024-04-10 20:46:47 --> Security Class Initialized
+DEBUG - 2024-04-10 20:46:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:46:47 --> Input Class Initialized
+INFO - 2024-04-10 20:46:47 --> Language Class Initialized
+INFO - 2024-04-10 20:46:47 --> Loader Class Initialized
+INFO - 2024-04-10 20:46:47 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:46:47 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:46:47 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:46:47 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:46:47 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:46:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:46:47 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:46:47 --> Email Class Initialized
+INFO - 2024-04-10 20:46:47 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:46:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:46:47 --> Pagination Class Initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_user" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_product" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_category" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_report" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_role" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_client" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_move" initialized
+INFO - 2024-04-10 20:46:47 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:46:47 --> Controller Class Initialized
+INFO - 2024-04-10 20:46:47 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:46:47 --> Final output sent to browser
+DEBUG - 2024-04-10 20:46:47 --> Total execution time: 0.5498
+INFO - 2024-04-10 20:46:47 --> Config Class Initialized
+INFO - 2024-04-10 20:46:47 --> Config Class Initialized
+INFO - 2024-04-10 20:46:47 --> Config Class Initialized
+INFO - 2024-04-10 20:46:47 --> Hooks Class Initialized
+INFO - 2024-04-10 20:46:47 --> Hooks Class Initialized
+INFO - 2024-04-10 20:46:47 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:46:47 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:46:47 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:46:47 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:46:47 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:46:47 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:46:47 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:46:47 --> URI Class Initialized
+INFO - 2024-04-10 20:46:47 --> URI Class Initialized
+INFO - 2024-04-10 20:46:47 --> URI Class Initialized
+INFO - 2024-04-10 20:46:47 --> Router Class Initialized
+INFO - 2024-04-10 20:46:47 --> Router Class Initialized
+INFO - 2024-04-10 20:46:47 --> Router Class Initialized
+INFO - 2024-04-10 20:46:48 --> Output Class Initialized
+INFO - 2024-04-10 20:46:48 --> Output Class Initialized
+INFO - 2024-04-10 20:46:48 --> Output Class Initialized
+INFO - 2024-04-10 20:46:48 --> Security Class Initialized
+INFO - 2024-04-10 20:46:48 --> Security Class Initialized
+INFO - 2024-04-10 20:46:48 --> Security Class Initialized
+DEBUG - 2024-04-10 20:46:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:46:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:46:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:46:48 --> Input Class Initialized
+INFO - 2024-04-10 20:46:48 --> Input Class Initialized
+INFO - 2024-04-10 20:46:48 --> Input Class Initialized
+INFO - 2024-04-10 20:46:48 --> Language Class Initialized
+INFO - 2024-04-10 20:46:48 --> Language Class Initialized
+INFO - 2024-04-10 20:46:48 --> Language Class Initialized
+INFO - 2024-04-10 20:46:48 --> Loader Class Initialized
+INFO - 2024-04-10 20:46:48 --> Loader Class Initialized
+INFO - 2024-04-10 20:46:48 --> Loader Class Initialized
+INFO - 2024-04-10 20:46:48 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:46:48 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:46:48 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:46:48 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:46:48 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:46:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:46:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:46:48 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:46:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:46:48 --> Email Class Initialized
+INFO - 2024-04-10 20:46:48 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:46:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:46:48 --> Pagination Class Initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_user" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_product" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_category" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_report" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_role" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_client" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_move" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:46:48 --> Controller Class Initialized
+INFO - 2024-04-10 20:46:48 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:46:48 --> Final output sent to browser
+DEBUG - 2024-04-10 20:46:48 --> Total execution time: 0.3476
+INFO - 2024-04-10 20:46:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:46:48 --> Email Class Initialized
+INFO - 2024-04-10 20:46:48 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:46:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:46:48 --> Pagination Class Initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_user" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_product" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_category" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_report" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_role" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_client" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_move" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:46:48 --> Controller Class Initialized
+INFO - 2024-04-10 20:46:48 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:46:48 --> Final output sent to browser
+DEBUG - 2024-04-10 20:46:48 --> Total execution time: 0.5897
+INFO - 2024-04-10 20:46:48 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:46:48 --> Email Class Initialized
+INFO - 2024-04-10 20:46:48 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:46:48 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:46:48 --> Pagination Class Initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_user" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_product" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_category" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_report" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_role" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_client" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_move" initialized
+INFO - 2024-04-10 20:46:48 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:46:48 --> Controller Class Initialized
+INFO - 2024-04-10 20:46:48 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:46:48 --> Final output sent to browser
+DEBUG - 2024-04-10 20:46:48 --> Total execution time: 0.7958
+INFO - 2024-04-10 20:50:07 --> Config Class Initialized
+INFO - 2024-04-10 20:50:07 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:50:07 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:07 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:07 --> URI Class Initialized
+INFO - 2024-04-10 20:50:07 --> Router Class Initialized
+INFO - 2024-04-10 20:50:07 --> Output Class Initialized
+INFO - 2024-04-10 20:50:07 --> Security Class Initialized
+DEBUG - 2024-04-10 20:50:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:07 --> Input Class Initialized
+INFO - 2024-04-10 20:50:07 --> Language Class Initialized
+INFO - 2024-04-10 20:50:07 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:07 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:07 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:07 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:07 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:07 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:50:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:07 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:08 --> Email Class Initialized
+INFO - 2024-04-10 20:50:08 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:08 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:08 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:08 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:50:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:50:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:50:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:50:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:50:08 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:08 --> Total execution time: 0.4289
+INFO - 2024-04-10 20:50:08 --> Config Class Initialized
+INFO - 2024-04-10 20:50:08 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:50:08 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:08 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:08 --> URI Class Initialized
+INFO - 2024-04-10 20:50:09 --> Router Class Initialized
+INFO - 2024-04-10 20:50:09 --> Output Class Initialized
+INFO - 2024-04-10 20:50:09 --> Security Class Initialized
+DEBUG - 2024-04-10 20:50:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:09 --> Input Class Initialized
+INFO - 2024-04-10 20:50:09 --> Language Class Initialized
+INFO - 2024-04-10 20:50:09 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:09 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:09 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:50:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:09 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:09 --> Email Class Initialized
+INFO - 2024-04-10 20:50:09 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:09 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:09 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:09 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:50:09 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:09 --> Total execution time: 0.4777
+INFO - 2024-04-10 20:50:09 --> Config Class Initialized
+INFO - 2024-04-10 20:50:09 --> Config Class Initialized
+INFO - 2024-04-10 20:50:09 --> Config Class Initialized
+INFO - 2024-04-10 20:50:09 --> Hooks Class Initialized
+INFO - 2024-04-10 20:50:09 --> Hooks Class Initialized
+INFO - 2024-04-10 20:50:09 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:50:09 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:50:09 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:50:09 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:09 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:09 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:09 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:09 --> URI Class Initialized
+INFO - 2024-04-10 20:50:09 --> URI Class Initialized
+INFO - 2024-04-10 20:50:09 --> URI Class Initialized
+INFO - 2024-04-10 20:50:09 --> Router Class Initialized
+INFO - 2024-04-10 20:50:09 --> Router Class Initialized
+INFO - 2024-04-10 20:50:09 --> Router Class Initialized
+INFO - 2024-04-10 20:50:09 --> Output Class Initialized
+INFO - 2024-04-10 20:50:09 --> Output Class Initialized
+INFO - 2024-04-10 20:50:09 --> Output Class Initialized
+INFO - 2024-04-10 20:50:09 --> Security Class Initialized
+INFO - 2024-04-10 20:50:09 --> Security Class Initialized
+INFO - 2024-04-10 20:50:09 --> Security Class Initialized
+DEBUG - 2024-04-10 20:50:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:50:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:50:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:09 --> Input Class Initialized
+INFO - 2024-04-10 20:50:09 --> Input Class Initialized
+INFO - 2024-04-10 20:50:09 --> Input Class Initialized
+INFO - 2024-04-10 20:50:09 --> Language Class Initialized
+INFO - 2024-04-10 20:50:09 --> Language Class Initialized
+INFO - 2024-04-10 20:50:09 --> Language Class Initialized
+INFO - 2024-04-10 20:50:09 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:09 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:09 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:09 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:09 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:09 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:50:09 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:50:09 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:50:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:50:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:50:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:09 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:09 --> Email Class Initialized
+INFO - 2024-04-10 20:50:09 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:09 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:09 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:09 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:50:09 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:09 --> Total execution time: 0.3807
+INFO - 2024-04-10 20:50:09 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:09 --> Email Class Initialized
+INFO - 2024-04-10 20:50:09 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:09 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:09 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:10 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:50:10 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:10 --> Total execution time: 0.5872
+INFO - 2024-04-10 20:50:10 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:10 --> Email Class Initialized
+INFO - 2024-04-10 20:50:10 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:10 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:10 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:10 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:50:10 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:10 --> Total execution time: 0.7930
+INFO - 2024-04-10 20:50:24 --> Config Class Initialized
+INFO - 2024-04-10 20:50:24 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:50:24 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:24 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:24 --> URI Class Initialized
+INFO - 2024-04-10 20:50:24 --> Router Class Initialized
+INFO - 2024-04-10 20:50:24 --> Output Class Initialized
+INFO - 2024-04-10 20:50:24 --> Security Class Initialized
+DEBUG - 2024-04-10 20:50:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:24 --> Input Class Initialized
+INFO - 2024-04-10 20:50:24 --> Language Class Initialized
+INFO - 2024-04-10 20:50:24 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:24 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:24 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:24 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:24 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:24 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:50:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:24 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:24 --> Email Class Initialized
+INFO - 2024-04-10 20:50:24 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:24 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:24 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:24 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:50:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:50:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:50:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:50:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:50:24 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:24 --> Total execution time: 0.4183
+INFO - 2024-04-10 20:50:24 --> Config Class Initialized
+INFO - 2024-04-10 20:50:24 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:50:24 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:24 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:25 --> URI Class Initialized
+INFO - 2024-04-10 20:50:25 --> Router Class Initialized
+INFO - 2024-04-10 20:50:25 --> Output Class Initialized
+INFO - 2024-04-10 20:50:25 --> Security Class Initialized
+DEBUG - 2024-04-10 20:50:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:25 --> Input Class Initialized
+INFO - 2024-04-10 20:50:25 --> Language Class Initialized
+INFO - 2024-04-10 20:50:25 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:25 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:25 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:25 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:25 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:25 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:50:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:25 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:25 --> Email Class Initialized
+INFO - 2024-04-10 20:50:25 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:25 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:25 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:25 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:50:25 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:25 --> Total execution time: 0.5070
+INFO - 2024-04-10 20:50:25 --> Config Class Initialized
+INFO - 2024-04-10 20:50:25 --> Config Class Initialized
+INFO - 2024-04-10 20:50:25 --> Hooks Class Initialized
+INFO - 2024-04-10 20:50:25 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:50:25 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:50:25 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:25 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:25 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:25 --> Config Class Initialized
+INFO - 2024-04-10 20:50:25 --> URI Class Initialized
+INFO - 2024-04-10 20:50:25 --> URI Class Initialized
+INFO - 2024-04-10 20:50:25 --> Hooks Class Initialized
+INFO - 2024-04-10 20:50:25 --> Router Class Initialized
+INFO - 2024-04-10 20:50:25 --> Router Class Initialized
+INFO - 2024-04-10 20:50:25 --> Output Class Initialized
+INFO - 2024-04-10 20:50:25 --> Output Class Initialized
+DEBUG - 2024-04-10 20:50:25 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:25 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:25 --> Security Class Initialized
+INFO - 2024-04-10 20:50:25 --> Security Class Initialized
+DEBUG - 2024-04-10 20:50:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:50:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:25 --> URI Class Initialized
+INFO - 2024-04-10 20:50:25 --> Input Class Initialized
+INFO - 2024-04-10 20:50:25 --> Input Class Initialized
+INFO - 2024-04-10 20:50:25 --> Router Class Initialized
+INFO - 2024-04-10 20:50:25 --> Language Class Initialized
+INFO - 2024-04-10 20:50:25 --> Language Class Initialized
+INFO - 2024-04-10 20:50:25 --> Output Class Initialized
+INFO - 2024-04-10 20:50:25 --> Security Class Initialized
+INFO - 2024-04-10 20:50:25 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:25 --> Loader Class Initialized
+DEBUG - 2024-04-10 20:50:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:25 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:25 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:25 --> Input Class Initialized
+INFO - 2024-04-10 20:50:25 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:25 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:25 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:25 --> Language Class Initialized
+INFO - 2024-04-10 20:50:25 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:25 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:25 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:25 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:25 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:25 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:50:25 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:50:25 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:25 --> Helper loaded: html_helper
+DEBUG - 2024-04-10 20:50:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:50:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:25 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:25 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:25 --> Email Class Initialized
+INFO - 2024-04-10 20:50:25 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:50:25 --> Form Validation Class Initialized
+DEBUG - 2024-04-10 20:50:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:25 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:25 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:26 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:50:26 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:26 --> Total execution time: 0.3472
+INFO - 2024-04-10 20:50:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:26 --> Email Class Initialized
+INFO - 2024-04-10 20:50:26 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:26 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:26 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:50:26 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:26 --> Total execution time: 0.5471
+INFO - 2024-04-10 20:50:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:26 --> Email Class Initialized
+INFO - 2024-04-10 20:50:26 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:26 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:26 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:26 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:50:26 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:26 --> Total execution time: 0.7285
+INFO - 2024-04-10 20:50:32 --> Config Class Initialized
+INFO - 2024-04-10 20:50:32 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:50:32 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:32 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:32 --> URI Class Initialized
+INFO - 2024-04-10 20:50:32 --> Router Class Initialized
+INFO - 2024-04-10 20:50:32 --> Output Class Initialized
+INFO - 2024-04-10 20:50:32 --> Security Class Initialized
+DEBUG - 2024-04-10 20:50:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:32 --> Input Class Initialized
+INFO - 2024-04-10 20:50:32 --> Language Class Initialized
+INFO - 2024-04-10 20:50:32 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:32 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:32 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:32 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:32 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:32 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:50:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:33 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:33 --> Email Class Initialized
+INFO - 2024-04-10 20:50:33 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:33 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:33 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:33 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:50:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:50:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:50:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:50:33 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:50:33 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:33 --> Total execution time: 0.4337
+INFO - 2024-04-10 20:50:33 --> Config Class Initialized
+INFO - 2024-04-10 20:50:33 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:50:33 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:33 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:33 --> URI Class Initialized
+INFO - 2024-04-10 20:50:33 --> Router Class Initialized
+INFO - 2024-04-10 20:50:33 --> Output Class Initialized
+INFO - 2024-04-10 20:50:33 --> Security Class Initialized
+DEBUG - 2024-04-10 20:50:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:33 --> Input Class Initialized
+INFO - 2024-04-10 20:50:33 --> Language Class Initialized
+INFO - 2024-04-10 20:50:33 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:33 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:33 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:33 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:33 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:34 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:50:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:34 --> Email Class Initialized
+INFO - 2024-04-10 20:50:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:34 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:34 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:50:34 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:34 --> Total execution time: 0.4371
+INFO - 2024-04-10 20:50:34 --> Config Class Initialized
+INFO - 2024-04-10 20:50:34 --> Config Class Initialized
+INFO - 2024-04-10 20:50:34 --> Config Class Initialized
+INFO - 2024-04-10 20:50:34 --> Hooks Class Initialized
+INFO - 2024-04-10 20:50:34 --> Hooks Class Initialized
+INFO - 2024-04-10 20:50:34 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:50:34 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:50:34 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:50:34 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:50:34 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:34 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:34 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:50:34 --> URI Class Initialized
+INFO - 2024-04-10 20:50:34 --> URI Class Initialized
+INFO - 2024-04-10 20:50:34 --> URI Class Initialized
+INFO - 2024-04-10 20:50:34 --> Router Class Initialized
+INFO - 2024-04-10 20:50:34 --> Router Class Initialized
+INFO - 2024-04-10 20:50:34 --> Router Class Initialized
+INFO - 2024-04-10 20:50:34 --> Output Class Initialized
+INFO - 2024-04-10 20:50:34 --> Output Class Initialized
+INFO - 2024-04-10 20:50:34 --> Output Class Initialized
+INFO - 2024-04-10 20:50:34 --> Security Class Initialized
+INFO - 2024-04-10 20:50:34 --> Security Class Initialized
+INFO - 2024-04-10 20:50:34 --> Security Class Initialized
+DEBUG - 2024-04-10 20:50:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:50:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:50:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:50:34 --> Input Class Initialized
+INFO - 2024-04-10 20:50:34 --> Input Class Initialized
+INFO - 2024-04-10 20:50:34 --> Input Class Initialized
+INFO - 2024-04-10 20:50:34 --> Language Class Initialized
+INFO - 2024-04-10 20:50:34 --> Language Class Initialized
+INFO - 2024-04-10 20:50:34 --> Language Class Initialized
+INFO - 2024-04-10 20:50:34 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:34 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:34 --> Loader Class Initialized
+INFO - 2024-04-10 20:50:34 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:50:34 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:50:34 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:50:34 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:50:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:50:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:50:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:50:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:34 --> Email Class Initialized
+INFO - 2024-04-10 20:50:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:34 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:34 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:50:34 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:34 --> Total execution time: 0.4090
+INFO - 2024-04-10 20:50:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:34 --> Email Class Initialized
+INFO - 2024-04-10 20:50:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:34 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:34 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:35 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:35 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:50:35 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:35 --> Total execution time: 0.5935
+INFO - 2024-04-10 20:50:35 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:50:35 --> Email Class Initialized
+INFO - 2024-04-10 20:50:35 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:50:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:50:35 --> Pagination Class Initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_user" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_product" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_category" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_report" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_role" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_client" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_move" initialized
+INFO - 2024-04-10 20:50:35 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:50:35 --> Controller Class Initialized
+INFO - 2024-04-10 20:50:35 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:50:35 --> Final output sent to browser
+DEBUG - 2024-04-10 20:50:35 --> Total execution time: 0.7989
+INFO - 2024-04-10 20:51:06 --> Config Class Initialized
+INFO - 2024-04-10 20:51:06 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:51:06 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:51:06 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:06 --> URI Class Initialized
+INFO - 2024-04-10 20:51:06 --> Router Class Initialized
+INFO - 2024-04-10 20:51:06 --> Output Class Initialized
+INFO - 2024-04-10 20:51:06 --> Security Class Initialized
+DEBUG - 2024-04-10 20:51:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:51:06 --> Input Class Initialized
+INFO - 2024-04-10 20:51:06 --> Language Class Initialized
+INFO - 2024-04-10 20:51:06 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:06 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:51:06 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:51:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:51:06 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:06 --> Email Class Initialized
+INFO - 2024-04-10 20:51:06 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:51:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:06 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:06 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:06 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:06 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:51:06 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:51:06 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:51:06 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:51:06 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:51:06 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:06 --> Total execution time: 0.4119
+INFO - 2024-04-10 20:51:07 --> Config Class Initialized
+INFO - 2024-04-10 20:51:07 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:51:07 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:51:07 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:07 --> URI Class Initialized
+INFO - 2024-04-10 20:51:07 --> Router Class Initialized
+INFO - 2024-04-10 20:51:07 --> Output Class Initialized
+INFO - 2024-04-10 20:51:07 --> Security Class Initialized
+DEBUG - 2024-04-10 20:51:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:51:07 --> Input Class Initialized
+INFO - 2024-04-10 20:51:07 --> Language Class Initialized
+INFO - 2024-04-10 20:51:07 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:07 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:51:07 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:51:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:51:07 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:07 --> Email Class Initialized
+INFO - 2024-04-10 20:51:07 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:51:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:07 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:07 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:07 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:51:07 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:07 --> Total execution time: 0.4859
+INFO - 2024-04-10 20:51:07 --> Config Class Initialized
+INFO - 2024-04-10 20:51:07 --> Hooks Class Initialized
+INFO - 2024-04-10 20:51:07 --> Config Class Initialized
+INFO - 2024-04-10 20:51:07 --> Config Class Initialized
+INFO - 2024-04-10 20:51:07 --> Hooks Class Initialized
+INFO - 2024-04-10 20:51:07 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:51:07 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:51:07 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:51:07 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:51:07 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:51:07 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:07 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:07 --> URI Class Initialized
+INFO - 2024-04-10 20:51:07 --> URI Class Initialized
+INFO - 2024-04-10 20:51:07 --> URI Class Initialized
+INFO - 2024-04-10 20:51:07 --> Router Class Initialized
+INFO - 2024-04-10 20:51:07 --> Router Class Initialized
+INFO - 2024-04-10 20:51:07 --> Output Class Initialized
+INFO - 2024-04-10 20:51:07 --> Router Class Initialized
+INFO - 2024-04-10 20:51:07 --> Security Class Initialized
+INFO - 2024-04-10 20:51:07 --> Output Class Initialized
+INFO - 2024-04-10 20:51:07 --> Output Class Initialized
+DEBUG - 2024-04-10 20:51:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:51:07 --> Security Class Initialized
+INFO - 2024-04-10 20:51:07 --> Security Class Initialized
+INFO - 2024-04-10 20:51:07 --> Input Class Initialized
+DEBUG - 2024-04-10 20:51:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:51:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:51:07 --> Input Class Initialized
+INFO - 2024-04-10 20:51:07 --> Input Class Initialized
+INFO - 2024-04-10 20:51:07 --> Language Class Initialized
+INFO - 2024-04-10 20:51:07 --> Language Class Initialized
+INFO - 2024-04-10 20:51:07 --> Language Class Initialized
+INFO - 2024-04-10 20:51:07 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:07 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:07 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:07 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:07 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:51:07 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:51:07 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:51:07 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:51:07 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:51:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:51:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:51:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:51:07 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:07 --> Email Class Initialized
+INFO - 2024-04-10 20:51:07 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:51:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:07 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:07 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:08 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:51:08 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:08 --> Total execution time: 0.3857
+INFO - 2024-04-10 20:51:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:08 --> Email Class Initialized
+INFO - 2024-04-10 20:51:08 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:51:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:08 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:08 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:51:08 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:08 --> Total execution time: 0.5771
+INFO - 2024-04-10 20:51:08 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:08 --> Email Class Initialized
+INFO - 2024-04-10 20:51:08 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:51:08 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:08 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:08 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:08 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:08 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:51:08 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:08 --> Total execution time: 0.7777
+INFO - 2024-04-10 20:51:24 --> Config Class Initialized
+INFO - 2024-04-10 20:51:24 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:51:24 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:51:24 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:24 --> URI Class Initialized
+INFO - 2024-04-10 20:51:24 --> Router Class Initialized
+INFO - 2024-04-10 20:51:24 --> Output Class Initialized
+INFO - 2024-04-10 20:51:24 --> Security Class Initialized
+DEBUG - 2024-04-10 20:51:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:51:24 --> Input Class Initialized
+INFO - 2024-04-10 20:51:24 --> Language Class Initialized
+INFO - 2024-04-10 20:51:24 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:24 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:24 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:24 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:24 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:51:24 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:51:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:51:24 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:24 --> Email Class Initialized
+INFO - 2024-04-10 20:51:24 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:51:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:24 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:24 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:24 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:51:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:51:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:51:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:51:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:51:24 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:24 --> Total execution time: 0.5175
+INFO - 2024-04-10 20:51:25 --> Config Class Initialized
+INFO - 2024-04-10 20:51:25 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:51:25 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:51:25 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:25 --> URI Class Initialized
+INFO - 2024-04-10 20:51:25 --> Router Class Initialized
+INFO - 2024-04-10 20:51:25 --> Output Class Initialized
+INFO - 2024-04-10 20:51:25 --> Security Class Initialized
+DEBUG - 2024-04-10 20:51:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:51:25 --> Input Class Initialized
+INFO - 2024-04-10 20:51:25 --> Language Class Initialized
+INFO - 2024-04-10 20:51:25 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:25 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:25 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:25 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:25 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:51:25 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:51:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:51:25 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:25 --> Email Class Initialized
+INFO - 2024-04-10 20:51:25 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:51:25 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:25 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:25 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:25 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:25 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:51:25 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:25 --> Total execution time: 0.4881
+INFO - 2024-04-10 20:51:26 --> Config Class Initialized
+INFO - 2024-04-10 20:51:26 --> Config Class Initialized
+INFO - 2024-04-10 20:51:26 --> Hooks Class Initialized
+INFO - 2024-04-10 20:51:26 --> Hooks Class Initialized
+INFO - 2024-04-10 20:51:26 --> Config Class Initialized
+DEBUG - 2024-04-10 20:51:26 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:51:26 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:51:26 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:26 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:26 --> Hooks Class Initialized
+INFO - 2024-04-10 20:51:26 --> URI Class Initialized
+INFO - 2024-04-10 20:51:26 --> URI Class Initialized
+DEBUG - 2024-04-10 20:51:26 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:51:26 --> Router Class Initialized
+INFO - 2024-04-10 20:51:26 --> Router Class Initialized
+INFO - 2024-04-10 20:51:26 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:26 --> Output Class Initialized
+INFO - 2024-04-10 20:51:26 --> Output Class Initialized
+INFO - 2024-04-10 20:51:26 --> Security Class Initialized
+INFO - 2024-04-10 20:51:26 --> URI Class Initialized
+INFO - 2024-04-10 20:51:26 --> Security Class Initialized
+DEBUG - 2024-04-10 20:51:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:51:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:51:26 --> Router Class Initialized
+INFO - 2024-04-10 20:51:26 --> Input Class Initialized
+INFO - 2024-04-10 20:51:26 --> Input Class Initialized
+INFO - 2024-04-10 20:51:26 --> Output Class Initialized
+INFO - 2024-04-10 20:51:26 --> Language Class Initialized
+INFO - 2024-04-10 20:51:26 --> Language Class Initialized
+INFO - 2024-04-10 20:51:26 --> Security Class Initialized
+DEBUG - 2024-04-10 20:51:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:51:26 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:26 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:26 --> Input Class Initialized
+INFO - 2024-04-10 20:51:26 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:26 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:26 --> Language Class Initialized
+INFO - 2024-04-10 20:51:26 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:26 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:26 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:26 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:26 --> Loader Class Initialized
+INFO - 2024-04-10 20:51:26 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:51:26 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:51:26 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:51:26 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:51:26 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:51:26 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:51:26 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:51:26 --> Helper loaded: form_helper
+DEBUG - 2024-04-10 20:51:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:51:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:51:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:26 --> Email Class Initialized
+INFO - 2024-04-10 20:51:26 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:51:26 --> Form Validation Class Initialized
+DEBUG - 2024-04-10 20:51:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:51:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:26 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:26 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:51:26 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:26 --> Total execution time: 0.4166
+INFO - 2024-04-10 20:51:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:26 --> Email Class Initialized
+INFO - 2024-04-10 20:51:26 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:51:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:26 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:26 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:51:26 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:26 --> Total execution time: 0.6438
+INFO - 2024-04-10 20:51:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:51:26 --> Email Class Initialized
+INFO - 2024-04-10 20:51:26 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:51:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:51:26 --> Pagination Class Initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_user" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_product" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_category" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_report" initialized
+INFO - 2024-04-10 20:51:26 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:51:27 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:51:27 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:51:27 --> Model "M_role" initialized
+INFO - 2024-04-10 20:51:27 --> Model "M_client" initialized
+INFO - 2024-04-10 20:51:27 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:51:27 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:51:27 --> Model "M_move" initialized
+INFO - 2024-04-10 20:51:27 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:51:27 --> Controller Class Initialized
+INFO - 2024-04-10 20:51:27 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:51:27 --> Final output sent to browser
+DEBUG - 2024-04-10 20:51:27 --> Total execution time: 0.8489
+INFO - 2024-04-10 20:51:30 --> Config Class Initialized
+INFO - 2024-04-10 20:51:30 --> Config Class Initialized
+INFO - 2024-04-10 20:51:30 --> Hooks Class Initialized
+INFO - 2024-04-10 20:51:30 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:51:30 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:51:30 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:51:30 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:30 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:51:30 --> URI Class Initialized
+INFO - 2024-04-10 20:51:30 --> URI Class Initialized
+INFO - 2024-04-10 20:51:30 --> Router Class Initialized
+INFO - 2024-04-10 20:51:30 --> Router Class Initialized
+INFO - 2024-04-10 20:51:30 --> Output Class Initialized
+INFO - 2024-04-10 20:51:30 --> Output Class Initialized
+INFO - 2024-04-10 20:51:30 --> Security Class Initialized
+INFO - 2024-04-10 20:51:30 --> Security Class Initialized
+DEBUG - 2024-04-10 20:51:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:51:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:51:30 --> Input Class Initialized
+INFO - 2024-04-10 20:51:30 --> Input Class Initialized
+INFO - 2024-04-10 20:51:30 --> Language Class Initialized
+INFO - 2024-04-10 20:51:30 --> Language Class Initialized
+ERROR - 2024-04-10 20:51:30 --> 404 Page Not Found: Assets/css
+ERROR - 2024-04-10 20:51:30 --> 404 Page Not Found: Sass/main.css.map
+INFO - 2024-04-10 20:52:20 --> Config Class Initialized
+INFO - 2024-04-10 20:52:20 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:52:20 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:52:20 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:52:20 --> URI Class Initialized
+INFO - 2024-04-10 20:52:20 --> Router Class Initialized
+INFO - 2024-04-10 20:52:20 --> Output Class Initialized
+INFO - 2024-04-10 20:52:20 --> Security Class Initialized
+DEBUG - 2024-04-10 20:52:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:52:20 --> Input Class Initialized
+INFO - 2024-04-10 20:52:20 --> Language Class Initialized
+INFO - 2024-04-10 20:52:20 --> Loader Class Initialized
+INFO - 2024-04-10 20:52:20 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:52:20 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:52:20 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:52:20 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:52:20 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:52:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:52:20 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:52:20 --> Email Class Initialized
+INFO - 2024-04-10 20:52:20 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:52:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:52:20 --> Pagination Class Initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_user" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_product" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_category" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_report" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_role" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_client" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_move" initialized
+INFO - 2024-04-10 20:52:20 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:52:20 --> Controller Class Initialized
+INFO - 2024-04-10 20:52:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:52:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:52:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:52:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:52:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:52:20 --> Final output sent to browser
+DEBUG - 2024-04-10 20:52:20 --> Total execution time: 0.4776
+INFO - 2024-04-10 20:52:21 --> Config Class Initialized
+INFO - 2024-04-10 20:52:21 --> Config Class Initialized
+INFO - 2024-04-10 20:52:21 --> Hooks Class Initialized
+INFO - 2024-04-10 20:52:21 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:52:21 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:52:21 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:52:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:52:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:52:21 --> URI Class Initialized
+INFO - 2024-04-10 20:52:21 --> URI Class Initialized
+INFO - 2024-04-10 20:52:21 --> Router Class Initialized
+INFO - 2024-04-10 20:52:21 --> Router Class Initialized
+INFO - 2024-04-10 20:52:21 --> Output Class Initialized
+INFO - 2024-04-10 20:52:21 --> Output Class Initialized
+INFO - 2024-04-10 20:52:21 --> Security Class Initialized
+INFO - 2024-04-10 20:52:21 --> Security Class Initialized
+DEBUG - 2024-04-10 20:52:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:52:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:52:21 --> Input Class Initialized
+INFO - 2024-04-10 20:52:21 --> Input Class Initialized
+INFO - 2024-04-10 20:52:21 --> Language Class Initialized
+INFO - 2024-04-10 20:52:21 --> Language Class Initialized
+ERROR - 2024-04-10 20:52:21 --> 404 Page Not Found: Assets/css
+ERROR - 2024-04-10 20:52:21 --> 404 Page Not Found: Sass/main.css.map
+INFO - 2024-04-10 20:52:22 --> Config Class Initialized
+INFO - 2024-04-10 20:52:22 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:52:22 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:52:22 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:52:22 --> URI Class Initialized
+INFO - 2024-04-10 20:52:22 --> Router Class Initialized
+INFO - 2024-04-10 20:52:22 --> Output Class Initialized
+INFO - 2024-04-10 20:52:22 --> Security Class Initialized
+DEBUG - 2024-04-10 20:52:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:52:22 --> Input Class Initialized
+INFO - 2024-04-10 20:52:22 --> Language Class Initialized
+INFO - 2024-04-10 20:52:23 --> Loader Class Initialized
+INFO - 2024-04-10 20:52:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:52:23 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:52:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:52:23 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:52:23 --> Email Class Initialized
+INFO - 2024-04-10 20:52:23 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:52:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:52:23 --> Pagination Class Initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_user" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_product" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_category" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_report" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_role" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_client" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_move" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:52:23 --> Controller Class Initialized
+INFO - 2024-04-10 20:52:23 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:52:23 --> Final output sent to browser
+DEBUG - 2024-04-10 20:52:23 --> Total execution time: 0.4222
+INFO - 2024-04-10 20:52:23 --> Config Class Initialized
+INFO - 2024-04-10 20:52:23 --> Config Class Initialized
+INFO - 2024-04-10 20:52:23 --> Config Class Initialized
+INFO - 2024-04-10 20:52:23 --> Hooks Class Initialized
+INFO - 2024-04-10 20:52:23 --> Hooks Class Initialized
+INFO - 2024-04-10 20:52:23 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:52:23 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:52:23 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:52:23 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:52:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:52:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:52:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:52:23 --> URI Class Initialized
+INFO - 2024-04-10 20:52:23 --> URI Class Initialized
+INFO - 2024-04-10 20:52:23 --> URI Class Initialized
+INFO - 2024-04-10 20:52:23 --> Router Class Initialized
+INFO - 2024-04-10 20:52:23 --> Router Class Initialized
+INFO - 2024-04-10 20:52:23 --> Router Class Initialized
+INFO - 2024-04-10 20:52:23 --> Output Class Initialized
+INFO - 2024-04-10 20:52:23 --> Output Class Initialized
+INFO - 2024-04-10 20:52:23 --> Output Class Initialized
+INFO - 2024-04-10 20:52:23 --> Security Class Initialized
+INFO - 2024-04-10 20:52:23 --> Security Class Initialized
+INFO - 2024-04-10 20:52:23 --> Security Class Initialized
+DEBUG - 2024-04-10 20:52:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:52:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:52:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:52:23 --> Input Class Initialized
+INFO - 2024-04-10 20:52:23 --> Input Class Initialized
+INFO - 2024-04-10 20:52:23 --> Input Class Initialized
+INFO - 2024-04-10 20:52:23 --> Language Class Initialized
+INFO - 2024-04-10 20:52:23 --> Language Class Initialized
+INFO - 2024-04-10 20:52:23 --> Language Class Initialized
+INFO - 2024-04-10 20:52:23 --> Loader Class Initialized
+INFO - 2024-04-10 20:52:23 --> Loader Class Initialized
+INFO - 2024-04-10 20:52:23 --> Loader Class Initialized
+INFO - 2024-04-10 20:52:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:52:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:52:23 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:52:23 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:52:23 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:52:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:52:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:52:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:52:23 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:52:23 --> Email Class Initialized
+INFO - 2024-04-10 20:52:23 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:52:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:52:23 --> Pagination Class Initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_user" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_product" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_category" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_report" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_role" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_client" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_move" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:52:23 --> Controller Class Initialized
+INFO - 2024-04-10 20:52:23 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:52:23 --> Final output sent to browser
+DEBUG - 2024-04-10 20:52:23 --> Total execution time: 0.3945
+INFO - 2024-04-10 20:52:23 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:52:23 --> Email Class Initialized
+INFO - 2024-04-10 20:52:23 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:52:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:52:23 --> Pagination Class Initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_user" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_product" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_category" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_report" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_role" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_client" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_move" initialized
+INFO - 2024-04-10 20:52:23 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:52:23 --> Controller Class Initialized
+INFO - 2024-04-10 20:52:23 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:52:23 --> Final output sent to browser
+DEBUG - 2024-04-10 20:52:23 --> Total execution time: 0.6039
+INFO - 2024-04-10 20:52:24 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:52:24 --> Email Class Initialized
+INFO - 2024-04-10 20:52:24 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:52:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:52:24 --> Pagination Class Initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_user" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_product" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_category" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_report" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_role" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_client" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_move" initialized
+INFO - 2024-04-10 20:52:24 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:52:24 --> Controller Class Initialized
+INFO - 2024-04-10 20:52:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:52:24 --> Final output sent to browser
+DEBUG - 2024-04-10 20:52:24 --> Total execution time: 0.7988
+INFO - 2024-04-10 20:53:43 --> Config Class Initialized
+INFO - 2024-04-10 20:53:43 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:53:43 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:53:43 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:53:43 --> URI Class Initialized
+INFO - 2024-04-10 20:53:43 --> Router Class Initialized
+INFO - 2024-04-10 20:53:43 --> Output Class Initialized
+INFO - 2024-04-10 20:53:43 --> Security Class Initialized
+DEBUG - 2024-04-10 20:53:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:53:43 --> Input Class Initialized
+INFO - 2024-04-10 20:53:43 --> Language Class Initialized
+INFO - 2024-04-10 20:53:43 --> Loader Class Initialized
+INFO - 2024-04-10 20:53:43 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:53:43 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:53:43 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:53:43 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:53:43 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:53:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:53:43 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:53:43 --> Email Class Initialized
+INFO - 2024-04-10 20:53:43 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:53:43 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:53:43 --> Pagination Class Initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_user" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_product" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_category" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_report" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_role" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_client" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_move" initialized
+INFO - 2024-04-10 20:53:43 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:53:43 --> Controller Class Initialized
+INFO - 2024-04-10 20:53:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:53:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:53:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:53:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:53:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:53:43 --> Final output sent to browser
+DEBUG - 2024-04-10 20:53:43 --> Total execution time: 0.4597
+INFO - 2024-04-10 20:53:44 --> Config Class Initialized
+INFO - 2024-04-10 20:53:44 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:53:44 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:53:44 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:53:44 --> URI Class Initialized
+INFO - 2024-04-10 20:53:44 --> Router Class Initialized
+INFO - 2024-04-10 20:53:44 --> Output Class Initialized
+INFO - 2024-04-10 20:53:44 --> Security Class Initialized
+DEBUG - 2024-04-10 20:53:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:53:44 --> Input Class Initialized
+INFO - 2024-04-10 20:53:44 --> Language Class Initialized
+INFO - 2024-04-10 20:53:44 --> Loader Class Initialized
+INFO - 2024-04-10 20:53:44 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:53:44 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:53:44 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:53:44 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:53:44 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:53:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:53:44 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:53:44 --> Email Class Initialized
+INFO - 2024-04-10 20:53:44 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:53:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:53:44 --> Pagination Class Initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_user" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_product" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_category" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_report" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_role" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_client" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_move" initialized
+INFO - 2024-04-10 20:53:44 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:53:44 --> Controller Class Initialized
+INFO - 2024-04-10 20:53:44 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:53:44 --> Final output sent to browser
+DEBUG - 2024-04-10 20:53:44 --> Total execution time: 0.4491
+INFO - 2024-04-10 20:53:44 --> Config Class Initialized
+INFO - 2024-04-10 20:53:45 --> Hooks Class Initialized
+INFO - 2024-04-10 20:53:45 --> Config Class Initialized
+INFO - 2024-04-10 20:53:45 --> Config Class Initialized
+INFO - 2024-04-10 20:53:45 --> Hooks Class Initialized
+INFO - 2024-04-10 20:53:45 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:53:45 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:53:45 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 20:53:45 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:53:45 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:53:45 --> URI Class Initialized
+INFO - 2024-04-10 20:53:45 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:53:45 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:53:45 --> Router Class Initialized
+INFO - 2024-04-10 20:53:45 --> URI Class Initialized
+INFO - 2024-04-10 20:53:45 --> URI Class Initialized
+INFO - 2024-04-10 20:53:45 --> Output Class Initialized
+INFO - 2024-04-10 20:53:45 --> Router Class Initialized
+INFO - 2024-04-10 20:53:45 --> Security Class Initialized
+INFO - 2024-04-10 20:53:45 --> Router Class Initialized
+DEBUG - 2024-04-10 20:53:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:53:45 --> Output Class Initialized
+INFO - 2024-04-10 20:53:45 --> Output Class Initialized
+INFO - 2024-04-10 20:53:45 --> Input Class Initialized
+INFO - 2024-04-10 20:53:45 --> Security Class Initialized
+INFO - 2024-04-10 20:53:45 --> Security Class Initialized
+INFO - 2024-04-10 20:53:45 --> Language Class Initialized
+DEBUG - 2024-04-10 20:53:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:53:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:53:45 --> Input Class Initialized
+INFO - 2024-04-10 20:53:45 --> Input Class Initialized
+INFO - 2024-04-10 20:53:45 --> Loader Class Initialized
+INFO - 2024-04-10 20:53:45 --> Language Class Initialized
+INFO - 2024-04-10 20:53:45 --> Language Class Initialized
+INFO - 2024-04-10 20:53:45 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:53:45 --> Loader Class Initialized
+INFO - 2024-04-10 20:53:45 --> Loader Class Initialized
+INFO - 2024-04-10 20:53:45 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:53:45 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:53:45 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:53:45 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:53:45 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:53:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:53:45 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 20:53:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:53:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:53:45 --> Email Class Initialized
+INFO - 2024-04-10 20:53:45 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:53:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:53:45 --> Pagination Class Initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_user" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_product" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_category" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_report" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_role" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_client" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_move" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:53:45 --> Controller Class Initialized
+INFO - 2024-04-10 20:53:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:53:45 --> Final output sent to browser
+DEBUG - 2024-04-10 20:53:45 --> Total execution time: 0.3626
+INFO - 2024-04-10 20:53:45 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:53:45 --> Email Class Initialized
+INFO - 2024-04-10 20:53:45 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:53:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:53:45 --> Pagination Class Initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_user" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_product" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_category" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_report" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_role" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_client" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_move" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:53:45 --> Controller Class Initialized
+INFO - 2024-04-10 20:53:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:53:45 --> Final output sent to browser
+DEBUG - 2024-04-10 20:53:45 --> Total execution time: 0.5665
+INFO - 2024-04-10 20:53:45 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:53:45 --> Email Class Initialized
+INFO - 2024-04-10 20:53:45 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:53:45 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:53:45 --> Pagination Class Initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_user" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_product" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_category" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_report" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_role" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_client" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_move" initialized
+INFO - 2024-04-10 20:53:45 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:53:45 --> Controller Class Initialized
+INFO - 2024-04-10 20:53:45 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:53:45 --> Final output sent to browser
+DEBUG - 2024-04-10 20:53:45 --> Total execution time: 0.8088
+INFO - 2024-04-10 20:54:01 --> Config Class Initialized
+INFO - 2024-04-10 20:54:01 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:54:01 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:54:01 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:54:01 --> URI Class Initialized
+INFO - 2024-04-10 20:54:01 --> Router Class Initialized
+INFO - 2024-04-10 20:54:01 --> Output Class Initialized
+INFO - 2024-04-10 20:54:01 --> Security Class Initialized
+DEBUG - 2024-04-10 20:54:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:54:01 --> Input Class Initialized
+INFO - 2024-04-10 20:54:01 --> Language Class Initialized
+INFO - 2024-04-10 20:54:01 --> Loader Class Initialized
+INFO - 2024-04-10 20:54:01 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:54:01 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:54:01 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:54:01 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:54:01 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:54:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:54:01 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:54:01 --> Email Class Initialized
+INFO - 2024-04-10 20:54:01 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:54:01 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:54:01 --> Pagination Class Initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_user" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_product" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_category" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_report" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_role" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_client" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_move" initialized
+INFO - 2024-04-10 20:54:01 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:54:01 --> Controller Class Initialized
+INFO - 2024-04-10 20:54:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 20:54:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 20:54:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:54:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 20:54:01 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 20:54:01 --> Final output sent to browser
+DEBUG - 2024-04-10 20:54:01 --> Total execution time: 0.4973
+INFO - 2024-04-10 20:54:02 --> Config Class Initialized
+INFO - 2024-04-10 20:54:02 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:54:02 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:54:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:54:02 --> URI Class Initialized
+INFO - 2024-04-10 20:54:02 --> Router Class Initialized
+INFO - 2024-04-10 20:54:02 --> Output Class Initialized
+INFO - 2024-04-10 20:54:02 --> Security Class Initialized
+DEBUG - 2024-04-10 20:54:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:54:02 --> Input Class Initialized
+INFO - 2024-04-10 20:54:02 --> Language Class Initialized
+INFO - 2024-04-10 20:54:02 --> Loader Class Initialized
+INFO - 2024-04-10 20:54:02 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:54:02 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:54:02 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:54:02 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:54:02 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:54:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:54:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:54:02 --> Email Class Initialized
+INFO - 2024-04-10 20:54:02 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:54:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:54:02 --> Pagination Class Initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_user" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_product" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_category" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_report" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_role" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_client" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_move" initialized
+INFO - 2024-04-10 20:54:02 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:54:02 --> Controller Class Initialized
+INFO - 2024-04-10 20:54:02 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 20:54:02 --> Final output sent to browser
+DEBUG - 2024-04-10 20:54:02 --> Total execution time: 0.4961
+INFO - 2024-04-10 20:54:02 --> Config Class Initialized
+INFO - 2024-04-10 20:54:02 --> Config Class Initialized
+INFO - 2024-04-10 20:54:02 --> Hooks Class Initialized
+INFO - 2024-04-10 20:54:02 --> Hooks Class Initialized
+INFO - 2024-04-10 20:54:02 --> Config Class Initialized
+INFO - 2024-04-10 20:54:02 --> Hooks Class Initialized
+DEBUG - 2024-04-10 20:54:02 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:54:02 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 20:54:02 --> UTF-8 Support Enabled
+INFO - 2024-04-10 20:54:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:54:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:54:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 20:54:02 --> URI Class Initialized
+INFO - 2024-04-10 20:54:02 --> URI Class Initialized
+INFO - 2024-04-10 20:54:02 --> URI Class Initialized
+INFO - 2024-04-10 20:54:02 --> Router Class Initialized
+INFO - 2024-04-10 20:54:02 --> Router Class Initialized
+INFO - 2024-04-10 20:54:02 --> Router Class Initialized
+INFO - 2024-04-10 20:54:02 --> Output Class Initialized
+INFO - 2024-04-10 20:54:02 --> Output Class Initialized
+INFO - 2024-04-10 20:54:02 --> Output Class Initialized
+INFO - 2024-04-10 20:54:02 --> Security Class Initialized
+INFO - 2024-04-10 20:54:02 --> Security Class Initialized
+INFO - 2024-04-10 20:54:02 --> Security Class Initialized
+DEBUG - 2024-04-10 20:54:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:54:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 20:54:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 20:54:03 --> Input Class Initialized
+INFO - 2024-04-10 20:54:03 --> Input Class Initialized
+INFO - 2024-04-10 20:54:03 --> Input Class Initialized
+INFO - 2024-04-10 20:54:03 --> Language Class Initialized
+INFO - 2024-04-10 20:54:03 --> Language Class Initialized
+INFO - 2024-04-10 20:54:03 --> Language Class Initialized
+INFO - 2024-04-10 20:54:03 --> Loader Class Initialized
+INFO - 2024-04-10 20:54:03 --> Loader Class Initialized
+INFO - 2024-04-10 20:54:03 --> Loader Class Initialized
+INFO - 2024-04-10 20:54:03 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: url_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: file_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: html_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:54:03 --> Helper loaded: form_helper
+INFO - 2024-04-10 20:54:03 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:54:03 --> Database Driver Class Initialized
+INFO - 2024-04-10 20:54:03 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 20:54:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:54:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:54:03 --> Email Class Initialized
+DEBUG - 2024-04-10 20:54:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 20:54:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 20:54:03 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:54:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:54:03 --> Pagination Class Initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_user" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_product" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_category" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_report" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_role" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_client" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_move" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:54:03 --> Controller Class Initialized
+INFO - 2024-04-10 20:54:03 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 20:54:03 --> Final output sent to browser
+DEBUG - 2024-04-10 20:54:03 --> Total execution time: 0.4178
+INFO - 2024-04-10 20:54:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:54:03 --> Email Class Initialized
+INFO - 2024-04-10 20:54:03 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:54:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:54:03 --> Pagination Class Initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_user" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_product" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_category" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_report" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_role" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_client" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_move" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:54:03 --> Controller Class Initialized
+INFO - 2024-04-10 20:54:03 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 20:54:03 --> Final output sent to browser
+DEBUG - 2024-04-10 20:54:03 --> Total execution time: 0.6056
+INFO - 2024-04-10 20:54:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 20:54:03 --> Email Class Initialized
+INFO - 2024-04-10 20:54:03 --> Form Validation Class Initialized
+INFO - 2024-04-10 20:54:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 20:54:03 --> Pagination Class Initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_user" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_product" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_category" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_supplier" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_report" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_shop" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_shift" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_role" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_client" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_unit" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_move" initialized
+INFO - 2024-04-10 20:54:03 --> Model "M_receive" initialized
+INFO - 2024-04-10 20:54:03 --> Controller Class Initialized
+INFO - 2024-04-10 20:54:03 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 20:54:03 --> Final output sent to browser
+DEBUG - 2024-04-10 20:54:03 --> Total execution time: 0.8123
+INFO - 2024-04-10 21:00:47 --> Config Class Initialized
+INFO - 2024-04-10 21:00:47 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:00:47 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:00:47 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:47 --> URI Class Initialized
+INFO - 2024-04-10 21:00:47 --> Router Class Initialized
+INFO - 2024-04-10 21:00:47 --> Output Class Initialized
+INFO - 2024-04-10 21:00:47 --> Security Class Initialized
+DEBUG - 2024-04-10 21:00:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:00:47 --> Input Class Initialized
+INFO - 2024-04-10 21:00:47 --> Language Class Initialized
+INFO - 2024-04-10 21:00:47 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:47 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:47 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:47 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:47 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:47 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:00:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:00:47 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:00:47 --> Email Class Initialized
+INFO - 2024-04-10 21:00:47 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:47 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:47 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:47 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:47 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:00:48 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:00:48 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:00:48 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:00:48 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:00:48 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:48 --> Total execution time: 0.5945
+INFO - 2024-04-10 21:00:48 --> Config Class Initialized
+INFO - 2024-04-10 21:00:48 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:00:48 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:00:48 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:48 --> URI Class Initialized
+INFO - 2024-04-10 21:00:48 --> Router Class Initialized
+INFO - 2024-04-10 21:00:48 --> Output Class Initialized
+INFO - 2024-04-10 21:00:48 --> Security Class Initialized
+DEBUG - 2024-04-10 21:00:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:00:48 --> Input Class Initialized
+INFO - 2024-04-10 21:00:48 --> Language Class Initialized
+INFO - 2024-04-10 21:00:48 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:48 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:48 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:48 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:48 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:49 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:00:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:00:49 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:00:49 --> Email Class Initialized
+INFO - 2024-04-10 21:00:49 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:49 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:49 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:49 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:00:49 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:49 --> Total execution time: 0.5145
+INFO - 2024-04-10 21:00:49 --> Config Class Initialized
+INFO - 2024-04-10 21:00:49 --> Config Class Initialized
+INFO - 2024-04-10 21:00:49 --> Hooks Class Initialized
+INFO - 2024-04-10 21:00:49 --> Hooks Class Initialized
+INFO - 2024-04-10 21:00:49 --> Config Class Initialized
+INFO - 2024-04-10 21:00:49 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:00:49 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:00:49 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:00:49 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:00:49 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:49 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:49 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:49 --> URI Class Initialized
+INFO - 2024-04-10 21:00:49 --> URI Class Initialized
+INFO - 2024-04-10 21:00:49 --> URI Class Initialized
+INFO - 2024-04-10 21:00:49 --> Router Class Initialized
+INFO - 2024-04-10 21:00:49 --> Router Class Initialized
+INFO - 2024-04-10 21:00:49 --> Output Class Initialized
+INFO - 2024-04-10 21:00:49 --> Router Class Initialized
+INFO - 2024-04-10 21:00:49 --> Output Class Initialized
+INFO - 2024-04-10 21:00:49 --> Security Class Initialized
+INFO - 2024-04-10 21:00:49 --> Security Class Initialized
+INFO - 2024-04-10 21:00:49 --> Output Class Initialized
+DEBUG - 2024-04-10 21:00:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:00:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:00:49 --> Security Class Initialized
+INFO - 2024-04-10 21:00:49 --> Input Class Initialized
+INFO - 2024-04-10 21:00:49 --> Input Class Initialized
+DEBUG - 2024-04-10 21:00:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:00:49 --> Input Class Initialized
+INFO - 2024-04-10 21:00:49 --> Language Class Initialized
+INFO - 2024-04-10 21:00:49 --> Language Class Initialized
+INFO - 2024-04-10 21:00:49 --> Language Class Initialized
+INFO - 2024-04-10 21:00:49 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:49 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:49 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:49 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:49 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:49 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:49 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:00:49 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:00:49 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:00:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:00:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:00:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:00:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:00:49 --> Email Class Initialized
+INFO - 2024-04-10 21:00:49 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:49 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:49 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:49 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:49 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:49 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:00:49 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:49 --> Total execution time: 0.4767
+INFO - 2024-04-10 21:00:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:00:50 --> Email Class Initialized
+INFO - 2024-04-10 21:00:50 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:50 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:50 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:50 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 21:00:50 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:50 --> Total execution time: 0.7431
+INFO - 2024-04-10 21:00:50 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:00:50 --> Email Class Initialized
+INFO - 2024-04-10 21:00:50 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:50 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:50 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:50 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:50 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:50 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:00:50 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:50 --> Total execution time: 1.0099
+INFO - 2024-04-10 21:00:51 --> Config Class Initialized
+INFO - 2024-04-10 21:00:51 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:00:51 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:00:51 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:51 --> URI Class Initialized
+INFO - 2024-04-10 21:00:51 --> Router Class Initialized
+INFO - 2024-04-10 21:00:51 --> Output Class Initialized
+INFO - 2024-04-10 21:00:51 --> Security Class Initialized
+DEBUG - 2024-04-10 21:00:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:00:51 --> Input Class Initialized
+INFO - 2024-04-10 21:00:51 --> Language Class Initialized
+INFO - 2024-04-10 21:00:51 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:51 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:51 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:51 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:51 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:51 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:00:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:00:51 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:00:51 --> Email Class Initialized
+INFO - 2024-04-10 21:00:51 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:51 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:51 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:51 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:51 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:51 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:00:51 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:00:51 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:00:51 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:00:51 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:00:51 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:51 --> Total execution time: 0.5064
+INFO - 2024-04-10 21:00:52 --> Config Class Initialized
+INFO - 2024-04-10 21:00:52 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:00:52 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:00:52 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:52 --> URI Class Initialized
+INFO - 2024-04-10 21:00:52 --> Router Class Initialized
+INFO - 2024-04-10 21:00:52 --> Output Class Initialized
+INFO - 2024-04-10 21:00:52 --> Security Class Initialized
+DEBUG - 2024-04-10 21:00:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:00:52 --> Input Class Initialized
+INFO - 2024-04-10 21:00:52 --> Language Class Initialized
+INFO - 2024-04-10 21:00:52 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:52 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:52 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:52 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:52 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:52 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:00:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:00:52 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:00:52 --> Email Class Initialized
+INFO - 2024-04-10 21:00:52 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:52 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:52 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:53 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:00:53 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:53 --> Total execution time: 0.5127
+INFO - 2024-04-10 21:00:53 --> Config Class Initialized
+INFO - 2024-04-10 21:00:53 --> Config Class Initialized
+INFO - 2024-04-10 21:00:53 --> Hooks Class Initialized
+INFO - 2024-04-10 21:00:53 --> Hooks Class Initialized
+INFO - 2024-04-10 21:00:53 --> Config Class Initialized
+INFO - 2024-04-10 21:00:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:00:53 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:00:53 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:00:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:00:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:00:53 --> URI Class Initialized
+INFO - 2024-04-10 21:00:53 --> URI Class Initialized
+INFO - 2024-04-10 21:00:53 --> URI Class Initialized
+INFO - 2024-04-10 21:00:53 --> Router Class Initialized
+INFO - 2024-04-10 21:00:53 --> Router Class Initialized
+INFO - 2024-04-10 21:00:53 --> Router Class Initialized
+INFO - 2024-04-10 21:00:53 --> Output Class Initialized
+INFO - 2024-04-10 21:00:53 --> Output Class Initialized
+INFO - 2024-04-10 21:00:53 --> Security Class Initialized
+INFO - 2024-04-10 21:00:53 --> Security Class Initialized
+INFO - 2024-04-10 21:00:53 --> Output Class Initialized
+INFO - 2024-04-10 21:00:53 --> Security Class Initialized
+DEBUG - 2024-04-10 21:00:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:00:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:00:53 --> Input Class Initialized
+INFO - 2024-04-10 21:00:53 --> Input Class Initialized
+DEBUG - 2024-04-10 21:00:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:00:53 --> Input Class Initialized
+INFO - 2024-04-10 21:00:53 --> Language Class Initialized
+INFO - 2024-04-10 21:00:53 --> Language Class Initialized
+INFO - 2024-04-10 21:00:53 --> Language Class Initialized
+INFO - 2024-04-10 21:00:53 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:53 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:53 --> Loader Class Initialized
+INFO - 2024-04-10 21:00:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:00:53 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:00:53 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:00:53 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:00:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:00:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:00:53 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:00:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:00:53 --> Email Class Initialized
+INFO - 2024-04-10 21:00:53 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:53 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:53 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:00:53 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:53 --> Total execution time: 0.4401
+INFO - 2024-04-10 21:00:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:00:53 --> Email Class Initialized
+INFO - 2024-04-10 21:00:53 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:53 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:53 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:54 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 21:00:54 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:54 --> Total execution time: 0.6897
+INFO - 2024-04-10 21:00:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:00:54 --> Email Class Initialized
+INFO - 2024-04-10 21:00:54 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:00:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:00:54 --> Pagination Class Initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_user" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_product" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_category" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_report" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_role" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_client" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_move" initialized
+INFO - 2024-04-10 21:00:54 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:00:54 --> Controller Class Initialized
+INFO - 2024-04-10 21:00:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:00:54 --> Final output sent to browser
+DEBUG - 2024-04-10 21:00:54 --> Total execution time: 0.9356
+INFO - 2024-04-10 21:02:53 --> Config Class Initialized
+INFO - 2024-04-10 21:02:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:02:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:02:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:02:53 --> URI Class Initialized
+INFO - 2024-04-10 21:02:53 --> Router Class Initialized
+INFO - 2024-04-10 21:02:53 --> Output Class Initialized
+INFO - 2024-04-10 21:02:53 --> Security Class Initialized
+DEBUG - 2024-04-10 21:02:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:02:53 --> Input Class Initialized
+INFO - 2024-04-10 21:02:53 --> Language Class Initialized
+INFO - 2024-04-10 21:02:53 --> Loader Class Initialized
+INFO - 2024-04-10 21:02:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:02:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:02:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:02:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:02:53 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:02:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:02:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:02:53 --> Email Class Initialized
+INFO - 2024-04-10 21:02:53 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:02:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:02:53 --> Pagination Class Initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_user" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_product" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_category" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_report" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_role" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_client" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_move" initialized
+INFO - 2024-04-10 21:02:53 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:02:53 --> Controller Class Initialized
+INFO - 2024-04-10 21:02:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:02:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:02:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:02:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:02:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:02:53 --> Final output sent to browser
+DEBUG - 2024-04-10 21:02:53 --> Total execution time: 0.5850
+INFO - 2024-04-10 21:02:54 --> Config Class Initialized
+INFO - 2024-04-10 21:02:54 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:02:54 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:02:54 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:02:54 --> URI Class Initialized
+INFO - 2024-04-10 21:02:54 --> Router Class Initialized
+INFO - 2024-04-10 21:02:54 --> Output Class Initialized
+INFO - 2024-04-10 21:02:54 --> Security Class Initialized
+DEBUG - 2024-04-10 21:02:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:02:54 --> Input Class Initialized
+INFO - 2024-04-10 21:02:54 --> Language Class Initialized
+INFO - 2024-04-10 21:02:54 --> Loader Class Initialized
+INFO - 2024-04-10 21:02:54 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:02:54 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:02:54 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:02:54 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:02:54 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:02:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:02:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:02:54 --> Email Class Initialized
+INFO - 2024-04-10 21:02:54 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:02:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:02:54 --> Pagination Class Initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_user" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_product" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_category" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_report" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_role" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_client" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_move" initialized
+INFO - 2024-04-10 21:02:54 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:02:54 --> Controller Class Initialized
+INFO - 2024-04-10 21:02:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:02:54 --> Final output sent to browser
+DEBUG - 2024-04-10 21:02:54 --> Total execution time: 0.4746
+INFO - 2024-04-10 21:02:55 --> Config Class Initialized
+INFO - 2024-04-10 21:02:55 --> Config Class Initialized
+INFO - 2024-04-10 21:02:55 --> Config Class Initialized
+INFO - 2024-04-10 21:02:55 --> Hooks Class Initialized
+INFO - 2024-04-10 21:02:55 --> Hooks Class Initialized
+INFO - 2024-04-10 21:02:55 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:02:55 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:02:55 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:02:55 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:02:55 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:02:55 --> URI Class Initialized
+INFO - 2024-04-10 21:02:55 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:02:55 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:02:55 --> Router Class Initialized
+INFO - 2024-04-10 21:02:55 --> URI Class Initialized
+INFO - 2024-04-10 21:02:55 --> URI Class Initialized
+INFO - 2024-04-10 21:02:55 --> Output Class Initialized
+INFO - 2024-04-10 21:02:55 --> Security Class Initialized
+INFO - 2024-04-10 21:02:55 --> Router Class Initialized
+INFO - 2024-04-10 21:02:55 --> Router Class Initialized
+DEBUG - 2024-04-10 21:02:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:02:55 --> Output Class Initialized
+INFO - 2024-04-10 21:02:55 --> Output Class Initialized
+INFO - 2024-04-10 21:02:55 --> Input Class Initialized
+INFO - 2024-04-10 21:02:55 --> Security Class Initialized
+INFO - 2024-04-10 21:02:55 --> Security Class Initialized
+INFO - 2024-04-10 21:02:55 --> Language Class Initialized
+DEBUG - 2024-04-10 21:02:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:02:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:02:55 --> Input Class Initialized
+INFO - 2024-04-10 21:02:55 --> Input Class Initialized
+INFO - 2024-04-10 21:02:55 --> Loader Class Initialized
+INFO - 2024-04-10 21:02:55 --> Language Class Initialized
+INFO - 2024-04-10 21:02:55 --> Language Class Initialized
+INFO - 2024-04-10 21:02:55 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:02:55 --> Loader Class Initialized
+INFO - 2024-04-10 21:02:55 --> Loader Class Initialized
+INFO - 2024-04-10 21:02:55 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:02:55 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:02:55 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:02:55 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:02:55 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:02:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:02:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:02:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:02:55 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:02:55 --> Email Class Initialized
+INFO - 2024-04-10 21:02:55 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:02:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:02:55 --> Pagination Class Initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_user" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_product" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_category" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_report" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_role" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_client" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_move" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:02:55 --> Controller Class Initialized
+INFO - 2024-04-10 21:02:55 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 21:02:55 --> Final output sent to browser
+DEBUG - 2024-04-10 21:02:55 --> Total execution time: 0.4993
+INFO - 2024-04-10 21:02:55 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:02:55 --> Email Class Initialized
+INFO - 2024-04-10 21:02:55 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:02:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:02:55 --> Pagination Class Initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_user" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_product" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_category" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_report" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_role" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_client" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_move" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:02:55 --> Controller Class Initialized
+INFO - 2024-04-10 21:02:55 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:02:55 --> Final output sent to browser
+DEBUG - 2024-04-10 21:02:55 --> Total execution time: 0.7452
+INFO - 2024-04-10 21:02:55 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:02:55 --> Email Class Initialized
+INFO - 2024-04-10 21:02:55 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:02:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:02:55 --> Pagination Class Initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_user" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_product" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_category" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_report" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_role" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_client" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:02:55 --> Model "M_move" initialized
+INFO - 2024-04-10 21:02:56 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:02:56 --> Controller Class Initialized
+INFO - 2024-04-10 21:02:56 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:02:56 --> Final output sent to browser
+DEBUG - 2024-04-10 21:02:56 --> Total execution time: 1.0003
+INFO - 2024-04-10 21:02:56 --> Config Class Initialized
+INFO - 2024-04-10 21:02:56 --> Config Class Initialized
+INFO - 2024-04-10 21:02:56 --> Hooks Class Initialized
+INFO - 2024-04-10 21:02:56 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:02:56 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:02:56 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:02:56 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:02:56 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:02:56 --> URI Class Initialized
+INFO - 2024-04-10 21:02:56 --> URI Class Initialized
+INFO - 2024-04-10 21:02:56 --> Router Class Initialized
+INFO - 2024-04-10 21:02:56 --> Output Class Initialized
+INFO - 2024-04-10 21:02:56 --> Router Class Initialized
+INFO - 2024-04-10 21:02:56 --> Security Class Initialized
+INFO - 2024-04-10 21:02:56 --> Output Class Initialized
+DEBUG - 2024-04-10 21:02:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:02:56 --> Security Class Initialized
+INFO - 2024-04-10 21:02:56 --> Input Class Initialized
+DEBUG - 2024-04-10 21:02:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:02:56 --> Input Class Initialized
+INFO - 2024-04-10 21:02:56 --> Language Class Initialized
+INFO - 2024-04-10 21:02:56 --> Language Class Initialized
+ERROR - 2024-04-10 21:02:56 --> 404 Page Not Found: Sass/main.css.map
+ERROR - 2024-04-10 21:02:57 --> 404 Page Not Found: Assets/css
+INFO - 2024-04-10 21:03:02 --> Config Class Initialized
+INFO - 2024-04-10 21:03:02 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:02 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:02 --> URI Class Initialized
+INFO - 2024-04-10 21:03:02 --> Router Class Initialized
+INFO - 2024-04-10 21:03:02 --> Output Class Initialized
+INFO - 2024-04-10 21:03:02 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:02 --> Input Class Initialized
+INFO - 2024-04-10 21:03:02 --> Language Class Initialized
+INFO - 2024-04-10 21:03:02 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:02 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:02 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:02 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:02 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:02 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:02 --> Email Class Initialized
+INFO - 2024-04-10 21:03:02 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:02 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:02 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:02 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:02 --> Total execution time: 0.4782
+INFO - 2024-04-10 21:03:02 --> Config Class Initialized
+INFO - 2024-04-10 21:03:02 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:02 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:02 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:02 --> URI Class Initialized
+INFO - 2024-04-10 21:03:02 --> Router Class Initialized
+INFO - 2024-04-10 21:03:02 --> Output Class Initialized
+INFO - 2024-04-10 21:03:02 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:02 --> Input Class Initialized
+INFO - 2024-04-10 21:03:02 --> Language Class Initialized
+INFO - 2024-04-10 21:03:02 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:02 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:02 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:02 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:02 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:02 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:02 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:02 --> Email Class Initialized
+INFO - 2024-04-10 21:03:02 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:02 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:02 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:02 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:03 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:03 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:03:03 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:03 --> Total execution time: 0.4992
+INFO - 2024-04-10 21:03:03 --> Config Class Initialized
+INFO - 2024-04-10 21:03:03 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:03 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:03 --> Config Class Initialized
+INFO - 2024-04-10 21:03:03 --> Hooks Class Initialized
+INFO - 2024-04-10 21:03:03 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:03 --> URI Class Initialized
+DEBUG - 2024-04-10 21:03:03 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:03 --> Config Class Initialized
+INFO - 2024-04-10 21:03:03 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:03 --> Hooks Class Initialized
+INFO - 2024-04-10 21:03:03 --> Router Class Initialized
+INFO - 2024-04-10 21:03:03 --> URI Class Initialized
+INFO - 2024-04-10 21:03:03 --> Output Class Initialized
+DEBUG - 2024-04-10 21:03:03 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:03 --> Security Class Initialized
+INFO - 2024-04-10 21:03:03 --> Router Class Initialized
+INFO - 2024-04-10 21:03:03 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:03:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:03 --> Output Class Initialized
+INFO - 2024-04-10 21:03:03 --> Input Class Initialized
+INFO - 2024-04-10 21:03:03 --> Security Class Initialized
+INFO - 2024-04-10 21:03:03 --> URI Class Initialized
+INFO - 2024-04-10 21:03:03 --> Language Class Initialized
+DEBUG - 2024-04-10 21:03:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:03 --> Input Class Initialized
+INFO - 2024-04-10 21:03:03 --> Router Class Initialized
+INFO - 2024-04-10 21:03:03 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:03 --> Language Class Initialized
+INFO - 2024-04-10 21:03:03 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:03 --> Output Class Initialized
+INFO - 2024-04-10 21:03:03 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:03 --> Security Class Initialized
+INFO - 2024-04-10 21:03:03 --> Loader Class Initialized
+DEBUG - 2024-04-10 21:03:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:03 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:03 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:03 --> Input Class Initialized
+INFO - 2024-04-10 21:03:03 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:03 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:03 --> Language Class Initialized
+INFO - 2024-04-10 21:03:03 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:03 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:03 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:03 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:03 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:03 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:03 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:03 --> Helper loaded: html_helper
+DEBUG - 2024-04-10 21:03:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:03:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:03 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:03 --> Email Class Initialized
+INFO - 2024-04-10 21:03:03 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:03 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:03 --> Language file loaded: language/english/pagination_lang.php
+DEBUG - 2024-04-10 21:03:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:03 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:03 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:03 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 21:03:03 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:03 --> Total execution time: 0.5778
+INFO - 2024-04-10 21:03:03 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:03 --> Email Class Initialized
+INFO - 2024-04-10 21:03:03 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:03 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:03 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:03 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:04 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:04 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:03:04 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:04 --> Total execution time: 0.8168
+INFO - 2024-04-10 21:03:04 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:04 --> Email Class Initialized
+INFO - 2024-04-10 21:03:04 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:04 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:04 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:04 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:04 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:03:04 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:04 --> Total execution time: 1.0764
+INFO - 2024-04-10 21:03:05 --> Config Class Initialized
+INFO - 2024-04-10 21:03:05 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:05 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:05 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:05 --> URI Class Initialized
+INFO - 2024-04-10 21:03:05 --> Router Class Initialized
+INFO - 2024-04-10 21:03:05 --> Output Class Initialized
+INFO - 2024-04-10 21:03:05 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:05 --> Input Class Initialized
+INFO - 2024-04-10 21:03:05 --> Language Class Initialized
+INFO - 2024-04-10 21:03:05 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:05 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:05 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:05 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:05 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:05 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:05 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:05 --> Email Class Initialized
+INFO - 2024-04-10 21:03:05 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:05 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:05 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:06 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:06 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:06 --> Total execution time: 0.5326
+INFO - 2024-04-10 21:03:06 --> Config Class Initialized
+INFO - 2024-04-10 21:03:06 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:06 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:06 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:06 --> URI Class Initialized
+INFO - 2024-04-10 21:03:06 --> Router Class Initialized
+INFO - 2024-04-10 21:03:06 --> Output Class Initialized
+INFO - 2024-04-10 21:03:06 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:06 --> Input Class Initialized
+INFO - 2024-04-10 21:03:06 --> Language Class Initialized
+INFO - 2024-04-10 21:03:06 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:06 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:06 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:06 --> Email Class Initialized
+INFO - 2024-04-10 21:03:06 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:06 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:06 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:06 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:06 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:03:06 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:06 --> Total execution time: 0.5284
+INFO - 2024-04-10 21:03:06 --> Config Class Initialized
+INFO - 2024-04-10 21:03:06 --> Hooks Class Initialized
+INFO - 2024-04-10 21:03:06 --> Config Class Initialized
+INFO - 2024-04-10 21:03:06 --> Config Class Initialized
+DEBUG - 2024-04-10 21:03:06 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:06 --> Hooks Class Initialized
+INFO - 2024-04-10 21:03:06 --> Hooks Class Initialized
+INFO - 2024-04-10 21:03:06 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:06 --> URI Class Initialized
+DEBUG - 2024-04-10 21:03:06 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:03:06 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:06 --> Router Class Initialized
+INFO - 2024-04-10 21:03:06 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:06 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:06 --> Output Class Initialized
+INFO - 2024-04-10 21:03:06 --> URI Class Initialized
+INFO - 2024-04-10 21:03:06 --> URI Class Initialized
+INFO - 2024-04-10 21:03:06 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:06 --> Router Class Initialized
+INFO - 2024-04-10 21:03:06 --> Router Class Initialized
+INFO - 2024-04-10 21:03:06 --> Input Class Initialized
+INFO - 2024-04-10 21:03:06 --> Output Class Initialized
+INFO - 2024-04-10 21:03:06 --> Output Class Initialized
+INFO - 2024-04-10 21:03:06 --> Security Class Initialized
+INFO - 2024-04-10 21:03:06 --> Language Class Initialized
+INFO - 2024-04-10 21:03:06 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:03:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:06 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:06 --> Input Class Initialized
+INFO - 2024-04-10 21:03:06 --> Input Class Initialized
+INFO - 2024-04-10 21:03:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:06 --> Language Class Initialized
+INFO - 2024-04-10 21:03:06 --> Language Class Initialized
+INFO - 2024-04-10 21:03:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:06 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:06 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:06 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:06 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:06 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:06 --> Helper loaded: form_helper
+DEBUG - 2024-04-10 21:03:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:06 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:06 --> Email Class Initialized
+INFO - 2024-04-10 21:03:06 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:06 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:06 --> Form Validation Class Initialized
+DEBUG - 2024-04-10 21:03:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:03:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:06 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:07 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:07 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 21:03:07 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:07 --> Total execution time: 0.5103
+INFO - 2024-04-10 21:03:07 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:07 --> Email Class Initialized
+INFO - 2024-04-10 21:03:07 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:07 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:07 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:07 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:03:07 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:07 --> Total execution time: 0.8047
+INFO - 2024-04-10 21:03:07 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:07 --> Email Class Initialized
+INFO - 2024-04-10 21:03:07 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:07 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:07 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:07 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:07 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:03:07 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:07 --> Total execution time: 1.1842
+INFO - 2024-04-10 21:03:10 --> Config Class Initialized
+INFO - 2024-04-10 21:03:10 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:10 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:10 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:10 --> URI Class Initialized
+INFO - 2024-04-10 21:03:10 --> Router Class Initialized
+INFO - 2024-04-10 21:03:10 --> Output Class Initialized
+INFO - 2024-04-10 21:03:10 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:10 --> Input Class Initialized
+INFO - 2024-04-10 21:03:10 --> Language Class Initialized
+INFO - 2024-04-10 21:03:10 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:10 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:10 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:10 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:10 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:10 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:10 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:10 --> Email Class Initialized
+INFO - 2024-04-10 21:03:10 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:10 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:10 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:10 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:03:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:03:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:03:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:03:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:03:10 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:10 --> Total execution time: 0.5113
+INFO - 2024-04-10 21:03:11 --> Config Class Initialized
+INFO - 2024-04-10 21:03:11 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:11 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:11 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:11 --> URI Class Initialized
+INFO - 2024-04-10 21:03:11 --> Router Class Initialized
+INFO - 2024-04-10 21:03:11 --> Output Class Initialized
+INFO - 2024-04-10 21:03:11 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:12 --> Input Class Initialized
+INFO - 2024-04-10 21:03:12 --> Language Class Initialized
+INFO - 2024-04-10 21:03:12 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:12 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:12 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:12 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:12 --> Email Class Initialized
+INFO - 2024-04-10 21:03:12 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:12 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:12 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:12 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:03:12 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:12 --> Total execution time: 0.5283
+INFO - 2024-04-10 21:03:12 --> Config Class Initialized
+INFO - 2024-04-10 21:03:12 --> Config Class Initialized
+INFO - 2024-04-10 21:03:12 --> Config Class Initialized
+INFO - 2024-04-10 21:03:12 --> Hooks Class Initialized
+INFO - 2024-04-10 21:03:12 --> Hooks Class Initialized
+INFO - 2024-04-10 21:03:12 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:12 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:03:12 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:03:12 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:12 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:12 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:12 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:12 --> URI Class Initialized
+INFO - 2024-04-10 21:03:12 --> URI Class Initialized
+INFO - 2024-04-10 21:03:12 --> URI Class Initialized
+INFO - 2024-04-10 21:03:12 --> Router Class Initialized
+INFO - 2024-04-10 21:03:12 --> Router Class Initialized
+INFO - 2024-04-10 21:03:12 --> Output Class Initialized
+INFO - 2024-04-10 21:03:12 --> Router Class Initialized
+INFO - 2024-04-10 21:03:12 --> Output Class Initialized
+INFO - 2024-04-10 21:03:12 --> Security Class Initialized
+INFO - 2024-04-10 21:03:12 --> Security Class Initialized
+INFO - 2024-04-10 21:03:12 --> Output Class Initialized
+INFO - 2024-04-10 21:03:12 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:03:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:12 --> Input Class Initialized
+INFO - 2024-04-10 21:03:12 --> Input Class Initialized
+DEBUG - 2024-04-10 21:03:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:12 --> Input Class Initialized
+INFO - 2024-04-10 21:03:12 --> Language Class Initialized
+INFO - 2024-04-10 21:03:12 --> Language Class Initialized
+INFO - 2024-04-10 21:03:12 --> Language Class Initialized
+INFO - 2024-04-10 21:03:12 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:12 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:12 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:12 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:12 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:12 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:12 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:12 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:12 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:12 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:03:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:03:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:12 --> Email Class Initialized
+INFO - 2024-04-10 21:03:12 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:12 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:12 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:13 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:13 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 21:03:13 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:13 --> Total execution time: 0.5308
+INFO - 2024-04-10 21:03:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:13 --> Email Class Initialized
+INFO - 2024-04-10 21:03:13 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:13 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:13 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:13 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:03:13 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:13 --> Total execution time: 0.7933
+INFO - 2024-04-10 21:03:13 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:13 --> Email Class Initialized
+INFO - 2024-04-10 21:03:13 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:13 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:13 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:13 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:13 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:13 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:03:13 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:13 --> Total execution time: 1.0812
+INFO - 2024-04-10 21:03:21 --> Config Class Initialized
+INFO - 2024-04-10 21:03:21 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:21 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:21 --> URI Class Initialized
+INFO - 2024-04-10 21:03:21 --> Router Class Initialized
+INFO - 2024-04-10 21:03:21 --> Output Class Initialized
+INFO - 2024-04-10 21:03:21 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:21 --> Input Class Initialized
+INFO - 2024-04-10 21:03:22 --> Language Class Initialized
+INFO - 2024-04-10 21:03:22 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:22 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:22 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:22 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:22 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:22 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:22 --> Email Class Initialized
+INFO - 2024-04-10 21:03:22 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:22 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:22 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:22 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:03:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:03:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:03:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:03:22 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:03:22 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:22 --> Total execution time: 0.5837
+INFO - 2024-04-10 21:03:23 --> Config Class Initialized
+INFO - 2024-04-10 21:03:23 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:23 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:23 --> URI Class Initialized
+INFO - 2024-04-10 21:03:23 --> Router Class Initialized
+INFO - 2024-04-10 21:03:23 --> Output Class Initialized
+INFO - 2024-04-10 21:03:23 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:23 --> Input Class Initialized
+INFO - 2024-04-10 21:03:23 --> Language Class Initialized
+INFO - 2024-04-10 21:03:23 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:23 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:23 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:23 --> Email Class Initialized
+INFO - 2024-04-10 21:03:23 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:23 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:23 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:23 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:23 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:23 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:03:23 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:23 --> Total execution time: 0.4819
+INFO - 2024-04-10 21:03:23 --> Config Class Initialized
+INFO - 2024-04-10 21:03:23 --> Config Class Initialized
+INFO - 2024-04-10 21:03:23 --> Config Class Initialized
+INFO - 2024-04-10 21:03:23 --> Hooks Class Initialized
+INFO - 2024-04-10 21:03:23 --> Hooks Class Initialized
+INFO - 2024-04-10 21:03:23 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:03:23 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:03:23 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:03:23 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:03:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:23 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:03:23 --> URI Class Initialized
+INFO - 2024-04-10 21:03:23 --> URI Class Initialized
+INFO - 2024-04-10 21:03:23 --> URI Class Initialized
+INFO - 2024-04-10 21:03:23 --> Router Class Initialized
+INFO - 2024-04-10 21:03:23 --> Router Class Initialized
+INFO - 2024-04-10 21:03:23 --> Router Class Initialized
+INFO - 2024-04-10 21:03:23 --> Output Class Initialized
+INFO - 2024-04-10 21:03:23 --> Output Class Initialized
+INFO - 2024-04-10 21:03:23 --> Output Class Initialized
+INFO - 2024-04-10 21:03:23 --> Security Class Initialized
+INFO - 2024-04-10 21:03:23 --> Security Class Initialized
+INFO - 2024-04-10 21:03:23 --> Security Class Initialized
+DEBUG - 2024-04-10 21:03:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:03:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:03:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:03:23 --> Input Class Initialized
+INFO - 2024-04-10 21:03:23 --> Input Class Initialized
+INFO - 2024-04-10 21:03:23 --> Input Class Initialized
+INFO - 2024-04-10 21:03:23 --> Language Class Initialized
+INFO - 2024-04-10 21:03:23 --> Language Class Initialized
+INFO - 2024-04-10 21:03:23 --> Language Class Initialized
+INFO - 2024-04-10 21:03:23 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:23 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:23 --> Loader Class Initialized
+INFO - 2024-04-10 21:03:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:23 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:03:23 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:23 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:03:23 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:03:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:03:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:03:24 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:03:24 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:24 --> Email Class Initialized
+INFO - 2024-04-10 21:03:24 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:24 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:24 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 21:03:24 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:24 --> Total execution time: 0.4580
+INFO - 2024-04-10 21:03:24 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:24 --> Email Class Initialized
+INFO - 2024-04-10 21:03:24 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:24 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:24 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:03:24 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:24 --> Total execution time: 0.7198
+INFO - 2024-04-10 21:03:24 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:03:24 --> Email Class Initialized
+INFO - 2024-04-10 21:03:24 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:03:24 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:03:24 --> Pagination Class Initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_user" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_product" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_category" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_report" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_role" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_client" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_move" initialized
+INFO - 2024-04-10 21:03:24 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:03:24 --> Controller Class Initialized
+INFO - 2024-04-10 21:03:24 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:03:24 --> Final output sent to browser
+DEBUG - 2024-04-10 21:03:24 --> Total execution time: 0.9779
+INFO - 2024-04-10 21:26:06 --> Config Class Initialized
+INFO - 2024-04-10 21:26:06 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:26:06 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:26:06 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:26:06 --> URI Class Initialized
+INFO - 2024-04-10 21:26:06 --> Router Class Initialized
+INFO - 2024-04-10 21:26:06 --> Output Class Initialized
+INFO - 2024-04-10 21:26:06 --> Security Class Initialized
+DEBUG - 2024-04-10 21:26:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:26:06 --> Input Class Initialized
+INFO - 2024-04-10 21:26:06 --> Language Class Initialized
+INFO - 2024-04-10 21:26:06 --> Loader Class Initialized
+INFO - 2024-04-10 21:26:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:26:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:26:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:26:06 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:26:06 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:26:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:26:06 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:26:06 --> Email Class Initialized
+INFO - 2024-04-10 21:26:06 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:26:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:26:06 --> Pagination Class Initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_user" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_product" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_category" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_report" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_role" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_client" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:26:06 --> Model "M_move" initialized
+INFO - 2024-04-10 21:26:34 --> Config Class Initialized
+INFO - 2024-04-10 21:26:34 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:26:34 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:26:34 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:26:34 --> URI Class Initialized
+INFO - 2024-04-10 21:26:34 --> Router Class Initialized
+INFO - 2024-04-10 21:26:34 --> Output Class Initialized
+INFO - 2024-04-10 21:26:34 --> Security Class Initialized
+DEBUG - 2024-04-10 21:26:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:26:34 --> Input Class Initialized
+INFO - 2024-04-10 21:26:34 --> Language Class Initialized
+INFO - 2024-04-10 21:26:34 --> Loader Class Initialized
+INFO - 2024-04-10 21:26:34 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:26:34 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:26:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:26:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:26:34 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:26:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:26:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:26:34 --> Email Class Initialized
+INFO - 2024-04-10 21:26:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:26:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:26:34 --> Pagination Class Initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_user" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_product" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_category" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_report" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_role" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_client" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_move" initialized
+INFO - 2024-04-10 21:26:34 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:26:34 --> Controller Class Initialized
+INFO - 2024-04-10 21:26:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:26:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:26:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:26:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:26:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:26:34 --> Final output sent to browser
+DEBUG - 2024-04-10 21:26:34 --> Total execution time: 0.6560
+INFO - 2024-04-10 21:26:35 --> Config Class Initialized
+INFO - 2024-04-10 21:26:35 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:26:36 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:26:36 --> URI Class Initialized
+INFO - 2024-04-10 21:26:36 --> Router Class Initialized
+INFO - 2024-04-10 21:26:36 --> Output Class Initialized
+INFO - 2024-04-10 21:26:36 --> Security Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:26:36 --> Input Class Initialized
+INFO - 2024-04-10 21:26:36 --> Language Class Initialized
+INFO - 2024-04-10 21:26:36 --> Loader Class Initialized
+INFO - 2024-04-10 21:26:36 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:26:36 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:26:36 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:26:36 --> Email Class Initialized
+INFO - 2024-04-10 21:26:36 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:26:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:26:36 --> Pagination Class Initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_user" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_product" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_category" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_report" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_role" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_client" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_move" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:26:36 --> Controller Class Initialized
+INFO - 2024-04-10 21:26:36 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:26:36 --> Final output sent to browser
+DEBUG - 2024-04-10 21:26:36 --> Total execution time: 0.4794
+INFO - 2024-04-10 21:26:36 --> Config Class Initialized
+INFO - 2024-04-10 21:26:36 --> Hooks Class Initialized
+INFO - 2024-04-10 21:26:36 --> Config Class Initialized
+INFO - 2024-04-10 21:26:36 --> Hooks Class Initialized
+INFO - 2024-04-10 21:26:36 --> Config Class Initialized
+INFO - 2024-04-10 21:26:36 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:26:36 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:26:36 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:26:36 --> URI Class Initialized
+INFO - 2024-04-10 21:26:36 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:26:36 --> URI Class Initialized
+INFO - 2024-04-10 21:26:36 --> Router Class Initialized
+INFO - 2024-04-10 21:26:36 --> URI Class Initialized
+INFO - 2024-04-10 21:26:36 --> Output Class Initialized
+INFO - 2024-04-10 21:26:36 --> Router Class Initialized
+INFO - 2024-04-10 21:26:36 --> Security Class Initialized
+INFO - 2024-04-10 21:26:36 --> Output Class Initialized
+INFO - 2024-04-10 21:26:36 --> Router Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:26:36 --> Security Class Initialized
+INFO - 2024-04-10 21:26:36 --> Output Class Initialized
+INFO - 2024-04-10 21:26:36 --> Input Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:26:36 --> Security Class Initialized
+INFO - 2024-04-10 21:26:36 --> Input Class Initialized
+INFO - 2024-04-10 21:26:36 --> Language Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:26:36 --> Input Class Initialized
+INFO - 2024-04-10 21:26:36 --> Language Class Initialized
+INFO - 2024-04-10 21:26:36 --> Loader Class Initialized
+INFO - 2024-04-10 21:26:36 --> Language Class Initialized
+INFO - 2024-04-10 21:26:36 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:26:36 --> Loader Class Initialized
+INFO - 2024-04-10 21:26:36 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:26:36 --> Loader Class Initialized
+INFO - 2024-04-10 21:26:36 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:26:36 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:26:36 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:26:36 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:26:36 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:26:36 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:26:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:26:36 --> Email Class Initialized
+DEBUG - 2024-04-10 21:26:36 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:26:36 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:26:36 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:26:36 --> Pagination Class Initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_user" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_product" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_category" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_report" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:26:36 --> Model "M_role" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_client" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_move" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:26:37 --> Controller Class Initialized
+INFO - 2024-04-10 21:26:37 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:26:37 --> Final output sent to browser
+DEBUG - 2024-04-10 21:26:37 --> Total execution time: 0.5094
+INFO - 2024-04-10 21:26:37 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:26:37 --> Email Class Initialized
+INFO - 2024-04-10 21:26:37 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:26:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:26:37 --> Pagination Class Initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_user" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_product" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_category" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_report" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_role" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_client" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_move" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:26:37 --> Controller Class Initialized
+INFO - 2024-04-10 21:26:37 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:26:37 --> Final output sent to browser
+DEBUG - 2024-04-10 21:26:37 --> Total execution time: 0.7707
+INFO - 2024-04-10 21:26:37 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:26:37 --> Email Class Initialized
+INFO - 2024-04-10 21:26:37 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:26:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:26:37 --> Pagination Class Initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_user" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_product" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_category" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_report" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_role" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_client" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_move" initialized
+INFO - 2024-04-10 21:26:37 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:26:37 --> Controller Class Initialized
+INFO - 2024-04-10 21:26:37 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_bill.php
+INFO - 2024-04-10 21:26:37 --> Final output sent to browser
+DEBUG - 2024-04-10 21:26:37 --> Total execution time: 1.0701
+INFO - 2024-04-10 21:29:09 --> Config Class Initialized
+INFO - 2024-04-10 21:29:09 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:29:09 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:09 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:29:09 --> URI Class Initialized
+INFO - 2024-04-10 21:29:09 --> Router Class Initialized
+INFO - 2024-04-10 21:29:09 --> Output Class Initialized
+INFO - 2024-04-10 21:29:09 --> Security Class Initialized
+DEBUG - 2024-04-10 21:29:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:09 --> Input Class Initialized
+INFO - 2024-04-10 21:29:09 --> Language Class Initialized
+INFO - 2024-04-10 21:29:09 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:09 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:09 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:09 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:09 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:09 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:29:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:09 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:09 --> Email Class Initialized
+INFO - 2024-04-10 21:29:09 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:09 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:09 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:09 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:10 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:10 --> Controller Class Initialized
+INFO - 2024-04-10 21:29:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:29:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:29:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:29:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:29:10 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:29:10 --> Final output sent to browser
+DEBUG - 2024-04-10 21:29:10 --> Total execution time: 0.6327
+INFO - 2024-04-10 21:29:10 --> Config Class Initialized
+INFO - 2024-04-10 21:29:10 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:29:10 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:10 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:29:10 --> URI Class Initialized
+INFO - 2024-04-10 21:29:10 --> Router Class Initialized
+INFO - 2024-04-10 21:29:10 --> Output Class Initialized
+INFO - 2024-04-10 21:29:10 --> Security Class Initialized
+DEBUG - 2024-04-10 21:29:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:10 --> Input Class Initialized
+INFO - 2024-04-10 21:29:11 --> Language Class Initialized
+INFO - 2024-04-10 21:29:11 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:11 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:11 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:29:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:11 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:11 --> Email Class Initialized
+INFO - 2024-04-10 21:29:11 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:11 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:11 --> Controller Class Initialized
+INFO - 2024-04-10 21:29:11 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:29:11 --> Final output sent to browser
+DEBUG - 2024-04-10 21:29:11 --> Total execution time: 0.4888
+INFO - 2024-04-10 21:29:11 --> Config Class Initialized
+INFO - 2024-04-10 21:29:11 --> Config Class Initialized
+INFO - 2024-04-10 21:29:11 --> Hooks Class Initialized
+INFO - 2024-04-10 21:29:11 --> Hooks Class Initialized
+INFO - 2024-04-10 21:29:11 --> Config Class Initialized
+INFO - 2024-04-10 21:29:11 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:29:11 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:11 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:29:11 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:11 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:29:11 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:11 --> URI Class Initialized
+INFO - 2024-04-10 21:29:11 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:29:11 --> URI Class Initialized
+INFO - 2024-04-10 21:29:11 --> Router Class Initialized
+INFO - 2024-04-10 21:29:11 --> URI Class Initialized
+INFO - 2024-04-10 21:29:11 --> Output Class Initialized
+INFO - 2024-04-10 21:29:11 --> Router Class Initialized
+INFO - 2024-04-10 21:29:11 --> Security Class Initialized
+INFO - 2024-04-10 21:29:11 --> Output Class Initialized
+INFO - 2024-04-10 21:29:11 --> Router Class Initialized
+INFO - 2024-04-10 21:29:11 --> Security Class Initialized
+DEBUG - 2024-04-10 21:29:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:11 --> Output Class Initialized
+INFO - 2024-04-10 21:29:11 --> Input Class Initialized
+DEBUG - 2024-04-10 21:29:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:11 --> Security Class Initialized
+INFO - 2024-04-10 21:29:11 --> Input Class Initialized
+INFO - 2024-04-10 21:29:11 --> Language Class Initialized
+DEBUG - 2024-04-10 21:29:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:11 --> Input Class Initialized
+INFO - 2024-04-10 21:29:11 --> Language Class Initialized
+INFO - 2024-04-10 21:29:11 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:11 --> Language Class Initialized
+INFO - 2024-04-10 21:29:11 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:11 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:11 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:11 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:11 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:11 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:29:11 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:11 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:29:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:11 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:29:11 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:29:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:11 --> Email Class Initialized
+DEBUG - 2024-04-10 21:29:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:11 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:11 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:11 --> Controller Class Initialized
+INFO - 2024-04-10 21:29:11 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:29:11 --> Final output sent to browser
+DEBUG - 2024-04-10 21:29:11 --> Total execution time: 0.4320
+INFO - 2024-04-10 21:29:11 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:11 --> Email Class Initialized
+INFO - 2024-04-10 21:29:11 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:11 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:11 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:11 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:12 --> Controller Class Initialized
+ERROR - 2024-04-10 21:29:12 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:29:12 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:29:12 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:12 --> Email Class Initialized
+INFO - 2024-04-10 21:29:12 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:12 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:12 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:12 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:12 --> Controller Class Initialized
+INFO - 2024-04-10 21:29:12 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:29:12 --> Final output sent to browser
+DEBUG - 2024-04-10 21:29:12 --> Total execution time: 0.9200
+INFO - 2024-04-10 21:29:15 --> Config Class Initialized
+INFO - 2024-04-10 21:29:15 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:29:15 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:15 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:29:15 --> URI Class Initialized
+INFO - 2024-04-10 21:29:15 --> Router Class Initialized
+INFO - 2024-04-10 21:29:15 --> Output Class Initialized
+INFO - 2024-04-10 21:29:15 --> Security Class Initialized
+DEBUG - 2024-04-10 21:29:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:15 --> Input Class Initialized
+INFO - 2024-04-10 21:29:15 --> Language Class Initialized
+INFO - 2024-04-10 21:29:15 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:15 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:15 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:15 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:15 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:15 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:29:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:15 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:15 --> Email Class Initialized
+INFO - 2024-04-10 21:29:15 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:15 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:15 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:16 --> Controller Class Initialized
+INFO - 2024-04-10 21:29:16 --> Final output sent to browser
+DEBUG - 2024-04-10 21:29:16 --> Total execution time: 0.4553
+INFO - 2024-04-10 21:29:17 --> Config Class Initialized
+INFO - 2024-04-10 21:29:17 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:29:17 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:17 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:29:17 --> URI Class Initialized
+INFO - 2024-04-10 21:29:17 --> Router Class Initialized
+INFO - 2024-04-10 21:29:17 --> Output Class Initialized
+INFO - 2024-04-10 21:29:17 --> Security Class Initialized
+DEBUG - 2024-04-10 21:29:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:17 --> Input Class Initialized
+INFO - 2024-04-10 21:29:17 --> Language Class Initialized
+INFO - 2024-04-10 21:29:17 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:17 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:17 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:17 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:17 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:17 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:29:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:17 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:17 --> Email Class Initialized
+INFO - 2024-04-10 21:29:17 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:17 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:17 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:17 --> Controller Class Initialized
+INFO - 2024-04-10 21:29:17 --> Final output sent to browser
+DEBUG - 2024-04-10 21:29:17 --> Total execution time: 0.4526
+INFO - 2024-04-10 21:29:17 --> Config Class Initialized
+INFO - 2024-04-10 21:29:17 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:29:17 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:17 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:29:17 --> URI Class Initialized
+INFO - 2024-04-10 21:29:17 --> Router Class Initialized
+INFO - 2024-04-10 21:29:17 --> Output Class Initialized
+INFO - 2024-04-10 21:29:17 --> Security Class Initialized
+DEBUG - 2024-04-10 21:29:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:17 --> Input Class Initialized
+INFO - 2024-04-10 21:29:17 --> Language Class Initialized
+INFO - 2024-04-10 21:29:17 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:17 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:17 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:17 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:17 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:17 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:29:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:17 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:17 --> Email Class Initialized
+INFO - 2024-04-10 21:29:17 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:17 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:17 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:18 --> Controller Class Initialized
+INFO - 2024-04-10 21:29:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:29:18 --> Final output sent to browser
+DEBUG - 2024-04-10 21:29:18 --> Total execution time: 0.4918
+INFO - 2024-04-10 21:29:18 --> Config Class Initialized
+INFO - 2024-04-10 21:29:18 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:29:18 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:18 --> Config Class Initialized
+INFO - 2024-04-10 21:29:18 --> Config Class Initialized
+INFO - 2024-04-10 21:29:18 --> Hooks Class Initialized
+INFO - 2024-04-10 21:29:18 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:29:18 --> Hooks Class Initialized
+INFO - 2024-04-10 21:29:18 --> URI Class Initialized
+DEBUG - 2024-04-10 21:29:18 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:29:18 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:29:18 --> Router Class Initialized
+INFO - 2024-04-10 21:29:18 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:29:18 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:29:18 --> Output Class Initialized
+INFO - 2024-04-10 21:29:18 --> URI Class Initialized
+INFO - 2024-04-10 21:29:18 --> Security Class Initialized
+INFO - 2024-04-10 21:29:18 --> URI Class Initialized
+DEBUG - 2024-04-10 21:29:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:18 --> Router Class Initialized
+INFO - 2024-04-10 21:29:18 --> Router Class Initialized
+INFO - 2024-04-10 21:29:18 --> Input Class Initialized
+INFO - 2024-04-10 21:29:18 --> Output Class Initialized
+INFO - 2024-04-10 21:29:18 --> Output Class Initialized
+INFO - 2024-04-10 21:29:18 --> Language Class Initialized
+INFO - 2024-04-10 21:29:18 --> Security Class Initialized
+INFO - 2024-04-10 21:29:18 --> Security Class Initialized
+DEBUG - 2024-04-10 21:29:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:29:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:29:18 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:18 --> Input Class Initialized
+INFO - 2024-04-10 21:29:18 --> Input Class Initialized
+INFO - 2024-04-10 21:29:18 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:18 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:18 --> Language Class Initialized
+INFO - 2024-04-10 21:29:18 --> Language Class Initialized
+INFO - 2024-04-10 21:29:18 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:18 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:18 --> Loader Class Initialized
+INFO - 2024-04-10 21:29:18 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:18 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:18 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:29:18 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:18 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:29:18 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:18 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:29:18 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:29:18 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:29:18 --> Helper loaded: form_helper
+DEBUG - 2024-04-10 21:29:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:18 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:29:18 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:18 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:29:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:18 --> Email Class Initialized
+INFO - 2024-04-10 21:29:18 --> Form Validation Class Initialized
+DEBUG - 2024-04-10 21:29:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:29:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:18 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:18 --> Controller Class Initialized
+ERROR - 2024-04-10 21:29:18 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:29:18 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:29:18 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:18 --> Email Class Initialized
+INFO - 2024-04-10 21:29:18 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:18 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:18 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:18 --> Controller Class Initialized
+INFO - 2024-04-10 21:29:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:29:18 --> Final output sent to browser
+DEBUG - 2024-04-10 21:29:19 --> Total execution time: 0.7435
+INFO - 2024-04-10 21:29:19 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:29:19 --> Email Class Initialized
+INFO - 2024-04-10 21:29:19 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:29:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:29:19 --> Pagination Class Initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_user" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_product" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_category" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_report" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_role" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_client" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_move" initialized
+INFO - 2024-04-10 21:29:19 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:29:19 --> Controller Class Initialized
+INFO - 2024-04-10 21:29:19 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:29:19 --> Final output sent to browser
+DEBUG - 2024-04-10 21:29:19 --> Total execution time: 1.0146
+INFO - 2024-04-10 21:32:17 --> Config Class Initialized
+INFO - 2024-04-10 21:32:17 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:32:17 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:32:17 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:17 --> URI Class Initialized
+INFO - 2024-04-10 21:32:17 --> Router Class Initialized
+INFO - 2024-04-10 21:32:17 --> Output Class Initialized
+INFO - 2024-04-10 21:32:17 --> Security Class Initialized
+DEBUG - 2024-04-10 21:32:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:32:17 --> Input Class Initialized
+INFO - 2024-04-10 21:32:17 --> Language Class Initialized
+INFO - 2024-04-10 21:32:17 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:17 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:17 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:17 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:17 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:18 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:32:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:32:18 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:18 --> Email Class Initialized
+INFO - 2024-04-10 21:32:18 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:18 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:18 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:18 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:18 --> Controller Class Initialized
+INFO - 2024-04-10 21:32:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:32:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:32:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:32:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:32:18 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:32:18 --> Final output sent to browser
+DEBUG - 2024-04-10 21:32:18 --> Total execution time: 0.5243
+INFO - 2024-04-10 21:32:19 --> Config Class Initialized
+INFO - 2024-04-10 21:32:19 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:32:19 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:32:19 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:19 --> URI Class Initialized
+INFO - 2024-04-10 21:32:19 --> Router Class Initialized
+INFO - 2024-04-10 21:32:19 --> Output Class Initialized
+INFO - 2024-04-10 21:32:19 --> Security Class Initialized
+DEBUG - 2024-04-10 21:32:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:32:19 --> Input Class Initialized
+INFO - 2024-04-10 21:32:19 --> Language Class Initialized
+INFO - 2024-04-10 21:32:19 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:19 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:19 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:19 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:19 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:19 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:32:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:32:19 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:19 --> Email Class Initialized
+INFO - 2024-04-10 21:32:19 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:19 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:19 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:19 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:19 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:19 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:19 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:20 --> Controller Class Initialized
+INFO - 2024-04-10 21:32:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:32:20 --> Final output sent to browser
+DEBUG - 2024-04-10 21:32:20 --> Total execution time: 0.4747
+INFO - 2024-04-10 21:32:20 --> Config Class Initialized
+INFO - 2024-04-10 21:32:20 --> Hooks Class Initialized
+INFO - 2024-04-10 21:32:20 --> Config Class Initialized
+INFO - 2024-04-10 21:32:20 --> Config Class Initialized
+INFO - 2024-04-10 21:32:20 --> Hooks Class Initialized
+INFO - 2024-04-10 21:32:20 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:32:20 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:32:20 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:20 --> URI Class Initialized
+DEBUG - 2024-04-10 21:32:20 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:32:20 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:32:20 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:20 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:20 --> Router Class Initialized
+INFO - 2024-04-10 21:32:20 --> URI Class Initialized
+INFO - 2024-04-10 21:32:20 --> Output Class Initialized
+INFO - 2024-04-10 21:32:20 --> URI Class Initialized
+INFO - 2024-04-10 21:32:20 --> Security Class Initialized
+INFO - 2024-04-10 21:32:20 --> Router Class Initialized
+INFO - 2024-04-10 21:32:20 --> Router Class Initialized
+DEBUG - 2024-04-10 21:32:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:32:20 --> Output Class Initialized
+INFO - 2024-04-10 21:32:20 --> Output Class Initialized
+INFO - 2024-04-10 21:32:20 --> Input Class Initialized
+INFO - 2024-04-10 21:32:20 --> Security Class Initialized
+INFO - 2024-04-10 21:32:20 --> Security Class Initialized
+INFO - 2024-04-10 21:32:20 --> Language Class Initialized
+DEBUG - 2024-04-10 21:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:32:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:32:20 --> Input Class Initialized
+INFO - 2024-04-10 21:32:20 --> Input Class Initialized
+INFO - 2024-04-10 21:32:20 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:20 --> Language Class Initialized
+INFO - 2024-04-10 21:32:20 --> Language Class Initialized
+INFO - 2024-04-10 21:32:20 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:20 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:20 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:20 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:20 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:20 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:32:20 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:32:20 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:32:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:32:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:32:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:32:20 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:20 --> Email Class Initialized
+INFO - 2024-04-10 21:32:20 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:20 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:20 --> Controller Class Initialized
+INFO - 2024-04-10 21:32:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:32:20 --> Final output sent to browser
+DEBUG - 2024-04-10 21:32:20 --> Total execution time: 0.4787
+INFO - 2024-04-10 21:32:20 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:20 --> Email Class Initialized
+INFO - 2024-04-10 21:32:20 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:20 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:20 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:20 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:20 --> Controller Class Initialized
+INFO - 2024-04-10 21:32:20 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:32:20 --> Final output sent to browser
+DEBUG - 2024-04-10 21:32:21 --> Total execution time: 0.7393
+INFO - 2024-04-10 21:32:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:21 --> Email Class Initialized
+INFO - 2024-04-10 21:32:21 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:21 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:21 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:21 --> Controller Class Initialized
+ERROR - 2024-04-10 21:32:21 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:32:21 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:32:22 --> Config Class Initialized
+INFO - 2024-04-10 21:32:22 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:32:22 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:32:22 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:22 --> URI Class Initialized
+INFO - 2024-04-10 21:32:22 --> Router Class Initialized
+INFO - 2024-04-10 21:32:22 --> Output Class Initialized
+INFO - 2024-04-10 21:32:22 --> Security Class Initialized
+DEBUG - 2024-04-10 21:32:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:32:22 --> Input Class Initialized
+INFO - 2024-04-10 21:32:22 --> Language Class Initialized
+INFO - 2024-04-10 21:32:22 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:22 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:22 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:22 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:22 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:22 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:32:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:32:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:22 --> Email Class Initialized
+INFO - 2024-04-10 21:32:22 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:22 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:22 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:25 --> Config Class Initialized
+INFO - 2024-04-10 21:32:25 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:32:25 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:32:25 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:25 --> URI Class Initialized
+INFO - 2024-04-10 21:32:25 --> Router Class Initialized
+INFO - 2024-04-10 21:32:25 --> Output Class Initialized
+INFO - 2024-04-10 21:32:25 --> Security Class Initialized
+DEBUG - 2024-04-10 21:32:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:32:25 --> Input Class Initialized
+INFO - 2024-04-10 21:32:25 --> Language Class Initialized
+INFO - 2024-04-10 21:32:26 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:26 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:26 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:26 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:26 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:26 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:32:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:32:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:26 --> Email Class Initialized
+INFO - 2024-04-10 21:32:26 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:26 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:26 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:26 --> Controller Class Initialized
+INFO - 2024-04-10 21:32:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:32:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:32:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:32:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:32:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:32:26 --> Final output sent to browser
+DEBUG - 2024-04-10 21:32:26 --> Total execution time: 0.6635
+INFO - 2024-04-10 21:32:27 --> Config Class Initialized
+INFO - 2024-04-10 21:32:27 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:32:27 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:32:27 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:27 --> URI Class Initialized
+INFO - 2024-04-10 21:32:27 --> Router Class Initialized
+INFO - 2024-04-10 21:32:27 --> Output Class Initialized
+INFO - 2024-04-10 21:32:27 --> Security Class Initialized
+DEBUG - 2024-04-10 21:32:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:32:27 --> Input Class Initialized
+INFO - 2024-04-10 21:32:27 --> Language Class Initialized
+INFO - 2024-04-10 21:32:27 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:27 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:27 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:27 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:27 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:27 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:32:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:32:27 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:27 --> Email Class Initialized
+INFO - 2024-04-10 21:32:27 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:27 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:27 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:27 --> Controller Class Initialized
+INFO - 2024-04-10 21:32:27 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:32:27 --> Final output sent to browser
+DEBUG - 2024-04-10 21:32:27 --> Total execution time: 0.5080
+INFO - 2024-04-10 21:32:28 --> Config Class Initialized
+INFO - 2024-04-10 21:32:28 --> Config Class Initialized
+INFO - 2024-04-10 21:32:28 --> Config Class Initialized
+INFO - 2024-04-10 21:32:28 --> Hooks Class Initialized
+INFO - 2024-04-10 21:32:28 --> Hooks Class Initialized
+INFO - 2024-04-10 21:32:28 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:32:28 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:32:28 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:32:28 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:32:28 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:28 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:28 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:32:28 --> URI Class Initialized
+INFO - 2024-04-10 21:32:28 --> URI Class Initialized
+INFO - 2024-04-10 21:32:28 --> URI Class Initialized
+INFO - 2024-04-10 21:32:28 --> Router Class Initialized
+INFO - 2024-04-10 21:32:28 --> Router Class Initialized
+INFO - 2024-04-10 21:32:28 --> Router Class Initialized
+INFO - 2024-04-10 21:32:28 --> Output Class Initialized
+INFO - 2024-04-10 21:32:28 --> Output Class Initialized
+INFO - 2024-04-10 21:32:28 --> Output Class Initialized
+INFO - 2024-04-10 21:32:28 --> Security Class Initialized
+INFO - 2024-04-10 21:32:28 --> Security Class Initialized
+INFO - 2024-04-10 21:32:28 --> Security Class Initialized
+DEBUG - 2024-04-10 21:32:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:32:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:32:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:32:28 --> Input Class Initialized
+INFO - 2024-04-10 21:32:28 --> Input Class Initialized
+INFO - 2024-04-10 21:32:28 --> Input Class Initialized
+INFO - 2024-04-10 21:32:28 --> Language Class Initialized
+INFO - 2024-04-10 21:32:28 --> Language Class Initialized
+INFO - 2024-04-10 21:32:28 --> Language Class Initialized
+INFO - 2024-04-10 21:32:28 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:28 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:28 --> Loader Class Initialized
+INFO - 2024-04-10 21:32:28 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:28 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:32:28 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:32:28 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:32:28 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:32:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:32:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:32:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:32:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:32:28 --> Email Class Initialized
+INFO - 2024-04-10 21:32:28 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:28 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:28 --> Controller Class Initialized
+INFO - 2024-04-10 21:32:28 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:32:28 --> Final output sent to browser
+DEBUG - 2024-04-10 21:32:28 --> Total execution time: 0.4306
+INFO - 2024-04-10 21:32:28 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:28 --> Email Class Initialized
+INFO - 2024-04-10 21:32:28 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:28 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:28 --> Controller Class Initialized
+ERROR - 2024-04-10 21:32:28 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:32:28 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:32:28 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:32:28 --> Email Class Initialized
+INFO - 2024-04-10 21:32:28 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:32:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:32:28 --> Pagination Class Initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_user" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_product" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_category" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_report" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_role" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_client" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_move" initialized
+INFO - 2024-04-10 21:32:28 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:32:28 --> Controller Class Initialized
+INFO - 2024-04-10 21:32:29 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:32:29 --> Final output sent to browser
+DEBUG - 2024-04-10 21:32:29 --> Total execution time: 0.9242
+INFO - 2024-04-10 21:33:25 --> Config Class Initialized
+INFO - 2024-04-10 21:33:25 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:33:25 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:33:25 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:25 --> URI Class Initialized
+INFO - 2024-04-10 21:33:25 --> Router Class Initialized
+INFO - 2024-04-10 21:33:25 --> Output Class Initialized
+INFO - 2024-04-10 21:33:25 --> Security Class Initialized
+DEBUG - 2024-04-10 21:33:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:33:25 --> Input Class Initialized
+INFO - 2024-04-10 21:33:25 --> Language Class Initialized
+INFO - 2024-04-10 21:33:25 --> Loader Class Initialized
+INFO - 2024-04-10 21:33:25 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:33:25 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:33:25 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:33:25 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:33:25 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:33:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:33:26 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:33:26 --> Email Class Initialized
+INFO - 2024-04-10 21:33:26 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:33:26 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:33:26 --> Pagination Class Initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_user" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_product" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_category" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_report" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_role" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_client" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_move" initialized
+INFO - 2024-04-10 21:33:26 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:33:26 --> Controller Class Initialized
+INFO - 2024-04-10 21:33:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:33:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:33:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:33:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:33:26 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:33:26 --> Final output sent to browser
+DEBUG - 2024-04-10 21:33:26 --> Total execution time: 0.5337
+INFO - 2024-04-10 21:33:26 --> Config Class Initialized
+INFO - 2024-04-10 21:33:26 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:33:26 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:33:26 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:26 --> URI Class Initialized
+INFO - 2024-04-10 21:33:26 --> Router Class Initialized
+INFO - 2024-04-10 21:33:26 --> Output Class Initialized
+INFO - 2024-04-10 21:33:26 --> Security Class Initialized
+DEBUG - 2024-04-10 21:33:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:33:26 --> Input Class Initialized
+INFO - 2024-04-10 21:33:26 --> Language Class Initialized
+INFO - 2024-04-10 21:33:27 --> Loader Class Initialized
+INFO - 2024-04-10 21:33:27 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:33:27 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:33:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:33:27 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:33:27 --> Email Class Initialized
+INFO - 2024-04-10 21:33:27 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:33:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:33:27 --> Pagination Class Initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_user" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_product" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_category" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_report" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_role" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_client" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_move" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:33:27 --> Controller Class Initialized
+INFO - 2024-04-10 21:33:27 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:33:27 --> Final output sent to browser
+DEBUG - 2024-04-10 21:33:27 --> Total execution time: 0.5416
+INFO - 2024-04-10 21:33:27 --> Config Class Initialized
+INFO - 2024-04-10 21:33:27 --> Hooks Class Initialized
+INFO - 2024-04-10 21:33:27 --> Config Class Initialized
+INFO - 2024-04-10 21:33:27 --> Config Class Initialized
+INFO - 2024-04-10 21:33:27 --> Hooks Class Initialized
+INFO - 2024-04-10 21:33:27 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:33:27 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:33:27 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:33:27 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:33:27 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:33:27 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:27 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:27 --> URI Class Initialized
+INFO - 2024-04-10 21:33:27 --> Router Class Initialized
+INFO - 2024-04-10 21:33:27 --> URI Class Initialized
+INFO - 2024-04-10 21:33:27 --> URI Class Initialized
+INFO - 2024-04-10 21:33:27 --> Output Class Initialized
+INFO - 2024-04-10 21:33:27 --> Router Class Initialized
+INFO - 2024-04-10 21:33:27 --> Router Class Initialized
+INFO - 2024-04-10 21:33:27 --> Security Class Initialized
+INFO - 2024-04-10 21:33:27 --> Output Class Initialized
+INFO - 2024-04-10 21:33:27 --> Output Class Initialized
+DEBUG - 2024-04-10 21:33:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:33:27 --> Security Class Initialized
+INFO - 2024-04-10 21:33:27 --> Security Class Initialized
+INFO - 2024-04-10 21:33:27 --> Input Class Initialized
+DEBUG - 2024-04-10 21:33:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:33:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:33:27 --> Input Class Initialized
+INFO - 2024-04-10 21:33:27 --> Input Class Initialized
+INFO - 2024-04-10 21:33:27 --> Language Class Initialized
+INFO - 2024-04-10 21:33:27 --> Language Class Initialized
+INFO - 2024-04-10 21:33:27 --> Language Class Initialized
+INFO - 2024-04-10 21:33:27 --> Loader Class Initialized
+INFO - 2024-04-10 21:33:27 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:33:27 --> Loader Class Initialized
+INFO - 2024-04-10 21:33:27 --> Loader Class Initialized
+INFO - 2024-04-10 21:33:27 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:33:27 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:33:27 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:33:27 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:33:27 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:33:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:33:27 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:33:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:33:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:33:27 --> Email Class Initialized
+INFO - 2024-04-10 21:33:27 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:33:27 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:33:27 --> Pagination Class Initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_user" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_product" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_category" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_report" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_role" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_client" initialized
+INFO - 2024-04-10 21:33:27 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_move" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:33:28 --> Controller Class Initialized
+INFO - 2024-04-10 21:33:28 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:33:28 --> Final output sent to browser
+DEBUG - 2024-04-10 21:33:28 --> Total execution time: 0.4702
+INFO - 2024-04-10 21:33:28 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:33:28 --> Email Class Initialized
+INFO - 2024-04-10 21:33:28 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:33:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:33:28 --> Pagination Class Initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_user" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_product" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_category" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_report" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_role" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_client" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_move" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:33:28 --> Controller Class Initialized
+INFO - 2024-04-10 21:33:28 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:33:28 --> Final output sent to browser
+DEBUG - 2024-04-10 21:33:28 --> Total execution time: 0.7340
+INFO - 2024-04-10 21:33:28 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:33:28 --> Email Class Initialized
+INFO - 2024-04-10 21:33:28 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:33:28 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:33:28 --> Pagination Class Initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_user" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_product" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_category" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_report" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_role" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_client" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_move" initialized
+INFO - 2024-04-10 21:33:28 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:33:28 --> Controller Class Initialized
+ERROR - 2024-04-10 21:33:28 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:33:28 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:33:31 --> Config Class Initialized
+INFO - 2024-04-10 21:33:31 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:33:31 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:33:31 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:31 --> URI Class Initialized
+INFO - 2024-04-10 21:33:31 --> Router Class Initialized
+INFO - 2024-04-10 21:33:31 --> Output Class Initialized
+INFO - 2024-04-10 21:33:31 --> Security Class Initialized
+DEBUG - 2024-04-10 21:33:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:33:31 --> Input Class Initialized
+INFO - 2024-04-10 21:33:31 --> Language Class Initialized
+INFO - 2024-04-10 21:33:31 --> Loader Class Initialized
+INFO - 2024-04-10 21:33:31 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:33:31 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:33:31 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:33:31 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:33:31 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:33:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:33:31 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:33:31 --> Email Class Initialized
+INFO - 2024-04-10 21:33:31 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:33:31 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:33:31 --> Pagination Class Initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_user" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_product" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_category" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_report" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_role" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_client" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_move" initialized
+INFO - 2024-04-10 21:33:31 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:33:31 --> Controller Class Initialized
+ERROR - 2024-04-10 21:33:31 --> Query error: Table 'hokala.tbl_cart_receives' doesn't exist - Invalid query: DELETE FROM `tbl_cart_receives`
+WHERE `cart_id` = '57'
+INFO - 2024-04-10 21:33:31 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:33:35 --> Config Class Initialized
+INFO - 2024-04-10 21:33:35 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:33:35 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:33:35 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:35 --> URI Class Initialized
+INFO - 2024-04-10 21:33:35 --> Router Class Initialized
+INFO - 2024-04-10 21:33:35 --> Output Class Initialized
+INFO - 2024-04-10 21:33:35 --> Security Class Initialized
+DEBUG - 2024-04-10 21:33:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:33:35 --> Config Class Initialized
+INFO - 2024-04-10 21:33:35 --> Config Class Initialized
+INFO - 2024-04-10 21:33:35 --> Hooks Class Initialized
+INFO - 2024-04-10 21:33:35 --> Hooks Class Initialized
+INFO - 2024-04-10 21:33:35 --> Input Class Initialized
+INFO - 2024-04-10 21:33:35 --> Language Class Initialized
+DEBUG - 2024-04-10 21:33:35 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:33:35 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:33:35 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:35 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:35 --> Loader Class Initialized
+INFO - 2024-04-10 21:33:35 --> URI Class Initialized
+INFO - 2024-04-10 21:33:35 --> URI Class Initialized
+INFO - 2024-04-10 21:33:35 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:33:35 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:33:35 --> Router Class Initialized
+INFO - 2024-04-10 21:33:35 --> Router Class Initialized
+INFO - 2024-04-10 21:33:35 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:33:35 --> Output Class Initialized
+INFO - 2024-04-10 21:33:35 --> Output Class Initialized
+INFO - 2024-04-10 21:33:35 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:33:35 --> Security Class Initialized
+INFO - 2024-04-10 21:33:35 --> Security Class Initialized
+DEBUG - 2024-04-10 21:33:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:33:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:33:35 --> Input Class Initialized
+INFO - 2024-04-10 21:33:35 --> Input Class Initialized
+INFO - 2024-04-10 21:33:35 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:33:35 --> Language Class Initialized
+INFO - 2024-04-10 21:33:35 --> Language Class Initialized
+DEBUG - 2024-04-10 21:33:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:33:35 --> Session: Class initialized using 'files' driver.
+ERROR - 2024-04-10 21:33:35 --> 404 Page Not Found: Sass/main.css.map
+ERROR - 2024-04-10 21:33:35 --> 404 Page Not Found: Assets/css
+INFO - 2024-04-10 21:33:35 --> Email Class Initialized
+INFO - 2024-04-10 21:33:35 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:33:35 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:33:35 --> Pagination Class Initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_user" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_product" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_category" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_report" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_role" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_client" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_move" initialized
+INFO - 2024-04-10 21:33:35 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:33:35 --> Controller Class Initialized
+INFO - 2024-04-10 21:33:38 --> Config Class Initialized
+INFO - 2024-04-10 21:33:38 --> Hooks Class Initialized
+INFO - 2024-04-10 21:33:38 --> Config Class Initialized
+DEBUG - 2024-04-10 21:33:38 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:33:38 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:38 --> Hooks Class Initialized
+INFO - 2024-04-10 21:33:38 --> URI Class Initialized
+DEBUG - 2024-04-10 21:33:38 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:33:38 --> Router Class Initialized
+INFO - 2024-04-10 21:33:38 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:33:38 --> Output Class Initialized
+INFO - 2024-04-10 21:33:38 --> URI Class Initialized
+INFO - 2024-04-10 21:33:38 --> Security Class Initialized
+DEBUG - 2024-04-10 21:33:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:33:38 --> Router Class Initialized
+INFO - 2024-04-10 21:33:38 --> Input Class Initialized
+INFO - 2024-04-10 21:33:39 --> Output Class Initialized
+INFO - 2024-04-10 21:33:39 --> Language Class Initialized
+INFO - 2024-04-10 21:33:39 --> Security Class Initialized
+DEBUG - 2024-04-10 21:33:39 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2024-04-10 21:33:39 --> 404 Page Not Found: Assets/plugins
+INFO - 2024-04-10 21:33:39 --> Input Class Initialized
+INFO - 2024-04-10 21:33:39 --> Language Class Initialized
+ERROR - 2024-04-10 21:33:39 --> 404 Page Not Found: Assets/js
+INFO - 2024-04-10 21:34:04 --> Config Class Initialized
+INFO - 2024-04-10 21:34:04 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:34:04 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:04 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:04 --> URI Class Initialized
+INFO - 2024-04-10 21:34:04 --> Router Class Initialized
+INFO - 2024-04-10 21:34:04 --> Output Class Initialized
+INFO - 2024-04-10 21:34:04 --> Security Class Initialized
+DEBUG - 2024-04-10 21:34:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:04 --> Input Class Initialized
+INFO - 2024-04-10 21:34:04 --> Language Class Initialized
+INFO - 2024-04-10 21:34:04 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:04 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:04 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:04 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:04 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:04 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:34:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:34:04 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:34:04 --> Email Class Initialized
+INFO - 2024-04-10 21:34:04 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:04 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:04 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:04 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:04 --> Controller Class Initialized
+INFO - 2024-04-10 21:34:05 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:34:05 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:34:05 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:34:05 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:34:05 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:34:05 --> Final output sent to browser
+DEBUG - 2024-04-10 21:34:05 --> Total execution time: 0.5863
+INFO - 2024-04-10 21:34:05 --> Config Class Initialized
+INFO - 2024-04-10 21:34:05 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:34:05 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:05 --> Config Class Initialized
+INFO - 2024-04-10 21:34:05 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:05 --> Hooks Class Initialized
+INFO - 2024-04-10 21:34:05 --> URI Class Initialized
+DEBUG - 2024-04-10 21:34:05 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:05 --> Router Class Initialized
+INFO - 2024-04-10 21:34:05 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:05 --> Output Class Initialized
+INFO - 2024-04-10 21:34:05 --> Security Class Initialized
+INFO - 2024-04-10 21:34:05 --> URI Class Initialized
+DEBUG - 2024-04-10 21:34:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:05 --> Router Class Initialized
+INFO - 2024-04-10 21:34:05 --> Input Class Initialized
+INFO - 2024-04-10 21:34:05 --> Output Class Initialized
+INFO - 2024-04-10 21:34:05 --> Language Class Initialized
+INFO - 2024-04-10 21:34:05 --> Security Class Initialized
+DEBUG - 2024-04-10 21:34:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2024-04-10 21:34:05 --> 404 Page Not Found: Assets/js
+INFO - 2024-04-10 21:34:05 --> Input Class Initialized
+INFO - 2024-04-10 21:34:05 --> Language Class Initialized
+ERROR - 2024-04-10 21:34:05 --> 404 Page Not Found: Assets/plugins
+INFO - 2024-04-10 21:34:05 --> Config Class Initialized
+INFO - 2024-04-10 21:34:05 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:34:05 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:05 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:05 --> URI Class Initialized
+INFO - 2024-04-10 21:34:05 --> Router Class Initialized
+INFO - 2024-04-10 21:34:05 --> Output Class Initialized
+INFO - 2024-04-10 21:34:05 --> Security Class Initialized
+DEBUG - 2024-04-10 21:34:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:06 --> Input Class Initialized
+INFO - 2024-04-10 21:34:06 --> Language Class Initialized
+INFO - 2024-04-10 21:34:06 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:06 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:34:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:34:06 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:34:06 --> Email Class Initialized
+INFO - 2024-04-10 21:34:06 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:06 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:06 --> Controller Class Initialized
+INFO - 2024-04-10 21:34:06 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:34:06 --> Final output sent to browser
+DEBUG - 2024-04-10 21:34:06 --> Total execution time: 0.4411
+INFO - 2024-04-10 21:34:06 --> Config Class Initialized
+INFO - 2024-04-10 21:34:06 --> Config Class Initialized
+INFO - 2024-04-10 21:34:06 --> Hooks Class Initialized
+INFO - 2024-04-10 21:34:06 --> Hooks Class Initialized
+INFO - 2024-04-10 21:34:06 --> Config Class Initialized
+INFO - 2024-04-10 21:34:06 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:34:06 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:06 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:34:06 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:06 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:06 --> URI Class Initialized
+DEBUG - 2024-04-10 21:34:06 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:06 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:06 --> Router Class Initialized
+INFO - 2024-04-10 21:34:06 --> URI Class Initialized
+INFO - 2024-04-10 21:34:06 --> Output Class Initialized
+INFO - 2024-04-10 21:34:06 --> URI Class Initialized
+INFO - 2024-04-10 21:34:06 --> Router Class Initialized
+INFO - 2024-04-10 21:34:06 --> Security Class Initialized
+INFO - 2024-04-10 21:34:06 --> Output Class Initialized
+INFO - 2024-04-10 21:34:06 --> Router Class Initialized
+INFO - 2024-04-10 21:34:06 --> Security Class Initialized
+DEBUG - 2024-04-10 21:34:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:06 --> Output Class Initialized
+INFO - 2024-04-10 21:34:06 --> Input Class Initialized
+INFO - 2024-04-10 21:34:06 --> Security Class Initialized
+DEBUG - 2024-04-10 21:34:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:06 --> Input Class Initialized
+INFO - 2024-04-10 21:34:06 --> Language Class Initialized
+DEBUG - 2024-04-10 21:34:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:06 --> Input Class Initialized
+INFO - 2024-04-10 21:34:06 --> Language Class Initialized
+INFO - 2024-04-10 21:34:06 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:06 --> Language Class Initialized
+INFO - 2024-04-10 21:34:06 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:06 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:06 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:06 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:34:06 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:06 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:34:06 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:34:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:34:06 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:34:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:34:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:34:06 --> Email Class Initialized
+INFO - 2024-04-10 21:34:06 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:06 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:06 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:06 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:07 --> Controller Class Initialized
+INFO - 2024-04-10 21:34:07 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:34:07 --> Final output sent to browser
+DEBUG - 2024-04-10 21:34:07 --> Total execution time: 0.4812
+INFO - 2024-04-10 21:34:07 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:34:07 --> Email Class Initialized
+INFO - 2024-04-10 21:34:07 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:07 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:07 --> Controller Class Initialized
+ERROR - 2024-04-10 21:34:07 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:34:07 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:34:07 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:34:07 --> Config Class Initialized
+INFO - 2024-04-10 21:34:07 --> Email Class Initialized
+INFO - 2024-04-10 21:34:07 --> Hooks Class Initialized
+INFO - 2024-04-10 21:34:07 --> Form Validation Class Initialized
+DEBUG - 2024-04-10 21:34:07 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:07 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:07 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:07 --> URI Class Initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:07 --> Router Class Initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:07 --> Output Class Initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:07 --> Security Class Initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_report" initialized
+DEBUG - 2024-04-10 21:34:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:07 --> Input Class Initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:07 --> Language Class Initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:07 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:07 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:07 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:07 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:07 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:07 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:07 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:07 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:07 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:07 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:34:07 --> Controller Class Initialized
+INFO - 2024-04-10 21:34:07 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+DEBUG - 2024-04-10 21:34:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:34:07 --> Final output sent to browser
+DEBUG - 2024-04-10 21:34:07 --> Total execution time: 1.0038
+INFO - 2024-04-10 21:34:07 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:34:07 --> Email Class Initialized
+INFO - 2024-04-10 21:34:07 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:07 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:07 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:07 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:07 --> Controller Class Initialized
+ERROR - 2024-04-10 21:34:07 --> Query error: Table 'hokala.tbl_cart_receives' doesn't exist - Invalid query: DELETE FROM `tbl_cart_receives`
+WHERE `cart_id` = '57'
+INFO - 2024-04-10 21:34:07 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:34:37 --> Config Class Initialized
+INFO - 2024-04-10 21:34:37 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:34:37 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:37 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:37 --> URI Class Initialized
+INFO - 2024-04-10 21:34:37 --> Router Class Initialized
+INFO - 2024-04-10 21:34:37 --> Output Class Initialized
+INFO - 2024-04-10 21:34:37 --> Security Class Initialized
+DEBUG - 2024-04-10 21:34:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:37 --> Input Class Initialized
+INFO - 2024-04-10 21:34:37 --> Language Class Initialized
+INFO - 2024-04-10 21:34:37 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:37 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:37 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:37 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:37 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:37 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:34:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:34:37 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:34:37 --> Email Class Initialized
+INFO - 2024-04-10 21:34:37 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:37 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:37 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:37 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:37 --> Controller Class Initialized
+INFO - 2024-04-10 21:34:37 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:34:37 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:34:37 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:34:38 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:34:38 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:34:38 --> Final output sent to browser
+DEBUG - 2024-04-10 21:34:38 --> Total execution time: 0.6105
+INFO - 2024-04-10 21:34:38 --> Config Class Initialized
+INFO - 2024-04-10 21:34:38 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:34:38 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:38 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:38 --> URI Class Initialized
+INFO - 2024-04-10 21:34:38 --> Router Class Initialized
+INFO - 2024-04-10 21:34:38 --> Output Class Initialized
+INFO - 2024-04-10 21:34:38 --> Security Class Initialized
+DEBUG - 2024-04-10 21:34:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:38 --> Input Class Initialized
+INFO - 2024-04-10 21:34:38 --> Language Class Initialized
+INFO - 2024-04-10 21:34:38 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:38 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:38 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:38 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:38 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:38 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:34:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:34:38 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:34:38 --> Email Class Initialized
+INFO - 2024-04-10 21:34:38 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:38 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:38 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:38 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:38 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:39 --> Controller Class Initialized
+INFO - 2024-04-10 21:34:39 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:34:39 --> Final output sent to browser
+DEBUG - 2024-04-10 21:34:39 --> Total execution time: 0.5827
+INFO - 2024-04-10 21:34:39 --> Config Class Initialized
+INFO - 2024-04-10 21:34:39 --> Config Class Initialized
+INFO - 2024-04-10 21:34:39 --> Config Class Initialized
+INFO - 2024-04-10 21:34:39 --> Hooks Class Initialized
+INFO - 2024-04-10 21:34:39 --> Hooks Class Initialized
+INFO - 2024-04-10 21:34:39 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:34:39 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:39 --> Utf8 Class Initialized
+DEBUG - 2024-04-10 21:34:39 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:34:39 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:34:39 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:39 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:34:39 --> URI Class Initialized
+INFO - 2024-04-10 21:34:39 --> URI Class Initialized
+INFO - 2024-04-10 21:34:39 --> URI Class Initialized
+INFO - 2024-04-10 21:34:39 --> Router Class Initialized
+INFO - 2024-04-10 21:34:39 --> Output Class Initialized
+INFO - 2024-04-10 21:34:39 --> Router Class Initialized
+INFO - 2024-04-10 21:34:39 --> Router Class Initialized
+INFO - 2024-04-10 21:34:39 --> Security Class Initialized
+INFO - 2024-04-10 21:34:39 --> Output Class Initialized
+INFO - 2024-04-10 21:34:39 --> Output Class Initialized
+INFO - 2024-04-10 21:34:39 --> Security Class Initialized
+DEBUG - 2024-04-10 21:34:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:39 --> Security Class Initialized
+INFO - 2024-04-10 21:34:39 --> Input Class Initialized
+DEBUG - 2024-04-10 21:34:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:34:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:34:39 --> Input Class Initialized
+INFO - 2024-04-10 21:34:39 --> Input Class Initialized
+INFO - 2024-04-10 21:34:39 --> Language Class Initialized
+INFO - 2024-04-10 21:34:39 --> Language Class Initialized
+INFO - 2024-04-10 21:34:39 --> Language Class Initialized
+INFO - 2024-04-10 21:34:39 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:39 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:39 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:39 --> Loader Class Initialized
+INFO - 2024-04-10 21:34:39 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:39 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:34:39 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:34:39 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:34:39 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:34:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:34:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:34:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2024-04-10 21:34:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:34:39 --> Email Class Initialized
+INFO - 2024-04-10 21:34:39 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:39 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:39 --> Controller Class Initialized
+INFO - 2024-04-10 21:34:39 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_total_vat.php
+INFO - 2024-04-10 21:34:39 --> Final output sent to browser
+DEBUG - 2024-04-10 21:34:39 --> Total execution time: 0.5002
+INFO - 2024-04-10 21:34:39 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:34:39 --> Email Class Initialized
+INFO - 2024-04-10 21:34:39 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:39 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:39 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:39 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:40 --> Controller Class Initialized
+INFO - 2024-04-10 21:34:40 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_sub_total.php
+INFO - 2024-04-10 21:34:40 --> Final output sent to browser
+DEBUG - 2024-04-10 21:34:40 --> Total execution time: 0.7552
+INFO - 2024-04-10 21:34:40 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:34:40 --> Email Class Initialized
+INFO - 2024-04-10 21:34:40 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:34:40 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:34:40 --> Pagination Class Initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_user" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_product" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_category" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_report" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_role" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_client" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_move" initialized
+INFO - 2024-04-10 21:34:40 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:34:40 --> Controller Class Initialized
+ERROR - 2024-04-10 21:34:40 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:34:40 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:35:53 --> Config Class Initialized
+INFO - 2024-04-10 21:35:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:35:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:35:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:35:53 --> URI Class Initialized
+INFO - 2024-04-10 21:35:53 --> Router Class Initialized
+INFO - 2024-04-10 21:35:53 --> Output Class Initialized
+INFO - 2024-04-10 21:35:53 --> Security Class Initialized
+DEBUG - 2024-04-10 21:35:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:35:53 --> Input Class Initialized
+INFO - 2024-04-10 21:35:53 --> Language Class Initialized
+INFO - 2024-04-10 21:35:53 --> Loader Class Initialized
+INFO - 2024-04-10 21:35:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:35:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:35:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:35:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:35:53 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:35:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:35:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:35:53 --> Email Class Initialized
+INFO - 2024-04-10 21:35:53 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:35:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:35:53 --> Pagination Class Initialized
+INFO - 2024-04-10 21:35:53 --> Model "M_user" initialized
+INFO - 2024-04-10 21:35:53 --> Model "M_product" initialized
+INFO - 2024-04-10 21:35:53 --> Model "M_category" initialized
+INFO - 2024-04-10 21:35:53 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:35:53 --> Model "M_report" initialized
+INFO - 2024-04-10 21:35:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:35:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:35:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:35:54 --> Model "M_role" initialized
+INFO - 2024-04-10 21:35:54 --> Model "M_client" initialized
+INFO - 2024-04-10 21:35:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:35:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:35:54 --> Model "M_move" initialized
+INFO - 2024-04-10 21:35:54 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:35:54 --> Controller Class Initialized
+INFO - 2024-04-10 21:35:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:35:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:35:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:35:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:35:54 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:35:54 --> Final output sent to browser
+DEBUG - 2024-04-10 21:35:54 --> Total execution time: 0.5558
+INFO - 2024-04-10 21:35:54 --> Config Class Initialized
+INFO - 2024-04-10 21:35:54 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:35:54 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:35:54 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:35:54 --> URI Class Initialized
+INFO - 2024-04-10 21:35:54 --> Router Class Initialized
+INFO - 2024-04-10 21:35:54 --> Output Class Initialized
+INFO - 2024-04-10 21:35:54 --> Security Class Initialized
+DEBUG - 2024-04-10 21:35:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:35:54 --> Input Class Initialized
+INFO - 2024-04-10 21:35:54 --> Language Class Initialized
+INFO - 2024-04-10 21:35:54 --> Loader Class Initialized
+INFO - 2024-04-10 21:35:54 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:35:54 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:35:54 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:35:54 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:35:54 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:35:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:35:55 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:35:55 --> Email Class Initialized
+INFO - 2024-04-10 21:35:55 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:35:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:35:55 --> Pagination Class Initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_user" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_product" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_category" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_report" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_role" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_client" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_move" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:35:55 --> Controller Class Initialized
+INFO - 2024-04-10 21:35:55 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:35:55 --> Final output sent to browser
+DEBUG - 2024-04-10 21:35:55 --> Total execution time: 0.5582
+INFO - 2024-04-10 21:35:55 --> Config Class Initialized
+INFO - 2024-04-10 21:35:55 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:35:55 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:35:55 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:35:55 --> URI Class Initialized
+INFO - 2024-04-10 21:35:55 --> Router Class Initialized
+INFO - 2024-04-10 21:35:55 --> Output Class Initialized
+INFO - 2024-04-10 21:35:55 --> Security Class Initialized
+DEBUG - 2024-04-10 21:35:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:35:55 --> Input Class Initialized
+INFO - 2024-04-10 21:35:55 --> Language Class Initialized
+INFO - 2024-04-10 21:35:55 --> Loader Class Initialized
+INFO - 2024-04-10 21:35:55 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:35:55 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:35:55 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:35:55 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:35:55 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:35:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:35:55 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:35:55 --> Email Class Initialized
+INFO - 2024-04-10 21:35:55 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:35:55 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:35:55 --> Pagination Class Initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_user" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_product" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_category" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_report" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_role" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_client" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_move" initialized
+INFO - 2024-04-10 21:35:55 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:35:55 --> Controller Class Initialized
+ERROR - 2024-04-10 21:35:55 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:35:55 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:35:56 --> Config Class Initialized
+INFO - 2024-04-10 21:35:56 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:35:56 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:35:56 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:35:56 --> URI Class Initialized
+INFO - 2024-04-10 21:35:56 --> Router Class Initialized
+INFO - 2024-04-10 21:35:56 --> Output Class Initialized
+INFO - 2024-04-10 21:35:56 --> Security Class Initialized
+DEBUG - 2024-04-10 21:35:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:35:56 --> Input Class Initialized
+INFO - 2024-04-10 21:35:56 --> Language Class Initialized
+INFO - 2024-04-10 21:35:56 --> Loader Class Initialized
+INFO - 2024-04-10 21:35:56 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:35:56 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:35:56 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:35:56 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:35:56 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:35:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:35:56 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:35:56 --> Email Class Initialized
+INFO - 2024-04-10 21:35:56 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:35:56 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:35:56 --> Pagination Class Initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_user" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_product" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_category" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_report" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_role" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_client" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_move" initialized
+INFO - 2024-04-10 21:35:56 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:35:56 --> Controller Class Initialized
+INFO - 2024-04-10 21:35:56 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:35:56 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:35:56 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:35:56 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:35:56 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:35:56 --> Final output sent to browser
+DEBUG - 2024-04-10 21:35:56 --> Total execution time: 0.6646
+INFO - 2024-04-10 21:35:57 --> Config Class Initialized
+INFO - 2024-04-10 21:35:57 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:35:57 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:35:57 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:35:57 --> URI Class Initialized
+INFO - 2024-04-10 21:35:57 --> Router Class Initialized
+INFO - 2024-04-10 21:35:57 --> Output Class Initialized
+INFO - 2024-04-10 21:35:57 --> Security Class Initialized
+DEBUG - 2024-04-10 21:35:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:35:57 --> Input Class Initialized
+INFO - 2024-04-10 21:35:57 --> Language Class Initialized
+INFO - 2024-04-10 21:35:57 --> Loader Class Initialized
+INFO - 2024-04-10 21:35:57 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:35:57 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:35:57 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:35:57 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:35:57 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:35:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:35:57 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:35:57 --> Email Class Initialized
+INFO - 2024-04-10 21:35:57 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:35:57 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:35:57 --> Pagination Class Initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_user" initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_product" initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_category" initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_report" initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_role" initialized
+INFO - 2024-04-10 21:35:57 --> Model "M_client" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_move" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:35:58 --> Controller Class Initialized
+INFO - 2024-04-10 21:35:58 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:35:58 --> Final output sent to browser
+DEBUG - 2024-04-10 21:35:58 --> Total execution time: 0.5907
+INFO - 2024-04-10 21:35:58 --> Config Class Initialized
+INFO - 2024-04-10 21:35:58 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:35:58 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:35:58 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:35:58 --> URI Class Initialized
+INFO - 2024-04-10 21:35:58 --> Router Class Initialized
+INFO - 2024-04-10 21:35:58 --> Output Class Initialized
+INFO - 2024-04-10 21:35:58 --> Security Class Initialized
+DEBUG - 2024-04-10 21:35:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:35:58 --> Input Class Initialized
+INFO - 2024-04-10 21:35:58 --> Language Class Initialized
+INFO - 2024-04-10 21:35:58 --> Loader Class Initialized
+INFO - 2024-04-10 21:35:58 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:35:58 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:35:58 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:35:58 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:35:58 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:35:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:35:58 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:35:58 --> Email Class Initialized
+INFO - 2024-04-10 21:35:58 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:35:58 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:35:58 --> Pagination Class Initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_user" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_product" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_category" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_report" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_role" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_client" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_move" initialized
+INFO - 2024-04-10 21:35:58 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:35:58 --> Controller Class Initialized
+ERROR - 2024-04-10 21:35:58 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:35:58 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:36:05 --> Config Class Initialized
+INFO - 2024-04-10 21:36:05 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:36:05 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:36:05 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:36:05 --> URI Class Initialized
+INFO - 2024-04-10 21:36:05 --> Router Class Initialized
+INFO - 2024-04-10 21:36:05 --> Output Class Initialized
+INFO - 2024-04-10 21:36:05 --> Security Class Initialized
+DEBUG - 2024-04-10 21:36:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:36:05 --> Input Class Initialized
+INFO - 2024-04-10 21:36:05 --> Language Class Initialized
+INFO - 2024-04-10 21:36:05 --> Loader Class Initialized
+INFO - 2024-04-10 21:36:05 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:36:05 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:36:05 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:36:05 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:36:05 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:36:05 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:36:05 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:36:05 --> Email Class Initialized
+INFO - 2024-04-10 21:36:05 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:36:05 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:36:05 --> Pagination Class Initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_user" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_product" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_category" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_report" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_role" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_client" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_move" initialized
+INFO - 2024-04-10 21:36:05 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:36:05 --> Controller Class Initialized
+ERROR - 2024-04-10 21:36:05 --> Query error: Table 'hokala.tbl_cart_receives' doesn't exist - Invalid query: DELETE FROM `tbl_cart_receives`
+WHERE `cart_id` = '57'
+INFO - 2024-04-10 21:36:05 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:36:10 --> Config Class Initialized
+INFO - 2024-04-10 21:36:10 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:36:10 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:36:10 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:36:10 --> URI Class Initialized
+INFO - 2024-04-10 21:36:10 --> Router Class Initialized
+INFO - 2024-04-10 21:36:10 --> Output Class Initialized
+INFO - 2024-04-10 21:36:10 --> Security Class Initialized
+INFO - 2024-04-10 21:36:10 --> Config Class Initialized
+INFO - 2024-04-10 21:36:10 --> Config Class Initialized
+INFO - 2024-04-10 21:36:10 --> Hooks Class Initialized
+INFO - 2024-04-10 21:36:10 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:36:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:36:10 --> Input Class Initialized
+DEBUG - 2024-04-10 21:36:10 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:36:10 --> Language Class Initialized
+DEBUG - 2024-04-10 21:36:10 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:36:10 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:36:10 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:36:10 --> Loader Class Initialized
+INFO - 2024-04-10 21:36:10 --> URI Class Initialized
+INFO - 2024-04-10 21:36:10 --> URI Class Initialized
+INFO - 2024-04-10 21:36:10 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:36:10 --> Router Class Initialized
+INFO - 2024-04-10 21:36:10 --> Router Class Initialized
+INFO - 2024-04-10 21:36:10 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:36:10 --> Output Class Initialized
+INFO - 2024-04-10 21:36:10 --> Output Class Initialized
+INFO - 2024-04-10 21:36:10 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:36:10 --> Security Class Initialized
+INFO - 2024-04-10 21:36:10 --> Security Class Initialized
+INFO - 2024-04-10 21:36:10 --> Helper loaded: form_helper
+DEBUG - 2024-04-10 21:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:36:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:36:10 --> Input Class Initialized
+INFO - 2024-04-10 21:36:10 --> Input Class Initialized
+INFO - 2024-04-10 21:36:10 --> Language Class Initialized
+INFO - 2024-04-10 21:36:10 --> Language Class Initialized
+INFO - 2024-04-10 21:36:10 --> Database Driver Class Initialized
+ERROR - 2024-04-10 21:36:10 --> 404 Page Not Found: Sass/main.css.map
+ERROR - 2024-04-10 21:36:10 --> 404 Page Not Found: Assets/css
+DEBUG - 2024-04-10 21:36:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:36:10 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:36:10 --> Email Class Initialized
+INFO - 2024-04-10 21:36:10 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:36:10 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:36:10 --> Pagination Class Initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_user" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_product" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_category" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_report" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_role" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_client" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_move" initialized
+INFO - 2024-04-10 21:36:10 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:36:10 --> Controller Class Initialized
+INFO - 2024-04-10 21:36:13 --> Config Class Initialized
+INFO - 2024-04-10 21:36:13 --> Config Class Initialized
+INFO - 2024-04-10 21:36:13 --> Hooks Class Initialized
+INFO - 2024-04-10 21:36:13 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:36:13 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:36:13 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:36:13 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:36:13 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:36:13 --> URI Class Initialized
+INFO - 2024-04-10 21:36:13 --> URI Class Initialized
+INFO - 2024-04-10 21:36:13 --> Router Class Initialized
+INFO - 2024-04-10 21:36:13 --> Router Class Initialized
+INFO - 2024-04-10 21:36:13 --> Output Class Initialized
+INFO - 2024-04-10 21:36:14 --> Output Class Initialized
+INFO - 2024-04-10 21:36:14 --> Security Class Initialized
+INFO - 2024-04-10 21:36:14 --> Security Class Initialized
+DEBUG - 2024-04-10 21:36:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:36:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:36:14 --> Input Class Initialized
+INFO - 2024-04-10 21:36:14 --> Input Class Initialized
+INFO - 2024-04-10 21:36:14 --> Language Class Initialized
+INFO - 2024-04-10 21:36:14 --> Language Class Initialized
+ERROR - 2024-04-10 21:36:14 --> 404 Page Not Found: Assets/js
+ERROR - 2024-04-10 21:36:14 --> 404 Page Not Found: Assets/plugins
+INFO - 2024-04-10 21:37:42 --> Config Class Initialized
+INFO - 2024-04-10 21:37:42 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:37:42 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:42 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:42 --> URI Class Initialized
+INFO - 2024-04-10 21:37:42 --> Router Class Initialized
+INFO - 2024-04-10 21:37:42 --> Output Class Initialized
+INFO - 2024-04-10 21:37:42 --> Security Class Initialized
+DEBUG - 2024-04-10 21:37:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:42 --> Input Class Initialized
+INFO - 2024-04-10 21:37:42 --> Language Class Initialized
+INFO - 2024-04-10 21:37:42 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:42 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:42 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:37:42 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:42 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:42 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:37:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:42 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:37:42 --> Email Class Initialized
+INFO - 2024-04-10 21:37:42 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:42 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:42 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_category" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_client" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:42 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:43 --> Controller Class Initialized
+INFO - 2024-04-10 21:37:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:37:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:37:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:37:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:37:43 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:37:43 --> Final output sent to browser
+DEBUG - 2024-04-10 21:37:43 --> Total execution time: 0.5492
+INFO - 2024-04-10 21:37:43 --> Config Class Initialized
+INFO - 2024-04-10 21:37:43 --> Config Class Initialized
+INFO - 2024-04-10 21:37:43 --> Hooks Class Initialized
+INFO - 2024-04-10 21:37:43 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:37:43 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:37:43 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:43 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:43 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:43 --> URI Class Initialized
+INFO - 2024-04-10 21:37:43 --> URI Class Initialized
+INFO - 2024-04-10 21:37:43 --> Router Class Initialized
+INFO - 2024-04-10 21:37:43 --> Output Class Initialized
+INFO - 2024-04-10 21:37:43 --> Router Class Initialized
+INFO - 2024-04-10 21:37:43 --> Security Class Initialized
+INFO - 2024-04-10 21:37:43 --> Output Class Initialized
+DEBUG - 2024-04-10 21:37:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:43 --> Security Class Initialized
+INFO - 2024-04-10 21:37:43 --> Input Class Initialized
+DEBUG - 2024-04-10 21:37:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:43 --> Input Class Initialized
+INFO - 2024-04-10 21:37:43 --> Language Class Initialized
+INFO - 2024-04-10 21:37:43 --> Language Class Initialized
+ERROR - 2024-04-10 21:37:43 --> 404 Page Not Found: Assets/js
+ERROR - 2024-04-10 21:37:43 --> 404 Page Not Found: Assets/plugins
+INFO - 2024-04-10 21:37:43 --> Config Class Initialized
+INFO - 2024-04-10 21:37:43 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:37:43 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:43 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:43 --> URI Class Initialized
+INFO - 2024-04-10 21:37:43 --> Router Class Initialized
+INFO - 2024-04-10 21:37:43 --> Output Class Initialized
+INFO - 2024-04-10 21:37:43 --> Security Class Initialized
+DEBUG - 2024-04-10 21:37:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:43 --> Input Class Initialized
+INFO - 2024-04-10 21:37:43 --> Language Class Initialized
+INFO - 2024-04-10 21:37:44 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:44 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:44 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:37:44 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:44 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:44 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:37:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:44 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:37:44 --> Email Class Initialized
+INFO - 2024-04-10 21:37:44 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:44 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_category" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_client" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:44 --> Controller Class Initialized
+INFO - 2024-04-10 21:37:44 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:37:44 --> Final output sent to browser
+DEBUG - 2024-04-10 21:37:44 --> Total execution time: 0.5026
+INFO - 2024-04-10 21:37:44 --> Config Class Initialized
+INFO - 2024-04-10 21:37:44 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:37:44 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:44 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:44 --> URI Class Initialized
+INFO - 2024-04-10 21:37:44 --> Router Class Initialized
+INFO - 2024-04-10 21:37:44 --> Output Class Initialized
+INFO - 2024-04-10 21:37:44 --> Security Class Initialized
+DEBUG - 2024-04-10 21:37:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:44 --> Input Class Initialized
+INFO - 2024-04-10 21:37:44 --> Language Class Initialized
+INFO - 2024-04-10 21:37:44 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:44 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:44 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:37:44 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:44 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:44 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:37:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:44 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:37:44 --> Email Class Initialized
+INFO - 2024-04-10 21:37:44 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:44 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:44 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_category" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_client" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:44 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:44 --> Controller Class Initialized
+ERROR - 2024-04-10 21:37:44 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:37:44 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:37:45 --> Config Class Initialized
+INFO - 2024-04-10 21:37:45 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:37:45 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:45 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:45 --> URI Class Initialized
+INFO - 2024-04-10 21:37:45 --> Router Class Initialized
+INFO - 2024-04-10 21:37:45 --> Output Class Initialized
+INFO - 2024-04-10 21:37:45 --> Security Class Initialized
+DEBUG - 2024-04-10 21:37:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:45 --> Input Class Initialized
+INFO - 2024-04-10 21:37:45 --> Language Class Initialized
+INFO - 2024-04-10 21:37:46 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:46 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:46 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:37:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:46 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:37:46 --> Email Class Initialized
+INFO - 2024-04-10 21:37:46 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:46 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_category" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_client" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:46 --> Controller Class Initialized
+INFO - 2024-04-10 21:37:46 --> Final output sent to browser
+DEBUG - 2024-04-10 21:37:46 --> Total execution time: 0.4655
+INFO - 2024-04-10 21:37:46 --> Config Class Initialized
+INFO - 2024-04-10 21:37:46 --> Config Class Initialized
+INFO - 2024-04-10 21:37:46 --> Hooks Class Initialized
+INFO - 2024-04-10 21:37:46 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:37:46 --> UTF-8 Support Enabled
+DEBUG - 2024-04-10 21:37:46 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:46 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:46 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:46 --> URI Class Initialized
+INFO - 2024-04-10 21:37:46 --> URI Class Initialized
+INFO - 2024-04-10 21:37:46 --> Router Class Initialized
+INFO - 2024-04-10 21:37:46 --> Router Class Initialized
+INFO - 2024-04-10 21:37:46 --> Output Class Initialized
+INFO - 2024-04-10 21:37:46 --> Output Class Initialized
+INFO - 2024-04-10 21:37:46 --> Security Class Initialized
+INFO - 2024-04-10 21:37:46 --> Security Class Initialized
+DEBUG - 2024-04-10 21:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2024-04-10 21:37:46 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:46 --> Input Class Initialized
+INFO - 2024-04-10 21:37:46 --> Input Class Initialized
+INFO - 2024-04-10 21:37:46 --> Language Class Initialized
+INFO - 2024-04-10 21:37:46 --> Language Class Initialized
+INFO - 2024-04-10 21:37:46 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:46 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:46 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:46 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:46 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:37:46 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:37:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:46 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-04-10 21:37:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:46 --> Email Class Initialized
+INFO - 2024-04-10 21:37:46 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:46 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_category" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_client" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:46 --> Controller Class Initialized
+INFO - 2024-04-10 21:37:46 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:37:46 --> Final output sent to browser
+DEBUG - 2024-04-10 21:37:46 --> Total execution time: 0.4448
+INFO - 2024-04-10 21:37:46 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:37:46 --> Email Class Initialized
+INFO - 2024-04-10 21:37:46 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:46 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:46 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:46 --> Config Class Initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:46 --> Hooks Class Initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_category" initialized
+DEBUG - 2024-04-10 21:37:46 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:46 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:46 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:46 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:47 --> URI Class Initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:47 --> Router Class Initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:47 --> Output Class Initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:47 --> Security Class Initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_client" initialized
+DEBUG - 2024-04-10 21:37:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:47 --> Input Class Initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:47 --> Language Class Initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:47 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:47 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:47 --> Controller Class Initialized
+INFO - 2024-04-10 21:37:47 --> Helper loaded: file_helper
+ERROR - 2024-04-10 21:37:47 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:37:47 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:47 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:37:47 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:47 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:37:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:47 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:37:47 --> Email Class Initialized
+INFO - 2024-04-10 21:37:47 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:47 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:47 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_category" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_client" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:47 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:47 --> Controller Class Initialized
+ERROR - 2024-04-10 21:37:47 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:37:47 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:37:52 --> Config Class Initialized
+INFO - 2024-04-10 21:37:52 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:37:52 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:52 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:52 --> URI Class Initialized
+INFO - 2024-04-10 21:37:52 --> Router Class Initialized
+INFO - 2024-04-10 21:37:52 --> Output Class Initialized
+INFO - 2024-04-10 21:37:52 --> Security Class Initialized
+DEBUG - 2024-04-10 21:37:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:52 --> Input Class Initialized
+INFO - 2024-04-10 21:37:52 --> Language Class Initialized
+INFO - 2024-04-10 21:37:52 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:52 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:52 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:37:52 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:52 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:52 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:37:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:52 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:37:52 --> Email Class Initialized
+INFO - 2024-04-10 21:37:52 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:52 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:52 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_category" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_client" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:52 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:52 --> Controller Class Initialized
+INFO - 2024-04-10 21:37:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:37:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:37:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:37:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:37:52 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:37:52 --> Final output sent to browser
+DEBUG - 2024-04-10 21:37:52 --> Total execution time: 0.4908
+INFO - 2024-04-10 21:37:53 --> Config Class Initialized
+INFO - 2024-04-10 21:37:53 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:37:53 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:53 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:53 --> URI Class Initialized
+INFO - 2024-04-10 21:37:53 --> Router Class Initialized
+INFO - 2024-04-10 21:37:53 --> Output Class Initialized
+INFO - 2024-04-10 21:37:53 --> Security Class Initialized
+DEBUG - 2024-04-10 21:37:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:53 --> Input Class Initialized
+INFO - 2024-04-10 21:37:53 --> Language Class Initialized
+INFO - 2024-04-10 21:37:53 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:53 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:53 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:37:53 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:53 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:53 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:37:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:53 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:37:53 --> Email Class Initialized
+INFO - 2024-04-10 21:37:53 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:53 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:53 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_category" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_client" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:53 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:53 --> Controller Class Initialized
+INFO - 2024-04-10 21:37:53 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:37:53 --> Final output sent to browser
+DEBUG - 2024-04-10 21:37:53 --> Total execution time: 0.4894
+INFO - 2024-04-10 21:37:54 --> Config Class Initialized
+INFO - 2024-04-10 21:37:54 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:37:54 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:37:54 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:37:54 --> URI Class Initialized
+INFO - 2024-04-10 21:37:54 --> Router Class Initialized
+INFO - 2024-04-10 21:37:54 --> Output Class Initialized
+INFO - 2024-04-10 21:37:54 --> Security Class Initialized
+DEBUG - 2024-04-10 21:37:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:37:54 --> Input Class Initialized
+INFO - 2024-04-10 21:37:54 --> Language Class Initialized
+INFO - 2024-04-10 21:37:54 --> Loader Class Initialized
+INFO - 2024-04-10 21:37:54 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:37:54 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:37:54 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:37:54 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:37:54 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:37:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:37:54 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:37:54 --> Email Class Initialized
+INFO - 2024-04-10 21:37:54 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:37:54 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:37:54 --> Pagination Class Initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_user" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_product" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_category" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_report" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_role" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_client" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_move" initialized
+INFO - 2024-04-10 21:37:54 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:37:54 --> Controller Class Initialized
+ERROR - 2024-04-10 21:37:54 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:37:54 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:38:14 --> Config Class Initialized
+INFO - 2024-04-10 21:38:14 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:38:14 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:14 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:14 --> URI Class Initialized
+INFO - 2024-04-10 21:38:14 --> Router Class Initialized
+INFO - 2024-04-10 21:38:14 --> Output Class Initialized
+INFO - 2024-04-10 21:38:14 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:14 --> Input Class Initialized
+INFO - 2024-04-10 21:38:14 --> Language Class Initialized
+INFO - 2024-04-10 21:38:14 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:14 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:14 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:38:14 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:14 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:14 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:38:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:14 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:14 --> Email Class Initialized
+INFO - 2024-04-10 21:38:14 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:14 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:14 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:14 --> Controller Class Initialized
+INFO - 2024-04-10 21:38:14 --> Final output sent to browser
+DEBUG - 2024-04-10 21:38:14 --> Total execution time: 0.4615
+INFO - 2024-04-10 21:38:14 --> Config Class Initialized
+INFO - 2024-04-10 21:38:14 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:38:14 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:14 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:14 --> URI Class Initialized
+INFO - 2024-04-10 21:38:14 --> Router Class Initialized
+INFO - 2024-04-10 21:38:14 --> Output Class Initialized
+INFO - 2024-04-10 21:38:14 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:15 --> Input Class Initialized
+INFO - 2024-04-10 21:38:15 --> Language Class Initialized
+INFO - 2024-04-10 21:38:15 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:15 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:15 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:38:15 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:15 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:15 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:38:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:15 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:15 --> Email Class Initialized
+INFO - 2024-04-10 21:38:15 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:15 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:15 --> Controller Class Initialized
+INFO - 2024-04-10 21:38:15 --> Final output sent to browser
+DEBUG - 2024-04-10 21:38:15 --> Total execution time: 0.4800
+INFO - 2024-04-10 21:38:15 --> Config Class Initialized
+INFO - 2024-04-10 21:38:15 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:38:15 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:15 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:15 --> URI Class Initialized
+INFO - 2024-04-10 21:38:15 --> Router Class Initialized
+INFO - 2024-04-10 21:38:15 --> Output Class Initialized
+INFO - 2024-04-10 21:38:15 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:15 --> Input Class Initialized
+INFO - 2024-04-10 21:38:15 --> Language Class Initialized
+INFO - 2024-04-10 21:38:15 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:15 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:15 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:38:15 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:15 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:15 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:38:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:15 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:15 --> Email Class Initialized
+INFO - 2024-04-10 21:38:15 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:15 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:15 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:16 --> Controller Class Initialized
+INFO - 2024-04-10 21:38:16 --> Final output sent to browser
+DEBUG - 2024-04-10 21:38:16 --> Total execution time: 0.4566
+INFO - 2024-04-10 21:38:16 --> Config Class Initialized
+INFO - 2024-04-10 21:38:16 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:38:16 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:16 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:16 --> URI Class Initialized
+INFO - 2024-04-10 21:38:16 --> Router Class Initialized
+INFO - 2024-04-10 21:38:16 --> Output Class Initialized
+INFO - 2024-04-10 21:38:16 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:16 --> Input Class Initialized
+INFO - 2024-04-10 21:38:16 --> Language Class Initialized
+INFO - 2024-04-10 21:38:16 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:16 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:16 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:38:16 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:16 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:16 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:38:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:16 --> Email Class Initialized
+INFO - 2024-04-10 21:38:16 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:16 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:16 --> Controller Class Initialized
+INFO - 2024-04-10 21:38:16 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:38:16 --> Final output sent to browser
+DEBUG - 2024-04-10 21:38:16 --> Total execution time: 0.4341
+INFO - 2024-04-10 21:38:16 --> Config Class Initialized
+INFO - 2024-04-10 21:38:16 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:38:16 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:16 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:16 --> URI Class Initialized
+INFO - 2024-04-10 21:38:16 --> Router Class Initialized
+INFO - 2024-04-10 21:38:16 --> Output Class Initialized
+INFO - 2024-04-10 21:38:16 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:16 --> Input Class Initialized
+INFO - 2024-04-10 21:38:16 --> Language Class Initialized
+INFO - 2024-04-10 21:38:16 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:16 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:16 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:38:16 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:16 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:16 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:38:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:16 --> Email Class Initialized
+INFO - 2024-04-10 21:38:16 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:16 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:38:16 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:17 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:17 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:17 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:17 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:17 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:17 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:17 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:17 --> Controller Class Initialized
+ERROR - 2024-04-10 21:38:17 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:38:17 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:38:19 --> Config Class Initialized
+INFO - 2024-04-10 21:38:19 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:38:19 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:19 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:19 --> URI Class Initialized
+INFO - 2024-04-10 21:38:19 --> Router Class Initialized
+INFO - 2024-04-10 21:38:19 --> Output Class Initialized
+INFO - 2024-04-10 21:38:19 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:19 --> Input Class Initialized
+INFO - 2024-04-10 21:38:19 --> Language Class Initialized
+INFO - 2024-04-10 21:38:19 --> Config Class Initialized
+INFO - 2024-04-10 21:38:19 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:19 --> Hooks Class Initialized
+INFO - 2024-04-10 21:38:19 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:19 --> Helper loaded: file_helper
+DEBUG - 2024-04-10 21:38:19 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:19 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:19 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:19 --> URI Class Initialized
+INFO - 2024-04-10 21:38:19 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:19 --> Router Class Initialized
+INFO - 2024-04-10 21:38:19 --> Output Class Initialized
+INFO - 2024-04-10 21:38:19 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:38:19 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:19 --> Input Class Initialized
+DEBUG - 2024-04-10 21:38:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:19 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:19 --> Language Class Initialized
+INFO - 2024-04-10 21:38:19 --> Email Class Initialized
+INFO - 2024-04-10 21:38:19 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:19 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:19 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:19 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:38:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:19 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:19 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:19 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:19 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:19 --> Database Driver Class Initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_shop" initialized
+DEBUG - 2024-04-10 21:38:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:19 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:19 --> Controller Class Initialized
+INFO - 2024-04-10 21:38:19 --> Final output sent to browser
+DEBUG - 2024-04-10 21:38:19 --> Total execution time: 0.4603
+INFO - 2024-04-10 21:38:19 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:19 --> Email Class Initialized
+INFO - 2024-04-10 21:38:19 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:19 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:19 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:19 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:20 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:38:20 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:20 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:20 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:20 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:20 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:20 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:20 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:20 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:20 --> Controller Class Initialized
+INFO - 2024-04-10 21:38:20 --> Final output sent to browser
+DEBUG - 2024-04-10 21:38:20 --> Total execution time: 0.5737
+INFO - 2024-04-10 21:38:20 --> Config Class Initialized
+INFO - 2024-04-10 21:38:20 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:38:20 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:20 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:20 --> URI Class Initialized
+INFO - 2024-04-10 21:38:20 --> Router Class Initialized
+INFO - 2024-04-10 21:38:20 --> Output Class Initialized
+INFO - 2024-04-10 21:38:20 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:20 --> Input Class Initialized
+INFO - 2024-04-10 21:38:20 --> Language Class Initialized
+INFO - 2024-04-10 21:38:20 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:20 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:20 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:38:20 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:20 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:21 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:38:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:21 --> Email Class Initialized
+INFO - 2024-04-10 21:38:21 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:21 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:21 --> Controller Class Initialized
+INFO - 2024-04-10 21:38:21 --> Final output sent to browser
+DEBUG - 2024-04-10 21:38:21 --> Total execution time: 0.4850
+INFO - 2024-04-10 21:38:21 --> Config Class Initialized
+INFO - 2024-04-10 21:38:21 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:38:21 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:21 --> URI Class Initialized
+INFO - 2024-04-10 21:38:21 --> Router Class Initialized
+INFO - 2024-04-10 21:38:21 --> Output Class Initialized
+INFO - 2024-04-10 21:38:21 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:21 --> Input Class Initialized
+INFO - 2024-04-10 21:38:21 --> Language Class Initialized
+INFO - 2024-04-10 21:38:21 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:21 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:21 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:38:21 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:21 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:21 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:38:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:21 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:21 --> Email Class Initialized
+INFO - 2024-04-10 21:38:21 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:21 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:21 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:21 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:21 --> Controller Class Initialized
+INFO - 2024-04-10 21:38:21 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:38:21 --> Final output sent to browser
+DEBUG - 2024-04-10 21:38:21 --> Total execution time: 0.4676
+INFO - 2024-04-10 21:38:21 --> Config Class Initialized
+INFO - 2024-04-10 21:38:21 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:38:21 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:38:21 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:38:21 --> URI Class Initialized
+INFO - 2024-04-10 21:38:21 --> Router Class Initialized
+INFO - 2024-04-10 21:38:21 --> Output Class Initialized
+INFO - 2024-04-10 21:38:21 --> Security Class Initialized
+DEBUG - 2024-04-10 21:38:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:38:21 --> Input Class Initialized
+INFO - 2024-04-10 21:38:21 --> Language Class Initialized
+INFO - 2024-04-10 21:38:21 --> Loader Class Initialized
+INFO - 2024-04-10 21:38:21 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:38:22 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:38:22 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:38:22 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:38:22 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:38:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:38:22 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:38:22 --> Email Class Initialized
+INFO - 2024-04-10 21:38:22 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:38:22 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:38:22 --> Pagination Class Initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_user" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_product" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_category" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_report" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_role" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_client" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_move" initialized
+INFO - 2024-04-10 21:38:22 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:38:22 --> Controller Class Initialized
+ERROR - 2024-04-10 21:38:22 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:38:22 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:39:14 --> Config Class Initialized
+INFO - 2024-04-10 21:39:14 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:39:14 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:39:14 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:39:14 --> URI Class Initialized
+INFO - 2024-04-10 21:39:14 --> Router Class Initialized
+INFO - 2024-04-10 21:39:14 --> Output Class Initialized
+INFO - 2024-04-10 21:39:14 --> Security Class Initialized
+DEBUG - 2024-04-10 21:39:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:39:14 --> Input Class Initialized
+INFO - 2024-04-10 21:39:14 --> Language Class Initialized
+INFO - 2024-04-10 21:39:14 --> Loader Class Initialized
+INFO - 2024-04-10 21:39:14 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:39:14 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:39:14 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:39:14 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:39:14 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:39:14 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:39:14 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:39:14 --> Email Class Initialized
+INFO - 2024-04-10 21:39:14 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:39:14 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:39:14 --> Pagination Class Initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_user" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_product" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_category" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_report" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_role" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_client" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_move" initialized
+INFO - 2024-04-10 21:39:14 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:39:14 --> Controller Class Initialized
+INFO - 2024-04-10 21:39:14 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/header.php
+INFO - 2024-04-10 21:39:14 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/menu.php
+INFO - 2024-04-10 21:39:14 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:39:14 --> File loaded: C:\xampp\htdocs\hokala\application\views\includes/footer.php
+INFO - 2024-04-10 21:39:14 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_pos.php
+INFO - 2024-04-10 21:39:14 --> Final output sent to browser
+DEBUG - 2024-04-10 21:39:14 --> Total execution time: 0.5585
+INFO - 2024-04-10 21:39:15 --> Config Class Initialized
+INFO - 2024-04-10 21:39:15 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:39:15 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:39:15 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:39:15 --> URI Class Initialized
+INFO - 2024-04-10 21:39:15 --> Router Class Initialized
+INFO - 2024-04-10 21:39:15 --> Output Class Initialized
+INFO - 2024-04-10 21:39:15 --> Security Class Initialized
+DEBUG - 2024-04-10 21:39:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:39:15 --> Input Class Initialized
+INFO - 2024-04-10 21:39:15 --> Language Class Initialized
+INFO - 2024-04-10 21:39:15 --> Loader Class Initialized
+INFO - 2024-04-10 21:39:15 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:39:15 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:39:15 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:39:15 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:39:15 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:39:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:39:15 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:39:15 --> Email Class Initialized
+INFO - 2024-04-10 21:39:15 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:39:15 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:39:15 --> Pagination Class Initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_user" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_product" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_category" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_report" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_role" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_client" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_move" initialized
+INFO - 2024-04-10 21:39:15 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:39:15 --> Controller Class Initialized
+INFO - 2024-04-10 21:39:15 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:39:15 --> Final output sent to browser
+DEBUG - 2024-04-10 21:39:15 --> Total execution time: 0.5720
+INFO - 2024-04-10 21:39:16 --> Config Class Initialized
+INFO - 2024-04-10 21:39:16 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:39:16 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:39:16 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:39:16 --> URI Class Initialized
+INFO - 2024-04-10 21:39:16 --> Router Class Initialized
+INFO - 2024-04-10 21:39:16 --> Output Class Initialized
+INFO - 2024-04-10 21:39:16 --> Security Class Initialized
+DEBUG - 2024-04-10 21:39:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:39:16 --> Input Class Initialized
+INFO - 2024-04-10 21:39:16 --> Language Class Initialized
+INFO - 2024-04-10 21:39:16 --> Loader Class Initialized
+INFO - 2024-04-10 21:39:16 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:39:16 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:39:16 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:39:16 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:39:16 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:39:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:39:16 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:39:16 --> Email Class Initialized
+INFO - 2024-04-10 21:39:16 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:39:16 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:39:16 --> Pagination Class Initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_user" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_product" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_category" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_report" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_role" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_client" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_move" initialized
+INFO - 2024-04-10 21:39:16 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:39:16 --> Controller Class Initialized
+ERROR - 2024-04-10 21:39:16 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:39:16 --> Language file loaded: language/english/db_lang.php
+INFO - 2024-04-10 21:40:32 --> Config Class Initialized
+INFO - 2024-04-10 21:40:32 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:40:32 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:40:32 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:40:32 --> URI Class Initialized
+INFO - 2024-04-10 21:40:32 --> Router Class Initialized
+INFO - 2024-04-10 21:40:32 --> Output Class Initialized
+INFO - 2024-04-10 21:40:33 --> Security Class Initialized
+DEBUG - 2024-04-10 21:40:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:40:33 --> Input Class Initialized
+INFO - 2024-04-10 21:40:33 --> Language Class Initialized
+INFO - 2024-04-10 21:40:33 --> Loader Class Initialized
+INFO - 2024-04-10 21:40:33 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:40:33 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:40:33 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:40:33 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:40:33 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:40:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:40:33 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:40:33 --> Email Class Initialized
+INFO - 2024-04-10 21:40:33 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:40:33 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:40:33 --> Pagination Class Initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_user" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_product" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_category" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_report" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_role" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_client" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_move" initialized
+INFO - 2024-04-10 21:40:33 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:40:33 --> Controller Class Initialized
+INFO - 2024-04-10 21:40:33 --> Final output sent to browser
+DEBUG - 2024-04-10 21:40:33 --> Total execution time: 0.7860
+INFO - 2024-04-10 21:40:33 --> Config Class Initialized
+INFO - 2024-04-10 21:40:33 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:40:33 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:40:33 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:40:33 --> URI Class Initialized
+INFO - 2024-04-10 21:40:33 --> Router Class Initialized
+INFO - 2024-04-10 21:40:33 --> Output Class Initialized
+INFO - 2024-04-10 21:40:33 --> Security Class Initialized
+DEBUG - 2024-04-10 21:40:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:40:33 --> Input Class Initialized
+INFO - 2024-04-10 21:40:33 --> Language Class Initialized
+INFO - 2024-04-10 21:40:33 --> Loader Class Initialized
+INFO - 2024-04-10 21:40:33 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:40:33 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:40:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:40:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:40:34 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:40:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:40:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:40:34 --> Email Class Initialized
+INFO - 2024-04-10 21:40:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:40:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:40:34 --> Pagination Class Initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_user" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_product" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_category" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_report" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_role" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_client" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_move" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:40:34 --> Controller Class Initialized
+INFO - 2024-04-10 21:40:34 --> File loaded: C:\xampp\htdocs\hokala\application\views\receive/_load_cart.php
+INFO - 2024-04-10 21:40:34 --> Final output sent to browser
+DEBUG - 2024-04-10 21:40:34 --> Total execution time: 0.6601
+INFO - 2024-04-10 21:40:34 --> Config Class Initialized
+INFO - 2024-04-10 21:40:34 --> Hooks Class Initialized
+DEBUG - 2024-04-10 21:40:34 --> UTF-8 Support Enabled
+INFO - 2024-04-10 21:40:34 --> Utf8 Class Initialized
+INFO - 2024-04-10 21:40:34 --> URI Class Initialized
+INFO - 2024-04-10 21:40:34 --> Router Class Initialized
+INFO - 2024-04-10 21:40:34 --> Output Class Initialized
+INFO - 2024-04-10 21:40:34 --> Security Class Initialized
+DEBUG - 2024-04-10 21:40:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-04-10 21:40:34 --> Input Class Initialized
+INFO - 2024-04-10 21:40:34 --> Language Class Initialized
+INFO - 2024-04-10 21:40:34 --> Loader Class Initialized
+INFO - 2024-04-10 21:40:34 --> Helper loaded: url_helper
+INFO - 2024-04-10 21:40:34 --> Helper loaded: file_helper
+INFO - 2024-04-10 21:40:34 --> Helper loaded: html_helper
+INFO - 2024-04-10 21:40:34 --> Helper loaded: form_helper
+INFO - 2024-04-10 21:40:34 --> Database Driver Class Initialized
+DEBUG - 2024-04-10 21:40:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-04-10 21:40:34 --> Session: Class initialized using 'files' driver.
+INFO - 2024-04-10 21:40:34 --> Email Class Initialized
+INFO - 2024-04-10 21:40:34 --> Form Validation Class Initialized
+INFO - 2024-04-10 21:40:34 --> Language file loaded: language/english/pagination_lang.php
+INFO - 2024-04-10 21:40:34 --> Pagination Class Initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_user" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_product" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_category" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_supplier" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_report" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_shop" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_shift" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_warehouse" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_role" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_client" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_unit" initialized
+INFO - 2024-04-10 21:40:34 --> Model "M_payment_type" initialized
+INFO - 2024-04-10 21:40:35 --> Model "M_move" initialized
+INFO - 2024-04-10 21:40:35 --> Model "M_receive" initialized
+INFO - 2024-04-10 21:40:35 --> Controller Class Initialized
+ERROR - 2024-04-10 21:40:35 --> Query error: Unknown column 'total_cost' in 'field list' - Invalid query: SELECT SUM(`total_cost`) AS `total_cost`
+FROM `tbl_cart_sales`
+WHERE `user_id` = '1'
+INFO - 2024-04-10 21:40:35 --> Language file loaded: language/english/db_lang.php

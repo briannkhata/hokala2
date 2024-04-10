@@ -1,7 +1,7 @@
 <?php
 defined("BASEPATH") or exit("No direct script access allowed");
 
-class Receive extends CI_Controller
+class Sale extends CI_Controller
 {
     function __construct()
     {
@@ -13,8 +13,8 @@ class Receive extends CI_Controller
 
     function index()
     {
-        $data["page_title"] = "POS WINDOW - RECEIVE";
-        $this->load->view("receive/_pos", $data);
+        $data["page_title"] = "POS WINDOW";
+        $this->load->view("sale/_pos", $data);
     }
 
     // function save_client()
@@ -24,7 +24,7 @@ class Receive extends CI_Controller
     //     if (!empty($client_id) && empty($name)) {
     //         $client = $this->M_client->get_name($client_id) . ' | ' . $this->M_client->get_phone($client_id);
     //         $data["page_title"] = "POS WINDOW - " . $client;
-    //         $this->load->view("receive/_pos", $data);
+    //         $this->load->view("sale/_pos", $data);
     //     }
 
     //     if ((!empty($client_id) || empty($client_id)) && !empty($name)) {
@@ -34,13 +34,13 @@ class Receive extends CI_Controller
     //         $data['client_id'] = $this->db->insert_id();
     //         $client = $this->M_client->get_name($client_id) . ' | ' . $this->M_client->get_phone($client_id);
     //         $data["page_title"] = "POS WINDOW - " . $client;
-    //         $this->load->view("receive/_pos", $data);
+    //         $this->load->view("sale/_pos", $data);
 
     //     }
 
     //     if (empty($client_id) && empty($name)) {
     //         $this->session->set_flashdata('message', 'Please select Client to proceed!!!');
-    //         redirect('receive');
+    //         redirect('Sale');
     //     }
     // }
 
@@ -49,13 +49,15 @@ class Receive extends CI_Controller
     //     //$client = $this->M_client->get_name($client_id) . ' | ' . $this->M_client->get_phone($client_id);
     //     //$data["page_title"] = "POS WINDOW - " . $client;
     //     $data['page_name'] = "pos";
-    //     $this->load->view("receive/_pos", $data);
+    //     $this->load->view("sale/_pos", $data);
     // }
 
     function refresh_cart()
     {
 
         $user_id = $this->session->userdata('user_id');
+        $shop_id = $this->M_user->get_user_shop($user_id);
+        $client_id = $this->input->post('client_id');
         $product_id = trim($this->input->post('product_id'));
 
         if (!empty($product_id) && isset($product_id)) {
@@ -74,37 +76,45 @@ class Receive extends CI_Controller
         $vat = $this->db->get('tbl_settings')->row()->vat;
         if (!empty($product_info)) {
             $product = $product_info[0];
-            $found = $this->M_receive->get_product_in_cart($product['product_id'], $user_id);
+            $found = $this->M_product->get_product_in_cart($product['product_id'], $user_id, $client_id, $shop_id);
             if ($found) {
-                //$unit_id = $this->M_product->get_unit_id($product['product_id']);
-                //$receiveQTY = $this->M_unit->get_unit_qty($unit_id);
-                $cart_id = $this->M_receive->get_cart_id_by_product_id($product['product_id'], $user_id);
-                $qty = $this->M_receive->get_cart_qty($cart_id) + 1;
-                $cost_price = $this->M_receive->get_cart_cost_price($cart_id);
+                $unit_id = $this->M_product->get_unit_id($product['product_id']);
+                $saleQTY = $this->M_unit->get_unit_qty($unit_id);
+                $cart_id = $this->M_product->get_cart_id_by_product_id($product['product_id'], $user_id, $client_id, $shop_id);
+                $qty = $this->M_product->get_cart_qty($cart_id) + $saleQTY;
+                $price = $this->M_product->get_cart_price($cart_id);
 
-                $total_cost = $cost_price * $qty;
+                $sub_total = $price * $qty;
+                $vat_amount = (($vat / 100) * $sub_total);
+                $total = $vat_amount + $sub_total;
                 $cart_data = array(
                     'qty' => $qty,
-                    'total_cost' => $total_cost
+                    'vat' => $vat_amount,
+                    'total' => $total,
+                    'sub_total' => $sub_total
                 );
                 $this->db->where('cart_id', $cart_id);
-                $this->db->update('tbl_cart_receive', $cart_data);
+                $this->db->update('tbl_cart_sales', $cart_data);
 
             } else {
-               // $unit_id = $this->M_product->get_unit_id($product['product_id']);
-               // $receiveQTY = $this->M_unit->get_unit_qty($unit_id);
-                $selling_price = $this->M_product->get_price($product['product_id']);
-                $qty = 1;
-                $total_cost = $selling_price * $qty;
+                $unit_id = $this->M_product->get_unit_id($product['product_id']);
+                $saleQTY = $this->M_unit->get_unit_qty($unit_id);
+                $qty = $saleQTY;
+                $sub_total = $this->M_product->get_price($product['product_id']) * $qty;
+                $vat_amount = (($vat / 100) * $sub_total);
+                $total = $vat_amount + $sub_total;
                 $cart_data = array(
                     'product_id' => $product['product_id'],
-                    'price' => $selling_price,
+                    'price' => $this->M_product->get_price($product['product_id']),
                     'qty' => $qty,
-                    'cost_price' => $selling_price,
-                    'total_cost' => $total_cost,
+                    'vat' => $vat_amount,
+                    'total' => $total,
+                    'sub_total' => $sub_total,
                     'user_id' => $user_id,
+                    'shop_id' => $shop_id,
+                    'client_id' => $client_id
                 );
-                $this->db->insert('tbl_cart_receive', $cart_data);
+                $this->db->insert('tbl_cart_sales', $cart_data);
             }
             echo json_encode(array('success' => true));
         } else {
@@ -116,30 +126,28 @@ class Receive extends CI_Controller
     {
         $cart_id = trim($this->input->post('cart_id'));
         $qtyNew = trim($this->input->post('qty'));
-        $cost_price = trim($this->input->post('cost_price'));
 
-        if (empty($qtyNew) || $qtyNew <= 0) {
-            echo json_encode(array('success' => false, 'message' => 'Quantity must be greater than 0!!!'));
+        if (empty($qtyNew)) {
+            echo json_encode(array('success' => false, 'message' => 'Quantity is required!!!'));
             return;
         }
 
-        if (empty($cost_price) || $cost_price <= 0) {
-            echo json_encode(array('success' => false, 'message' => 'Cost Price must be greater than 0'));
-            return;
-        }
-
-        $product_info = $this->M_receive->get_product_by_cart_id($cart_id);
+        $product_info = $this->M_product->get_product_by_cart_id($cart_id);
+        $vat = $this->db->get('tbl_settings')->row()->vat;
         if (!empty($product_info)) {
             $qty = $qtyNew;
             $product = $product_info[0];
-            $total_cost = $cost_price * $qty;
+            $sub_total = $product['price'] * $qty;
+            $vat_amount = (($vat / 100) * $sub_total);
+            $total = $vat_amount + $sub_total;
             $cart_data = array(
                 'qty' => $qty,
-                'cost_price' => $cost_price,
-                'total_cost' => $total_cost
+                'vat' => $vat_amount,
+                'total' => $total,
+                'sub_total' => $sub_total
             );
             $this->db->where('cart_id', $cart_id);
-            $this->db->update('tbl_cart_receive', $cart_data);
+            $this->db->update('tbl_cart_sales', $cart_data);
             echo json_encode(array('success' => true));
         } else {
             echo json_encode(array('success' => false, 'message' => 'Product not found'));
@@ -151,42 +159,48 @@ class Receive extends CI_Controller
     {
         $cart_id = $this->input->post('cart_id');
         $this->db->where("cart_id", $cart_id);
-        $this->db->delete("tbl_cart_receive");
+        $this->db->delete("tbl_cart_sales");
         return;
     }
 
     function refreshCart()
     {
+        $client_id = $this->input->post('client_id');
         $user_id = $this->session->userdata('user_id');
-        $data['cart'] = $this->M_receive->get_cart($user_id);
-        $this->load->view("receive/_load_cart", $data);
+        $shop_id = $this->M_user->get_user_shop($user_id);
+        $data['cart'] = $this->M_product->get_cart($user_id, $client_id, $shop_id);
+        $this->load->view("sale/_load_cart", $data);
     }
 
     function refresh_total_bill()
     {
-        $this->load->view("receive/_load_total_bill");
+        $this->load->view("sale/_load_total_bill");
     }
 
-    // function refresh_sub_total_bill()
-    // {
-    //     $this->load->view("receive/_load_sub_total");
-    // }
+    function refresh_sub_total_bill()
+    {
+        $this->load->view("sale/_load_sub_total");
+    }
 
-    // function refresh_total_vat()
-    // {
-    //     $this->load->view("receive/_load_total_vat");
-    // }
+    function refresh_total_vat()
+    {
+        $this->load->view("sale/_load_total_vat");
+    }
 
     function cancel()
     {
         $user_id = $this->session->userdata('user_id');
+        $shop_id = $this->M_user->get_user_shop($user_id);
+        $client_id = $this->input->post('client_id');
         $this->db->where('user_id', $user_id);
-        $this->db->delete('tbl_cart_receive');
+        $this->db->where('shop_id', $shop_id);
+        $this->db->where('client_id', $client_id);
+        $this->db->delete('tbl_cart_sales');
         echo json_encode(array('success' => true, 'message' => 'Cart cleared successfully!!!'));
     }
 
 
-    function finish_receive()
+    function finish_sale()
     {
         $user_id = $this->session->userdata('user_id');
         $shop_id = $this->M_user->get_user_shop($user_id);
@@ -196,7 +210,7 @@ class Receive extends CI_Controller
         $products = $this->M_product->get_cart($user_id, $client_id, $shop_id);
         $data['user_id'] = $user_id;
         $data['shop_id'] = $this->M_user->get_user_shop($user_id);
-        $data['receive_date'] = date('Y-m-d h:m:s');
+        $data['sale_date'] = date('Y-m-d h:m:s');
         $data['vat'] = $this->M_product->get_total_vat_cart($user_id, $client_id, $shop_id);
         $data['sub_total'] = $this->M_product->get_sub_total_sum_cart($user_id, $client_id, $shop_id);
         $data['total'] = $this->M_product->get_total_sum_cart($user_id, $client_id, $shop_id);
@@ -206,22 +220,22 @@ class Receive extends CI_Controller
         $data['payment_type_id'] = $payment_type_id;
         $data['details'] = $details;
         $data['balance'] = $data['total'] - $data['tendered'];
-        $this->db->insert('tbl_receives', $data);
-        $receive_id = $this->db->insert_id();
+        $this->db->insert('tbl_sales', $data);
+        $sale_id = $this->db->insert_id();
 
         foreach ($products as $row) {
-            $receive_detail_data['product_id'] = $row['product_id'];
-            $receive_detail_data['price'] = $row['price'];
-            $receive_detail_data['qty'] = $row['qty'];
-            $receive_detail_data['vat'] = $row['vat'];
-            $receive_detail_data['total'] = $row['total'];
-            $receive_detail_data['sub_total'] = $row['sub_total'];
-            $receive_detail_data['receive_id'] = $receive_id;
-            $receive_detail_data['client_id'] = $row['client_id'];
-            $receive_detail_data['receive_date'] = date('Y-m-d H:i:s');
-            $receive_detail_data['shop_id'] = $row['shop_id'];
-            $receive_detail_data['user_id'] = $row['user_id'];
-            $this->db->insert('tbl_receive_details', $receive_detail_data);
+            $sale_detail_data['product_id'] = $row['product_id'];
+            $sale_detail_data['price'] = $row['price'];
+            $sale_detail_data['qty'] = $row['qty'];
+            $sale_detail_data['vat'] = $row['vat'];
+            $sale_detail_data['total'] = $row['total'];
+            $sale_detail_data['sub_total'] = $row['sub_total'];
+            $sale_detail_data['sale_id'] = $sale_id;
+            $sale_detail_data['client_id'] = $row['client_id'];
+            $sale_detail_data['sale_date'] = date('Y-m-d H:i:s');
+            $sale_detail_data['shop_id'] = $row['shop_id'];
+            $sale_detail_data['user_id'] = $row['user_id'];
+            $this->db->insert('tbl_sale_details', $sale_detail_data);
             $old_qty = $this->M_product->get_qty1($row['product_id'], $row['shop_id']);
             $new_qty = $old_qty - $row['qty'];
             $this->db->where('product_id', $row['product_id']);
@@ -229,7 +243,7 @@ class Receive extends CI_Controller
             $this->db->update('tbl_quantities', array('qty' => $new_qty));
         }
 
-        $datap['receive_id'] = $receive_id;
+        $datap['sale_id'] = $sale_id;
         $datap['user_id'] = $user_id;
         $datap['shop_id'] = $this->M_user->get_user_shop($user_id);
         $datap['client_id'] = $client_id;
@@ -243,11 +257,11 @@ class Receive extends CI_Controller
         $this->db->where('user_id', $user_id);
         $this->db->where('shop_id', $shop_id);
         $this->db->where('client_id', $client_id);
-        $this->db->delete('tbl_cart_receives');
-        // redirect("receive/receipt/" . $receive_id . '/' . $client_id);
-        $receipt_data = $this->M_product->get_receives_details($user_id, $client_id, $shop_id, $receive_id);
+        $this->db->delete('tbl_cart_sales');
+        // redirect("Sale/receipt/" . $sale_id . '/' . $client_id);
+        $receipt_data = $this->M_product->get_sales_details($user_id, $client_id, $shop_id, $sale_id);
         //return json_encode($receipt);
-        $receipt_html =  $this->load->view('receive/_receipt', $receipt_data, true);
+        $receipt_html =  $this->load->view('sale/_receipt', $receipt_data, true);
         echo $receipt_html;
 
     }
@@ -255,9 +269,9 @@ class Receive extends CI_Controller
 
     function receipt($param = "")
     {
-        $data['receive_id'] = $param;
+        $data['sale_id'] = $param;
         $data["page_title"] = "Receipt";
         $data['page_name'] = "pos";
-        $this->load->view('receive/_receipt', $data);
+        $this->load->view('sale/_receipt', $data);
     }
 }
