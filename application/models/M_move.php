@@ -40,13 +40,13 @@ class M_move extends CI_Model
 
     function get_warehouse_qty($product_id, $warehouse_id)
     {
-        $this->db->select('wqty');
+        $this->db->select('qty');
         $this->db->where('product_id', $product_id);
         $this->db->where('warehouse_id', $warehouse_id);
-        $query = $this->db->get('tbl_quantities');
+        $query = $this->db->get('tbl_wh_quantities');
         if ($query->num_rows() > 0) {
             $result = $query->row();
-            return $result->wqty;
+            return $result->qty;
         } else {
             return 0;
         }

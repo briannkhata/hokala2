@@ -139,7 +139,7 @@ $config['subclass_prefix'] = 'MY_';
 | Note: This will NOT disable or override the CodeIgniter-specific
 |	autoloading (application/config/autoload.php)
 */
-$config['composer_autoload'] = 'vendor/autoload.php';
+//$config['composer_autoload'] = 'vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -226,8 +226,8 @@ $config['allow_get_array'] = TRUE;
 | your log files will fill up very fast.
 |
 */
-$config['log_threshold'] = 0;
-
+$config['log_threshold'] = 4;
+//$config['log_threshold'] = 0;
 /*
 |--------------------------------------------------------------------------
 | Error Logging Directory Path
@@ -237,8 +237,8 @@ $config['log_threshold'] = 0;
 | application/logs/ directory. Use a full server path with trailing slash.
 |
 */
-$config['log_path'] = '';
-
+$config['log_path'] = './logs/';
+$config['memory_limit'] = '1024M';
 /*
 |--------------------------------------------------------------------------
 | Log File Extension
@@ -296,7 +296,7 @@ $config['error_views_path'] = '';
 | application/cache/ directory.  Use a full server path with trailing slash.
 |
 */
-$config['cache_path'] = '';
+$config['cache_path'] = './cache';
 
 /*
 |--------------------------------------------------------------------------
