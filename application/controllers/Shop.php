@@ -74,7 +74,7 @@ class Shop extends CI_Controller
 
     function sync_quantities($shop_id)
     {
-        $products = $this->M_product->get_produts();
+        $products = $this->M_product->get_products();
         foreach ($products as $pro) {
             $qty_exists = $this->M_move->get_shop_quantities($pro['product_id'],$shop_id);
             if (!$qty_exists) {

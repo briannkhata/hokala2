@@ -74,7 +74,7 @@ class Warehouse extends CI_Controller
 
     function sync_quantities($warehouse_id)
     {
-        $products = $this->M_product->get_produts();
+        $products = $this->M_product->get_products();
         foreach ($products as $pro) {
             $qty_exists = $this->M_move->get_warehouse_quantities($pro['product_id'],$warehouse_id);
             if (!$qty_exists) {
