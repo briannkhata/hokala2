@@ -32,14 +32,19 @@
 
                         <div class="col-md-12">
                            <label class="control-label">Logo</label>
-                           <input type="file" name="logo" class="form-control">
+                           <input type="file" name="logo" id="logo" class="form-control">
                         </div>
+                       
+                        <img id="image" src="<?=$row['logo']; ?>"
+                           class="img-responsive img-thumbnail"
+                           style="width: 250px; height: 250px; margin-left: 3%; margin-top: 1%;" />
 
                         <div class="col-md-12">
                            <label class="control-label">Shop</label>
                            <input type="hidden" name="id" class="form-control" value="<?= $row['id']; ?>">
                            <input type="text" name="company" class="form-control" value="<?= $row['company']; ?>" required>
                         </div>
+
 
                         <div class="col-md-6">
                            <label class="control-label">Phone</label>
@@ -75,9 +80,15 @@
                            <label class="control-label">VAT Status</label>
                            <select class="form-control" name="vat_status">
                               <option selected disabled>option</option>
-                              <option <?php if($row['vat_status'] == "inclusive") echo 'selected';?> value="inclusive">Inclusive</option>
-                              <option <?php if($row['vat_status'] == "exclusive") echo 'selected';?> value="exclusive">Exclusive</option>
-                              <option <?php if($row['vat_status'] == "exclude") echo 'selected';?> value="exclude">Exclude</option>
+                              <option <?php if ($row['vat_status'] == "inclusive")
+                                 echo 'selected'; ?> value="inclusive">
+                                 Inclusive</option>
+                              <option <?php if ($row['vat_status'] == "exclusive")
+                                 echo 'selected'; ?> value="exclusive">
+                                 Exclusive</option>
+                              <option <?php if ($row['vat_status'] == "exclude")
+                                 echo 'selected'; ?> value="exclude">Exclude
+                              </option>
                            </select>
                         </div>
 
@@ -97,17 +108,26 @@
 </main>
 <!--end main wrapper-->
 <script type="text/javascript">
-   function previewImage(input) {
-      var file = input.files[0];
+   // function previewImage(input) {
+   //    var file = input.files[0];
 
-      if (file) {
-         var reader = new FileReader();
-         reader.onload = function (e) {
-            $('#photoPreview').html('<img src="' + e.target.result + '" class="img-fluid" alt="Preview" style="width:150px; height:100px;">');
-         }
+   //    if (file) {
+   //       var reader = new FileReader();
+   //       reader.onload = function (e) {
+   //          $('#photoPreview').html('<img src="' + e.target.result + '" class="img-fluid" alt="Preview" style="width:150px; height:100px;">');
+   //       }
 
-         reader.readAsDataURL(file);
-      }
-   }
+   //       reader.readAsDataURL(file);
+   //    }
+   // }
+
+   document.getElementById("logo").onchange = function () {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+            document.getElementById("image").src = e.target.result;
+        };
+        reader.readAsDataURL(this.files[0]);
+    };
+
 </script>
 <?php $this->load->view('includes/footer.php'); ?>

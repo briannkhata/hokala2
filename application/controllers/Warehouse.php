@@ -57,13 +57,12 @@ class Warehouse extends CI_Controller
         if (isset($update_id)) {
             $this->db->where("warehouse_id", $update_id);
             $this->db->update("tbl_warehouses", $data);
+            $this->sync_quantities($update_id);
+
         } else {
             $this->db->insert("tbl_warehouses", $data);
             $warehouse_id = $this->db->insert_id();
-            
-            $data0['warehouse_id'] = $warehouse_id;
-            $data0['qty'] = 0;
-            $this->db->insert("tbl_wh_quantities", $data0);
+            $this->sync_quantities($warehouse_id);
         }
         if ($update_id != ""):
             redirect("Warehouse");
@@ -71,6 +70,23 @@ class Warehouse extends CI_Controller
             redirect("Warehouse/read");
         endif;
         $this->session->set_flashdata("message", "Warehouse saved successfully!");
+    }
+
+    function sync_quantities($warehouse_id)
+    {
+        $products = $this->M_product->get_produts();
+        foreach ($products as $pro) {
+            $qty_exists = $this->M_move->get_warehouse_quantities($pro['product_id'],$warehouse_id);
+            if (!$qty_exists) {
+                $data = array(
+                    "product_id" => $pro['product_id'],
+                    "warehouse_id" => $warehouse_id,
+                    "qty" => 0
+                );
+                $this->db->insert("tbl_wh_quantities", $data);
+            }
+        }
+
     }
 
     function delete($param="")

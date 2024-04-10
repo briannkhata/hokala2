@@ -58,8 +58,11 @@ class Shop extends CI_Controller
         if (isset($update_id)) {
             $this->db->where("shop_id", $update_id);
             $this->db->update("tbl_shops", $data);
+            $this->sync_quantities($update_id);
         } else {
             $this->db->insert("tbl_shops", $data);
+            $shop_id = $this->db->insert_id();
+            $this->sync_quantities($shop_id);
         }
         if ($update_id != ""):
             redirect("Shop");
@@ -67,6 +70,23 @@ class Shop extends CI_Controller
             redirect("Shop/read");
         endif;
         $this->session->set_flashdata("message", "Shop saved successfully!");
+    }
+
+    function sync_quantities($shop_id)
+    {
+        $products = $this->M_product->get_produts();
+        foreach ($products as $pro) {
+            $qty_exists = $this->M_move->get_shop_quantities($pro['product_id'],$shop_id);
+            if (!$qty_exists) {
+                $data = array(
+                    "product_id" => $pro['product_id'],
+                    "shop_id" => $shop_id,
+                    "qty" => 0
+                );
+                $this->db->insert("tbl_quantities", $data);
+            }
+        }
+
     }
 
     function delete($param="")

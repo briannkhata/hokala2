@@ -28,6 +28,25 @@ class Config extends CI_Controller
 		$data['address'] = $this->input->post('address');
 		$data['vat_status'] = $this->input->post('vat_status');
 		$data['vat'] = $this->input->post('vat');
+
+		if (!empty($_FILES['logo']['name'])) {
+			$uploadDir = './assets/uploads/';
+			$uploadFile = $uploadDir . basename($_FILES['logo']['name']);
+			$imageFileType = strtolower(pathinfo($uploadFile, PATHINFO_EXTENSION));
+			$allowedTypes = array('jpg', 'jpeg', 'png');
+			if (in_array($imageFileType, $allowedTypes)) {
+				if (move_uploaded_file($_FILES['logo']['tmp_name'], $uploadFile)) {
+					$data['logo'] = $uploadFile;
+				} else {
+					$this->session->set_flashdata('error', 'Error uploading file!');
+					redirect('Config');
+				}
+			} else {
+				$this->session->set_flashdata('error', 'Invalid file type. Allowed types: JPG, JPEG, PNG');
+				redirect('Config');
+			}
+		}
+
 		$this->db->where('id', $id);
 		$this->db->update('tbl_settings', $data);
 		$this->session->set_flashdata('message', 'Settings Successfully!');
