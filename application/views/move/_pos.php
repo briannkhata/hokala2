@@ -157,7 +157,7 @@
                     <div class="font-35 text-danger"><span class="material-icons-outlined fs-2">check_circle</span>
                     </div>
                     <div class="ms-3">
-                        <h6 class="mb-0 text-success"><?= $this->session->flashdata('error'); ?></h6>
+                        <h6 class="mb-0 text-danger"><?= $this->session->flashdata('error'); ?></h6>
                     </div>
                 </div>
             </div>

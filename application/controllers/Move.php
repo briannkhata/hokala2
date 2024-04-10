@@ -151,6 +151,62 @@ class Move extends CI_Controller
         $to_shop = $this->input->post("to_shop");
         $from_wh = $this->input->post("from_wh");
         $to_wh = $this->input->post("to_wh");
+
+        if (empty($move_to)) {
+            $this->session->set_flashdata("error", "Error!,Select the creteria of moving items e.g shop to shop!");
+            redirect("Move");
+        }
+
+        if ($move_to == 1) {// shop to shop
+
+            if (empty($from_shop)) {
+                $this->session->set_flashdata("error", "Error!,Select the shop to move items from!");
+                redirect("Move");
+            }
+            if (empty($to_shop)) {
+                $this->session->set_flashdata("error", "Error!,Select the shop to move items to!");
+                redirect("Move");
+            }
+        }
+
+        if ($move_to == 2) {// shop to warehouse
+
+            if (empty($from_shop)) {
+                $this->session->set_flashdata("error", "Error!,Select the shop to move items from!");
+                redirect("Move");
+            }
+
+            if (empty($to_wh)) {
+                $this->session->set_flashdata("error", "Error!,Select the Warehouse move items to!");
+                redirect("Move");
+            }
+        }
+
+        if ($move_to == 3) { //warehouse to warehouse
+            if (empty($from_wh)) {
+                $this->session->set_flashdata("error", "Error!,Select the warehouse to move items from!");
+                redirect("Move");
+            }
+
+            if (empty($to_wh)) {
+                $this->session->set_flashdata("error", "Error!,Select the Warehouse move items to!");
+                redirect("Move");
+            }
+        }
+
+        if ($move_to == 4) { //warehouse to shop
+            if (empty($from_wh)) {
+                $this->session->set_flashdata("error", "Error!,Select the warehouse to move items from!");
+                redirect("Move");
+            }
+
+            if (empty($to_shop)) {
+                $this->session->set_flashdata("error", "Error!,Select the shop move items to!");
+                redirect("Move");
+            }
+
+        }
+
         $data['receiver'] = $this->input->post("receiver");
         $data['description'] = $this->input->post("description");
         $data['date_moved'] = date('Y-m-d H:i:s');
@@ -216,9 +272,9 @@ class Move extends CI_Controller
             redirect("Move");
             //echo json_encode(array('success' => true, 'message' => 'Products moved successfully!!!'));
         } else {
-           // echo json_encode(array('success' => true, 'message' => 'No data Found'));
-           $this->session->set_flashdata("error", "Error moving Items,...No Products Found!!!!");
-           redirect("Move");
+            // echo json_encode(array('success' => true, 'message' => 'No data Found'));
+            $this->session->set_flashdata("error", "Error moving Items,...No Products Found!!!!");
+            redirect("Move");
         }
 
     }
