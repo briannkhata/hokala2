@@ -91,8 +91,8 @@ class Receive extends CI_Controller
                 $this->db->update('tbl_cart_receive', $cart_data);
 
             } else {
-               // $unit_id = $this->M_product->get_unit_id($product['product_id']);
-               // $receiveQTY = $this->M_unit->get_unit_qty($unit_id);
+                // $unit_id = $this->M_product->get_unit_id($product['product_id']);
+                // $receiveQTY = $this->M_unit->get_unit_qty($unit_id);
                 $selling_price = $this->M_product->get_price($product['product_id']);
                 $qty = 1;
                 $total_cost = $selling_price * $qty;
@@ -116,7 +116,9 @@ class Receive extends CI_Controller
     {
         $cart_id = trim($this->input->post('cart_id'));
         $qtyNew = trim($this->input->post('qty'));
-        $cost_price = trim($this->input->post('cost_price'));
+        $expiry_date = $this->input->post('expiry_date');
+        $cost_price = str_replace([',', ' '], '', $this->input->post('cost_price'));
+        $price = str_replace([',', ' '], '', $this->input->post('price'));
 
         if (empty($qtyNew) || $qtyNew <= 0) {
             echo json_encode(array('success' => false, 'message' => 'Quantity must be greater than 0!!!'));
@@ -128,6 +130,11 @@ class Receive extends CI_Controller
             return;
         }
 
+        if (empty($price) || $price <= 0) {
+            echo json_encode(array('success' => false, 'message' => 'Selling Price must be greater than 0'));
+            return;
+        }
+
         $product_info = $this->M_receive->get_product_by_cart_id($cart_id);
         if (!empty($product_info)) {
             $qty = $qtyNew;
@@ -135,8 +142,10 @@ class Receive extends CI_Controller
             $total_cost = $cost_price * $qty;
             $cart_data = array(
                 'qty' => $qty,
+                'price' => $price,
                 'cost_price' => $cost_price,
-                'total_cost' => $total_cost
+                'total_cost' => $total_cost,
+                'expiry_date' => $expiry_date
             );
             $this->db->where('cart_id', $cart_id);
             $this->db->update('tbl_cart_receive', $cart_data);
@@ -167,16 +176,6 @@ class Receive extends CI_Controller
         $this->load->view("receive/_load_total_bill");
     }
 
-    // function refresh_sub_total_bill()
-    // {
-    //     $this->load->view("receive/_load_sub_total");
-    // }
-
-    // function refresh_total_vat()
-    // {
-    //     $this->load->view("receive/_load_total_vat");
-    // }
-
     function cancel()
     {
         $user_id = $this->session->userdata('user_id');
@@ -189,66 +188,80 @@ class Receive extends CI_Controller
     function finish_receive()
     {
         $user_id = $this->session->userdata('user_id');
-        $shop_id = $this->M_user->get_user_shop($user_id);
-        $client_id = $this->input->post('client_id');
-        $payment_type_id = $this->input->post('payment_type_id');
-        $details = $this->input->post('details');
-        $products = $this->M_product->get_cart($user_id, $client_id, $shop_id);
+        $supplier_id = $this->input->post('supplier_id');
+        $order_details = $this->input->post('order_details');
+        $shop_id = $this->input->post('shop_id');
+        $warehouse_id = $this->input->post('warehouse_id');
+
+        if (!isset($shop_id) && !isset($warehouse_id)) {
+            $this->session->set_flashdata("error", "Please select the the destination");
+            redirect("Receive");
+        }
+
+        if (!isset($supplier_id)) {
+            $this->session->set_flashdata("error", "Please select the Supplier");
+            redirect("Receive");
+        }
+
+        $products = $this->M_receive->get_cart($user_id);
+        if (count($products) <= 0) {
+            $this->session->set_flashdata("error", "No data Found to Receive");
+            redirect("Receive");
+        }
+
         $data['user_id'] = $user_id;
-        $data['shop_id'] = $this->M_user->get_user_shop($user_id);
+        $data['shop_id'] = $shop_id;
+        $data['warehouse_id'] = $warehouse_id;
+        $data['supplier_id'] = $supplier_id;
+        $data['order_details'] = $order_details;
         $data['receive_date'] = date('Y-m-d h:m:s');
-        $data['vat'] = $this->M_product->get_total_vat_cart($user_id, $client_id, $shop_id);
-        $data['sub_total'] = $this->M_product->get_sub_total_sum_cart($user_id, $client_id, $shop_id);
-        $data['total'] = $this->M_product->get_total_sum_cart($user_id, $client_id, $shop_id);
-        $data['tendered'] = str_replace([',', ' '], '', $this->input->post('tendered'));
-        $data['change'] = $data['tendered'] - $data['total'];
-        $data['client_id'] = $client_id;
-        $data['payment_type_id'] = $payment_type_id;
-        $data['details'] = $details;
-        $data['balance'] = $data['total'] - $data['tendered'];
-        $this->db->insert('tbl_receives', $data);
+        $data['total_cost'] = $this->M_receive->get_total_sum_cart($user_id);
+        $this->db->insert('tbl_receivings', $data);
         $receive_id = $this->db->insert_id();
 
         foreach ($products as $row) {
             $receive_detail_data['product_id'] = $row['product_id'];
             $receive_detail_data['price'] = $row['price'];
             $receive_detail_data['qty'] = $row['qty'];
-            $receive_detail_data['vat'] = $row['vat'];
-            $receive_detail_data['total'] = $row['total'];
-            $receive_detail_data['sub_total'] = $row['sub_total'];
+            $receive_detail_data['cost_price'] = $row['cost_price'];
+            $receive_detail_data['total_cost'] = $row['total_cost'];
             $receive_detail_data['receive_id'] = $receive_id;
-            $receive_detail_data['client_id'] = $row['client_id'];
-            $receive_detail_data['receive_date'] = date('Y-m-d H:i:s');
-            $receive_detail_data['shop_id'] = $row['shop_id'];
             $receive_detail_data['user_id'] = $row['user_id'];
+            $receive_detail_data['receive_date'] = date('Y-m-d H:i:s');
+            $receive_detail_data['expiry_date'] = $row['expiry_date'];
             $this->db->insert('tbl_receive_details', $receive_detail_data);
-            $old_qty = $this->M_product->get_qty1($row['product_id'], $row['shop_id']);
-            $new_qty = $old_qty - $row['qty'];
+
+            //update products
             $this->db->where('product_id', $row['product_id']);
-            $this->db->where('shop_id', $row['shop_id']);
-            $this->db->update('tbl_quantities', array('qty' => $new_qty));
+            $this->db->update('tbl_products', array('expiry_date' => $row['expiry_date'], 'selling_price' => $row['price']));
+
+            if (isset($shop_id) && !isset($warehouse_id)) {
+                $old_shop_qty = $this->M_move->get_shop_qty($row['product_id'], $shop_id);
+                $new_shop_qty = $old_shop_qty + $row['qty'];
+                $this->db->where('product_id', $row['product_id']);
+                $this->db->where('shop_id', $shop_id);
+                $this->db->update('tbl_quantities', array('qty' => $new_shop_qty));
+            }
+
+            if (!isset($shop_id) && isset($warehouse_id)) {
+                $old_whs_qty = $this->M_move->get_warehouse_qty($row['product_id'], $warehouse_id);
+                $new_wh_qty = $old_whs_qty + $row['qty'];
+                $this->db->where('product_id', $row['product_id']);
+                $this->db->where('warehouse_id', $warehouse_id);
+                $this->db->update('tbl_wh_quantities', array('qty' => $new_wh_qty));
+            }
         }
 
-        $datap['receive_id'] = $receive_id;
-        $datap['user_id'] = $user_id;
-        $datap['shop_id'] = $this->M_user->get_user_shop($user_id);
-        $datap['client_id'] = $client_id;
-        $datap['payment_date'] = date('Y-m-d h:m:s');
-        $datap['total_bill'] = $this->M_product->get_total_sum_cart($user_id, $client_id, $shop_id);
-        $datap['payment_amount'] = str_replace([',', ' '], '', $this->input->post('tendered'));
-        $datap['payment_type_id'] = $payment_type_id;
-        $this->db->insert('tbl_payments', $datap);
-
-
         $this->db->where('user_id', $user_id);
-        $this->db->where('shop_id', $shop_id);
-        $this->db->where('client_id', $client_id);
-        $this->db->delete('tbl_cart_receives');
+        $this->db->delete('tbl_cart_receive');
+        $this->session->set_flashdata("message", "Products Received Successfully");
+        redirect("Receive");
+
         // redirect("receive/receipt/" . $receive_id . '/' . $client_id);
-        $receipt_data = $this->M_product->get_receives_details($user_id, $client_id, $shop_id, $receive_id);
+        //$receipt_data = $this->M_product->get_receives_details($user_id, $client_id, $shop_id, $receive_id);
         //return json_encode($receipt);
-        $receipt_html =  $this->load->view('receive/_receipt', $receipt_data, true);
-        echo $receipt_html;
+        //$receipt_html =  $this->load->view('receive/_receipt', $receipt_data, true);
+        //echo $receipt_html;
 
     }
 

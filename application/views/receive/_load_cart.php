@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
 <style>
     #cart {
         width: 100%;
@@ -49,6 +51,7 @@
         align-items: center;
         justify-content: center;
     }
+
     .quantity-container1 {
         display: flex;
         align-items: center;
@@ -120,10 +123,11 @@ if (count($cart) <= 0):
         <thead>
             <tr>
                 <th>Product</th>
-                <!-- <th>Price</th> -->
+                <th>Selling Price</th>
                 <th>Cost Price</th>
                 <th align="center">Qty</th>
                 <th>Total Cost</th>
+                <th>Expiry Date</th>
                 <th>Remove</th>
             </tr>
         </thead>
@@ -135,29 +139,32 @@ if (count($cart) <= 0):
                     <td>
                         <?= $this->M_product->get_name($row['product_id']); ?><br>
                         <small><b><?= $this->M_product->get_barcode($row['product_id']); ?></b></small>
+                        <input type="hidden" name="cart_id[]" value="<?= $row['cart_id']; ?>">
                     </td>
-                    <!-- <td>
-                    <div class="quantity-container1">
-                        <input type="text" class="price" name="price[]" value="<?= number_format($row['price'], 2); ?>">
-                    </div>
-                    </td> -->
                     <td>
-                    <div class="quantity-container1">
-                        <input type="text" class="cost_price" name="cost_price[]"
-                            value="<?= number_format($row['cost_price'], 2); ?>">
-                    </div>
+                        <div class="quantity-container1">
+                            <input type="text" class="price" name="price[]" value="<?= number_format($row['price'], 2); ?>">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="quantity-container1">
+                            <input type="text" class="cost_price" name="cost_price[]"
+                                value="<?= number_format($row['cost_price'], 2); ?>">
+                        </div>
                     </td>
                     <td align="center">
                         <div class="quantity-container">
-                            <input type="hidden" name="cart_id[]" value="<?= $row['cart_id']; ?>">
-                            <button type="button" class="minus-btn">-</button>
                             <input type="text" class="quantity" name="qty[]" value="<?= $row['qty']; ?>">
-                            <button type="button" class="plus-btn">+</button>
                         </div>
                     </td>
 
                     <td>
                         <?= number_format($row['total_cost'], 2); ?>
+                    </td>
+                    <td align="center">
+                        <div class="quantity-container1">
+                            <input type="date" class="expiry_date" name="expiry_date[]" value="<?= $row['expiry_date']; ?>">
+                        </div>
                     </td>
                     <td align="center">
                         <a href="#" onclick="delete_cart(<?= $row['cart_id']; ?>)" class="btn btn-sm btn-danger">
@@ -174,28 +181,55 @@ if (count($cart) <= 0):
 <script src="<?= base_url(); ?>assets/js/customReceive.js"></script>
 
 <script>
+
     $('.quantity').on('click', function () {
         $(this).val('');
     });
 
-    var debounceTimer;
-
-    $('.quantity').on('keyup', function () {
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(() => {
-            var cartId = $(this).closest('tr').find('input[name="cart_id[]"]').val();
-            var newQuantity = $(this).val();
-            updateCartQuantity(cartId, newQuantity);
-        }, 500);
+    $('.cost_price').on('click', function () {
+        $(this).val('');
     });
 
 
+    $('.cost_price, .quantity,.expiry_date,.price').on('change', function () {
+        var row = $(this).closest('tr');
+        var cartId = row.find('input[name="cart_id[]"]').val();
+        var NewPrice = parseFloat(row.find('input[name="price[]"]').val());
+        var NewCost = parseFloat(row.find('input[name="cost_price[]"]').val());
+        var newQuantity = parseFloat(row.find('input[name="qty[]"]').val());
+        var expiryDate = row.find('input[name="expiry_date[]"]').val();
+        updateCartQuantity(cartId, newQuantity, NewCost, expiryDate, NewPrice);
+    });
 
-    function updateCartQuantity(cartId, newQuantity) {
+    //var debounceTimer;
+
+    // $('.quantity').on('input', function () {
+    //     clearTimeout(debounceTimer);
+    //     debounceTimer = setTimeout(() => {
+    //         var cartId = $(this).closest('tr').find('input[name="cart_id[]"]').val();
+    //         var cost_price = $(this).closest('tr').find('input[name="cost_price[]"]').val();
+    //         var newQuantity = $(this).val();
+    //         updateCartQuantity(cartId, newQuantity, cost_price);
+    //     }, 500);
+    // });
+
+    // $('.cost_price').on('input', function () {
+    //     clearTimeout(debounceTimer);
+    //     debounceTimer = setTimeout(() => {
+    //         var cartId = $(this).closest('tr').find('input[name="cart_id[]"]').val();
+    //         var newQuantity = $(this).closest('tr').find('input[name="quantity[]"]').val();
+    //         var cost_price = $(this).val();
+    //         updateCartQuantity(cartId, newQuantity, cost_price);
+    //     }, 500);
+    // });
+
+
+
+    function updateCartQuantity(cartId, newQuantity, NewCost, expiryDate, NewPrice) {
         $.ajax({
-            url: '<?= base_url("Sale/update_cart"); ?>',
+            url: '<?= base_url("Receive/update_cart"); ?>',
             method: 'POST',
-            data: { cart_id: cartId, qty: newQuantity },
+            data: { cart_id: cartId, qty: newQuantity, cost_price: NewCost, expiry_date: expiryDate, price: NewPrice },
             success: function (response) {
                 load_cart();
                 console.log(response)
@@ -207,27 +241,26 @@ if (count($cart) <= 0):
     }
 
 
-    $('.plus-btn').click(function () {
-        var inputField = $(this).siblings('.quantity');
-        var currentValue = parseInt(inputField.val());
-        var newQuantity = currentValue + 1;
-        var cartId = inputField.closest('tr').find('input[name="cart_id[]"]').val();
-        updateCartQuantity(cartId, newQuantity);
-        inputField.val(newQuantity);
-        $('#change').text('');
-        $('#tendered').text('');
-    });
+    // $('.plus-btn').click(function () {
+    //     var inputField = $(this).siblings('.quantity');
+    //     var currentValue = parseInt(inputField.val());
+    //     var newQuantity = currentValue + 1;
+    //     var cost_price = inputField.closest('tr').find('input[name="cost_price[]"]').val();
+    //     var cartId = inputField.closest('tr').find('input[name="cart_id[]"]').val();
+    //     updateCartQuantity(cartId, newQuantity);
+    //     inputField.val(newQuantity);
+    // });
 
 
-    $('.minus-btn').click(function () {
-        var inputField = $(this).siblings('.quantity');
-        var currentValue = parseInt(inputField.val());
-        var newQuantity = currentValue - 1;
-        var cartId = inputField.closest('tr').find('input[name="cart_id[]"]').val();
-        updateCartQuantity(cartId, newQuantity);
-        inputField.val(newQuantity);
-        $('#change').text('');
-        $('#tendered').text('');
-    });
+    // $('.minus-btn').click(function () {
+    //     var inputField = $(this).siblings('.quantity');
+    //     var currentValue = parseInt(inputField.val());
+    //     var newQuantity = currentValue - 1;
+    //     var cartId = inputField.closest('tr').find('input[name="cart_id[]"]').val();
+    //     updateCartQuantity(cartId, newQuantity);
+    //     inputField.val(newQuantity);
+    //     //$('#change').text('');
+    //     //$('#tendered').text('');
+    // });
 
 </script>

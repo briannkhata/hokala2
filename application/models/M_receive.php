@@ -64,7 +64,7 @@ class M_receive extends CI_Model
     {
         $this->db->select_sum('total_cost');
         $this->db->where('user_id', $user_id);
-        $result = $this->db->get('tbl_cart_sales')->row();
+        $result = $this->db->get('tbl_cart_receive')->row();
         return $result->total_cost ?? 0;
     }
 
@@ -146,14 +146,6 @@ class M_receive extends CI_Model
             return $allreceivesQuery->result_array();
         }
         return $results;
-    }
-
-    function get_product_by_cart_id($cart_id)
-    {
-        $this->db->where('cart_id', $cart_id);
-        $this->db->from('tbl_cart_receive');
-        $query = $this->db->get();
-        return $query->result_array();
     }
 
     function get_cart($user_id)

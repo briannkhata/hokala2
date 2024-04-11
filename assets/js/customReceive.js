@@ -141,19 +141,11 @@ function search() {
   });
 }
 
-function total_bill() {
-  var sum = 0;
-  $("#cart tbody tr").each(function () {
-    var total = parseFloat($(this).find("td:eq(4)").text());
-    sum += total;
-  });
-  $("#totalSum").html(sum);
-}
+
 
 function cancel() {
   $.post(
     "Receive/cancel",
-    {  },
     function (data) {
       if (data.success) {
         load_cart();

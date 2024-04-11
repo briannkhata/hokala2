@@ -143,138 +143,200 @@
 <!--start main wrapper-->
 <main class="main-wrapper">
    <div class="main-content">
-    <form>
-      <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
-         <div class="col">
-            <a href="" class="btn btn-outline-success" style="margin-right: 7px;" data-bs-toggle="modal"
-               data-bs-target="#SearchProduct">Lookup <i class="fa fa-search"></i></a>
-            <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear
-               <i class="fa fa-trash"></i></a>
-         </div>
-         <select class="form-control" name="supplier_id" id="supplier_id">
-            <option disabled selected>Supplier</option>
-            <?php foreach ($this->M_supplier->get_suppliers() as $row) { ?>
-               <option value="<?= $row['supplier_id']; ?>">
-                  <?= $row['name']; ?> |
-                  <?= $row['phone']; ?>
-               </option>
-            <?php } ?>
-         </select>
-      </div>
-      <hr>
 
-      <style>
-         #barcode {
-            padding: 8px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-            width: 100%;
-            box-sizing: border-box;
-            margin-bottom: 10px;
-            font-size: 20px;
-         }
 
-         #productList ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-         }
-
-         #productList li {
-            padding: 8px;
-            cursor: pointer;
-         }
-
-         #productList li:hover {
-            background-color: #f0f0f0;
-         }
-
-         #productList {
-            position: absolute;
-            z-index: 1000;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            max-height: auto;
-            overflow-y: auto;
-            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-            width: 50%;
-            margin-top: -2px;
-         }
-
-         /* Style for the search results list */
-         #searchResults {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-         }
-
-         /* Style for each product item in the search results */
-         .product-item {
-            padding: 8px;
-            cursor: pointer;
-         }
-
-         .product-item:hover {
-            background-color: #f0f0f0;
-         }
-      </style>
-
-      <div class="row">
-         <div class="col-12 col-xl-12">
-            <b><small>Search Product by Barcode, Name or Category</small></b>
-
-            <input id="barcode" name="barcode" type="search" placeholder="Search Product barcode">
-            <div id="productList">
-               <ul id="searchResults"></ul>
-            </div>
-
-            <br>
-            <div id="list">
-               <?php $this->load->view('receive/_load_cart'); ?>
+      <?php if ($this->session->flashdata('message')) { ?>
+         <div class="alert alert-border-success alert-dismissible fade show">
+            <div class="d-flex align-items-center">
+               <div class="font-35 text-success"><span class="material-icons-outlined fs-2">check_circle</span>
+               </div>
+               <div class="ms-3">
+                  <h6 class="mb-0 text-success"><?= $this->session->flashdata('message'); ?></h6>
+               </div>
             </div>
          </div>
+      <?php } ?>
 
 
-         <div class="col-12 col-xl-12">
-            <div class="card">
-               <div class="card-body p-4">
-                  <h5 class="mb-4">
-                     <b>TOTAL COST: <span id="totalBill"></span></b>
-                  </h5>
-                  <hr>
-                  <select class="form-control" name="shop_id" id="shop_id">
-                     <option selected disabled>RECEIVE TO SHOP</option>
-                     <?php foreach ($this->M_shop->get_shops() as $row) { ?>
-                        <option value="<?= $row['shop_id']; ?>">
-                           <?= $row['name']; ?>
-                        </option>
-                     <?php } ?>
-                  </select>
-                  <br>
-                  <select class="form-control" name="warehouse_id" id="warehouse_id">
-                     <option selected disabled>RECEIVE TO WAREHOUSE</option>
-                     <?php foreach ($this->M_warehouse->get_warehouses() as $row) { ?>
-                        <option value="<?= $row['warehouse_id']; ?>">
-                           <?= $row['name']; ?>
-                        </option>
-                     <?php } ?>
-                  </select>
+      <?php if ($this->session->flashdata('error')) { ?>
+         <div class="alert alert-border-danger alert-dismissible fade show">
+            <div class="d-flex align-items-center">
+               <div class="font-35 text-danger"><span class="material-icons-outlined fs-2">check_circle</span>
+               </div>
+               <div class="ms-3">
+                  <h6 class="mb-0 text-danger"><?= $this->session->flashdata('error'); ?></h6>
+               </div>
+            </div>
+         </div>
+      <?php } ?>
 
-                  <br>
-                  <div class="input-group mb-3">
-                     <input type="text" name="order_details" id="order_details" class="form-control" placeholder="Order Details" required>
-                  </div>
+      <form action="<?= base_url(); ?>Receive/finish_receive" method="POST">
+         <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
+            <div class="col">
+               <a href="" class="btn btn-outline-success" style="margin-right: 7px;" data-bs-toggle="modal"
+                  data-bs-target="#SearchProduct">Lookup <i class="fa fa-search"></i></a>
+               <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear
+                  <i class="fa fa-trash"></i></a>
+            </div>
+            <select class="form-control" name="supplier_id" id="supplier_id">
+               <option disabled selected>Supplier</option>
+               <?php foreach ($this->M_supplier->get_suppliers() as $row) { ?>
+                  <option value="<?= $row['supplier_id']; ?>">
+                     <?= $row['name']; ?> |
+                     <?= $row['phone']; ?>
+                  </option>
+               <?php } ?>
+            </select>
+         </div>
+         <hr>
 
-                  <button type="submit" id="finishS" class="btn btn-success" style="width:20%;">
-                     FINISH RECEIVING
-                  </button>
+         <style>
+            #barcode {
+               padding: 8px;
+               border-radius: 5px;
+               border: 1px solid #ccc;
+               width: 100%;
+               box-sizing: border-box;
+               margin-bottom: 10px;
+               font-size: 20px;
+            }
+
+            #productList ul {
+               list-style-type: none;
+               padding: 0;
+               margin: 0;
+            }
+
+            #productList li {
+               padding: 8px;
+               cursor: pointer;
+            }
+
+            #productList li:hover {
+               background-color: #f0f0f0;
+            }
+
+            #productList {
+               position: absolute;
+               z-index: 1000;
+               background-color: #fff;
+               border: 1px solid #ccc;
+               border-radius: 5px;
+               max-height: auto;
+               overflow-y: auto;
+               box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+               width: 50%;
+               margin-top: -2px;
+            }
+
+            /* Style for the search results list */
+            #searchResults {
+               list-style-type: none;
+               padding: 0;
+               margin: 0;
+            }
+
+            /* Style for each product item in the search results */
+            .product-item {
+               padding: 8px;
+               cursor: pointer;
+            }
+
+            .product-item:hover {
+               background-color: #f0f0f0;
+            }
+         </style>
+
+         <div class="row">
+            <div class="col-12 col-xl-12">
+               <b><small>Search Product by Barcode, Name or Category</small></b>
+
+               <input id="barcode" name="barcode" type="search" placeholder="Search Product barcode">
+               <div id="productList">
+                  <ul id="searchResults"></ul>
+               </div>
+
+               <br>
+               <div id="list">
+                  <?php $this->load->view('receive/_load_cart'); ?>
                </div>
             </div>
 
+            <style>
+               .form-group {
+                  display: flex;
+                  /* Make the container a flexbox */
+               }
+
+               .form-group select,
+               .form-group .input-group {
+                  margin-right: 10px;
+                  /* Add some margin between elements */
+               }
+
+               .form-group select:last-child,
+               .form-group .input-group:last-child {
+                  margin-right: 0;
+                  /* Remove margin from the last element */
+               }
+
+               .form-group {
+                  display: flex;
+                  /* Make the container a flexbox */
+                  align-items: center;
+                  /* Vertically align elements in the center */
+               }
+
+               .form-group select {
+                  margin-right: 10px;
+                  /* Add space between selects */
+               }
+
+               .form-group .input-group {
+                  margin-left: 10px;
+                  /* Add space between input and last select */
+               }
+            </style>
+
+            <div class="col-12 col-xl-12">
+               <div class="card">
+                  <div class="card-body p-4">
+                     <h5 class="mb-4">
+                        <b>TOTAL COST: <span id="totalBill"></span></b>
+                     </h5>
+                     <hr>
+                     <div class="form-group">
+                        <select class="form-control" name="shop_id" id="shop_id">
+                           <option selected disabled>RECEIVE TO SHOP</option>
+                           <?php foreach ($this->M_shop->get_shops() as $row) { ?>
+                              <option value="<?= $row['shop_id']; ?>">
+                                 <?= $row['name']; ?>
+                              </option>
+                           <?php } ?>
+                        </select>
+                        &nbsp;&nbsp;
+                        <select class="form-control" name="warehouse_id" id="warehouse_id">
+                           <option selected disabled>RECEIVE TO WAREHOUSE</option>
+                           <?php foreach ($this->M_warehouse->get_warehouses() as $row) { ?>
+                              <option value="<?= $row['warehouse_id']; ?>">
+                                 <?= $row['name']; ?>
+                              </option>
+                           <?php } ?>
+                        </select>
+                        &nbsp;&nbsp;
+                        <input type="text" name="order_details" id="order_details" class="form-control"
+                           placeholder="Order Details" required>
+                     </div>
+                     <br>
+                     <button type="submit" id="finishS" class="btn btn-success" style="width:20%;">
+                        FINISH RECEIVING
+                     </button>
+                  </div>
+               </div>
+
+            </div>
          </div>
-      </div>
-    </form>
+      </form>
       <!--end row-->
    </div>
 </main>
@@ -332,27 +394,8 @@
 <script>
    $(document).ready(function () {
       load_cart();
-      $('#detailsInputField').hide();
 
-      $('#payment_type_id').change(function () {
-         var selectedText = $(this).find('option:selected').text();
-         if (selectedText === 'CASH') {
-            $('#detailsInputField').hide();
-         } else {
-            $('#detailsInputField').show();
-         }
-      });
 
-      $('#tendered').on('input', function () {
-         var input = $(this).val().replace(/[^\d.-]/g, '');
-         var parts = input.split('.');
-         parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-         if (parts[1]) {
-            parts[1] = parts[1].substring(0, 2);
-         }
-         var formatted = parts.join('.');
-         $(this).val(formatted);
-      });
 
       $('.product-row').on('click', function () {
          var productId = $(this).data('product-id');
@@ -366,24 +409,6 @@
             error: function (xhr, status, error) {
                console.log(xhr.responseText);
                alert('Error adding product to cart. Please try again.');
-            }
-         });
-      });
-
-
-      $('#saveBtn').click(function () {
-         var formData = $('#NewClientForm').serialize();
-         $.ajax({
-            url: '<?= base_url('Client/save_client'); ?>',
-            type: 'POST',
-            data: formData,
-            dataType: 'json',
-            success: function (response) {
-               console.log(response);
-               location.reload();
-            },
-            error: function (xhr, status, error) {
-               location.reload();
             }
          });
       });
