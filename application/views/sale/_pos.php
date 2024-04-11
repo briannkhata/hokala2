@@ -155,6 +155,10 @@
             <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear
                <i class="fa fa-trash"></i></a>
          </div>
+         <select class="form-control" name="sale_type" id="sale_type" style="margin-right: 3px;">
+            <option value="sale">SALE</option>
+            <option value="return">RETURN</option>
+         </select>
          <select class="form-control" name="client_id" id="client_id" onchange="load_cart()">
             <?php foreach ($this->M_client->get_clients_pos() as $row) { ?>
                <option value="<?= $row['client_id']; ?>">
@@ -368,7 +372,7 @@
 </div>
 
 <?php $this->load->view('includes/footer.php'); ?>
-<script src="<?= base_url(); ?>assets/js/custom.js"></script>
+<script src="<?= base_url(); ?>assets/js/customSale.js"></script>
 <script>
    $(document).ready(function () {
       load_cart();

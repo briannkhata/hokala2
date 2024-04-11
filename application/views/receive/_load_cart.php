@@ -143,13 +143,13 @@ if (count($cart) <= 0):
                     </td>
                     <td>
                         <div class="quantity-container1">
-                            <input type="text" class="price" name="price[]" value="<?= number_format($row['price'], 2); ?>">
+                            <input type="text" class="price" name="price[]" value="<?=$row['price']; ?>">
                         </div>
                     </td>
                     <td>
                         <div class="quantity-container1">
                             <input type="text" class="cost_price" name="cost_price[]"
-                                value="<?= number_format($row['cost_price'], 2); ?>">
+                                value="<?= $row['cost_price']; ?>">
                         </div>
                     </td>
                     <td align="center">
@@ -190,8 +190,22 @@ if (count($cart) <= 0):
         $(this).val('');
     });
 
+    $('.price').on('click', function () {
+        $(this).val('');
+    });
 
-    $('.cost_price, .quantity,.expiry_date,.price').on('change', function () {
+
+    // $('.expiry_date').on('change', function () {
+    //     var row = $(this).closest('tr');
+    //     var cartId = row.find('input[name="cart_id[]"]').val();
+    //     var NewPrice = parseFloat(row.find('input[name="price[]"]').val());
+    //     var NewCost = parseFloat(row.find('input[name="cost_price[]"]').val());
+    //     var newQuantity = parseFloat(row.find('input[name="qty[]"]').val());
+    //     var expiryDate = row.find('input[name="expiry_date[]"]').val();
+    //     updateCartQuantity(cartId, newQuantity, NewCost, expiryDate, NewPrice);
+    // });
+
+    $('.cost_price, .quantity,.price,.expiry_date').on('input', function () {
         var row = $(this).closest('tr');
         var cartId = row.find('input[name="cart_id[]"]').val();
         var NewPrice = parseFloat(row.find('input[name="price[]"]').val());

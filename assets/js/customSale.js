@@ -94,6 +94,7 @@ function finish() {
   var payment_type_id = $("#payment_type_id").val();
   var details = $("#details").val();
   tenderedAmount2 = parseFloat(tenderedAmount.replace(/,/g, ""));
+  var sale_type = $("#sale_type").val();
 
   if (!tenderedAmount2 || isNaN(tenderedAmount2)) {
     alert("Please enter a valid tendered amount.");
@@ -104,6 +105,7 @@ function finish() {
     client_id: client_id,
     payment_type_id: payment_type_id,
     details: details,
+    sale_type: sale_type,
   })
     .done(function (data) {
       $("#receipt-container").html(data);

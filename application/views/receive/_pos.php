@@ -178,15 +178,7 @@
                <a id="clear_cart" href="" class="btn btn-outline-danger" style="margin-right: 7px;">Clear
                   <i class="fa fa-trash"></i></a>
             </div>
-            <select class="form-control" name="supplier_id" id="supplier_id">
-               <option disabled selected>Supplier</option>
-               <?php foreach ($this->M_supplier->get_suppliers() as $row) { ?>
-                  <option value="<?= $row['supplier_id']; ?>">
-                     <?= $row['name']; ?> |
-                     <?= $row['phone']; ?>
-                  </option>
-               <?php } ?>
-            </select>
+
          </div>
          <hr>
 
@@ -324,9 +316,19 @@
                            <?php } ?>
                         </select>
                         &nbsp;&nbsp;
-                        <input type="text" name="order_details" id="order_details" class="form-control"
-                           placeholder="Order Details" required>
+                        <select class="form-control" name="supplier_id" id="supplier_id" required>
+                           <option selected disabled>SUPPLIER</option>
+                           <?php foreach ($this->M_supplier->get_suppliers() as $row) { ?>
+                              <option value="<?= $row['supplier_id']; ?>">
+                                 <?= $row['name']; ?> | <?= $row['phone']; ?>
+                              </option>
+                           <?php } ?>
+                        </select>
+
                      </div>
+                     <br>
+                     <input type="text" name="order_details" id="order_details" class="form-control"
+                        placeholder="Order Details" required>
                      <br>
                      <button type="submit" id="finishS" class="btn btn-success" style="width:20%;">
                         FINISH RECEIVING

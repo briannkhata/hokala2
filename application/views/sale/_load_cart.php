@@ -148,7 +148,7 @@ if (count($cart) <= 0):
     </table>
 <?php endif; ?>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="<?= base_url(); ?>assets/js/custom.js"></script>
+<script src="<?= base_url(); ?>assets/js/customSale.js"></script>
 
 <script>
     $('.quantity').on('click', function () {
