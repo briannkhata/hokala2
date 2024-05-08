@@ -143,9 +143,7 @@
 <!--start main wrapper-->
 <main class="main-wrapper">
    <div class="main-content">
-      <?php
-      //$client_id = $this->M_client->get_walk_in_client();
-      ?>
+     <form action="<?=base_url();?>Sale/finish_sale" method="POST">
       <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
          <div class="col">
             <a href="" class="btn btn-outline-success" style="margin-right: 7px;" data-bs-toggle="modal"
@@ -156,8 +154,8 @@
                <i class="fa fa-trash"></i></a>
          </div>
          <select class="form-control" name="sale_type" id="sale_type" style="margin-right: 3px;">
-            <option value="sale">SALE</option>
-            <option value="return">RETURN</option>
+            <option value="1">SALE</option>
+            <option value="2">RETURN</option>
          </select>
          <select class="form-control" name="client_id" id="client_id" onchange="load_cart()">
             <?php foreach ($this->M_client->get_clients_pos() as $row) { ?>
@@ -281,7 +279,7 @@
                      <span id="balance"></span>
                   </h5>
 
-                  <button type="submit" id="finish" class="btn btn-success" style="width:100%;">
+                  <button type="submit" id="finish33" class="btn btn-success" style="width:100%;">
                      FINISH SALE
                   </button>
                </div>
@@ -290,6 +288,7 @@
          </div>
       </div>
       <!--end row-->
+     </form>
    </div>
 </main>
 

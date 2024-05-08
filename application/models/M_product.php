@@ -172,7 +172,7 @@ class M_product extends CI_Model
     }
 
 
-    function get_qty1($product_id, $shop_id)
+    function get_shop_qty($product_id, $shop_id)
     {
         $this->db->select('qty');
         $this->db->where('product_id', $product_id);

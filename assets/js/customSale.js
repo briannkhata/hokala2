@@ -110,7 +110,7 @@ function finish() {
     .done(function (data) {
       $("#receipt-container").html(data);
       //window.print();
-      console.log(data)
+      console.log(data);
       load_cart();
     })
     .fail(function (jqXHR, textStatus, errorThrown) {
@@ -126,6 +126,7 @@ function search() {
     {
       barcode: $("#barcode").val(),
       client_id: $("#client_id").val(),
+      sale_type: $("#sale_type").val(),
     },
     function (data) {
       if (data.success) {
@@ -169,11 +170,11 @@ function cancel() {
     .fail(function (jqXHR, textStatus, errorThrown) {
       console.error("AJAX Error:", textStatus, errorThrown);
       alert("An error occurred while processing your request.");
-    })
-    .always(function () {
-      $("#loader").hide();
-      $("#overlay").hide();
     });
+    // .always(function () {
+    //   $("#loader").hide();
+    //   $("#overlay").hide();
+    // });
 }
 
 function load_cart() {

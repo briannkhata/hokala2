@@ -11,6 +11,10 @@
 
             <div class="col">
                <div class="btn-group">
+                  <a href="<?= base_url(); ?>Report/inventory_report" class="btn btn-secondary">
+                     BACK
+                  </a>
+
                   <a href="#" class="btn btn-secondary" id="exportBtn">
                      EXCELL
                   </a>
@@ -19,17 +23,46 @@
 
          </div>
 
+         <?php
+
+         $shops = $this->M_shop->get_shops();
+         $warehouses = $this->M_warehouse->get_warehouses();
+
+         $shop_count = count($shops);
+         $warehouse_count = count($warehouses);
+
+         ?>
+
          <div class="card-body">
             <table id="examplee" class="table table-striped table-bordered" style="width:100%">
                <thead>
                   <tr>
                      <th>Barcode</th>
                      <th>Product</th>
-                     <th>Description</th>
                      <th>Category</th>
                      <th>Selling Price</th>
                      <th>Reorder Level</th>
-                     <th>Quantity</th>
+                     <?php if ($shop_id == 'ALL'):
+                        foreach ($shops as $sh) { ?>
+                           <th><?= $sh['name']; ?></th>
+                        <?php }
+                     else:
+                        ?>
+                        <th>
+                           <?= $this->M_shop->get_shop_name($shop_id); ?> Qty
+                        </th>
+                     <?php endif; ?>
+                     <?php if ($warehouse_id == 'ALL'):
+                        foreach ($warehouses as $wh) { ?>
+                           <th>WH - <?= $wh['name']; ?></th>
+                        <?php }
+                     else:
+                        ?>
+
+                        <th>
+                           <?= $this->M_warehouse->get_warehouse_name($warehouse_id); ?> Qty
+                        </th>
+                     <?php endif; ?>
                   </tr>
                </thead>
                <tbody>
@@ -43,9 +76,7 @@
                         <td>
                            <?= $row['name'] ?>
                         </td>
-                        <td>
-                           <?= $row['desc'] ?>
-                        </td>
+
                         <td>
                            <?= $this->M_category->get_category_name($row['category_id']) ?>
                         </td>
@@ -56,9 +87,27 @@
                         <td>
                            <?= $row['reorder_level']; ?>
                         </td>
-                        <td>
-                           <?= $row['qty']; ?>
-                        </td>
+                        <?php if ($shop_id == 'ALL'):
+                           foreach ($shops as $sh) { ?>
+                              <td><?= $this->M_shop->get_qty1($sh['shop_id'], $row['product_id']); ?></td>
+                           <?php }
+                        else:
+                           ?>
+                           <td>
+                              <?= $this->M_shop->get_qty1($shop_id, $row['product_id']); ?>
+                           </td>
+                        <?php endif; ?>
+
+                        <?php if ($warehouse_id == 'ALL'):
+                           foreach ($warehouses as $wh) { ?>
+                              <td><?= $this->M_warehouse->get_qty1($wh['warehouse_id'], $row['product_id']); ?></td>
+                           <?php }
+                        else:
+                           ?>
+                           <td>
+                              <?= $this->M_warehouse->get_qty1($warehouse_id, $row['product_id']); ?>
+                           </td>
+                        <?php endif; ?>
 
                      </tr>
                   <?php endforeach; ?>

@@ -1,7 +1,7 @@
 <?php
 defined("BASEPATH") or exit("No direct script access allowed");
 
-class Sale extends CI_Controller
+class AdjustQty extends CI_Controller
 {
     function __construct()
     {
@@ -13,7 +13,7 @@ class Sale extends CI_Controller
 
     function index()
     {
-        $data["page_title"] = "POS WINDOW";
+        $data["page_title"] = "Select Shop";
         $this->load->view("sale/_pos", $data);
     }
     function refresh_cart()
@@ -47,9 +47,9 @@ class Sale extends CI_Controller
                 $saleQTY = $this->M_unit->get_unit_qty($unit_id);
                 $cart_id = $this->M_product->get_cart_id_by_product_id($product['product_id'], $user_id, $client_id, $shop_id);
                 $qty = $this->M_product->get_cart_qty($cart_id) + $saleQTY;
-                $price = $this->M_product->get_cart_price($cart_id);
+                $Qty = $this->M_product->get_cart_Qty($cart_id);
 
-                $sub_total = $price * $qty;
+                $sub_total = $Qty * $qty;
                 $vat_amount = (($vat / 100) * $sub_total);
                 $total = $vat_amount + $sub_total;
                 $cart_data = array(
@@ -65,12 +65,12 @@ class Sale extends CI_Controller
                 $unit_id = $this->M_product->get_unit_id($product['product_id']);
                 $saleQTY = $this->M_unit->get_unit_qty($unit_id);
                 $qty = $saleQTY;
-                $sub_total = $this->M_product->get_price($product['product_id']) * $qty;
+                $sub_total = $this->M_product->get_Qty($product['product_id']) * $qty;
                 $vat_amount = (($vat / 100) * $sub_total);
                 $total = $vat_amount + $sub_total;
                 $cart_data = array(
                     'product_id' => $product['product_id'],
-                    'price' => $this->M_product->get_price($product['product_id']),
+                    'Qty' => $this->M_product->get_Qty($product['product_id']),
                     'qty' => $qty,
                     'vat' => $vat_amount,
                     'total' => $total,
@@ -103,7 +103,7 @@ class Sale extends CI_Controller
         if (!empty($product_info)) {
             $qty = $qtyNew;
             $product = $product_info[0];
-            $sub_total = $product['price'] * $qty;
+            $sub_total = $product['Qty'] * $qty;
             $vat_amount = (($vat / 100) * $sub_total);
             $total = $vat_amount + $sub_total;
             $cart_data = array(
@@ -201,7 +201,7 @@ class Sale extends CI_Controller
         $products = $this->M_product->get_cart($user_id, $client_id, $shop_id);
         foreach ($products as $row) {
             $sale_detail_data['product_id'] = $row['product_id'];
-            $sale_detail_data['price'] = $row['price'];
+            $sale_detail_data['Qty'] = $row['Qty'];
             $sale_detail_data['qty'] = $row['qty'];
             $sale_detail_data['vat'] = ($sale_type == 2) ? '-' . $row['vat'] : $row['vat'];
             $sale_detail_data['total'] = ($sale_type == 2) ? '-' . $row['total'] : $row['total'];

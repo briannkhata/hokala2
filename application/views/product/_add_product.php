@@ -79,7 +79,16 @@
 
                      
                      <div class="col-md-4">
-                        <label class="control-label">Reorder Level In Days</label>
+                        <label class="control-label">Selling Price</label>
+                        <input type="text" name="selling_price" class="form-control"
+                           value="<?php if (!empty($selling_price)) {
+                              echo $selling_price;
+                           } ?>">
+                     </div>
+
+
+                     <div class="col-md-12">
+                        <label class="control-label"> Order Level In Days</label>
                         <input type="text" name="reorder_level" class="form-control"
                            value="<?php if (!empty($reorder_level)) {
                               echo $reorder_level;

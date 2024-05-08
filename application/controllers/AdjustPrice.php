@@ -1,7 +1,7 @@
 <?php
 defined("BASEPATH") or exit("No direct script access allowed");
 
-class Sale extends CI_Controller
+class AdjustPrice extends CI_Controller
 {
     function __construct()
     {
@@ -13,7 +13,7 @@ class Sale extends CI_Controller
 
     function index()
     {
-        $data["page_title"] = "POS WINDOW";
+        $data["page_title"] = "Select Shop";
         $this->load->view("sale/_pos", $data);
     }
     function refresh_cart()

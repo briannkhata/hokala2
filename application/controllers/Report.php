@@ -44,6 +44,14 @@ class Report extends CI_Controller
 	function inventory_report()
 	{
 		$data['page_title'] = "Inventory Report";
+		$this->load->view('report/_inventory_report', $data);
+	}
+
+	function filter_inventory_report()
+	{
+		$data['shop_id'] = $this->input->post("shop_id");
+		$data['warehouse_id'] = $this->input->post("warehouse_id");
+		$data['page_title'] = "Inventory Report";
 		$this->load->view('report/_refresh_inventory_report', $data);
 	}
 

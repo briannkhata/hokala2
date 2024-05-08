@@ -49,7 +49,7 @@ class Product extends CI_Controller
         $data["barcode"] = $this->input->post("barcode");
         $data["category_id"] = $this->input->post("category_id");
         $data["desc"] = $this->input->post("desc");
-        $data["cost_price"] = $this->input->post("cost_price");
+        //$data["cost_price"] = $this->input->post("cost_price");
         $data["selling_price"] = $this->input->post("selling_price");
         $data["unit_id"] = $this->input->post("unit_id");
         $data["reorder_level"] = $this->input->post("reorder_level");
@@ -64,7 +64,7 @@ class Product extends CI_Controller
             $data["barcode"] = $row["barcode"];
             $data["category_id"] = $row["category_id"];
             $data["selling_price"] = $row["selling_price"];
-            $data["cost_price"] = $row["cost_price"];
+            //$data["cost_price"] = $row["cost_price"];
             $data["unit_id"] = $row["unit_id"];
             $data["reorder_level"] = $row["reorder_level"];
             $data["expiry_date"] = $row["expiry_date"];
