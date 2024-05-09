@@ -143,6 +143,10 @@
 <!--start main wrapper-->
 <main class="main-wrapper">
    <div class="main-content">
+      <h6 class="mb-0 text-uppercase">
+         <?= $page_title; ?>
+      </h6>
+      <hr>
 
       <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
          <div class="col">

@@ -143,6 +143,10 @@
 <!--start main wrapper-->
 <main class="main-wrapper">
    <div class="main-content">
+      <h6 class="mb-0 text-uppercase">
+         <?= $page_title; ?>
+      </h6>
+      <hr>
 
       <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
          <div class="col">
@@ -162,6 +166,7 @@
                </option>
             <?php } ?>
          </select>
+         &nbsp;&nbsp;
          <select class="form-control" name="shop_id" id="shop_id">
             <option selected disabled>SELECT SHOP</option>
             <?php foreach ($this->M_shop->get_shops() as $row) { ?>
@@ -274,7 +279,7 @@
                //data.cart_items.reverse();
                $.each(data.cart_items, function (index, item) {
                   var newRow = $("<tr></tr>");
-                  newRow.append("<td><input type='text'  name='product_id' value=" + item.product_id + ">" + item.name + "</td>");
+                  newRow.append("<td><input type='hidden' name='product_id' value=" + item.product_id + ">" + item.name + "</td>");
                   newRow.append("<td>" + item.desc + "</td>");
                   newRow.append("<td><input type='text' class='form-control qty-input' name='qty[]'></td>");
                   newRow.append("<td><button class='btn btn-danger delete' data-item-index='" + index + "'>X</button></td>");

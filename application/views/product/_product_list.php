@@ -44,9 +44,7 @@
                               <th>Barcode</th>
                               <th>Product</th>
                               <th>Description</th>
-                              <th>Category</th>
                               <th>Selling Price</th>
-                              <th>Expiry Date</th>
                               <th>Reorder Level</th>
                               <th>Unit</th>
                               <th></th>
@@ -67,17 +65,11 @@
                                  <td>
                                     <?= $row['desc'] ?>
                                  </td>
-                                 <td>
-                                    <?= $this->M_category->get_category_name($row['category_id']) ?>
-                                 </td>
-
+                                
                                  <td>
                                     <?= number_format($row['selling_price'], 2) ?>
                                  </td>
 
-                                 <td>
-                                    <?= date('Y F d', strtotime($row['expiry_date'])); ?>
-                                 </td>
                                  <td>
                                     <?= $row['reorder_level']; ?>
                                  </td>
@@ -95,6 +87,13 @@
                                                 <a href="<?= base_url(); ?>Product/read/<?= $row['product_id']; ?>"
                                                    class="dropdown-item">
                                                    Edit
+                                                </a>
+                                             </li>
+
+                                             <li>
+                                                <a href="<?= base_url(); ?>Product/view/<?= $row['product_id']; ?>"
+                                                   class="dropdown-item">
+                                                   View
                                                 </a>
                                              </li>
 

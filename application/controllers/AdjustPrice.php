@@ -13,7 +13,7 @@ class AdjustPrice extends CI_Controller
 
     function index()
     {
-        $data["page_title"] = "Adjust Price";
+        $data["page_title"] = "Adjust Prices";
         $this->load->view("adjustprice/_adjustprice", $data);
     }
     function refresh_cart()

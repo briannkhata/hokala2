@@ -28,24 +28,21 @@
 
                      <div class="col-md-3">
                         <label class="control-label">Barcode</label>
-                        <input type="text" name="barcode" class="form-control"
-                           value="<?php if (!empty($barcode)) {
-                              echo $barcode;
-                           } ?>">
+                        <input type="text" name="barcode" class="form-control" value="<?php if (!empty($barcode)) {
+                           echo $barcode;
+                        } ?>">
                      </div>
                      <div class="col-md-9">
                         <label class="control-label">Product Name</label>
-                        <input type="text" name="name" class="form-control"
-                           value="<?php if (!empty($name)) {
-                              echo $name;
-                           } ?>" required="">
+                        <input type="text" name="name" class="form-control" value="<?php if (!empty($name)) {
+                           echo $name;
+                        } ?>" required="">
                      </div>
                      <div class="col-md-12">
                         <label class="control-label">Description</label>
-                        <input type="text" name="desc" class="form-control"
-                           value="<?php if (!empty($desc)) {
-                              echo $desc;
-                           } ?>" required="">
+                        <input type="text" name="desc" class="form-control" value="<?php if (!empty($desc)) {
+                           echo $desc;
+                        } ?>" required="">
                      </div>
 
                      <div class="col-md-4">
@@ -57,6 +54,20 @@
                                  echo 'selected'; ?>
                                  value="<?= $row['category_id']; ?>">
                                  <?= $row['category']; ?>
+                              </option>
+                           <?php } ?>
+                        </select>
+                     </div>
+
+                     <div class="col-md-4">
+                        <label class="control-label">Brand</label>
+                        <select class="form-control" name="brand_id" required="">
+                           <option selected="" disabled="">----</option>
+                           <?php foreach ($this->M_brand->get_brands() as $row) { ?>
+                              <option <?php if ($brand_id == $row['brand_id'])
+                                 echo 'selected'; ?>
+                                 value="<?= $row['brand_id']; ?>">
+                                 <?= $row['brand_name']; ?>
                               </option>
                            <?php } ?>
                         </select>
@@ -77,25 +88,23 @@
                      </div>
 
 
-                     
-                     <div class="col-md-4">
+
+                     <div class="col-md-6">
                         <label class="control-label">Selling Price</label>
-                        <input type="text" name="selling_price" class="form-control"
-                           value="<?php if (!empty($selling_price)) {
-                              echo $selling_price;
-                           } ?>">
+                        <input type="text" name="selling_price" class="form-control" value="<?php if (!empty($selling_price)) {
+                           echo $selling_price;
+                        } ?>">
                      </div>
 
 
-                     <div class="col-md-12">
+                     <div class="col-md-6">
                         <label class="control-label"> Order Level In Days</label>
-                        <input type="text" name="reorder_level" class="form-control"
-                           value="<?php if (!empty($reorder_level)) {
-                              echo $reorder_level;
-                           } ?>">
+                        <input type="text" name="reorder_level" class="form-control" value="<?php if (!empty($reorder_level)) {
+                           echo $reorder_level;
+                        } ?>">
                      </div>
 
-                   
+
 
                      <div class="col-md-12">
                         <?php if (isset($update_id)) { ?>

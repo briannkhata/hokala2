@@ -13,7 +13,7 @@ class AdjustQty extends CI_Controller
 
     function index()
     {
-        $data["page_title"] = "Adjust Qty";
+        $data["page_title"] = "Adjust Quantities";
         $this->load->view("adjustqty/_adjustqty", $data);
     }
     function refresh_cart()

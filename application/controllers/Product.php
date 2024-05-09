@@ -17,39 +17,13 @@ class Product extends CI_Controller
         $this->load->view("product/_product_list", $data);
     }
 
-    function receive_product()
-    {
-        $data["page_title"] = "Receive Product";
-        $this->load->view("product/_receive_product", $data);
-    }
-
-    function save_receiving()
-    {
-        $data["product_id"] = $this->input->post("product_id");
-        $data["qty"] = $this->input->post("qty");
-        $data["cost_price"] = $this->input->post("cost_price");
-        $data["selling_price"] = $this->input->post("selling_price");
-        $data["expiry_date"] = $this->input->post("expiry_date");
-        $data["receive_date"] = date("Y-m-d h:m:s:i");
-        $this->db->insert("tbl_receivings", $data);
-
-        $qty = $this->M_product->get_qty1($data["product_id"]);
-        $data0["selling_price"] = $data["selling_price"];
-        $data0["expiry_date"] = $data["expiry_date"];
-        $data0["qty"] = $qty + $data["qty"];
-        $this->db->where("product_id", $data["product_id"]);
-        $this->db->update("tbl_products", $data0);
-        redirect("Product/receive_product");
-        $this->session->set_flashdata("message", "Product Received successfully!");
-    }
-
     function get_form_data()
     {
         $data["name"] = $this->input->post("name");
         $data["barcode"] = $this->input->post("barcode");
         $data["category_id"] = $this->input->post("category_id");
         $data["desc"] = $this->input->post("desc");
-        //$data["cost_price"] = $this->input->post("cost_price");
+        $data["brand_id"] = $this->input->post("brand_id");
         $data["selling_price"] = $this->input->post("selling_price");
         $data["unit_id"] = $this->input->post("unit_id");
         $data["reorder_level"] = $this->input->post("reorder_level");
@@ -64,7 +38,7 @@ class Product extends CI_Controller
             $data["barcode"] = $row["barcode"];
             $data["category_id"] = $row["category_id"];
             $data["selling_price"] = $row["selling_price"];
-            //$data["cost_price"] = $row["cost_price"];
+            $data["brand_id"] = $row["brand_id"];
             $data["unit_id"] = $row["unit_id"];
             $data["reorder_level"] = $row["reorder_level"];
             $data["expiry_date"] = $row["expiry_date"];
