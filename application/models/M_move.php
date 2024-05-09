@@ -88,8 +88,6 @@ class M_move extends CI_Model
         }
     }
 
-
-
     function searchProducts($barcode)
     {
         $this->db->select('product_id, barcode, name, `desc`');

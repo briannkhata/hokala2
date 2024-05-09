@@ -59,7 +59,7 @@
                      else:
                         ?>
 
-                        <th>
+                        <th> WH - 
                            <?= $this->M_warehouse->get_warehouse_name($warehouse_id); ?> Qty
                         </th>
                      <?php endif; ?>
@@ -69,18 +69,15 @@
                   <?php
                   foreach ($this->M_product->get_products() as $row): ?>
                      <tr>
-
                         <td>
                            <?= $row['barcode'] ?>
                         </td>
                         <td>
                            <?= $row['name'] ?>
                         </td>
-
                         <td>
                            <?= $this->M_category->get_category_name($row['category_id']) ?>
                         </td>
-
                         <td>
                            <?= number_format($row['selling_price'], 2) ?>
                         </td>
