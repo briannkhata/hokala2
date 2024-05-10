@@ -231,9 +231,10 @@
                   <tr>
                      <th>Product</th>
                      <th>Price</th>
-                     <th align="center">Qty</th>
-                     <th>Total</th>
-                     <th>X</th>
+                     <th align="center" style='width:100px;'>Qty</th>
+                     <th align="center">Vat</th>
+                     <th align="center">Total</th>
+                     <th align="center">X</th>
                   </tr>
                </thead>
                </thead>
@@ -304,61 +305,69 @@
 
             if (data.success) {
                var cartItemsBody = $("#cart-items-body");
-               var subTotal = 0;
-               var vatRate = 16.5;
+               var vatRate = 16.5; // Assume this is fetched from an API
                var quantity = 1;
 
-               $.each(data.cart_items, function (index, item) {
+               // Function to create a new row for each item in the cart
+               function createRow(item) {
                   var newRow = $("<tr></tr>");
                   var product_id = item.product_id;
                   var formattedPrice = parseFloat(item.selling_price).toFixed(2);
-                  var productInfo = "<td><input type='hidden' name='product_id' value=" + product_id + ">" + item.barcode + "<br>" + item.desc + "</td>";
-                  var quantityInput = "<td><input type='text' class='form-control qty-input' name='qty[]' value='" + quantity + "'></td>";
-                  var deleteButton = "<td><button class='btn btn-danger delete' data-item-index='" + index + "'>X</button></td>";
                   var total = parseFloat(quantity * formattedPrice).toFixed(2);
+                  var item_vat = (total * vatRate) / 100;
+
+                  var productInfo = "<td><input type='hidden' name='product_id' value=" + product_id + ">" + item.barcode + "<br>" + item.desc + "</td>";
+                  var quantityInput = "<td align='center'><input type='text' class='form-control qty-input' style='width:100px;' name='qty[]' value='" + quantity + "'></td>";
+                  var deleteButton = "<td align='center'><button class='btn btn-danger delete' data-item-index='" + product_id + "'>X</button></td>";
                   newRow.append(productInfo);
                   newRow.append("<td class='formatted-price'>" + formattedPrice + "</td>");
                   newRow.append(quantityInput);
-                  newRow.append("<td class='price-total'>" + total + "</td>");
+                  newRow.append("<td class='vat'>" + item_vat.toFixed(2) + "</td>");
+                  newRow.append("<td class='price-total'>" + (parseFloat(total)).toFixed(2) + "</td>");
                   newRow.append(deleteButton);
                   cartItemsBody.append(newRow);
-
-                  newRow.on('input', '.qty-input', function () {
-                     var qty = parseInt($(this).val());
-                     var row = $(this).closest('tr');
-                     var formattedPrice = parseFloat(row.find('.formatted-price').text());
-                     calculateSubtotal(row, qty, formattedPrice);
-                  });
-
-                  newRow.on('click', '.delete', function () {
-                     var row = $(this).closest('tr');
-                     var itemIndex = $(this).data('item-index');
-                     row.remove();
-                     calculateSubtotal(row, 0, 0); // Remove all quantity of deleted item
-                  });
-
-                  calculateSubtotal(newRow, quantity, formattedPrice);
-               });
-
-               function calculateSubtotal(row, quantity, formattedPrice) {
-                  var total = (quantity * formattedPrice).toFixed(2);
-                  row.find('.price-total').text(total);
-
-                  updateTotal(); // Update the overall total
+                  updateTotals(); // Update totals when a new row is added
                }
 
-               function updateTotal() {
+               // Add rows for each item in the cart
+               data.cart_items.forEach(function (item) {
+                  createRow(item);
+               });
+
+               // Update totals function
+               function updateTotals() {
                   var totalPrice = 0;
                   $('.price-total').each(function () {
                      totalPrice += parseFloat($(this).text());
                   });
+                  var totalVat = totalPrice * (vatRate / 100);
+                  var totalBill = totalPrice + totalVat;
+
                   $("#sub").text(totalPrice.toFixed(2));
+                  $("#vat").text(totalVat.toFixed(2));
+                  $("#totalBill").text(totalBill.toFixed(2));
                }
+
+               // Update subtotal and total on quantity change
+               cartItemsBody.on('input', '.qty-input', function () {
+                  var qty = parseInt($(this).val());
+                  var row = $(this).closest('tr');
+                  var formattedPrice = parseFloat(row.find('.formatted-price').text());
+                  var total = (qty * formattedPrice).toFixed(2);
+                  var item_vat = (total * vatRate) / 100;
+                  row.find('.vat').text(item_vat.toFixed(2));
+                  row.find('.price-total').text((parseFloat(total)).toFixed(2));
+                  updateTotals();
+               });
+
+               // Delete item from cart
+               cartItemsBody.on('click', '.delete', function () {
+                  $(this).closest('tr').remove();
+                  updateTotals();
+               });
             } else {
                $("#cart-items").html("<p>" + data.message + "</p>");
             }
-
-
 
          },
          "json"
