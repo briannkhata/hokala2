@@ -155,7 +155,14 @@
             <button class="btn btn-outline-success" style="margin-right: 7px;" id="finish-adjusting">FINISH
                RETURNING </button>
          </div>
-
+         <select class="form-control" name="client_id" id="client_id">
+            <?php foreach ($this->M_client->get_clients_pos() as $row) { ?>
+               <option value="<?= $row['client_id']; ?>">
+                  <?= $row['name']; ?> |
+                  <?= $row['phone']; ?>
+               </option>
+            <?php } ?>
+         </select>
 
       </div>
       <hr>
@@ -226,7 +233,7 @@
                <ul id="searchResults"></ul>
             </div>
             <br>
-            <table class="table table-bordered">
+            <table class="table table-bordered" id="kato">
                <thead>
                   <tr>
                      <th>Product</th>
@@ -279,8 +286,8 @@
                      <span id="balance"></span>
                   </h5>
 
-                  <button type="submit" id="finish33" class="btn btn-success" style="width:100%;">
-                     FINISH SALE
+                  <button type="button" id="finish-returning" class="btn btn-success" style="width:100%;">
+                     FINISH RETURNING
                   </button>
                </div>
             </div>
@@ -378,30 +385,48 @@
 
 
 
-   $("#finish-adjusting").click(function () {
-      var prices = [];
+   $("#finish-returning").click(function () {
       var productIds = [];
+      var vats = [];
+      var qtys = [];
 
-      $(".price-input").each(function () {
-         prices.push($(this).val());
+      $("#kato tr").each(function () {
+         $(this).find(".vat").each(function () {
+            vats.push($(this).text());
+         });
+      });
+
+      $(".qty-input").each(function () {
+         qtys.push($(this).val());
       });
 
       $("input[name='product_id']").each(function () {
          productIds.push($(this).val());
       });
 
-      if (prices.length !== productIds.length) {
-         alert("Please enter prices for all items.");
+      if (qtys.length !== productIds.length) {
+         alert("Please enter quantities for all items.");
          return;
       }
 
       var dataToSend = {
          product_ids: productIds,
-         prices: prices
+         vats: vats,
+         qtys: qtys,
+         payment_type_id: $('#payment_type_id').val(),
+         tendered: $('#tendered').val(),
+         details: $('#details').val(),
+         sub_total: $("#sub").html(),
+         total_vat: $("#vat").html(),
+         total_bill: $("#totalBill").html(),
+         client_id: $("#client_id").val(),
       };
 
+      console.log(dataToSend);
+
+
       $.ajax({
-         url: "<?php echo base_url('ReturnProduct/save_new_prices'); ?>",
+         url: "<?php echo base_url('ReturnProduct/return_products'); ?>",
          type: "POST",
          data: dataToSend,
          dataType: "json",
@@ -410,6 +435,12 @@
             alert(response.message)
             var cartItemsBody = $("#cart-items-body");
             cartItemsBody.empty();
+            $('#tendered').val("");
+            $('#details').val();
+            $("#sub").text("");
+            $("#vat").text("");
+            $("#totalBill").html("");
+            $("#client_id").val("");
          },
          error: function (xhr, status, error) {
             console.error(xhr.responseText);
