@@ -199,7 +199,7 @@ class M_product extends CI_Model
         }
     }
 
-    function get_product_in_cart($product_id,$user_id,$client_id,$shop_id)
+    function get_product_in_cart($product_id, $user_id, $client_id, $shop_id)
     {
         $this->db->select('*');
         $this->db->where('product_id', $product_id);
@@ -210,7 +210,7 @@ class M_product extends CI_Model
         return $query;
     }
 
-    function get_cart_id_by_product_id($product_id,$user_id,$client_id,$shop_id)
+    function get_cart_id_by_product_id($product_id, $user_id, $client_id, $shop_id)
     {
         $this->db->select('cart_id');
         $this->db->where('product_id', $product_id);
@@ -282,7 +282,7 @@ class M_product extends CI_Model
         return $result->vat ?? 0;
     }
 
-    function get_sales_details($user_id, $client_id, $shop_id,$sale_id)
+    function get_sales_details($user_id, $client_id, $shop_id, $sale_id)
     {
         $this->db->select_sum('vat');
         $this->db->where('user_id', $user_id);
@@ -293,8 +293,9 @@ class M_product extends CI_Model
         return $result;
     }
 
-    function searchProducts($barcode) {
-        $this->db->select('product_id, barcode, name, `desc`');
+    function searchProducts($barcode)
+    {
+        $this->db->select('product_id, barcode,selling_price, unit_id,category_id, name, `desc`');
         $this->db->from('tbl_products');
         $this->db->like('barcode', $barcode);
         $this->db->where('deleted', 0);
@@ -304,12 +305,8 @@ class M_product extends CI_Model
             $allProductsQuery = $this->db->get('tbl_products');
             return $allProductsQuery->result_array();
         }
-        
         return $results;
     }
-    
-
-
 
     function get_product_by_cart_id($cart_id)
     {
