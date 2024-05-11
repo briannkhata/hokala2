@@ -133,4 +133,10 @@ class Product extends CI_Controller
         echo json_encode($results);
     }
 
+    function get_address()
+    {
+        $results = $this->M_user->get_shop_address();
+        echo json_encode($results);
+    }
+
 }

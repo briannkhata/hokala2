@@ -72,23 +72,23 @@ class ReturnProduct extends CI_Controller
         $payment_type_id = $this->input->post('payment_type_id');
         $details = $this->input->post('details');
         $total = $this->input->post('total_bill');
-        $sale_type = "return";
+        $sale_type = "shop-return";
         $tendered = str_replace([',', ' '], '', $this->input->post('tendered'));
 
         $sale_date = date('Y-m-d h:m:s');
         $data['user_id'] = $user_id;
         $data['shop_id'] = $shop_id;
         $data['sale_date'] = $sale_date;
-        $data['vat'] = $total_vat;
-        $data['sub_total'] = $sub_total;
-        $data['total'] = $total;
+        $data['vat'] = -$total_vat;
+        $data['sub_total'] = -$sub_total;
+        $data['total'] = -$total;
         $data['tendered'] = $tendered;
-        $data['change'] = $tendered - $total;
+        $data['change'] = 0;
         $data['client_id'] = $client_id;
         $data['payment_type_id'] = $payment_type_id;
         $data['details'] = $details;
         $data['sale_type'] = $sale_type;
-        $data['balance'] = $total - $tendered;
+        $data['balance'] = 0;
         $this->db->insert('tbl_sales', $data);
         $sale_id = $this->db->insert_id();
 
@@ -99,9 +99,9 @@ class ReturnProduct extends CI_Controller
                 $data = array(
                     'sale_id' => $sale_id,
                     'price' => $price,
-                    'qty' => $qtys[$i],
+                    'qty' => -$qtys[$i],
                     'vat' => $vats[$i],
-                    'product_id' => $productId,
+                    'product_id' => $productId, 
                     'total' => -($price * $qtys[$i]),
                     'sub_total' => -$sub_total,
                     'client_id' => $client_id,
@@ -113,7 +113,7 @@ class ReturnProduct extends CI_Controller
                 $this->db->insert('tbl_sale_details', $data);
 
                 $old_qty = $this->M_product->get_shop_qty($productId, $shop_id);
-                $new_qty = $old_qty + $qtys[$i];
+                $new_qty = $old_qty - $qtys[$i];
                 $this->db->where('product_id', $productId);
                 $this->db->where('shop_id', $shop_id);
                 $this->db->update('tbl_quantities', array('qty' => $new_qty));
@@ -123,78 +123,6 @@ class ReturnProduct extends CI_Controller
             $response = array('success' => false, 'message' => 'Error: Invalid data received');
         }
         echo json_encode($response);
-    }
-
-
-
-
-
-
-    function finish_sale()
-    {
-        $user_id = $this->session->userdata('user_id');
-        $shop_id = $this->M_user->get_user_shop($user_id);
-        $client_id = $this->input->post('client_id');
-        $payment_type_id = $this->input->post('payment_type_id');
-        $details = $this->input->post('details');
-        $sale_type = $this->input->post('sale_type');
-        $tendered = str_replace([',', ' '], '', $this->input->post('tendered'));
-
-        $sub_total = $this->input->post('vat');
-        $total_vat = $this->input->post('client_id');
-        $total = $this->M_product->get_total_sum_cart($user_id, $client_id, $shop_id);
-
-        $sale_date = date('Y-m-d h:m:s');
-        $data['user_id'] = $user_id;
-        $data['shop_id'] = $shop_id;
-        $data['sale_date'] = $sale_date;
-        $data['vat'] = ($sale_type == 2) ? '-' . $total_vat : $total_vat;
-        $data['sub_total'] = ($sale_type == 2) ? '-' . $sub_total : $sub_total;
-        $data['total'] = ($sale_type == 2) ? '-' . $total : $total;
-        $data['tendered'] = $tendered;
-        $data['change'] = $tendered - $total;
-        $data['client_id'] = $client_id;
-        $data['payment_type_id'] = $payment_type_id;
-        $data['details'] = $details;
-        $data['sale_type'] = $sale_type;
-        $data['balance'] = ($sale_type == 2) ? '' : $total - $tendered;
-        $this->db->insert('tbl_sales', $data);
-        $sale_id = $this->db->insert_id();
-
-
-        $products = $this->M_product->get_cart($user_id, $client_id, $shop_id);
-        foreach ($products as $row) {
-            $sale_detail_data['product_id'] = $row['product_id'];
-            $sale_detail_data['price'] = $row['price'];
-            $sale_detail_data['qty'] = $row['qty'];
-            $sale_detail_data['vat'] = ($sale_type == 2) ? '-' . $row['vat'] : $row['vat'];
-            $sale_detail_data['total'] = ($sale_type == 2) ? '-' . $row['total'] : $row['total'];
-            $sale_detail_data['sub_total'] = ($sale_type == 2) ? '-' . $row['sub_total'] : $row['sub_total'];
-            $sale_detail_data['sale_id'] = $sale_id;
-            $sale_detail_data['client_id'] = $row['client_id'];
-            $sale_detail_data['sale_date'] = $sale_date;
-            $sale_detail_data['shop_id'] = $row['shop_id'];
-            $sale_detail_data['user_id'] = $row['user_id'];
-            $sale_detail_data['sale_type'] = $row['sale_type'];
-            $this->db->insert('tbl_sale_details', $sale_detail_data);
-
-            $old_qty = $this->M_product->get_shop_qty($row['product_id'], $row['shop_id']);
-            $new_qty = ($sale_type == 1) ? $old_qty - $row['qty'] : ($sale_type == 2 ? $old_qty + $row['qty'] : $old_qty);
-            $this->db->where('product_id', $row['product_id']);
-            $this->db->where('shop_id', $row['shop_id']);
-            $this->db->update('tbl_quantities', array('qty' => $new_qty));
-        }
-
-        $this->db->where('user_id', $user_id);
-        $this->db->where('shop_id', $shop_id);
-        $this->db->where('client_id', $client_id);
-        $this->db->delete('tbl_cart_sales');
-        redirect("Sale/receipt/" . $sale_id . '/' . $client_id);
-        // $receipt_data = $this->M_product->get_sales_details($user_id, $client_id, $shop_id, $sale_id);
-        //return json_encode($receipt);
-        //$receipt_html = $this->load->view('sale/_receipt', $receipt_data, true);
-        //echo $receipt_html;
-
     }
 
 }

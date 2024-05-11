@@ -151,8 +151,20 @@
       <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
          <div class="col">
             <button onclick="clearCart()" class="btn btn-outline-danger" style="margin-right: 7px;">CANCEL
-               RETURNING</button>
+               SALE</button>
+
+            <button class="btn btn-outline-warning" style="margin-right: 7px;">PAUSE
+               SALE</button>
          </div>
+         <select class="form-control" name="payment_type_id" id="payment_type_id">
+            <?php foreach ($this->M_payment_type->get_payment_types() as $row) { ?>
+               <option value="<?= $row['payment_type_id']; ?>">
+                  <?= $row['payment_type']; ?>
+               </option>
+            <?php } ?>
+         </select>
+         &nbsp;
+
          <select class="form-control" name="client_id" id="client_id">
             <?php foreach ($this->M_client->get_clients_pos() as $row) { ?>
                <option value="<?= $row['client_id']; ?>">
@@ -220,6 +232,37 @@
          .product-item:hover {
             background-color: #f0f0f0;
          }
+
+
+
+
+         @media print {
+            #print-receipt-container {
+               display: block;
+               margin: 0 auto;
+               /* Center the receipt on the page */
+            }
+
+            .receipt-table-wrapper {
+               /* Additional styles for table container in receipt format */
+            }
+
+            #kato {
+               /* Adjust styles for table within the receipt format (e.g., font size, margins) */
+               border-collapse: collapse;
+               /* Ensure table borders collapse for printing */
+            }
+
+            #kato th,
+            #kato td {
+               border: 1px solid black;
+               /* Print table borders */
+               padding: 5px;
+               /* Add padding for better readability */
+            }
+
+            /* Additional styles for specific table elements (header, body, etc.) */
+         }
       </style>
 
       <div class="row">
@@ -247,7 +290,7 @@
             </table>
          </div>
 
-         <div class="col-4 col-xl-4">
+         <div class="col-4 col-xl-4 noprint">
             <div class="card">
                <div class="card-body p-4">
                   <h5 class="mb-4">
@@ -258,17 +301,11 @@
                      <b>TOTAL : <span id="totalBill"></span></b>
                   </h5>
                   <hr>
-                  <select class="form-control" name="payment_type_id" id="payment_type_id">
-                     <?php foreach ($this->M_payment_type->get_payment_types() as $row) { ?>
-                        <option value="<?= $row['payment_type_id']; ?>">
-                           <?= $row['payment_type']; ?>
-                        </option>
-                     <?php } ?>
-                  </select>
 
-                  <div id="detailsInputField">
+                  <div class="input-group mb-3">
                      <br>
-                     <input type="text" name="details" id="details" class="form-control" placeholder="Payment Details">
+                     <input type="text" name="details" id="details" class="form-control" placeholder="Payment Details"
+                        style="padding:2%; font-size:30px; text-align: center;">
                      <br>
                   </div>
                   <br>
@@ -284,8 +321,8 @@
                      <span id="balance"></span>
                   </h5>
 
-                  <button type="button" id="finish-returning" class="btn btn-success" style="width:100%;">
-                     FINISH RETURNING
+                  <button type="button" id="finish-sale" class="btn btn-success" style="width:100%;">
+                     FINISH SALE
                   </button>
                </div>
             </div>
@@ -299,10 +336,41 @@
 
 <?php $this->load->view('includes/footer.php'); ?>
 <script>
+   $(document).ready(function () {
+      clear_bills();
+
+      $('#tendered').on('click', function () {
+         $(this).val('');
+      });
+
+      $("#tendered").on("input", function () {
+         var tenderedAmount = parseFloat(
+            $(this)
+               .val()
+               .replace(/[^\d.]/g, "")
+         );
+         var totalBill = parseFloat(
+            $("#totalBill")
+               .text()
+               .replace(/[^\d.]/g, "")
+         );
+         if (tenderedAmount > 0) {
+            var change = tenderedAmount - totalBill;
+            change = Math.round(change * 100) / 100;
+            var formattedChange = change
+               .toFixed(2)
+               .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            $("#change").text("CHANGE: " + formattedChange);
+            $("#change").show();
+         } else {
+            $("#change").hide();
+         }
+      });
+   });
    var cartItems = [];
    function search() {
       $.post(
-         "<?= base_url(); ?>ReturnProduct/refresh_cart",
+         "<?= base_url(); ?>Sale/refresh_cart",
          {
             barcode: $("#barcode").val()
          },
@@ -353,6 +421,18 @@
                   $("#totalBill").text(totalBill.toFixed(2));
                }
 
+               $('.qty-input').click(function () {
+                  $(this).val('');
+               });
+
+               $('.my-input').focus(function () {
+                  // $(this).css('background-color', 'lightblue');
+                  var row = $(this).closest('tr');
+
+                  // Apply background color to the entire row
+                  row.css('background-color', 'lightblue');
+               });
+
                // Update subtotal and total on quantity change
                cartItemsBody.on('input', '.qty-input', function () {
                   var qty = parseInt($(this).val());
@@ -364,6 +444,27 @@
                   row.find('.price-total').text((parseFloat(total)).toFixed(2));
                   updateTotals();
                });
+
+               // cartItemsBody.on('input', '.qty-input', function () {
+               //    var qty = parseInt($(this).val());
+               //    var row = $(this).closest('tr');
+               //    var formattedPrice = parseFloat(row.find('.formatted-price').text());
+               //    var total = (qty * formattedPrice).toLocaleString('en-US', {
+               //       minimumFractionDigits: 2,
+               //       maximumFractionDigits: 2
+               //    });
+               //    var item_vat = (total.replace(/,/g, '') * vatRate) / 100; // Remove commas before calculation
+               //    row.find('.vat').text(item_vat.toLocaleString('en-US', {
+               //       minimumFractionDigits: 2,
+               //       maximumFractionDigits: 2
+               //    }));
+               //    row.find('.price-total').text(parseFloat(total.replace(/,/g, '')).toLocaleString('en-US', {
+               //       minimumFractionDigits: 2,
+               //       maximumFractionDigits: 2
+               //    }));
+               //    updateTotals();
+               // });
+
 
                // Delete item from cart
                cartItemsBody.on('click', '.delete', function () {
@@ -383,7 +484,7 @@
 
 
 
-   $("#finish-returning").click(function () {
+   $("#finish-sale").click(function () {
       var productIds = [];
       var vats = [];
       var qtys = [];
@@ -421,23 +522,13 @@
       };
       console.log(dataToSend);
       $.ajax({
-         url: "<?php echo base_url('ReturnProduct/return_products'); ?>",
+         url: "<?php echo base_url('Sale/sale_products'); ?>",
          type: "POST",
          data: dataToSend,
          dataType: "json",
          success: function (response) {
             console.log(response);
-            alert(response.message)
             printReceipt();
-            var cartItemsBody = $("#cart-items-body");
-            cartItemsBody.empty();
-            $('#tendered').val("");
-            $('#details').val();
-            $("#sub").text("");
-            $("#vat").text("");
-            $("#totalBill").html("");
-            $("#client_id").val("");
-
          },
          error: function (xhr, status, error) {
             console.error(xhr.responseText);
@@ -446,31 +537,101 @@
       });
    });
 
+   function clear_bills() {
+      var cartItemsBody = $("#cart-items-body");
+      cartItemsBody.empty();
+      $('#tendered').val("0.00");
+      $('#details').val();
+      $("#sub").text("00.00");
+      $("#vat").text("00.00");
+      $("#totalBill").html("00.00");
+      $("#change").text("CHANGE: ");
+      $("#change").hide();
+   }
+
+
+   function get_address(callback) {
+      $.ajax({
+         url: "<?php echo base_url('Product/get_address'); ?>",
+         type: "GET",
+         dataType: "json",
+         success: function (data) {
+            callback(data);
+         },
+         error: function (xhr, status, error) {
+            console.error(xhr.responseText);
+            alert("Error fetching address data");
+         }
+      });
+   }
+
+   // function printReceipt() {
+   //    get_address(function (address_data) {
+   //       console.log(address_data);
+
+   //       var katoTable = $("#kato").clone();
+   //       var receiptContainer = $("<div id='print-receipt-container'></div>");
+
+   //       receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].company + "</h2>");
+   //       receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].address + "</h2>");
+   //       receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].phone + " | " + address_data[0].alt_phone + "</h2>");
+   //       receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].email + " | " + address_data[0].alt_email + "</h2>");
+   //       receiptContainer.append("<p style='text-align: center;'>Date: " + new Date().toLocaleString() + "</p>");
+
+   //       var tableWrapper = $("<div class='receipt-table-wrapper'></div>");
+   //       tableWrapper.append(katoTable);
+   //       receiptContainer.append(tableWrapper);
+   //       receiptContainer.hide().appendTo("body");
+   //       var printContents = $("#print-receipt-container").html();
+   //       var originalContents = document.body.innerHTML;
+   //       document.body.innerHTML = printContents;
+   //       window.print();
+   //       document.body.innerHTML = originalContents;
+   //       receiptContainer.remove();
+   //       clear_bills();
+   //    });
+   // }
+
+
 
    function printReceipt() {
-      // Create a temporary element to hold the receipt content
-      const $receiptContainer = $("<div id='print-receipt-container'></div>"); // Give it a unique ID
+      get_address(function (address_data) {
+         console.log(address_data);
 
-      // Clone the cart items body (or relevant receipt section)
-      const $cartItemsCopy = $("#cart-items-body").clone();
+         var katoTable = $("#kato").clone();
+         var receiptContainer = $("<div id='print-receipt-container'></div>");
 
-      // Add additional receipt information (e.g., store details, date, etc.)
-      $receiptContainer.append("<h2>Store Name</h2>");
-      $receiptContainer.append("<p>Date: " + new Date().toLocaleString() + "</p>");
-      $receiptContainer.append($cartItemsCopy);
+         receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].company + "</h2>");
+         receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].address + "</h2>");
+         receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].phone + " | " + address_data[0].alt_phone + "</h2>");
+         receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].email + " | " + address_data[0].alt_email + "</h2>");
+         receiptContainer.append("<p style='text-align: center;'>Date: " + new Date().toLocaleString() + "</p>");
 
-      // Append the temporary element to the body (hidden)
-      $("body").append($receiptContainer.hide());
 
-      // Target the receipt container with CSS for printing
-      $("#print-receipt-container").css("display", "block"); // Make it visible for printing
+         // Remove headers 3 and 5
+         katoTable.find('th').eq(3).remove(); // Remove third header (index 2)
+         katoTable.find('th').eq(4).remove(); // Remove fifth header (index 4)
 
-      // Print the receipt content
-      window.print();
+         // Remove columns 3 and 5 from the table
+         katoTable.find('tr').each(function () {
+            $(this).find('td:eq(3), td:eq(5)').remove();
+         });
 
-      // Remove the temporary element
-      $receiptContainer.remove();
+         var tableWrapper = $("<div class='receipt-table-wrapper'></div>");
+         tableWrapper.append(katoTable);
+         receiptContainer.append(tableWrapper);
+         receiptContainer.hide().appendTo("body");
+         var printContents = $("#print-receipt-container").html();
+         var originalContents = document.body.innerHTML;
+         document.body.innerHTML = printContents;
+         window.print();
+         document.body.innerHTML = originalContents;
+         receiptContainer.remove();
+         clear_bills();
+      });
    }
+
+
 
 
 
@@ -489,6 +650,11 @@
       if (confirm("Are you sure you want to clear your cart?")) {
          var cartItemsBody = $("#cart-items-body");
          cartItemsBody.empty();
+         $('#tendered').val("0.00");
+         $('#details').val();
+         $("#sub").text("00.00");
+         $("#vat").text("00.00");
+         $("#totalBill").html("00.00");
       }
    }
 
