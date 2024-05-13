@@ -428,9 +428,11 @@
                   $(this).val('');
                });
 
-               $('.qty-input').focus(function () {
+               $('.my-input').focus(function () {
                   // $(this).css('background-color', 'lightblue');
                   var row = $(this).closest('tr');
+
+                  // Apply background color to the entire row
                   row.css('background-color', 'lightblue');
                });
 
@@ -475,6 +477,7 @@
             } else {
                $("#cart-items").html("<p>" + data.message + "</p>");
             }
+
          },
          "json"
       ).fail(function (jqXHR, textStatus, errorThrown) {
@@ -565,23 +568,6 @@
       });
    }
 
-   // funtion get_from_mra(){
-   //    var vat_rate = 0;
-   //    $.ajax({
-   //       url: 'https://jsonplaceholder.typicode.com/posts',
-   //       type: 'GET',
-   //       success: function (response) {
-   //          console.log(response);
-   //          $('#output').text(JSON.stringify(response));
-   //       },
-   //       error: function (xhr, status, error) {
-   //          console.error(status, error);
-   //       }
-   //    });
-   //    return vat_rate;
-   // }
-
-
    // function printReceipt() {
    //    get_address(function (address_data) {
    //       console.log(address_data);
@@ -618,9 +604,6 @@
          var katoTable = $("#kato").clone();
          var receiptContainer = $("<div id='print-receipt-container'></div>");
 
-         // receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].logo + "</h2>");
-         receiptContainer.append("<img src='/assets/uploads/" + address_data[0].logo + "' alt='Logo' style='display: block; margin: 0 auto;'>");
-
          receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].company + "</h2>");
          receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].address + "</h2>");
          receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].phone + " | " + address_data[0].alt_phone + "</h2>");
@@ -649,6 +632,9 @@
          clear_bills();
       });
    }
+
+
+
 
 
    $("#barcode").keypress(function (event) {
