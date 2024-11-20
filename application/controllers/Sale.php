@@ -13,7 +13,7 @@ class Sale extends CI_Controller
 
     function index()
     {
-        $data["page_title"] = "Point of Sale | ". strtoupper($this->M_user->get_name($this->session->userdata('user_id')));
+        $data["page_title"] = "Point of Sale | " . strtoupper($this->M_user->get_name($this->session->userdata('user_id')));
         $this->load->view("sale/_sale", $data);
     }
     function refresh_cart()
@@ -55,7 +55,6 @@ class Sale extends CI_Controller
         }
 
     }
-
 
     function sale_products()
     {
@@ -101,7 +100,7 @@ class Sale extends CI_Controller
                     'price' => $price,
                     'qty' => $qtys[$i],
                     'vat' => $vats[$i],
-                    'product_id' => $productId, 
+                    'product_id' => $productId,
                     'total' => ($price * $qtys[$i]),
                     'sub_total' => $sub_total,
                     'client_id' => $client_id,
@@ -124,5 +123,84 @@ class Sale extends CI_Controller
         }
         echo json_encode($response);
     }
+
+    function generateRandomString($length)
+    {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $randomString = '';
+        $maxIndex = strlen($characters) - 1;
+
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $maxIndex)];
+        }
+
+        return $randomString;
+    }
+
+
+    function sale_pause()
+    {
+        $productIds = $this->input->post('product_ids');
+        $qtys = $this->input->post('qtys');
+        $user_id = $this->session->userdata('user_id');
+        $shop_id = $this->M_user->get_user_shop($user_id);
+        $client_id = $this->input->post('client_id');
+        $date_paused = date('Y-m-d h:m:s');
+        $session_id = $this->generateRandomString(8);
+
+        if (!empty($productIds) && !empty($qtys) && count($productIds) == count($qtys)) {
+            for ($i = 0; $i < count($productIds); $i++) {
+                $productId = $productIds[$i];
+                $price = $this->M_product->get_price($productId);
+                $data = array(
+                    'product_id' => $productId,
+                    'client_id' => $client_id,
+                    'qty' => $qtys[$i],
+                    'price' => $price,
+                    'shop_id' => $shop_id,
+                    'user_id' => $user_id,
+                    'date_paused' => $date_paused,
+                    'session_id' => $session_id,
+                );
+                $this->db->insert('tbl_cart_sales', $data);
+            }
+            $response = array('success' => true, 'message' => 'Pausing Sale successfully');
+        } else {
+            $response = array('success' => false, 'message' => 'Error: Invalid data received');
+        }
+        echo json_encode($response);
+    }
+
+    function synch_sales_to_mra()
+    {
+
+    }
+
+    function process()
+    {
+        $barcode = $this->input->post('barcode');
+        if ($barcode) {
+            $this->load->model('Barcode_model');
+            $result = $this->M_product->getProductByBarcode($barcode);
+
+            if ($result) {
+                echo "Product Found: " . $result->product_name;
+            } else {
+                echo "No product found with this barcode.";
+            }
+        } else {
+            echo "Please scan a barcode.";
+        }
+    }
+
+    function delete_cart()
+    {
+        $session_id = $this->input->post('session_id');
+        $this->db->where("session_id", $session_id);
+        $this->db->delete("tbl_cart_sales");
+        $response = array('success' => true, 'message' => 'deleting paused sale done successfully');
+        echo json_encode($response);
+    }
+
 
 }

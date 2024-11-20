@@ -316,6 +316,16 @@ class M_product extends CI_Model
         return $query->result_array();
     }
 
+    function get_paused_sales()
+    {
+        $this->db->select('*');
+        $this->db->where('user_id', $this->session->userdata('user_id'));
+        $this->db->from('tbl_cart_sales');
+        $this->db->group_by('session_id');
+        $query = $this->db->get();
+        return $query->result_array();
+    }
+
 
 
     function get_cart($user_id, $client_id, $shop_id)
@@ -452,6 +462,13 @@ class M_product extends CI_Model
         $this->db->where('product_id', $product_id);
         $query = $this->db->get('tbl_products');
         return $query->result_array();
+    }
+
+    public function getProductByBarcode($barcode)
+    {
+        $this->db->where('barcode', $barcode);
+        $query = $this->db->get('products');
+        return $query->row();
     }
 
 

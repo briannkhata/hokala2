@@ -153,8 +153,11 @@
             <button onclick="clearCart()" class="btn btn-outline-danger" style="margin-right: 7px;">CANCEL
                SALE</button>
 
-            <button class="btn btn-outline-warning" style="margin-right: 7px;">PAUSE
+            <button class="btn btn-outline-warning" id="pause-sale" style="margin-right: 7px;">PAUSE
                SALE</button>
+
+            <button class="btn btn-primary" style="margin-right: 7px;" data-bs-toggle="modal"
+               data-bs-target="#PAUSED">PAUSED</button>
          </div>
          <select class="form-control" name="payment_type_id" id="payment_type_id">
             <?php foreach ($this->M_payment_type->get_payment_types() as $row) { ?>
@@ -337,6 +340,49 @@
    </div>
 </main>
 
+<div class="modal fade" id="PAUSED" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+   style="width:100%">
+   <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">PAUSED SALES</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+         </div>
+         <div class="modal-body" style="">
+            <table id="" class="table table-striped" style="width:100%">
+               <thead>
+                  <tr>
+                     <th>Session ID</th>
+                     <th>Paused Date</th>
+                     <th>Action</th>
+                  </tr>
+               </thead>
+               <tbody>
+                  <?php
+                  foreach ($this->M_product->get_paused_sales() as $row): ?>
+
+                     <tr class="product-row" data-product-id="<?= $row['cart_id']; ?>">
+                        <td>
+                           <?= $row['session_id'] ?>
+                        </td>
+                        <td>
+                           <?= date('d F Y h:m:s', strtotime($row['date_paused'])); ?>
+                        </td>
+                        <td>
+                           <a href="#" class="btn btn-outline-success">select</a>
+                           <a href="#" onclick="delete_cart('<?= $row['session_id']; ?>')"
+                              class="btn btn-outline-danger">remove</a>
+
+                        </td>
+                     </tr>
+                  <?php endforeach; ?>
+               </tbody>
+            </table>
+         </div>
+
+      </div>
+   </div>
+</div>
 <?php $this->load->view('includes/footer.php'); ?>
 <script>
    $(document).ready(function () {
@@ -369,7 +415,26 @@
             $("#change").hide();
          }
       });
+
+
+      $(document).on('keypress', function (e) {
+         if (e.which === 13) {
+            $('#finish-sale').click();
+            location.reload();
+         }
+      });
+
    });
+
+
+   function delete_cart(session_id) {
+      $.post("<?= base_url(); ?>Sale/delete_cart", { session_id: session_id }, function (htmlData) {
+         location.reload();
+      }).fail(function (jqXHR, textStatus, errorThrown) {
+         console.error("AJAX Error:", textStatus, errorThrown);
+      });
+   }
+
    var cartItems = [];
    function search() {
       $.post(
@@ -428,11 +493,6 @@
                   $(this).val('');
                });
 
-               $('.qty-input').focus(function () {
-                  // $(this).css('background-color', 'lightblue');
-                  var row = $(this).closest('tr');
-                  row.css('background-color', 'lightblue');
-               });
 
                // Update subtotal and total on quantity change
                cartItemsBody.on('input', '.qty-input', function () {
@@ -481,7 +541,6 @@
          $("#barcode").val("");
       });
    }
-
 
 
    $("#finish-sale").click(function () {
@@ -536,6 +595,55 @@
          }
       });
    });
+
+
+
+   $("#pause-sale").click(function () {
+      var productIds = [];
+      var qtys = [];
+
+
+      $(".qty-input").each(function () {
+         qtys.push($(this).val());
+      });
+
+      $("input[name='product_id']").each(function () {
+         productIds.push($(this).val());
+      });
+
+      if (qtys.length !== productIds.length) {
+         alert("Please enter quantities for all items.");
+         return;
+      }
+
+      var dataToSend = {
+         product_ids: productIds,
+         qtys: qtys,
+         client_id: $("#client_id").val(),
+      };
+
+      $.ajax({
+         url: "<?php echo base_url('Sale/sale_pause'); ?>",
+         type: "POST",
+         data: dataToSend,
+         dataType: "json",
+         success: function (response) {
+            console.log(response);
+            clear_bills();
+         },
+         error: function (xhr, status, error) {
+            console.error(xhr.responseText);
+            alert(xhr.responseText)
+         }
+      });
+   });
+
+
+
+
+
+
+
 
    function clear_bills() {
       var cartItemsBody = $("#cart-items-body");
@@ -611,6 +719,7 @@
 
 
 
+
    function printReceipt() {
       get_address(function (address_data) {
          console.log(address_data);
@@ -618,37 +727,160 @@
          var katoTable = $("#kato").clone();
          var receiptContainer = $("<div id='print-receipt-container'></div>");
 
-         // receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].logo + "</h2>");
-         receiptContainer.append("<img src='/assets/uploads/" + address_data[0].logo + "' alt='Logo' style='display: block; margin: 0 auto;'>");
+         // Append company details and address data
+         receiptContainer.append("<img src='" + address_data[0].logo + "' alt='LOGO' class='logo'>");
+         receiptContainer.append("<h2 class='receipt-header'>" + address_data[0].company + "</h2>");
+         receiptContainer.append("<p class='receipt-info'>" + address_data[0].address + "</p>");
+         receiptContainer.append("<p class='receipt-info'>" + address_data[0].phone + " | " + address_data[0].alt_phone + "</p>");
+         receiptContainer.append("<p class='receipt-info'>" + address_data[0].email + " | " + address_data[0].alt_email + "</p>");
+         receiptContainer.append("<p class='receipt-info'>Date: " + new Date().toLocaleString() + "</p>");
 
-         receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].company + "</h2>");
-         receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].address + "</h2>");
-         receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].phone + " | " + address_data[0].alt_phone + "</h2>");
-         receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].email + " | " + address_data[0].alt_email + "</h2>");
-         receiptContainer.append("<p style='text-align: center;'>Date: " + new Date().toLocaleString() + "</p>");
-
-         // Remove headers 3 and 5
+         // Remove headers 3 and 5 from the table
          katoTable.find('th').eq(3).remove(); // Remove third header (index 2)
-         katoTable.find('th').eq(4).remove(); // Remove fifth header (index 4)
+         katoTable.find('th').eq(4).remove(); // Remove fifth header (index 3)
 
          // Remove columns 3 and 5 from the table
          katoTable.find('tr').each(function () {
             $(this).find('td:eq(3), td:eq(5)').remove();
          });
 
-         var tableWrapper = $("<div class='receipt-table-wrapper center-align' style='text-align: center;'></div>");
+         var tableWrapper = $("<div class='receipt-table-wrapper'></div>");
          tableWrapper.append(katoTable);
          receiptContainer.append(tableWrapper);
          receiptContainer.hide().appendTo("body");
+
+         // Apply CSS styles
+         var cssStyles = `
+         .logo {
+            width: 100px;
+            height: auto;
+         }
+         .receipt-header {
+            text-align: center;
+            font-size: 20px;
+            margin: 10px 0;
+         }
+         .receipt-info {
+            text-align: center;
+            margin: 5px 0;
+         }
+         .receipt-table-wrapper {
+            text-align: center;
+            margin-top: 20px;
+         }
+         #print-receipt-container {
+            display: none;
+         }
+      `;
+         var styleElement = $("<style></style>");
+         styleElement.html(cssStyles);
+         $("head").append(styleElement);
+
+         // Create a temporary container for original content
+         var originalContentContainer = document.createElement('div');
+         originalContentContainer.innerHTML = document.body.innerHTML;
+
+         // Print the receipt
          var printContents = $("#print-receipt-container").html();
-         var originalContents = document.body.innerHTML;
          document.body.innerHTML = printContents;
          window.print();
-         document.body.innerHTML = originalContents;
+
+         // Restore original content after printing
+         document.body.innerHTML = originalContentContainer.innerHTML;
+
+         // Clean up after printing
          receiptContainer.remove();
          clear_bills();
       });
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   // function printReceipt() {
+   //    get_address(function (address_data) {
+   //       console.log(address_data);
+
+   //       var katoTable = $("#kato").clone();
+   //       var receiptContainer = $("<div id='print-receipt-container'></div>");
+
+   //       receiptContainer.append("<img src='" + address_data[0].logo + "' alt='LOGO'>");
+   //       receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].company + "</h2>");
+   //       receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].address + "</h2>");
+   //       receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].phone + " | " + address_data[0].alt_phone + "</h2>");
+   //       receiptContainer.append("<h2 style='text-align: center;'>" + address_data[0].email + " | " + address_data[0].alt_email + "</h2>");
+   //       receiptContainer.append("<p style='text-align: center;'>Date: " + new Date().toLocaleString() + "</p>");
+
+   //       // Remove headers 3 and 5
+   //       katoTable.find('th').eq(3).remove(); // Remove third header (index 2)
+   //       katoTable.find('th').eq(4).remove(); // Remove fifth header (index 4)
+
+   //       // Remove columns 3 and 5 from the table
+   //       katoTable.find('tr').each(function () {
+   //          $(this).find('td:eq(3), td:eq(5)').remove();
+   //       });
+
+   //       var tableWrapper = $("<div class='receipt-table-wrapper center-align' style='text-align: center;'></div>");
+   //       tableWrapper.append(katoTable);
+   //       receiptContainer.append(tableWrapper);
+   //       receiptContainer.hide().appendTo("body");
+   //       var printContents = $("#print-receipt-container").html();
+   //       var originalContents = document.body.innerHTML;
+   //       document.body.innerHTML = printContents;
+   //       window.print();
+   //       document.body.innerHTML = originalContents;
+   //       receiptContainer.remove();
+   //       clear_bills();
+   //    });
+   // }
+
+
+
+
+
+
+   function sync_sales_to_mra() {
+
+   }
+
+
+
+
+
+
+
+
+
+
 
 
    $("#barcode").keypress(function (event) {
