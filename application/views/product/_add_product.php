@@ -31,7 +31,9 @@
                      <div class="col-md-12">
                         <label class="control-label">Barcode</label>
                         <input type="text" name="barcode" class="form-control" id="barcode" autofocus="true"
-                           onkeyup="updateBarcodeDisplay()"  placeholder="Scan or type barcode here...">
+                           onkeyup="updateBarcodeDisplay()" value="<?php if (!empty($barcode)) {
+                           echo $barcode;
+                        } ?>"   placeholder="Scan or type barcode here...">
                      </div>
                      <!-- <p id="barcodeDisplay" style="margin-top: 10px; font-weight: bold;"></p> -->
 

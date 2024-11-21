@@ -29,7 +29,6 @@ class Product extends CI_Controller
         $data["unit_id"] = $this->input->post("unit_id");
         $data["reorder_level"] = $this->input->post("reorder_level");
         $data["expiry_date"] = $this->input->post("expiry_date");
-
         return $data;
     }
 
@@ -66,9 +65,53 @@ class Product extends CI_Controller
         $this->load->view("product/_add_product", $data);
     }
 
+    function generateBarcode($barcode_number)
+    {
+        $barcode_path = './assets/images/qrcode/';
+        if (!is_dir($barcode_path)) {
+            mkdir($barcode_path, 0777, true);
+        }
+
+        // Define the barcode image name and full path
+        $barcode_image_name = $barcode_number . '.png';
+        $barcode_full_path = $barcode_path . $barcode_image_name;
+
+        // CIQRCode configuration
+        $config = [
+            'cacheable' => true,
+            'cachedir' => './application/cache/',
+            'errorlog' => './application/logs/',
+            'quality' => true,
+            'size' => 1024,
+            'black' => [224, 255, 255], // Light Cyan
+            'white' => [70, 130, 180]  // Steel Blue
+        ];
+        $this->ciqrcode->initialize($config);
+
+        // Barcode generation parameters
+        $params = [
+            'data' => $barcode_number,
+            'level' => 'H',
+            'size' => 10,
+            'savename' => $barcode_full_path
+        ];
+        $this->ciqrcode->generate($params);
+
+        return [
+            'barcode' => $barcode_number,
+            'barcode_image' => $barcode_full_path
+        ];
+    }
+
+
     function save()
     {
         $data = $this->get_form_data();
+        $barcode_number = $data["barcode"];
+        $barcode_details = $this->generateBarcode($barcode_number);
+        $data['barcode'] = $barcode_details['barcode'];
+        $data['barcode_image'] = $barcode_details['barcode_image'];
+
         $update_id = $this->input->post("update_id", true);
         if (isset($update_id)) {
             $data["modified_by"] = $this->session->userdata("user_id");
@@ -78,38 +121,6 @@ class Product extends CI_Controller
 
             $this->sync_quantities_by_shop($update_id);
         } else {
-
-            $barcode_number = $data["barcode"];
-            $barcode_path = './assets/images/qrcode/';
-
-            if (!is_dir($barcode_path)) {
-                mkdir($barcode_path, 0777, true);
-            }
-
-            $barcode_image_name = $barcode_number . '.png';
-            $barcode_full_path = $barcode_path . $barcode_image_name;
-
-            $config = [
-                'cacheable' => true,
-                'cachedir' => './application/cache/',
-                'errorlog' => './application/logs/',
-                'quality' => true,
-                'size' => 1024,
-                'black' => [224, 255, 255],
-                'white' => [70, 130, 180]
-            ];
-            $this->ciqrcode->initialize($config);
-
-            $params = [
-                'data' => $barcode_number,
-                'level' => 'H',
-                'size' => 10,
-                'savename' => $barcode_full_path
-            ];
-            $this->ciqrcode->generate($params);
-
-            $data['barcode'] = $barcode_number;
-            $data['barcode_image'] = $barcode_full_path;
 
             $this->db->insert("tbl_products", $data);
             $product_id = $this->db->insert_id();
