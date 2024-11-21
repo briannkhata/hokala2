@@ -6,6 +6,7 @@ class Product extends CI_Controller
     function __construct()
     {
         parent::__construct();
+        $this->load->library('CIQrCode');
         if ($this->session->userdata("user_login") != 1) {
             redirect(base_url(), "refresh");
         }
@@ -27,6 +28,8 @@ class Product extends CI_Controller
         $data["selling_price"] = $this->input->post("selling_price");
         $data["unit_id"] = $this->input->post("unit_id");
         $data["reorder_level"] = $this->input->post("reorder_level");
+        $data["expiry_date"] = $this->input->post("expiry_date");
+
         return $data;
     }
 
@@ -42,6 +45,7 @@ class Product extends CI_Controller
             $data["unit_id"] = $row["unit_id"];
             $data["reorder_level"] = $row["reorder_level"];
             $data["expiry_date"] = $row["expiry_date"];
+            $data["desc"] = $row["desc"];
         }
         return $data;
     }
@@ -58,7 +62,7 @@ class Product extends CI_Controller
         } else {
             $data = $this->get_form_data();
         }
-        $data["page_title"] = "Create product";
+        $data["page_title"] = "Create Product";
         $this->load->view("product/_add_product", $data);
     }
 
@@ -74,17 +78,50 @@ class Product extends CI_Controller
 
             $this->sync_quantities_by_shop($update_id);
         } else {
+
+            $barcode_number = $data["barcode"];
+            $barcode_path = './assets/images/qrcode/';
+
+            if (!is_dir($barcode_path)) {
+                mkdir($barcode_path, 0777, true);
+            }
+
+            $barcode_image_name = $barcode_number . '.png';
+            $barcode_full_path = $barcode_path . $barcode_image_name;
+
+            $config = [
+                'cacheable' => true,
+                'cachedir' => './application/cache/',
+                'errorlog' => './application/logs/',
+                'quality' => true,
+                'size' => 1024,
+                'black' => [224, 255, 255],
+                'white' => [70, 130, 180]
+            ];
+            $this->ciqrcode->initialize($config);
+
+            $params = [
+                'data' => $barcode_number,
+                'level' => 'H',
+                'size' => 10,
+                'savename' => $barcode_full_path
+            ];
+            $this->ciqrcode->generate($params);
+
+            $data['barcode'] = $barcode_number;
+            $data['barcode_image'] = $barcode_full_path;
+
             $this->db->insert("tbl_products", $data);
             $product_id = $this->db->insert_id();
             $this->sync_quantities_by_shop($product_id);
         }
-        
+
+        $this->session->set_flashdata("message", "Product saved successfully!");
         if ($update_id != ""):
             redirect("Product");
         else:
             redirect("Product/read");
         endif;
-        $this->session->set_flashdata("message", "Product saved successfully!");
     }
 
     function delete($param = "")

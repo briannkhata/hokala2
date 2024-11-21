@@ -26,13 +26,16 @@
                   <hr>
                   <form action="<?= base_url(); ?>Product/save" class="row g-3" method="post">
 
-                     <div class="col-md-3">
+          
+
+                     <div class="col-md-12">
                         <label class="control-label">Barcode</label>
-                        <input type="text" name="barcode" class="form-control" value="<?php if (!empty($barcode)) {
-                           echo $barcode;
-                        } ?>">
+                        <input type="text" name="barcode" class="form-control" id="barcode" autofocus="true"
+                           onkeyup="updateBarcodeDisplay()"  placeholder="Scan or type barcode here...">
                      </div>
-                     <div class="col-md-9">
+                     <!-- <p id="barcodeDisplay" style="margin-top: 10px; font-weight: bold;"></p> -->
+
+                     <div class="col-md-12">
                         <label class="control-label">Product Name</label>
                         <input type="text" name="name" class="form-control" value="<?php if (!empty($name)) {
                            echo $name;
@@ -88,8 +91,7 @@
                      </div>
 
 
-
-                     <div class="col-md-6">
+                     <div class="col-md-4">
                         <label class="control-label">Selling Price</label>
                         <input type="text" name="selling_price" class="form-control" value="<?php if (!empty($selling_price)) {
                            echo $selling_price;
@@ -97,13 +99,19 @@
                      </div>
 
 
-                     <div class="col-md-6">
+                     <div class="col-md-4">
                         <label class="control-label"> Order Level In Days</label>
                         <input type="text" name="reorder_level" class="form-control" value="<?php if (!empty($reorder_level)) {
                            echo $reorder_level;
                         } ?>">
                      </div>
 
+                     <div class="col-md-4">
+                        <label class="control-label">Expiry Date</label>
+                        <input type="date" name="expiry_date" class="form-control" value="<?php if (!empty($expiry_date)) {
+                           echo $expiry_date;
+                        } ?>">
+                     </div>
 
 
                      <div class="col-md-12">
@@ -124,3 +132,13 @@
 </main>
 <!--end main wrapper-->
 <?php $this->load->view('includes/footer.php'); ?>
+
+<script>
+   function updateBarcodeDisplay() {
+      // Get the input value
+      //const barcodeValue = document.getElementById('barcode').value;
+
+      // Display it in the paragraph below
+      //document.getElementById('barcodeDisplay').textContent = `Scanned Barcode: ${barcodeValue}`;
+   }
+</script>

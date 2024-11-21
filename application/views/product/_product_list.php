@@ -47,17 +47,20 @@
                               <th>Selling Price</th>
                               <th>Reorder Level</th>
                               <th>Unit</th>
+                              <th>Category</th>
+                              <th>Brand</th>
+                              <th>Expiry Date</th>
                               <th></th>
                            </tr>
                         </thead>
                         <tbody>
                            <?php
                            $count = 1;
-                           foreach ($this->M_product->get_products() as $row): ?>
+                           foreach ($this->M_product->get_all_products() as $row): ?>
                               <tr>
 
                                  <td>
-                                    <?= $row['barcode'] ?>
+                                   <?= $row['barcode'] ?>
                                  </td>
                                  <td>
                                     <?= $row['name'] ?>
@@ -77,7 +80,16 @@
                                  <?= $this->M_unit->get_unit_type($row['unit_id']) ?>
                                  </td>
                                  <td>
-                                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                                 <?= $this->M_category->get_category_name($row['category_id']) ?>
+                                 </td>
+                                 <td>
+                                    <?= $this->M_brand->get_brand_name($row['brand_id']) ?>
+                                 </td>
+                                 <td>
+                                    <?= date("d F Y",strtotime($row['expiry_date'])); ?>
+                                 </td>
+                                 <td>
+                                    <div class="btn-group" role="group">
                                        <div class="btn-group" role="group">
                                           <button type="button" class="btn btn-secondary dropdown-toggle"
                                              data-bs-toggle="dropdown" aria-expanded="false">Action</button>
@@ -91,20 +103,11 @@
                                              </li>
 
                                              <li>
-                                                <a href="<?= base_url(); ?>Product/view/<?= $row['product_id']; ?>"
-                                                   class="dropdown-item">
-                                                   View
-                                                </a>
-                                             </li>
-
-                                             <li>
                                                 <a href="<?= base_url(); ?>Product/delete/<?= $row['product_id']; ?>"
                                                    class="dropdown-item">
                                                    Delete
                                                 </a>
                                              </li>
-
-
                                           </ul>
                                        </div>
                                     </div>
