@@ -579,21 +579,118 @@
          total_bill: $("#totalBill").html(),
          client_id: $("#client_id").val(),
       };
-      console.log(dataToSend);
+      //console.log(dataToSend);
+      // $.ajax({
+      //    url: "<?php echo base_url('Sale/sale_products'); ?>",
+      //    type: "POST",
+      //    data: dataToSend,
+      //    dataType: "json",
+      //    success: function (response) {
+      //       //console.log(response);
+      //       //console.log(response[0].total);
+      //       //printReceipt();
+      //       console.log(response.data[0].total); // Logs the 'total' of the first sale
+
+      //    },
+      //    error: function (xhr, status, error) {
+      //       console.error(xhr.responseText);
+      //       alert(response.message)
+      //    }
+      // });
+
+
       $.ajax({
          url: "<?php echo base_url('Sale/sale_products'); ?>",
          type: "POST",
          data: dataToSend,
          dataType: "json",
          success: function (response) {
-            console.log(response);
-            printReceipt();
+            console.log(response.data[0]);
+
+            if (response && response.data) {
+               get_address(function (addressData) {
+                  const addressHTML = `
+                  <div style="text-align: center; font-family: monospace;">
+                     <p><h3><b>${addressData[0].company}</b></h3></p>
+                     <p>${addressData[0].address}</p>
+                     <p>${addressData[0].phone}</p>
+                  </div>
+                  <hr />
+               `;
+               let receiptHTML = `
+               <center>
+               <div style="font-family: monospace; width: 350px; border: 1px solid #000; padding: 10px; text-align: center;">
+                      ${addressHTML}
+                  <table style="width: 100%; border-collapse: collapse; text-align: center;">
+                     <thead>
+                     <tr>
+                        <th style="text-align: left;">Item</th>
+                        <th style="text-align: right;">Price</th>
+                        <th style="text-align: right;">Qty</th>
+                        <th style="text-align: right;">Total</th>
+                     </tr>
+                     </thead>
+                     <tbody>
+               `;
+                  let subTotal = 0;
+                  let vatTotal = 0;
+
+                  // Formatter for currency
+                  const numberFormatter = new Intl.NumberFormat('en-US', {
+                     minimumFractionDigits: 2,
+                     maximumFractionDigits: 2,
+                  });
+
+                  // Populate receipt with sale product data
+                  response.data.forEach((item) => {
+                     const itemVat = parseFloat(item.vat || 0);
+                     const itemSubTotal = parseFloat(item.sub_total || 0);
+
+                     receiptHTML += `
+                     <tr>
+                        <td>${item.product_id}</td>
+                        <td style="text-align: right;">${numberFormatter.format(item.price)}</td>
+                        <td style="text-align: right;">${item.qty}</td>
+                        <td style="text-align: right;">${numberFormatter.format(item.total)}</td>
+                     </tr>
+                  `;
+
+                     // Accumulate totals
+                     subTotal += itemSubTotal;
+                     vatTotal += itemVat;
+                  });
+
+                  const totalAmount = subTotal + vatTotal;
+
+                  // Add totals
+                  receiptHTML += `
+                     </tbody>
+                  </table>
+                  <hr />
+                  <p style="text-align: right; font-weight: bold;">Sub Total: ${numberFormatter.format(subTotal)}</p>
+                  <p style="text-align: right; font-weight: bold;">Vat: ${numberFormatter.format(vatTotal)}</p>
+                  <p style="text-align: right; font-weight: bold;">Total: ${numberFormatter.format(totalAmount)}</p>
+               </div>
+               </center>
+               `;
+
+                  // Display the receipt on the page
+                  document.body.innerHTML = receiptHTML;
+
+                  // Optionally, print the receipt
+                  //window.print();
+               });
+            } else {
+               console.error("No data received or data format invalid.");
+            }
          },
          error: function (xhr, status, error) {
             console.error(xhr.responseText);
-            alert(response.message)
+            alert("An error occurred: " + xhr.responseText);
          }
       });
+
+
    });
 
 
@@ -640,11 +737,6 @@
 
 
 
-
-
-
-
-
    function clear_bills() {
       var cartItemsBody = $("#cart-items-body");
       cartItemsBody.empty();
@@ -658,6 +750,10 @@
    }
 
 
+
+
+
+   // Function to fetch address details
    function get_address(callback) {
       $.ajax({
          url: "<?php echo base_url('Product/get_address'); ?>",
@@ -672,6 +768,37 @@
          }
       });
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
    // funtion get_from_mra(){
    //    var vat_rate = 0;

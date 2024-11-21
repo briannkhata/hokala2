@@ -117,7 +117,8 @@ class Sale extends CI_Controller
                 $this->db->where('shop_id', $shop_id);
                 $this->db->update('tbl_quantities', array('qty' => $new_qty));
             }
-            $response = array('success' => true, 'message' => 'Sale done successfully');
+            $result = $this->M_product->get_sales_details_for_receipt($user_id, $sale_id);
+            $response = array('success' => true, 'message' => 'Sale done successfully', 'data' => $result);
         } else {
             $response = array('success' => false, 'message' => 'Error: Invalid data received');
         }

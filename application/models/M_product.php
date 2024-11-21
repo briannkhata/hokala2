@@ -293,6 +293,15 @@ class M_product extends CI_Model
         return $result;
     }
 
+    function get_sales_details_for_receipt($user_id, $sale_id)
+    {
+        $this->db->select('*');
+        $this->db->where('user_id', $user_id);
+        $this->db->where('sale_id', $sale_id);
+        $result = $this->db->get('tbl_sale_details')->result_array();
+        return $result;
+    }
+
     function searchProducts($barcode)
     {
         $this->db->select('product_id, barcode,selling_price, unit_id,category_id, name, `desc`');
