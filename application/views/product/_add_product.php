@@ -26,8 +26,6 @@
                   <hr>
                   <form action="<?= base_url(); ?>Product/save" class="row g-3" method="post">
 
-          
-
                      <div class="col-md-12">
                         <label class="control-label">Barcode</label>
                         <input type="text" name="barcode" class="form-control" id="barcode" autofocus="true"
@@ -43,6 +41,7 @@
                            echo $name;
                         } ?>" required="">
                      </div>
+
                      <div class="col-md-12">
                         <label class="control-label">Description</label>
                         <input type="text" name="desc" class="form-control" value="<?php if (!empty($desc)) {
@@ -138,7 +137,7 @@
 <script>
    function updateBarcodeDisplay() {
       // Get the input value
-      //const barcodeValue = document.getElementById('barcode').value;
+      const barcodeValue = document.getElementById('barcode').value;
 
       // Display it in the paragraph below
       //document.getElementById('barcodeDisplay').textContent = `Scanned Barcode: ${barcodeValue}`;

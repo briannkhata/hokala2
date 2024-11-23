@@ -13,6 +13,8 @@
 <script src="<?= base_url(); ?>assets/plugins/table2csv.js"></script>
 <script src="<?= base_url(); ?>assets/js/select2.min.js"></script>
 <script src="<?= base_url(); ?>assets/plugins/select2/js/select2-custom.js"></script>
+<script type="text/javascript" src="<?= base_url();?>assets/js/qz-tray.js"></script>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.4/xlsx.full.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

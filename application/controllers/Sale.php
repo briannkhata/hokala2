@@ -18,7 +18,6 @@ class Sale extends CI_Controller
     }
     function refresh_cart()
     {
-
         $product_id = trim($this->input->post('product_id'));
 
         if (!empty($product_id) && isset($product_id)) {
