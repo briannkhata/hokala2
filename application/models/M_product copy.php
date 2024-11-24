@@ -292,7 +292,6 @@ class M_product extends CI_Model
         $result = $this->db->get('tbl_sale_details')->result_array();
         return $result;
     }
-
     function get_sales_details_for_receipt($user_id, $sale_id)
     {
         $this->db->select('tbl_sale_details.*, tbl_products.barcode, tbl_products.name, tbl_products.desc, tbl_products.product_id');
@@ -306,6 +305,7 @@ class M_product extends CI_Model
         }
         return $query->result_array();
     }
+    
 
     function searchProducts($barcode)
     {

@@ -51,7 +51,7 @@ class Sale extends CI_Controller
             );
             echo json_encode($response);
         } else {
-            echo json_encode(array('success' => false, 'message' => 'Product not found'));
+            echo json_encode(array('success' => false, 'message' => 'Product Not Found'));
         }
 
     }
@@ -108,6 +108,7 @@ class Sale extends CI_Controller
                     'shop_id' => $shop_id,
                     'user_id' => $user_id,
                     'sale_type' => $sale_type,
+                    'payment_type_id' => $payment_type_id,
                 );
                 $this->db->insert('tbl_sale_details', $data);
 
@@ -201,6 +202,27 @@ class Sale extends CI_Controller
         $this->db->delete("tbl_cart_sales");
         $response = array('success' => true, 'message' => 'deleting paused sale done successfully');
         echo json_encode($response);
+    }
+
+
+    function activate_terminal()
+    {
+
+    }
+
+    function confirm_activation()
+    {
+
+    }
+
+    function download_products()
+    {
+
+    }
+
+    function submit_sales()
+    {
+
     }
 
 

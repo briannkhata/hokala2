@@ -32,17 +32,6 @@
 
 
 
-
-    // Function to make the page cover the whole screen
-    function makeFullScreen() {
-      const fullscreenDiv = document.getElementById('fullscreen');
-      fullscreenDiv.style.display = 'block'; // Make the div visible
-      fullscreenDiv.style.height = `${window.innerHeight}px`;
-      fullscreenDiv.style.width = `${window.innerWidth}px`;
-    }
-
-    // Add click event listener to the button
-    document.getElementById('fullscreenButton').addEventListener('click', makeFullScreen);
    });
 </script>
 </body>

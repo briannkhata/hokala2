@@ -382,7 +382,7 @@
                      <input type="text" id="tendered" class="form-control form-control-lg text-center font-weight-bold"
                         placeholder="Enter Amount Tendered">
                   </div>
-                  
+
 
                   <h6 class="d-flex justify-content-between text-info">
                      <span><b>Change:</b></span>
@@ -709,12 +709,110 @@
    // });
 
 
+   // $("#finish-sale").click(function () {
+   //    var productIds = [];
+   //    var vats = [];
+   //    var qtys = [];
+
+   //    $("#kato tr").each(function () {
+   //       $(this).find(".vat").each(function () {
+   //          vats.push($(this).text());
+   //       });
+   //    });
+
+   //    $(".qty-input").each(function () {
+   //       qtys.push($(this).val());
+   //    });
+
+   //    $("input[name='product_id']").each(function () {
+   //       productIds.push($(this).val());
+   //    });
+
+   //    // Check if there are any zero quantities
+   //    for (var i = 0; i < qtys.length; i++) {
+   //       if (parseInt(qtys[i]) === 0 || qtys[i] === "") {
+   //          alert("Quantity for product " + productIds[i] + " cannot be zero.");
+   //          return;
+   //       }
+   //    }
+
+   //    if (qtys.length !== productIds.length) {
+   //       alert("Please enter quantities for all items.");
+   //       return;
+   //    }
+
+   //    var dataToSend = {
+   //       product_ids: productIds,
+   //       vats: vats,
+   //       qtys: qtys,
+   //       payment_type_id: $('#payment_type_id').val(),
+   //       tendered: parseFloat($('#tendered').val().replace(/,/g, '')),
+   //       details: $('#details').val(),
+   //       sub_total: parseFloat($("#sub").html().replace(/,/g, '')),
+   //       total_vat: parseFloat($("#vat").html().replace(/,/g, '')),
+   //       total_bill: parseFloat($("#totalBill").html().replace(/,/g, '')),
+   //       client_id: parseFloat($("#client_id").val().replace(/,/g, '')),
+   //    };
+
+   //    $.ajax({
+   //       url: "<?php echo base_url('Sale/sale_products'); ?>",
+   //       type: "POST",
+   //       data: dataToSend,
+   //       dataType: "json",
+   //       success: function (response) {
+   //          console.log(response.data)
+   //          // Ensure QZ Tray is initialized
+   //          qz.security.setCertificatePromise(function (resolve, reject) {
+   //             resolve("-----BEGIN CERTIFICATE-----\n...certificate contents...\n-----END CERTIFICATE-----");
+   //          });
+
+   //          qz.security.setSignaturePromise(function (toSign) {
+   //             return function (resolve, reject) {
+   //                resolve("...signature...");
+   //             };
+   //          });
+
+   //          qz.websocket.connect().then(function () {
+   //             console.log("Connected to QZ Tray");
+   //          }).catch(function (err) {
+   //             console.error("Error connecting to QZ Tray:", err);
+   //          });
+
+   //          if (response?.data) {
+   //             get_address(async (addressData) => {
+   //                const address = addressData?.[0] || {};
+   //                const receiptText = generateReceipt(address, response.data);
+
+   //                console.log(receiptText);
+
+   //                qz.printers.getDefault().then((defaultPrinter) => {
+   //                   const config = qz.configs.create(defaultPrinter);
+   //                   qz.print(config, [{
+   //                      type: 'raw',
+   //                      format: 'plain',
+   //                      data: receiptText
+   //                   }]).then(() => {
+   //                      console.log("Receipt sent to printer");
+   //                   }).catch((err) => {
+   //                      console.error("Error printing receipt:", err);
+   //                   });
+   //                }).catch((err) => {
+   //                   console.error("Error getting default printer:", err);
+   //                });
+   //             });
+   //          }
+   //       }
+   //    });
+   // });
+
+
+
    $("#finish-sale").click(function () {
       var productIds = [];
       var vats = [];
       var qtys = [];
 
-      $("#kato tr").each(function () {
+      $("#cart-items-body tr").each(function () {
          $(this).find(".vat").each(function () {
             vats.push($(this).text());
          });
@@ -741,16 +839,26 @@
          return;
       }
 
+      // Get tendered amount and total bill values
+      var tenderedAmount = parseFloat($('#tendered').val().replace(/,/g, ''));
+      var totalBill = parseFloat($("#totalBill").html().replace(/,/g, ''));
+
+      // Check if tendered amount is greater than total bill and not equal to 0
+      if (tenderedAmount <= totalBill || tenderedAmount === 0) {
+         alert("Tendered amount must be greater than the total bill and cannot be zero.");
+         return;
+      }
+
       var dataToSend = {
          product_ids: productIds,
          vats: vats,
          qtys: qtys,
          payment_type_id: $('#payment_type_id').val(),
-         tendered: parseFloat($('#tendered').val().replace(/,/g, '')),
+         tendered: tenderedAmount,
          details: $('#details').val(),
          sub_total: parseFloat($("#sub").html().replace(/,/g, '')),
          total_vat: parseFloat($("#vat").html().replace(/,/g, '')),
-         total_bill: parseFloat($("#totalBill").html().replace(/,/g, '')),
+         total_bill: totalBill,
          client_id: parseFloat($("#client_id").val().replace(/,/g, '')),
       };
 
@@ -760,7 +868,7 @@
          data: dataToSend,
          dataType: "json",
          success: function (response) {
-
+            console.log(response.data)
             // Ensure QZ Tray is initialized
             qz.security.setCertificatePromise(function (resolve, reject) {
                resolve("-----BEGIN CERTIFICATE-----\n...certificate contents...\n-----END CERTIFICATE-----");
@@ -808,6 +916,7 @@
 
 
 
+
    function generateReceipt(address, salesData) {
       const receiptWidth = 40;
 
@@ -824,7 +933,6 @@ ${centerText(address.company || 'Company Name', receiptWidth)}
 ${centerText(address.address || 'Company Address', receiptWidth)}
 ${centerText(address.phone || 'Phone Number', receiptWidth)}
 ${centerText(`Date: ${formattedDate}`, receiptWidth)}
-Serial : #${salesData.sale_id || 'N/A'}
 ------------------------------------------------
 Item          Price         Qty           Total
 ------------------------------------------------
@@ -840,7 +948,7 @@ Item          Price         Qty           Total
          const total1 = parseFloat(item?.total || 0) + itemVat; // total includes VAT
          const total = total1 || 0;
 
-         const productId = (item.product_id || 'Unknown').substring(0, 10).padEnd(10);
+         const productId = (item.name || 'Unknown').substring(0, 10).padEnd(10);
          const priceStr = price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).padStart(10);
          const qty = (item.qty || 0).toString().padStart(8);
          const totalStr = total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).padStart(16);
