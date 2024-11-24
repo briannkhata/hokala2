@@ -143,10 +143,10 @@
 <!--start main wrapper-->
 <main class="main-wrapper">
    <div class="main-content">
-      <!-- <h6 class="mb-0 text-uppercase">
+      <h6 class="mb-0 text-uppercase">
          <?= $page_title; ?>
-      </h6> -->
-      <!-- <hr> -->
+      </h6>
+      <hr>
 
       <div class="col-md-12" style="display: flex; align-items: center; justify-content: space-between;">
          <div class="col">
@@ -272,137 +272,79 @@
       </style>
 
       <div class="row">
-         <!-- Product Search and Cart -->
          <div class="col-8 col-xl-8">
-            <div class="card">
-               <div class="card-header bg-primary text-white">
-                  <b>Search Product</b>
-               </div>
-               <div class="card-body">
-                  <form class="mb-3">
-                     <input id="barcode" name="barcode" type="search" class="form-control form-control-lg"
-                        placeholder="Search by Barcode, Name, or Category" autofocus="true">
-                  </form>
-
-                  <table class="table table-hover">
-                     <thead class="thead-light">
-                        <tr>
-                           <th>Product</th>
-                           <th>Price</th>
-                           <th style="text-align: center; width: 100px;">Qty</th>
-                           <th style="text-align: center;">VAT</th>
-                           <th style="text-align: center;">Total</th>
-                           <th style="text-align: center;">Remove</th>
-                        </tr>
-                     </thead>
-                     <tbody id="cart-items-body">
-                        <!-- Dynamic Cart Items -->
-                     </tbody>
-                  </table>
-               </div>
-            </div>
+            <b><small>Search Product by Barcode, Name or Category</small></b>
+            <form>
+               <input id="barcode" name="barcode" type="search" placeholder="Search Product barcode" autofocus="true">
+            </form>
+            <!-- <div id="productList">
+               <ul id="searchResults"></ul>
+            </div> -->
+            <table class="table table-bordered" id="kato">
+               <thead>
+                  <tr>
+                     <th>Product</th>
+                     <th>Price</th>
+                     <th align="center" style='width:100px;'>Qty</th>
+                     <th align="center">Vat</th>
+                     <th align="center">Total</th>
+                     <th align="center">X</th>
+                  </tr>
+               </thead>
+               </thead>
+               <tbody id="cart-items-body"></tbody>
+            </table>
          </div>
 
-         <!-- Summary and Payment -->
-         <div class="col-4 col-xl-4">
+         <div class="col-4 col-xl-4 noprint">
             <div class="card">
-               <div class="card-header bg-success text-white text-center">
-                  <b>Payment Summary</b>
-               </div>
-               <div class="card-body">
-                  <h6 class="d-flex justify-content-between">
-                     <span><b>Subtotal:</b></span>
-                     <span id="sub">0.00</span>
-                  </h6>
+               <div class="card-body p-4">
+                  <h5 class="mb-4">
+                     <div style="display: flex; justify-content: space-between;">
+                        <b>SUB:</b>
+                        <span id="sub" style="text-align: right; display: block;"></span>
+                     </div>
+                     <hr>
+                     <div style="display: flex; justify-content: space-between;">
+                        <b>VAT:</b>
+                        <span id="vat" style="text-align: right; display: block;"></span>
+                     </div>
+                     <hr>
+                     <div style="display: flex; justify-content: space-between;">
+                        <b>TOTAL:</b>
+                        <span id="totalBill" style="text-align: right; display: block;"></span>
+                     </div>
+                  </h5>
+
                   <hr>
-                  <h6 class="d-flex justify-content-between">
-                     <span><b>VAT:</b></span>
-                     <span id="vat">0.00</span>
-                  </h6>
-                  <hr>
-                  <h6 class="d-flex justify-content-between text-danger">
-                     <span><b>Total:</b></span>
-                     <span id="totalBill">0.00</span>
-                  </h6>
-                  <hr>
 
-                  <style>
-                     .form-group {
-                        margin-bottom: 20px;
-                     }
-
-                     #tendered,
-                     #details {
-                        border: 2px solid #007bff;
-                        /* Blue border */
-                        border-radius: 5px;
-                        /* Rounded corners */
-                        font-size: 1.2rem;
-                        /* Larger font */
-                        padding: 10px;
-                        /* Inner spacing */
-                        text-align: center;
-                        /* Center text */
-                     }
-
-                     #tendered:focus,
-                     #details:focus {
-                        outline: none;
-                        box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
-                        /* Glow effect */
-                     }
-
-                     h6 {
-                        font-family: Arial, sans-serif;
-                        font-size: 1rem;
-                        padding: 10px 0;
-                        color: #17a2b8;
-                        /* Info blue */
-                        margin: 0;
-                     }
-
-                     h6 span {
-                        font-weight: bold;
-                     }
-
-                     #change {
-                        font-size: 1.2rem;
-                        color: #28a745;
-                        /* Green for change value */
-                     }
-
-                     hr {
-                        border: 1px solid #ccc;
-                        /* Light gray line */
-                        margin: 20px 0;
-                     }
-                  </style>
-
-                  <div class="form-group">
-                     <input type="text" id="tendered" class="form-control form-control-lg text-center font-weight-bold"
-                        placeholder="Enter Amount Tendered">
+                  <div class="input-group mb-3">
+                     <br>
+                     <input type="text" name="details" id="details" class="form-control" placeholder="Payment Details"
+                        style="padding:2%; font-size:30px; text-align: center;">
+                     <br>
                   </div>
-                  
-
-                  <h6 class="d-flex justify-content-between text-info">
-                     <span><b>Change:</b></span>
-                     <span id="change">0.00</span>
-                  </h6>
-                  <hr>
-
-                  <div class="form-group">
-                     <input type="text" id="details" class="form-control form-control-lg"
-                        placeholder="Enter Payment Details">
+                  <br>
+                  <div class="input-group mb-3">
+                     <input type="text" name="tendered" id="tendered" class="form-control"
+                        style="padding:2%; font-size:30px; text-align: center; font-weight:bold;" required>
                   </div>
-                  <hr>
 
+                  <h5 class="mb-4">
+                     <span id="change"></span>
+                  </h5>
+                  <h5 class="mb-4">
+                     <span id="balance"></span>
+                  </h5>
 
-                  <button id="finish-sale" class="btn btn-lg btn-success btn-block">
+                  <button type="button" id="finish-sale" class="btn btn-success" style="width:100%;">
                      FINISH SALE
                   </button>
                </div>
             </div>
+
          </div>
+
       </div>
 
    </div>
@@ -478,7 +420,7 @@
             var formattedChange = change
                .toFixed(2)
                .replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-            $("#change").text(formattedChange.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+            $("#change").text("CHANGE: " + formattedChange.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
             $("#change").show();
          } else {
             $("#change").hide();

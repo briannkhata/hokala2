@@ -28,7 +28,7 @@ class M_report extends CI_Model
     }
 
 
-    function get_sales_by_date($user_id, $start_date, $end_date)
+    function get_sales_by_date($sale_type,$payment_type_id,$user_id, $start_date, $end_date)
     {
         $start_date_formatted = date('Y-m-d 00:00:00', strtotime($start_date));
         $end_date_formatted = date('Y-m-d 23:59:59', strtotime($end_date));
@@ -41,6 +41,14 @@ class M_report extends CI_Model
 
         if (!is_null($user_id)) {
             $this->db->where('tbl_sale_details.user_id', $user_id);
+        }
+
+        if (!is_null($sale_type)) {
+            $this->db->where('tbl_sale_details.sale_type', $sale_type);
+        }
+
+        if (!is_null($payment_type_id)) {
+            $this->db->where('tbl_sale_details.payment_type_id', $payment_type_id);
         }
 
         $query = $this->db->get();

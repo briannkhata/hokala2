@@ -24,6 +24,25 @@
                            <?php }?>
                         </select>
                      </div>
+
+                     <div class="col-md-12">
+                        <label for="input1" class="form-label">Payment Type</label>
+                        <select class="form-control" name="payment_type_id">
+                           <option selected disabled>---</option>
+                           <?php foreach($this->M_payment_type->get_payment_types() as $row){?>
+                            <option value="<?=$row['payment_type_id'];?>"><?=$row['payment_type'];?></option>
+                           <?php }?>
+                        </select>
+                     </div>
+
+                     <div class="col-md-12">
+                        <label for="input1" class="form-label">Sale Type</label>
+                        <select class="form-control" name="sale_type">
+                           <option selected disabled>---</option>
+                            <option value="shop-sale">Sale</option>
+                            <option value="return">Return</option>
+                        </select>
+                     </div>
                      <div class="col-md-6">
                         <label for="input1" class="form-label">Date From</label>
                         <input type="date" name="start_date" class="form-control" required />

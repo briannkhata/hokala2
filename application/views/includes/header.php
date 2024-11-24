@@ -33,6 +33,8 @@
 </head>
 
 <body>
+
+
    <style>
       .select2-container--default .select2-selection--single {
          padding: 10px;
@@ -83,7 +85,7 @@
             <li class="nav-item dropdown">
                <a href="javascrpt:;" class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
                   <h5 class="user-name mb-0 fw-bold">
-                     <?= $this->session->userdata('name'); ?>
+                   <?= $this->session->userdata('name'); ?> 
                   </h5>
                </a>
                <div class="dropdown-menu dropdown-user dropdown-menu-end shadow">

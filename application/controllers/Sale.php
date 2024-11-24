@@ -13,6 +13,7 @@ class Sale extends CI_Controller
 
     function index()
     {
+        $data["page_name"] = "pos";
         $data["page_title"] = "Point of Sale | " . strtoupper($this->M_user->get_name($this->session->userdata('user_id')));
         $this->load->view("sale/_sale", $data);
     }
