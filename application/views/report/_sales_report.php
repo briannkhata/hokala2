@@ -15,7 +15,15 @@
 
                   <hr>
                   <form class="row g-3" action="<?= base_url(); ?>Report/filter_sales" method="POST">
-
+                  <div class="col-md-12">
+                        <label for="input1" class="form-label">Filter by User</label>
+                        <select class="form-control" name="user_id">
+                           <option selected disabled>---</option>
+                           <?php foreach($this->M_user->get_users() as $row){?>
+                            <option value="<?=$row['user_id'];?>"><?=$row['name'];?></option>
+                           <?php }?>
+                        </select>
+                     </div>
                      <div class="col-md-6">
                         <label for="input1" class="form-label">Date From</label>
                         <input type="date" name="start_date" class="form-control" required />

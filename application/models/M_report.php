@@ -28,17 +28,21 @@ class M_report extends CI_Model
     }
 
 
-    function get_sales_by_date($start_date, $end_date)
+    function get_sales_by_date($user_id, $start_date, $end_date)
     {
-
         $start_date_formatted = date('Y-m-d 00:00:00', strtotime($start_date));
         $end_date_formatted = date('Y-m-d 23:59:59', strtotime($end_date));
 
-        $this->db->select('tbl_sale_details.*, tbl_products.barcode,tbl_products.name,tbl_products.desc,tbl_products.product_id');
+        $this->db->select('tbl_sale_details.*, tbl_products.barcode, tbl_products.name, tbl_products.desc, tbl_products.product_id');
         $this->db->from('tbl_sale_details');
         $this->db->join('tbl_products', 'tbl_sale_details.product_id = tbl_products.product_id', 'inner');
         $this->db->where('sale_date >=', $start_date_formatted);
         $this->db->where('sale_date <=', $end_date_formatted);
+
+        if (!is_null($user_id)) {
+            $this->db->where('tbl_sale_details.user_id', $user_id);
+        }
+
         $query = $this->db->get();
         if ($query) {
             return $query->result_array();
@@ -46,6 +50,7 @@ class M_report extends CI_Model
             return array();
         }
     }
+
 
 
     function get_inventory_report()
