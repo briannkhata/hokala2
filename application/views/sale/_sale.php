@@ -277,10 +277,9 @@
             <form>
                <input id="barcode" name="barcode" type="search" placeholder="Search Product barcode" autofocus="true">
             </form>
-            <div id="productList">
+            <!-- <div id="productList">
                <ul id="searchResults"></ul>
-            </div>
-            <br>
+            </div> -->
             <table class="table table-bordered" id="kato">
                <thead>
                   <tr>
@@ -301,12 +300,22 @@
             <div class="card">
                <div class="card-body p-4">
                   <h5 class="mb-4">
-                     <b>SUB : <span id="sub"></span></b>
+                     <div style="display: flex; justify-content: space-between;">
+                        <b>SUB:</b>
+                        <span id="sub" style="text-align: right; display: block;"></span>
+                     </div>
                      <hr>
-                     <b>VAT : <span id="vat"></span></b>
+                     <div style="display: flex; justify-content: space-between;">
+                        <b>VAT:</b>
+                        <span id="vat" style="text-align: right; display: block;"></span>
+                     </div>
                      <hr>
-                     <b>TOTAL : <span id="totalBill"></span></b>
+                     <div style="display: flex; justify-content: space-between;">
+                        <b>TOTAL:</b>
+                        <span id="totalBill" style="text-align: right; display: block;"></span>
+                     </div>
                   </h5>
+
                   <hr>
 
                   <div class="input-group mb-3">
@@ -443,7 +452,7 @@
       var barcode = $(this).val().trim();
 
       if (e.key === "Enter" || e.keyCode === 13) {
-         e.preventDefault(); 
+         e.preventDefault();
 
          if (barcode.length > 0) {
             search(barcode);
@@ -453,8 +462,8 @@
 
    function search(barcode) {
       $.post(
-         "<?= base_url(); ?>Sale/refresh_cart", 
-         { barcode: barcode }, 
+         "<?= base_url(); ?>Sale/refresh_cart",
+         { barcode: barcode },
          function (data) {
             if (data.success) {
                var cartItemsBody = $("#cart-items-body");
@@ -479,7 +488,7 @@
                      var quantityInput = "<td align='center'><input type='text' class='form-control qty-input' style='width:100px;' name='qty[]' value='" + quantity + "'></td>";
                      var deleteButton = "<td align='center'><button class='btn btn-danger delete' data-item-index='" + product_id + "'>X</button></td>";
                      newRow.append(productInfo);
-                     newRow.append("<td class='formatted-price'>" + formattedPrice.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + "</td>");
+                     newRow.append("<td class='formatted-price'>" + formattedPrice.toFixed(2) + "</td>");
                      newRow.append(quantityInput);
                      newRow.append("<td class='vat'>" + item_vat.toFixed(2) + "</td>");
                      newRow.append("<td class='price-total'>" + total.toFixed(2) + "</td>");
@@ -502,17 +511,25 @@
                   }
                   var row = $(this).closest('tr');
                   var formattedPrice = parseFloat(row.find('.formatted-price').text());
-                  var total = (qty * formattedPrice).toFixed(2);
-                  var item_vat = (total * vatRate) / 100;
-                  row.find('.vat').text(item_vat.toFixed(2));
-                  row.find('.price-total').text(total);
-                  updateTotals();
+                  var total = qty * formattedPrice; // Total without VAT
+                  var item_vat = (total * vatRate) / 100; // Calculate VAT
+                  var totalWithVat = total + item_vat; // Total including VAT
+
+                  row.find('.vat').text(item_vat.toFixed(2)); // Display VAT
+                  row.find('.price-total').text(total.toFixed(2)); // Display total including VAT
+
+                  updateTotals(); // Update the overall totals
                });
+
 
                // Handle delete item from cart
                cartItemsBody.on('click', '.delete', function () {
                   $(this).closest('tr').remove();
                   updateTotals();
+               });
+
+               $(document).on('focus', '.qty-input', function () {
+                  $(this).val(''); 
                });
 
                // Function to update total values
@@ -532,6 +549,7 @@
 
             } else {
                alert("Product Not Found");
+               $("#barcode").val("")
                return;
             }
          },
@@ -543,100 +561,94 @@
 
 
 
+   $("#finish-sale").click(function () {
+      var productIds = [];
+      var vats = [];
+      var qtys = [];
 
+      $("#kato tr").each(function () {
+         $(this).find(".vat").each(function () {
+            vats.push($(this).text());
+         });
+      });
 
+      $(".qty-input").each(function () {
+         qtys.push($(this).val());
+      });
 
-   // $("#finish-sale").click(function () {
-   //    var productIds = [];
-   //    var vats = [];
-   //    var qtys = [];
+      $("input[name='product_id']").each(function () {
+         productIds.push($(this).val());
+      });
 
-   //    $("#kato tr").each(function () {
-   //       $(this).find(".vat").each(function () {
-   //          vats.push($(this).text());
-   //       });
-   //    });
+      if (qtys.length !== productIds.length) {
+         alert("Please enter quantities for all items.");
+         return;
+      }
 
-   //    $(".qty-input").each(function () {
-   //       qtys.push($(this).val());
-   //    });
+      var dataToSend = {
+         product_ids: productIds,
+         vats: vats,
+         qtys: qtys,
+         payment_type_id: $('#payment_type_id').val(),
+         tendered: parseFloat($('#tendered').val().replace(/,/g, '')),
+         details: $('#details').val(),
+         sub_total: parseFloat($("#sub").html().replace(/,/g, '')),
+         total_vat: parseFloat($("#vat").html().replace(/,/g, '')),
+         total_bill: parseFloat($("#totalBill").html().replace(/,/g, '')),
+         client_id: parseFloat($("#client_id").val().replace(/,/g, '')),
+      };
 
-   //    $("input[name='product_id']").each(function () {
-   //       productIds.push($(this).val());
-   //    });
+      $.ajax({
+         url: "<?php echo base_url('Sale/sale_products'); ?>",
+         type: "POST",
+         data: dataToSend,
+         dataType: "json",
+         success: function (response) {
 
-   //    if (qtys.length !== productIds.length) {
-   //       alert("Please enter quantities for all items.");
-   //       return;
-   //    }
+            // Ensure QZ Tray is initialized
+            qz.security.setCertificatePromise(function (resolve, reject) {
+               resolve("-----BEGIN CERTIFICATE-----\n...certificate contents...\n-----END CERTIFICATE-----");
+            });
 
-   //    var dataToSend = {
-   //       product_ids: productIds,
-   //       vats: vats,
-   //       qtys: qtys,
-   //       payment_type_id: $('#payment_type_id').val(),
-   //       tendered: parseFloat($('#tendered').val().replace(/,/g, '')),
-   //       details: $('#details').val(),
-   //       sub_total: parseFloat($("#sub").html().replace(/,/g, '')),
-   //       total_vat: parseFloat($("#vat").html().replace(/,/g, '')),
-   //       total_bill: parseFloat($("#totalBill").html().replace(/,/g, '')),
-   //       client_id: parseFloat($("#client_id").val().replace(/,/g, '')),
-   //    };
+            qz.security.setSignaturePromise(function (toSign) {
+               return function (resolve, reject) {
+                  resolve("...signature...");
+               };
+            });
 
-   //    $.ajax({
-   //       url: "<?php echo base_url('Sale/sale_products'); ?>",
-   //       type: "POST",
-   //       data: dataToSend,
-   //       dataType: "json",
-   //       success: function (response) {
+            qz.websocket.connect().then(function () {
+               console.log("Connected to QZ Tray");
+            }).catch(function (err) {
+               console.error("Error connecting to QZ Tray:", err);
+            });
 
-   //          // Ensure QZ Tray is initialized
-   //          qz.security.setCertificatePromise(function (resolve, reject) {
-   //             resolve("-----BEGIN CERTIFICATE-----\n...certificate contents...\n-----END CERTIFICATE-----");
-   //          });
+            if (response?.data) {
+               get_address(async (addressData) => {
+                  const address = addressData?.[0] || {};
+                  const receiptText = generateReceipt(address, response.data);
 
-   //          qz.security.setSignaturePromise(function (toSign) {
-   //             return function (resolve, reject) {
-   //                resolve("...signature...");
-   //             };
-   //          });
+                  console.log(receiptText);
 
-   //          qz.websocket.connect().then(function () {
-   //             console.log("Connected to QZ Tray");
-   //          }).catch(function (err) {
-   //             console.error("Error connecting to QZ Tray:", err);
-   //          });
+                  qz.printers.getDefault().then((defaultPrinter) => {
+                     const config = qz.configs.create(defaultPrinter);
+                     qz.print(config, [{
+                        type: 'raw',
+                        format: 'plain',
+                        data: receiptText
+                     }]).then(() => {
+                        console.log("Receipt sent to printer");
+                     }).catch((err) => {
+                        console.error("Error printing receipt:", err);
+                     });
+                  }).catch((err) => {
+                     console.error("Error getting default printer:", err);
+                  });
+               });
+            }
 
-   //          if (response?.data) {
-   //             get_address(async (addressData) => {
-   //                const address = addressData?.[0] || {};
-   //                const receiptText = generateReceipt(address, response.data);
-
-   //                console.log(receiptText);
-
-   //                qz.printers.getDefault().then((defaultPrinter) => {
-   //                   const config = qz.configs.create(defaultPrinter);
-   //                   qz.print(config, [{
-   //                      type: 'raw',
-   //                      format: 'plain',
-   //                      data: receiptText
-   //                   }]).then(() => {
-   //                      console.log("Receipt sent to printer");
-   //                   }).catch((err) => {
-   //                      console.error("Error printing receipt:", err);
-   //                   });
-   //                }).catch((err) => {
-   //                   console.error("Error getting default printer:", err);
-   //                });
-   //             });
-   //          }
-
-   //       }
-   //    });
-
-
-
-   //});
+         }
+      });
+   });
 
 
 

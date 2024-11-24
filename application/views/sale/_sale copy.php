@@ -490,8 +490,8 @@
                   $("#totalBill").text(totalBill.toFixed(2));
                }
 
-               $('.qty-input').click(function () {
-                  $(this).val('');
+               $(document).on('focus', '.qty-input', function () {
+                  $(this).val(''); // Clear the value when focused
                });
 
 
