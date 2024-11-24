@@ -25,7 +25,7 @@ class Config extends CI_Controller
 		$data['alt_email'] = $this->input->post('alt_email');
 		$data['phone'] = $this->input->post('phone');
 		$data['alt_phone'] = $this->input->post('alt_phone');
-		$data['address'] = $this->input->post('address');
+		$data['address'] = str_replace(' ', '',$this->input->post('address'));
 		$data['vat_status'] = $this->input->post('vat_status');
 		$data['vat'] = $this->input->post('vat');
 

@@ -529,7 +529,7 @@
                });
 
                $(document).on('focus', '.qty-input', function () {
-                  $(this).val(''); 
+                  $(this).val('');
                });
 
                // Function to update total values
@@ -561,6 +561,96 @@
 
 
 
+   // $("#finish-sale").click(function () {
+   //    var productIds = [];
+   //    var vats = [];
+   //    var qtys = [];
+
+   //    $("#kato tr").each(function () {
+   //       $(this).find(".vat").each(function () {
+   //          vats.push($(this).text());
+   //       });
+   //    });
+
+   //    $(".qty-input").each(function () {
+   //       qtys.push($(this).val());
+   //    });
+
+   //    $("input[name='product_id']").each(function () {
+   //       productIds.push($(this).val());
+   //    });
+
+   //    if (qtys.length !== productIds.length) {
+   //       alert("Please enter quantities for all items.");
+   //       return;
+   //    }
+
+   //    var dataToSend = {
+   //       product_ids: productIds,
+   //       vats: vats,
+   //       qtys: qtys,
+   //       payment_type_id: $('#payment_type_id').val(),
+   //       tendered: parseFloat($('#tendered').val().replace(/,/g, '')),
+   //       details: $('#details').val(),
+   //       sub_total: parseFloat($("#sub").html().replace(/,/g, '')),
+   //       total_vat: parseFloat($("#vat").html().replace(/,/g, '')),
+   //       total_bill: parseFloat($("#totalBill").html().replace(/,/g, '')),
+   //       client_id: parseFloat($("#client_id").val().replace(/,/g, '')),
+   //    };
+
+   //    $.ajax({
+   //       url: "<?php echo base_url('Sale/sale_products'); ?>",
+   //       type: "POST",
+   //       data: dataToSend,
+   //       dataType: "json",
+   //       success: function (response) {
+
+   //          // Ensure QZ Tray is initialized
+   //          qz.security.setCertificatePromise(function (resolve, reject) {
+   //             resolve("-----BEGIN CERTIFICATE-----\n...certificate contents...\n-----END CERTIFICATE-----");
+   //          });
+
+   //          qz.security.setSignaturePromise(function (toSign) {
+   //             return function (resolve, reject) {
+   //                resolve("...signature...");
+   //             };
+   //          });
+
+   //          qz.websocket.connect().then(function () {
+   //             console.log("Connected to QZ Tray");
+   //          }).catch(function (err) {
+   //             console.error("Error connecting to QZ Tray:", err);
+   //          });
+
+   //          if (response?.data) {
+   //             get_address(async (addressData) => {
+   //                const address = addressData?.[0] || {};
+   //                const receiptText = generateReceipt(address, response.data);
+
+   //                console.log(receiptText);
+
+   //                qz.printers.getDefault().then((defaultPrinter) => {
+   //                   const config = qz.configs.create(defaultPrinter);
+   //                   qz.print(config, [{
+   //                      type: 'raw',
+   //                      format: 'plain',
+   //                      data: receiptText
+   //                   }]).then(() => {
+   //                      console.log("Receipt sent to printer");
+   //                   }).catch((err) => {
+   //                      console.error("Error printing receipt:", err);
+   //                   });
+   //                }).catch((err) => {
+   //                   console.error("Error getting default printer:", err);
+   //                });
+   //             });
+   //          }
+
+   //       }
+   //    });
+   // });
+
+
    $("#finish-sale").click(function () {
       var productIds = [];
       var vats = [];
@@ -579,6 +669,14 @@
       $("input[name='product_id']").each(function () {
          productIds.push($(this).val());
       });
+
+      // Check if there are any zero quantities
+      for (var i = 0; i < qtys.length; i++) {
+         if (parseInt(qtys[i]) === 0 || qtys[i] === "") {
+            alert("Quantity for product " + productIds[i] + " cannot be zero.");
+            return;
+         }
+      }
 
       if (qtys.length !== productIds.length) {
          alert("Please enter quantities for all items.");
@@ -645,7 +743,6 @@
                   });
                });
             }
-
          }
       });
    });
@@ -665,14 +762,15 @@
       const formattedDate = today.toISOString().split('T')[0]; // Format as YYYY-MM-DD
 
       let receiptText = `
-${centerText(address.company || 'Company Name', receiptWidth)}\n
-${centerText(address.address || 'Company Address', receiptWidth)}\n
-${centerText(address.phone || 'Phone Number', receiptWidth)}\n
-${centerText(`Date: ${formattedDate}`, receiptWidth)}\n
-Serial : #${salesData.data?.[0]?.sale_id || 'N/A'}\n
-------------------------------------------------\n
-Item          Price         Qty           Total\n
-------------------------------------------------\n`;
+${centerText(address.company || 'Company Name', receiptWidth)}
+${centerText(address.address || 'Company Address', receiptWidth)}
+${centerText(address.phone || 'Phone Number', receiptWidth)}
+${centerText(`Date: ${formattedDate}`, receiptWidth)}
+Serial : #${salesData.data?.[0]?.sale_id || 'N/A'}
+------------------------------------------------
+Item          Price         Qty           Total
+------------------------------------------------
+`;
 
       let subTotal = 0;
       let vatTotal = 0;
@@ -681,15 +779,15 @@ Item          Price         Qty           Total\n
          const itemSubTotal = parseFloat(item?.sub_total || 0);
          const itemVat = parseFloat(item?.vat || 0);
          const price = parseFloat(item?.price || 0);
-         const total1 = parseFloat(item?.total || 0) + parseFloat(item?.vat || 0);
-         const total = parseFloat(total1 || 0);
+         const total1 = parseFloat(item?.total || 0) + itemVat; // total includes VAT
+         const total = total1 || 0;
 
          const productId = (item.product_id || 'Unknown').substring(0, 10).padEnd(10);
-         const priceStr = price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).padStart(9);
-         const qty = (item.qty || 0).toString().padStart(11);
-         const totalStr = total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).padStart(17);
+         const priceStr = price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).padStart(10);
+         const qty = (item.qty || 0).toString().padStart(8);
+         const totalStr = total.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }).padStart(16);
 
-         receiptText += `${productId}${priceStr}${qty}${totalStr}\n`;
+         receiptText += `${productId} ${priceStr} ${qty} ${totalStr}\n`;
 
          subTotal += itemSubTotal;
          vatTotal += itemVat;
@@ -697,14 +795,16 @@ Item          Price         Qty           Total\n
 
       const totalAmount = subTotal + vatTotal;
       receiptText += `
------------------------------------------------\n
-Sub Total: ${subTotal.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}\n
-Vat      : ${vatTotal.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}\n
-Total    : ${totalAmount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}\n
-------------------------------------------------\n
+-----------------------------------------------
+Sub Total: ${subTotal.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+Vat      : ${vatTotal.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+Total    : ${totalAmount.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+------------------------------------------------
        Thank You for Shopping With Us.`;
+
       return receiptText;
    }
+
 
 
    $("#pause-sale").click(function () {
